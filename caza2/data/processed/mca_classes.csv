@@ -1,0 +1,1035 @@
+"miembros","MOVILIDAD","DECOMISO","SECUESTRO","GENERO","EDADES","FALLECIDOS","OCUPA","TIENE_OS","COND_OCUP","CANT_BANCOS","MONTO_BANCOS","CALIF_BCRA","CompromisosMensuales","NSE_AGRUP"
+"3",NA,"Mamifero(s), Ave(s), y Otro(s)","Arma(s) de fuego y Otros","Masculino","35 - 48 años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"$51.235/$73.333"
+"4","Canoa(s)",NA,"Equip.de pesca y Otros","Masculino","35 - 48 años",NA,"Servicios varios","No",NA,"1",103,"1",164,"$143.108/$229.816"
+"1","Camion(es)/Maquin(as)","Madera(s)",NA,"Masculino","63 + años",NA,"Agropecuario","Si","Pequeños Contribuyentes Monotributistas Ley 25 86","1",31,"1",81,"$51.235/$73.333"
+"3","Motocicleta(s)",NA,"Arma(s) de fuego","Masculino","63 + años",NA,"Servicios varios","No",NA,"1",53,"1",115,"$23.153/$36.166"
+"2","Automoviles","Mamifero(s)","Arma(s) de fuego","Femenino","63 + años",NA,"Servicios varios","No",NA,"1",18,"1",50,"$51.235/$73.333"
+"1",NA,"Mamifero(s)","Arma(s) de fuego y Otros","Masculino","21 - 34 años",NA,NA,"No",NA,"1",1,"1",1,"$36.167/$51.234"
+"1",NA,NA,"Arma(s) de fuego","Masculino","63 + años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"$143.108/$229.816"
+"3","Camioneta(s)",NA,"Arma(s) de fuego y Otros","Masculino","63 + años",NA,NA,"No",NA,NA,NA,NA,NA,"$51.235/$73.333"
+"1",NA,"Madera(s)",NA,"Masculino","49 - 62 años",NA,"Forestal","No",NA,"2",110,"1",166,">=$229.817"
+"1",NA,NA,"Arma(s) de fuego","Masculino","49 - 62 años",NA,"Servicios varios","Si","Pequeños Contribuyentes Monotributistas Ley 25 86","1",11,"1",30,"$73.334$143.107"
+"2",NA,NA,"Equip.de pesca y Otros","Masculino","49 - 62 años",NA,"Servicios varios","No",NA,"1",72,"1",146,"$143.108/$229.816"
+"1","Camioneta(s)","Mamifero(s)",NA,"Masculino","49 - 62 años",NA,"Servicios varios","No",NA,NA,NA,NA,NA,"$51.235/$73.333"
+"3",NA,NA,"Arma(s) de fuego y Otros","Masculino","49 - 62 años",NA,"Reparación/Mant.","Si","Pequeños Contribuyentes Monotributistas Ley 25 86","1",13,"1",108,"$73.334$143.107"
+"3",NA,NA,"Equip.de pesca","Masculino","35 - 48 años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"$73.334$143.107"
+"1",NA,"Madera(s)",NA,"Masculino","63 + años",NA,"Servicios varios","No",NA,"1",37,"1",47,"$23.153/$36.166"
+"2","Motocicleta(s)",NA,"Arma(s) de fuego y Otros","Masculino","49 - 62 años",NA,"Agropecuario","No",NA,"1",76,"1",119,"$51.235/$73.333"
+"4",NA,"Peces","Equip.de pesca","Masculino","35 - 48 años",NA,"Agropecuario","No",NA,"1",68,"1",130,"$51.235/$73.333"
+"2",NA,NA,"Equip.de pesca","Masculino","63 + años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"$51.235/$73.333"
+"4","Canoa(s)","Peces","Equip.de pesca y Otros","Masculino","49 - 62 años",NA,"Comercio","No",NA,"1",23,"11",63,"$51.235/$73.333"
+"3",NA,"Mamifero(s), Ave(s), y Otro(s)","Arma(s) de fuego y Otros","Masculino","49 - 62 años",NA,"Servicios varios","No",NA,"1",77,"1",139,"$23.153/$36.166"
+"2",NA,NA,"Equip.de pesca","Masculino","63 + años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"$23.153/$36.166"
+"4",NA,NA,"Equip.de pesca y Otros","Masculino","49 - 62 años",NA,"Servicios varios","No",NA,"1",19,"1",54,"$51.235/$73.333"
+"3",NA,NA,"Equip.de pesca","Masculino","49 - 62 años",NA,"Servicios varios","No",NA,"1",44,"1",105,"$51.235/$73.333"
+"1","Automoviles","Mamifero(s), Ave(s), y Otro(s)",NA,"Masculino","49 - 62 años",NA,"Construcción","No",NA,NA,NA,NA,NA,"<=$23.152"
+"1",NA,NA,"Arma(s) de fuego y Otros","Masculino","63 + años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"$73.334$143.107"
+"3",NA,NA,"Equip.de pesca y Otros","Masculino","35 - 48 años",NA,NA,"Si","Relacion de Dependencia","1",58,"1",140,"$73.334$143.107"
+"2",NA,NA,"Arma(s) de fuego","Masculino","49 - 62 años",NA,"Agropecuario","Si","Monotributistas Efectores Sociales",NA,NA,NA,NA,"$73.334$143.107"
+"2","Canoa(s)","Peces","Equip.de pesca y Otros","Masculino","35 - 48 años",NA,NA,"No",NA,"1",93,"1",151,"$73.334$143.107"
+"2",NA,"Peces","Equip.de pesca y Otros","Masculino","35 - 48 años",NA,"Agropecuario","No",NA,"1",83,"1",144,"$23.153/$36.166"
+"1","Lancha(s)",NA,NA,"Masculino","49 - 62 años",NA,"Agropecuario","No",NA,"1",8,"1",57,"$73.334$143.107"
+"3",NA,NA,"Equip.de pesca y Otros","Masculino","49 - 62 años",NA,NA,"No",NA,"2",106,"1",159,"$143.108/$229.816"
+"2","Lancha(s)",NA,"Arma(s) de fuego y Otros","Masculino","49 - 62 años",NA,"Agropecuario","Si","Pequeños Contribuyentes Monotributistas Ley 25 86",NA,NA,NA,NA,"$73.334$143.107"
+"1",NA,"Peces","Equip.de pesca","Masculino","63 + años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2",NA,NA,"Equip.de pesca y Otros","Masculino","35 - 48 años",NA,NA,"Si","Relacion de Dependencia","1",102,"1",158,"$143.108/$229.816"
+"1",NA,"Ornamentales(s) y Otro(s)",NA,"Masculino","35 - 48 años",NA,"Transporte","Si","Relacion de Dependencia","5",108,"1",162,"$51.235/$73.333"
+"1","Caballo(s)/Bicicleta(s)","Mamifero(s), Ave(s), y Otro(s)","Arma(s) de fuego y Otros","Masculino","63 + años",NA,"Agropecuario","No",NA,"1",72,"1",85,"$23.153/$36.166"
+"2","Lancha(s)","Peces","Equip.de pesca y Otros","Masculino","35 - 48 años",NA,"Agropecuario","No",NA,"1",66,"11",129,"$51.235/$73.333"
+"1",NA,"Madera(s)",NA,"Masculino","63 + años",NA,"Construcción","No",NA,"2",18,"1",42,"$51.235/$73.333"
+"3","Camion(es)/Maquin(as)","Madera(s)","Arma(s) de fuego","Masculino","49 - 62 años",NA,NA,"No",NA,"2",40,"1",99,"$36.167/$51.234"
+"2","Motocicleta(s)",NA,"Arma(s) de fuego y Otros","Masculino","49 - 62 años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"$73.334$143.107"
+"4",NA,"Peces","Equip.de pesca y Otros","Masculino","63 + años",NA,"Agropecuario","Si","Monotributistas Efectores Sociales",NA,NA,NA,NA,"$36.167/$51.234"
+"1",NA,NA,"Arma(s) de fuego","Masculino","49 - 62 años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"<=$23.152"
+"1",NA,NA,"Arma(s) blancas y Otros","Masculino","63 + años",NA,NA,"Si","Jubilados Del Sistema Nacional Del Seguro de Salud",NA,NA,NA,NA,"$23.153/$36.166"
+"1",NA,NA,"Equip.de pesca","Masculino","63 + años",NA,"Comercio","Si","Jubilados y Pensionados de Pami",NA,NA,NA,NA,"$23.153/$36.166"
+"2","Motocicleta(s)",NA,"Equip.de pesca y Otros","Masculino","63 + años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"<=$23.152"
+"3",NA,NA,"Equip.de pesca","Masculino","63 + años",NA,"Comercio","No",NA,"2",9,"1",25,"<=$23.152"
+"2","Canoa(s)",NA,"Equip.de pesca y Otros","Masculino","49 - 62 años",NA,"Transporte","Si","Relacion de Dependencia","1",73,"1",134,"$73.334$143.107"
+"1",NA,"Mamifero(s), Ave(s), y Otro(s)","Arma(s) blancas y Otros","Masculino","49 - 62 años",NA,NA,"Si","Jubilados y Pensionados de Pami",NA,NA,NA,51,"$36.167/$51.234"
+"1","Camion(es)/Maquin(as)","Mamifero(s)",NA,"Masculino","35 - 48 años",NA,NA,"Si","Relacion de Dependencia","1",48,"1",110,"$73.334$143.107"
+"4","Canoa(s)",NA,"Equip.de pesca y Otros","Masculino","35 - 48 años",NA,"Servicios varios","No",NA,"1",39,"1",89,"$73.334$143.107"
+"2",NA,"Peces",NA,"Masculino","21 - 34 años",NA,"Servicios varios","No",NA,"1",41,"1",86,"$51.235/$73.333"
+"3",NA,NA,"Arma(s) de fuego y Otros","Femenino","49 - 62 años",NA,NA,"No",NA,"1",18,"1",45,"<=$23.152"
+"1",NA,NA,"Arma(s) de fuego","Masculino","63 + años",NA,NA,"No",NA,"1",48,"1",91,"$23.153/$36.166"
+"1",NA,NA,"Arma(s) de fuego","Masculino","49 - 62 años",NA,NA,"No",NA,"1",91,"1",136,"$51.235/$73.333"
+"1",NA,NA,"Equip.de pesca","Masculino","35 - 48 años",NA,"Servicios varios","No",NA,"1",32,"1",83,"$23.153/$36.166"
+"2",NA,NA,NA,"Masculino","63 + años",NA,NA,"No",NA,"1",51,"1",100,"<=$23.152"
+"3",NA,"Madera(s)",NA,"Masculino","35 - 48 años",NA,"Comercio","No",NA,"2",75,"1",137,"$36.167/$51.234"
+"1",NA,"Mamifero(s)","Arma(s) de fuego","Masculino","49 - 62 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"3","Canoa(s)",NA,"Equip.de pesca","Masculino","63 + años",NA,NA,"Si","Relacion de Dependencia","2",87,"1",141,"$51.235/$73.333"
+"1",NA,"Madera(s)",NA,"Masculino","49 - 62 años",NA,"Forestal","No",NA,NA,NA,NA,NA,"$51.235/$73.333"
+"2","Lancha(s)","Peces",NA,"Masculino","49 - 62 años",NA,NA,"No",NA,"1",11,"1",82,"$36.167/$51.234"
+"1",NA,"Madera(s)","Arma(s) blancas y Otros","Masculino","63 + años",NA,NA,"No",NA,NA,NA,NA,NA,"$23.153/$36.166"
+"3",NA,NA,"Arma(s) de fuego","Masculino","21 - 34 años",NA,NA,"No",NA,"2",97,"1",147,"$36.167/$51.234"
+"2","Caballo(s)/Bicicleta(s)",NA,NA,"Masculino","35 - 48 años",NA,"Servicios varios","No",NA,"1",11,"1",30,"$51.235/$73.333"
+"1",NA,"Madera(s)",NA,"Masculino","35 - 48 años",NA,"Servicios varios","No",NA,"1",11,"1",30,"$51.235/$73.333"
+"3","Lancha(s)",NA,NA,"Masculino","35 - 48 años",NA,NA,"No",NA,"1",4,"1",14,"$36.167/$51.234"
+"2",NA,"Peces","Equip.de pesca","Masculino","35 - 48 años",NA,"Agropecuario","Si","Monotributistas Efectores Sociales",NA,NA,NA,NA,"$73.334$143.107"
+"2","Camioneta(s)","Peces",NA,"Masculino","63 + años",NA,"Agropecuario","No",NA,"1",3,"1",6,"$23.153/$36.166"
+"2","Motocicleta(s)",NA,"Arma(s) de fuego","Masculino","35 - 48 años",NA,"Comercio","No",NA,NA,NA,NA,NA,"$73.334$143.107"
+"1",NA,NA,NA,"Masculino","21 - 34 años",NA,"Agropecuario","Si","Pequeños Contribuyentes Monotributistas Ley 25 86",NA,NA,NA,NA,"$73.334$143.107"
+"1",NA,"Peces","Equip.de pesca","Masculino","49 - 62 años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"<=$23.152"
+"1",NA,"Ornamentales(s) y Otro(s)",NA,"Masculino","49 - 62 años",NA,NA,"Si","Monotributistas Efectores Sociales","1",45,"1",70,"$36.167/$51.234"
+"1",NA,NA,"Arma(s) de fuego y Otros","Masculino","35 - 48 años",NA,"Construcción","Si","Pequeños Contribuyentes Monotributistas Ley 25 86","2",84,"1",157,"$73.334$143.107"
+"3","Canoa(s)","Peces","Equip.de pesca y Otros","Masculino","35 - 48 años",NA,"Agropecuario","Si","Monotributistas Efectores Sociales",NA,NA,NA,NA,"$73.334$143.107"
+"1","Motocicleta(s)",NA,"Equip.de pesca y Otros","Masculino","35 - 48 años",NA,"Agropecuario","Si","Monotributistas Efectores Sociales",NA,NA,NA,NA,"$73.334$143.107"
+"1","Lancha(s)",NA,"Equip.de pesca y Otros","Femenino","49 - 62 años",NA,NA,"No",NA,"1",59,"1",92,"$23.153/$36.166"
+"4","Canoa(s)",NA,"Equip.de pesca y Otros","Masculino","35 - 48 años",NA,"Agropecuario","Si","Pequeños Contribuyentes Monotributistas Ley 25 86",NA,NA,NA,NA,"$36.167/$51.234"
+"2","Canoa(s)",NA,"Equip.de pesca","Masculino","63 + años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"$23.153/$36.166"
+"1",NA,NA,"Arma(s) de fuego y Otros","Masculino","49 - 62 años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"$36.167/$51.234"
+"2",NA,NA,"Arma(s) de fuego y Otros","Masculino","63 + años",NA,NA,"No",NA,"1",79,"1",112,"$23.153/$36.166"
+"4","Canoa(s)",NA,"Equip.de pesca y Otros","Masculino","35 - 48 años",NA,"Servicios varios","No",NA,"1",6,"11",20,"$36.167/$51.234"
+"3","Motocicleta(s)",NA,"Arma(s) de fuego","Masculino","49 - 62 años",NA,NA,"Si","Relacion de Dependencia",NA,NA,NA,NA,"$23.153/$36.166"
+"1","Motocicleta(s)",NA,"Arma(s) de fuego y Otros","Masculino","63 + años",NA,"Servicios varios","Si","Jubilados y Pensionados de Pami",NA,NA,NA,NA,"$23.153/$36.166"
+"2",NA,"Peces","Equip.de pesca","Masculino","63 + años",NA,"Servicios varios","No",NA,NA,NA,NA,NA,"<=$23.152"
+"1","Lancha(s)",NA,"Equip.de pesca","Masculino","49 - 62 años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"$73.334$143.107"
+"1",NA,NA,"Arma(s) de fuego","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2",NA,NA,"Arma(s) de fuego y Otros","Masculino","49 - 62 años",NA,NA,"No",NA,NA,NA,NA,NA,"$36.167/$51.234"
+"1",NA,"Madera(s)",NA,"Masculino","35 - 48 años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"$36.167/$51.234"
+"2",NA,NA,"Arma(s) de fuego y Otros","Masculino","63 + años",NA,"Agropecuario","Si","Pequeños Contribuyentes Monotributistas Ley 25 86",NA,NA,NA,NA,"$36.167/$51.234"
+"2","Automoviles",NA,"Arma(s) de fuego y Otros","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"$73.334$143.107"
+"1",NA,NA,"Equip.de pesca","Masculino","49 - 62 años",NA,"Agropecuario","No",NA,"1",11,"1",38,"<=$23.152"
+"1","Camioneta(s)","Madera(s)",NA,"Masculino","63 + años",NA,NA,"Si","Jubilados y Pensionados de Pami",NA,NA,NA,NA,"$23.153/$36.166"
+"3","Lancha(s)",NA,NA,"Masculino","21 - 34 años",NA,NA,"Si","Relacion de Dependencia","1",22,"1",43,"$51.235/$73.333"
+"1",NA,NA,"Equip.de pesca y Otros","Masculino","35 - 48 años",NA,"Agropecuario","No",NA,"1",23,"1",74,"$51.235/$73.333"
+"1",NA,NA,"Arma(s) de fuego","Masculino","49 - 62 años",NA,"Agropecuario","Si","Monotributistas Efectores Sociales",NA,NA,NA,NA,"$73.334$143.107"
+"2",NA,NA,"Arma(s) de fuego","Masculino","63 + años",NA,"Agropecuario","Si","Monotributistas Efectores Sociales",NA,NA,NA,NA,"$73.334$143.107"
+"1","Canoa(s)",NA,"Equip.de pesca","Masculino","21 - 34 años",NA,NA,"Si","Relacion de Dependencia","1",4,"1",14,"$51.235/$73.333"
+"1",NA,"Madera(s)",NA,"Masculino","49 - 62 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1",NA,NA,"Equip.de pesca y Otros","Masculino","49 - 62 años",NA,NA,"No",NA,NA,NA,NA,NA,"$23.153/$36.166"
+"3","Canoa(s)",NA,"Arma(s) de fuego y Otros","Masculino","49 - 62 años",NA,"Construcción","No",NA,NA,NA,NA,NA,"$51.235/$73.333"
+"1",NA,"Peces","Equip.de pesca y Otros","Masculino","49 - 62 años",NA,NA,"Si","Jubilados y Pensionados de Pami",NA,NA,NA,NA,"$23.153/$36.166"
+"5",NA,"Peces","Equip.de pesca y Otros","Masculino","35 - 48 años",NA,"Forestal","Si","Relacion de Dependencia","1",14,"1",39,"$23.153/$36.166"
+"1",NA,"Mamifero(s)",NA,"Masculino","49 - 62 años",NA,"Comercio","No",NA,"2",76,"1",125,"$51.235/$73.333"
+"4",NA,"Mamifero(s), Ave(s), y Otro(s)","Equip.de pesca","Masculino","49 - 62 años",NA,"Agropecuario","No",NA,"1",46,"1",72,"$23.153/$36.166"
+"3","Canoa(s)","Peces","Equip.de pesca","Masculino","21 - 34 años",NA,"Comercio","No",NA,NA,NA,NA,NA,">=$229.817"
+"2",NA,NA,"Arma(s) de fuego y Otros","Masculino","63 + años",NA,NA,"No",NA,"1",18,"1",50,"$23.153/$36.166"
+"1",NA,NA,NA,"Masculino","21 - 34 años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"$51.235/$73.333"
+"2","Motocicleta(s)",NA,"Arma(s) de fuego","Masculino","49 - 62 años",NA,"Agropecuario","Si","Monotributistas Efectores Sociales",NA,NA,NA,NA,"$36.167/$51.234"
+"3","Canoa(s)",NA,"Equip.de pesca","Masculino","63 + años",NA,NA,"No",NA,"1",13,"1",37,"<=$23.152"
+"3",NA,NA,"Equip.de pesca y Otros","Masculino","35 - 48 años",NA,"Servicios varios","No",NA,"1",38,"1",96,"$51.235/$73.333"
+"1","Lancha(s)","Peces",NA,"Masculino","49 - 62 años",NA,"Agropecuario","No",NA,"1",43,"1",64,"<=$23.152"
+"2","Motocicleta(s)",NA,"Arma(s) de fuego y Otros","Masculino","63 + años",NA,"Agropecuario","No",NA,"1",46,"1",65,"$36.167/$51.234"
+"1",NA,"Peces",NA,"Masculino","49 - 62 años",NA,"Agropecuario","Si","Monotributistas Efectores Sociales",NA,NA,NA,NA,"$73.334$143.107"
+"3",NA,NA,"Arma(s) de fuego y Otros","Masculino","35 - 48 años",NA,"Comercio","Si","Pequeños Contribuyentes Monotributistas Ley 25 86","1",25,"11",71,"$51.235/$73.333"
+"1","Motocicleta(s)","Peces",NA,"Masculino","35 - 48 años",NA,NA,"No",NA,"1",45,"1",106,"$73.334$143.107"
+"1",NA,NA,"Equip.de pesca","Masculino","63 + años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"$36.167/$51.234"
+"1","Canoa(s)",NA,"Equip.de pesca y Otros","Masculino","63 + años",NA,NA,"No",NA,"1",50,"1",88,"<=$23.152"
+"1",NA,NA,"Arma(s) blancas y Otros","Masculino","49 - 62 años",NA,"Servicios varios","No",NA,NA,NA,NA,NA,"$73.334$143.107"
+"4","Canoa(s)","Peces","Equip.de pesca y Otros","Masculino","49 - 62 años",NA,"Agropecuario","Si","Relacion de Dependencia","1",61,"1",101,"$51.235/$73.333"
+"2","Automoviles",NA,"Arma(s) de fuego y Otros","Masculino","35 - 48 años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"<=$23.152"
+"1",NA,"Peces","Equip.de pesca y Otros","Masculino","35 - 48 años",NA,"Agropecuario","Si","Pequeños Contribuyentes Monotributistas Ley 25 86",NA,NA,NA,NA,"$36.167/$51.234"
+"4",NA,"Peces","Equip.de pesca","Masculino","63 + años",NA,NA,"Si","Jubilados y Pensionados de Pami","1",58,"1",111,"$23.153/$36.166"
+"3","Camion(es)/Maquin(as)",NA,"Arma(s) blancas y Otros","Masculino","49 - 62 años",NA,NA,"No",NA,"1",5,"1",33,"<=$23.152"
+"2",NA,"Peces","Equip.de pesca y Otros","Masculino","63 + años",NA,NA,"No",NA,"1",6,"1",35,"<=$23.152"
+"2",NA,"Peces","Equip.de pesca","Masculino","49 - 62 años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"$51.235/$73.333"
+"1",NA,NA,"Arma(s) de fuego","Masculino","35 - 48 años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"$51.235/$73.333"
+"1",NA,"Peces","Equip.de pesca","Masculino","21 - 34 años",NA,NA,"No",NA,"1",5,"1",18,"<=$23.152"
+"1",NA,"Madera(s)",NA,"Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1","Canoa(s)","Peces","Equip.de pesca y Otros","Masculino","35 - 48 años",NA,NA,"No",NA,"1",24,"1",69,"$51.235/$73.333"
+"5",NA,"Peces","Equip.de pesca y Otros","Masculino","35 - 48 años",NA,NA,"No",NA,"1",22,"1",48,"$23.153/$36.166"
+"3","Motocicleta(s)",NA,"Arma(s) de fuego y Otros","Masculino","49 - 62 años",NA,"Servicios varios","No",NA,NA,NA,NA,NA,"<=$23.152"
+"3",NA,"Peces","Equip.de pesca y Otros","Masculino","35 - 48 años",NA,"Agropecuario","Si","Monotributistas Efectores Sociales",NA,NA,NA,NA,"$73.334$143.107"
+"1",NA,"Mamifero(s)","Arma(s) de fuego y Otros","Masculino","35 - 48 años",NA,NA,"No",NA,"1",4,"1",14,"<=$23.152"
+"2","Canoa(s)","Mamifero(s), Ave(s), y Otro(s)","Equip.de pesca","Masculino","35 - 48 años",NA,"Transporte","No",NA,NA,NA,NA,NA,"<=$23.152"
+"1",NA,"Madera(s)",NA,"Masculino","35 - 48 años",NA,"Transporte","No",NA,NA,NA,NA,NA,"<=$23.152"
+"1",NA,NA,"Arma(s) de fuego","Masculino","21 - 34 años",NA,"Transporte","No",NA,NA,NA,NA,NA,"<=$23.152"
+"2",NA,NA,"Arma(s) de fuego","Masculino","63 + años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2","Lancha(s)","Peces","Equip.de pesca y Otros","Masculino","35 - 48 años",NA,"Agropecuario","No",NA,"1",2,"1",8,"<=$23.152"
+"1",NA,"Peces","Equip.de pesca","Masculino","49 - 62 años",NA,NA,"Si","Relacion de Dependencia","1",18,"1",50,"$51.235/$73.333"
+"3",NA,NA,"Arma(s) de fuego y Otros","Masculino","35 - 48 años",NA,NA,"Si","Relacion de Dependencia","1",4,"1",5,"$36.167/$51.234"
+"1",NA,NA,"Arma(s) de fuego y Otros","Masculino","49 - 62 años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"<=$23.152"
+"3","Canoa(s)","Peces","Equip.de pesca y Otros","Masculino","35 - 48 años",NA,NA,"No",NA,"1",55,"1",117,"$51.235/$73.333"
+"5",NA,NA,"Equip.de pesca y Otros","Masculino","35 - 48 años",NA,NA,"Si","Relacion de Dependencia","1",9,"1",10,"$23.153/$36.166"
+"1","Motocicleta(s)","Peces","Equip.de pesca","Masculino","49 - 62 años",NA,NA,"No",NA,"1",63,"1",124,"$73.334$143.107"
+"2",NA,NA,"Equip.de pesca","Masculino","49 - 62 años",NA,NA,"No",NA,"1",7,"1",23,"$23.153/$36.166"
+"2","Camioneta(s)","Peces",NA,"Masculino","35 - 48 años",NA,"Comercio","No",NA,"2",80,"1",120,"$23.153/$36.166"
+"3",NA,NA,"Equip.de pesca","Masculino","35 - 48 años",NA,"Servicios varios","No",NA,NA,NA,NA,NA,"$36.167/$51.234"
+"1","Motocicleta(s)",NA,"Arma(s) de fuego","Masculino","49 - 62 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2",NA,NA,"Arma(s) de fuego","Masculino","49 - 62 años",NA,"Agropecuario","Si","Monotributistas Efectores Sociales",NA,NA,NA,NA,"$73.334$143.107"
+"1",NA,NA,"Equip.de pesca","Masculino","49 - 62 años",NA,NA,"No",NA,"1",15,"1",41,"<=$23.152"
+"1","Canoa(s)",NA,"Equip.de pesca","Masculino","49 - 62 años",NA,"Agropecuario","No",NA,"1",17,"1",46,"$23.153/$36.166"
+"2","Motocicleta(s)",NA,"Arma(s) de fuego y Otros","Masculino","35 - 48 años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"$73.334$143.107"
+"1",NA,NA,"Equip.de pesca","Femenino","21 - 34 años",NA,"Servicios varios","No",NA,"1",10,"1",27,"$36.167/$51.234"
+"1",NA,"Ornamentales(s) y Otro(s)",NA,"Masculino","35 - 48 años",NA,"Servicios varios","No",NA,NA,NA,NA,NA,"<=$23.152"
+"2","Motocicleta(s)",NA,"Arma(s) de fuego y Otros","Masculino","49 - 62 años",NA,"Agropecuario","No",NA,"1",26,"1",53,"$23.153/$36.166"
+"1",NA,NA,"Equip.de pesca","Masculino","35 - 48 años",NA,"Servicios varios","No",NA,NA,NA,NA,NA,"$51.235/$73.333"
+"1",NA,NA,"Equip.de pesca","Masculino","35 - 48 años",NA,"Servicios varios","No",NA,NA,NA,NA,NA,"$51.235/$73.333"
+"1","Lancha(s)",NA,"Arma(s) de fuego","Masculino","35 - 48 años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"<=$23.152"
+"2",NA,NA,"Arma(s) de fuego","Masculino","35 - 48 años",NA,NA,"Si","Relacion de Dependencia",NA,NA,NA,NA,"$36.167/$51.234"
+"3",NA,NA,"Arma(s) de fuego y Otros","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1",NA,NA,"Arma(s) de fuego","Masculino","63 + años",NA,NA,"No",NA,"1",74,"1",97,"$23.153/$36.166"
+"1",NA,NA,"Arma(s) de fuego","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"5",NA,NA,"Arma(s) de fuego","Masculino","49 - 62 años",NA,NA,"No",NA,"1",2,"1",8,"<=$23.152"
+"2","Camioneta(s)","Mamifero(s)","Arma(s) de fuego","Masculino","21 - 34 años",NA,NA,"No",NA,"1",7,"1",23,"<=$23.152"
+"2",NA,NA,"Equip.de pesca","Masculino","49 - 62 años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"<=$23.152"
+"1",NA,NA,"Arma(s) de fuego y Otros","Masculino","49 - 62 años",NA,"Forestal","No",NA,NA,NA,NA,NA,"<=$23.152"
+"4",NA,"Peces","Equip.de pesca y Otros","Masculino","49 - 62 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1",NA,NA,"Arma(s) blancas y Otros","Masculino","63 + años",NA,NA,"No",NA,"2",64,"1",93,"$23.153/$36.166"
+"1","Canoa(s)",NA,"Equip.de pesca y Otros","Masculino","63 + años",NA,NA,"No",NA,"1",51,"1",113,"<=$23.152"
+"1",NA,NA,"Arma(s) de fuego y Otros","Masculino","49 - 62 años",NA,"Servicios varios","No",NA,NA,NA,NA,NA,"<=$23.152"
+"2",NA,"Peces","Equip.de pesca y Otros","Masculino","49 - 62 años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"<=$23.152"
+"1","Camioneta(s)","Ornamentales(s) y Otro(s)",NA,"Masculino","35 - 48 años",NA,NA,"No",NA,"2",107,"1",165,"$51.235/$73.333"
+"1",NA,"Mamifero(s), Ave(s), y Otro(s)","Equip.de pesca","Masculino","35 - 48 años",NA,NA,"No",NA,"1",96,"1",156,"<=$23.152"
+"4",NA,NA,"Equip.de pesca","Masculino","35 - 48 años",NA,NA,"No",NA,"1",9,"1",25,"$23.153/$36.166"
+"2",NA,NA,"Equip.de pesca","Femenino","49 - 62 años",NA,NA,"Si","Relacion de Dependencia",NA,NA,NA,NA,"$36.167/$51.234"
+"1","Automoviles","Mamifero(s)",NA,"Masculino","35 - 48 años",NA,NA,"Si","Relacion de Dependencia",NA,NA,NA,NA,"$23.153/$36.166"
+"3",NA,NA,"Equip.de pesca","Masculino","21 - 34 años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"$73.334$143.107"
+"2","Automoviles","Mamifero(s)","Arma(s) de fuego","Masculino","35 - 48 años",NA,NA,"Si","Relacion de Dependencia",NA,NA,NA,NA,"$23.153/$36.166"
+"1",NA,NA,"Arma(s) de fuego y Otros","Masculino","35 - 48 años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"<=$23.152"
+"3",NA,NA,"Arma(s) de fuego y Otros","Masculino","49 - 62 años",NA,"Agropecuario","Si","Monotributistas Efectores Sociales",NA,NA,NA,NA,"$51.235/$73.333"
+"1","Motocicleta(s)",NA,"Arma(s) de fuego y Otros","Masculino","63 + años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"$51.235/$73.333"
+"2","Motocicleta(s)","Mamifero(s)","Arma(s) de fuego y Otros","Masculino","35 - 48 años",NA,"Servicios varios","No",NA,"1",81,"1",143,"$23.153/$36.166"
+"3","Canoa(s)","Peces","Equip.de pesca y Otros","Masculino","21 - 34 años",NA,NA,"No",NA,"1",22,"1",61,"$23.153/$36.166"
+"3","Lancha(s)",NA,"Equip.de pesca","Masculino","21 - 34 años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"$36.167/$51.234"
+"1",NA,"Madera(s)",NA,"Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1",NA,NA,"Arma(s) de fuego","Masculino","63 + años",NA,NA,"Si","Jubilados y Pensionados de Pami",NA,NA,NA,NA,"<=$23.152"
+"3",NA,NA,"Arma(s) de fuego","Masculino","63 + años",NA,NA,"Si","Jubilados y Pensionados de Pami",NA,NA,NA,NA,"<=$23.152"
+"2","Canoa(s)",NA,"Arma(s) de fuego y Otros","Masculino","49 - 62 años",NA,NA,"No",NA,NA,NA,NA,NA,"$36.167/$51.234"
+"4",NA,"Peces","Equip.de pesca","Masculino","35 - 48 años",NA,"Agropecuario","Si","Monotributistas Efectores Sociales",NA,NA,NA,NA,"$36.167/$51.234"
+"3",NA,NA,"Arma(s) de fuego y Otros","Masculino","49 - 62 años",NA,NA,"No",NA,NA,NA,NA,NA,"$36.167/$51.234"
+"4",NA,NA,"Equip.de pesca y Otros","Masculino","49 - 62 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1",NA,"Mamifero(s), Ave(s), y Otro(s)","Equip.de pesca y Otros","Masculino","21 - 34 años",NA,"Agropecuario","Si","Pequeños Contribuyentes Monotributistas Ley 25 86",NA,NA,NA,NA,"$51.235/$73.333"
+"1",NA,"Peces","Equip.de pesca y Otros","Masculino","49 - 62 años",NA,NA,"No",NA,"1",4,"1",14,"<=$23.152"
+"3",NA,"Mamifero(s), Ave(s), y Otro(s)","Arma(s) de fuego y Otros","Masculino","21 - 34 años",NA,"Agropecuario","Si","Pequeños Contribuyentes Monotributistas Ley 25 86",NA,NA,NA,NA,"$51.235/$73.333"
+"1",NA,NA,"Arma(s) de fuego y Otros","Masculino","35 - 48 años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"$36.167/$51.234"
+"1","Caballo(s)/Bicicleta(s)",NA,"Arma(s) de fuego","Masculino","49 - 62 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1","Camion(es)/Maquin(as)","Madera(s)",NA,"Masculino","35 - 48 años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"<=$23.152"
+"1","Camioneta(s)","Madera(s)",NA,"Masculino","49 - 62 años",NA,NA,"Si","Relacion de Dependencia",NA,NA,NA,NA,"$51.235/$73.333"
+"1",NA,"Madera(s)",NA,"Masculino","49 - 62 años",NA,"Agropecuario","Si","Monotributistas Efectores Sociales",NA,NA,NA,NA,"$73.334$143.107"
+"1",NA,NA,"Arma(s) de fuego","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"$36.167/$51.234"
+"2",NA,NA,"Arma(s) de fuego y Otros","Masculino","21 - 34 años",NA,NA,"No",NA,"1",52,"1",128,"$73.334$143.107"
+"1","Caballo(s)/Bicicleta(s)",NA,"Arma(s) blancas y Otros","Masculino","21 - 34 años",NA,NA,"No",NA,"2",45,"1",94,"$36.167/$51.234"
+"2","Motocicleta(s)","Mamifero(s)","Arma(s) de fuego y Otros","Masculino","35 - 48 años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"$36.167/$51.234"
+"2",NA,NA,"Arma(s) de fuego y Otros","Masculino","49 - 62 años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"$36.167/$51.234"
+"3",NA,NA,"Equip.de pesca y Otros","Masculino","49 - 62 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1",NA,NA,"Arma(s) de fuego","Masculino","35 - 48 años",NA,"Agropecuario","Si","Relacion de Dependencia","1",31,"1",90,"$36.167/$51.234"
+"1","Motocicleta(s)",NA,"Arma(s) de fuego","Masculino","35 - 48 años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"$36.167/$51.234"
+"1",NA,"Madera(s)",NA,"Masculino","49 - 62 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1","Canoa(s)",NA,"Arma(s) de fuego y Otros","Masculino","35 - 48 años",NA,"Agropecuario","Si","Relacion de Dependencia",NA,NA,NA,NA,"$36.167/$51.234"
+"1","Canoa(s)",NA,"Equip.de pesca","Masculino","63 + años",NA,NA,"No",NA,NA,NA,NA,NA,"$23.153/$36.166"
+"3",NA,NA,"Arma(s) de fuego y Otros","Masculino","49 - 62 años",NA,"Servicios varios","No",NA,NA,NA,NA,NA,"$36.167/$51.234"
+"2","Canoa(s)",NA,"Equip.de pesca","Femenino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,2,"<=$23.152"
+"2","Canoa(s)",NA,"Equip.de pesca","Femenino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,2,"<=$23.152"
+"4",NA,NA,"Equip.de pesca y Otros","Masculino","49 - 62 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2",NA,"Peces","Equip.de pesca y Otros","Masculino","35 - 48 años",NA,NA,"No",NA,"1",63,"1",98,"<=$23.152"
+"2",NA,NA,"Arma(s) blancas y Otros","Masculino","63 + años",NA,NA,"No",NA,"2",20,"1",34,"$23.153/$36.166"
+"1",NA,NA,"Arma(s) de fuego y Otros","Masculino","49 - 62 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2",NA,NA,"Equip.de pesca","Masculino","49 - 62 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1",NA,"Madera(s)",NA,"Masculino","49 - 62 años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"$23.153/$36.166"
+"1",NA,"Ornamentales(s) y Otro(s)",NA,"Femenino","49 - 62 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1",NA,NA,"Equip.de pesca","Masculino","49 - 62 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1",NA,NA,"Arma(s) de fuego y Otros","Masculino","49 - 62 años",NA,"Servicios varios","No",NA,NA,NA,NA,NA,"<=$23.152"
+"3",NA,NA,"Arma(s) de fuego y Otros","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"3",NA,NA,"Equip.de pesca","Masculino","49 - 62 años",NA,NA,"Si","Relacion de Dependencia","4",88,"1",152,"$36.167/$51.234"
+"1",NA,"Madera(s)",NA,"Masculino","49 - 62 años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"<=$23.152"
+"2","Automoviles","Mamifero(s)","Arma(s) de fuego","Masculino","49 - 62 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2",NA,NA,"Arma(s) de fuego y Otros","Masculino","35 - 48 años",NA,NA,"No",NA,"2",12,"1",21,"$23.153/$36.166"
+"1",NA,"Madera(s)",NA,"Femenino","49 - 62 años",NA,NA,"No",NA,NA,NA,NA,NA,"$23.153/$36.166"
+"1","Canoa(s)",NA,"Arma(s) de fuego y Otros","Masculino","49 - 62 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2",NA,NA,"Equip.de pesca y Otros","Masculino","35 - 48 años",NA,NA,"Si","Relacion de Dependencia",NA,NA,NA,3,"$36.167/$51.234"
+"1",NA,"Madera(s)",NA,"Masculino","63 + años",NA,"Agropecuario","No",NA,"1",7,"1",36,"$23.153/$36.166"
+"2",NA,NA,"Arma(s) de fuego","Masculino","35 - 48 años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"$36.167/$51.234"
+"1",NA,"Peces","Equip.de pesca y Otros","Masculino","63 + años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1","Caballo(s)/Bicicleta(s)","Mamifero(s), Ave(s), y Otro(s)","Arma(s) de fuego","Masculino","63 + años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1",NA,NA,"Equip.de pesca","Masculino","63 + años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1",NA,NA,"Equip.de pesca","Masculino","63 + años",NA,NA,"Si","Relacion de Dependencia",NA,NA,NA,NA,"<=$23.152"
+"1",NA,"Peces","Equip.de pesca","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"$51.235/$73.333"
+"2",NA,NA,"Equip.de pesca y Otros","Masculino","21 - 34 años",NA,NA,"No",NA,"1",34,"1",87,"<=$23.152"
+"2","Canoa(s)",NA,"Equip.de pesca y Otros","Masculino","49 - 62 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1",NA,"Mamifero(s)","Arma(s) de fuego y Otros","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"$36.167/$51.234"
+"1",NA,NA,"Equip.de pesca","Masculino","49 - 62 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2",NA,NA,"Equip.de pesca","Masculino","21 - 34 años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"<=$23.152"
+"2",NA,NA,"Arma(s) de fuego y Otros","Masculino","49 - 62 años",NA,"Agropecuario","Si","Monotributistas Efectores Sociales",NA,NA,NA,NA,"$73.334$143.107"
+"5",NA,NA,"Equip.de pesca y Otros","Masculino","49 - 62 años",NA,NA,"Si","Relacion de Dependencia","2",65,"1",127,"$51.235/$73.333"
+"1","Canoa(s)",NA,"Equip.de pesca y Otros","Masculino","49 - 62 años",NA,"Construcción","No",NA,NA,NA,NA,NA,"<=$23.152"
+"3","Canoa(s)","Peces","Equip.de pesca y Otros","Masculino","49 - 62 años",NA,"Construcción","No",NA,NA,NA,NA,NA,"<=$23.152"
+"3",NA,NA,"Equip.de pesca","Masculino","49 - 62 años",NA,NA,"Si","Jubilados y Pensionados de Pami",NA,NA,NA,NA,"<=$23.152"
+"4",NA,"Peces","Equip.de pesca","Masculino","35 - 48 años",NA,NA,"No",NA,"1",6,"1",35,"<=$23.152"
+"3",NA,NA,"Equip.de pesca","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1",NA,NA,"Arma(s) blancas y Otros","Masculino","49 - 62 años",NA,NA,"Si","Relacion de Dependencia","3",94,"5",160,"$51.235/$73.333"
+"3",NA,NA,"Equip.de pesca y Otros","Masculino","35 - 48 años",NA,"Reparación/Mant.","No",NA,NA,NA,NA,NA,"$51.235/$73.333"
+"1",NA,"Mamifero(s)",NA,"Masculino","35 - 48 años",NA,"Forestal","No",NA,NA,NA,NA,NA,"<=$23.152"
+"2",NA,"Mamifero(s)",NA,"Masculino","35 - 48 años",NA,"Forestal","No",NA,NA,NA,NA,NA,"<=$23.152"
+"5",NA,"Peces","Equip.de pesca y Otros","Masculino","21 - 34 años",NA,NA,"Si","Relacion de Dependencia","2",28,"1",66,"$23.153/$36.166"
+"1",NA,NA,"Arma(s) blancas y Otros","Masculino","49 - 62 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1",NA,NA,"Arma(s) blancas y Otros","Masculino","49 - 62 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2",NA,NA,NA,"Masculino","49 - 62 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2","Canoa(s)","Mamifero(s), Ave(s), y Otro(s)","Equip.de pesca","Femenino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2",NA,"Mamifero(s)","Arma(s) blancas y Otros","Masculino","49 - 62 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1",NA,NA,"Arma(s) de fuego y Otros","Masculino","49 - 62 años",NA,"Servicios varios","No",NA,NA,NA,NA,NA,"<=$23.152"
+"2","Canoa(s)","Peces","Equip.de pesca y Otros","Masculino","49 - 62 años",NA,NA,"No",NA,"2",19,"1",40,"<=$23.152"
+"3","Canoa(s)","Peces","Equip.de pesca y Otros","Masculino","49 - 62 años",NA,"Comercio","No",NA,NA,NA,NA,NA,"$73.334$143.107"
+"2","Canoa(s)","Peces","Equip.de pesca y Otros","Masculino","49 - 62 años",NA,NA,"No",NA,"2",19,"1",40,"<=$23.152"
+"1","Canoa(s)",NA,"Equip.de pesca y Otros","Masculino","49 - 62 años",NA,"Transporte","No",NA,NA,NA,NA,NA,"<=$23.152"
+"2","Motocicleta(s) y Otro(s)",NA,"Arma(s) de fuego","Masculino","63 + años",NA,NA,"No",NA,"1",54,"1",77,"<=$23.152"
+"1",NA,"Mamifero(s), Ave(s), y Otro(s)",NA,"Masculino","49 - 62 años",NA,NA,"Si","Relacion de Dependencia","3",105,"1",163,"$73.334$143.107"
+"2","Motocicleta(s)",NA,"Arma(s) de fuego","Masculino","35 - 48 años",NA,NA,"No",NA,"1",46,"1",67,"$23.153/$36.166"
+"3",NA,"Mamifero(s)","Arma(s) de fuego y Otros","Masculino","35 - 48 años",NA,"Agropecuario","Si","Monotributistas Efectores Sociales",NA,NA,NA,NA,"$36.167/$51.234"
+"3","Canoa(s)","Peces","Equip.de pesca y Otros","Masculino","49 - 62 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1",NA,"Ornamentales(s) y Otro(s)",NA,"Masculino","49 - 62 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2","Motocicleta(s)",NA,"Arma(s) de fuego y Otros","Femenino","49 - 62 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"3",NA,NA,"Equip.de pesca y Otros","Masculino","63 + años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1",NA,NA,"Arma(s) blancas y Otros","Masculino","35 - 48 años",NA,"Construcción","No",NA,"1",27,"1",76,"$23.153/$36.166"
+"1","Motocicleta(s)",NA,"Arma(s) de fuego","Femenino","49 - 62 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2",NA,NA,"Arma(s) de fuego y Otros","Masculino","49 - 62 años",NA,NA,"Si","Relacion de Dependencia",NA,NA,NA,NA,"$36.167/$51.234"
+"5",NA,NA,"Arma(s) de fuego","Masculino","49 - 62 años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"<=$23.152"
+"1","Motocicleta(s)",NA,"Arma(s) de fuego y Otros","Masculino","21 - 34 años",NA,NA,"Si","Relacion de Dependencia",NA,NA,NA,NA,"$23.153/$36.166"
+"2","Motocicleta(s)","Mamifero(s), Ave(s), y Otro(s)","Arma(s) de fuego y Otros","Masculino","35 - 48 años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"<=$23.152"
+"2",NA,NA,"Arma(s) de fuego y Otros","Masculino","21 - 34 años",NA,"Agropecuario","Si","Relacion de Dependencia",NA,NA,NA,NA,"$36.167/$51.234"
+"2",NA,NA,"Arma(s) de fuego","Masculino","21 - 34 años",NA,NA,"Si","Monotributistas Efectores Sociales",NA,NA,NA,NA,"$36.167/$51.234"
+"1",NA,"Madera(s)",NA,"Masculino","63 + años",NA,NA,"Si","Relacion de Dependencia","1",69,"1",131,"$51.235/$73.333"
+"1",NA,NA,"Equip.de pesca y Otros","Masculino","35 - 48 años",NA,"Agropecuario","Si","Monotributistas Efectores Sociales","1",4,"1",5,"$23.153/$36.166"
+"1",NA,NA,"Equip.de pesca","Masculino","35 - 48 años",NA,NA,"No",NA,"1",85,"1",118,"$51.235/$73.333"
+"2",NA,NA,"Equip.de pesca","Masculino","35 - 48 años",NA,NA,"Si","Relacion de Dependencia","1",32,"1",102,"$36.167/$51.234"
+"2",NA,NA,"Arma(s) de fuego y Otros","Masculino","21 - 34 años",NA,"Reparación/Mant.","Si","Pequeños Contribuyentes Monotributistas Ley 25 86",NA,NA,NA,NA,"$36.167/$51.234"
+"3",NA,"Mamifero(s)","Arma(s) de fuego y Otros","Masculino","35 - 48 años",NA,"Agropecuario","Si","Pequeños Contribuyentes Monotributistas Ley 25 86",NA,NA,NA,NA,"$36.167/$51.234"
+"1",NA,NA,"Arma(s) de fuego y Otros","Masculino","35 - 48 años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"<=$23.152"
+"1",NA,NA,"Arma(s) de fuego","Masculino","35 - 48 años",NA,NA,"No",NA,"1",32,"1",73,"$23.153/$36.166"
+"1","Motocicleta(s)",NA,"Arma(s) de fuego","Masculino","35 - 48 años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"<=$23.152"
+"1","Canoa(s)",NA,NA,"Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"3",NA,NA,"Equip.de pesca y Otros","Masculino","21 - 34 años",NA,"Reparación/Mant.","No",NA,NA,NA,NA,NA,"<=$23.152"
+"2",NA,NA,"Arma(s) de fuego y Otros","Masculino","35 - 48 años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"<=$23.152"
+"2","Motocicleta(s)",NA,"Arma(s) de fuego","Masculino","35 - 48 años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"$36.167/$51.234"
+"1","Motocicleta(s)",NA,"Arma(s) de fuego","Masculino","35 - 48 años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"$36.167/$51.234"
+"3",NA,NA,"Arma(s) de fuego y Otros","Masculino","35 - 48 años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"$36.167/$51.234"
+"2",NA,"Mamifero(s)","Arma(s) de fuego y Otros","Masculino","35 - 48 años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"$36.167/$51.234"
+"3","Canoa(s)","Peces","Equip.de pesca y Otros","Masculino","35 - 48 años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"<=$23.152"
+"2",NA,NA,"Arma(s) de fuego y Otros","Masculino","21 - 34 años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"<=$23.152"
+"3",NA,NA,"Equip.de pesca y Otros","Masculino","35 - 48 años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"<=$23.152"
+"1",NA,"Ornamentales(s) y Otro(s)","Arma(s) de fuego y Otros","Masculino","35 - 48 años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"<=$23.152"
+"3",NA,"Peces","Equip.de pesca y Otros","Masculino","21 - 34 años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"$36.167/$51.234"
+"1","Canoa(s)",NA,"Equip.de pesca y Otros","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"$51.235/$73.333"
+"1",NA,"Mamifero(s)","Arma(s) de fuego y Otros","Masculino","49 - 62 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1","Camioneta(s)","Mamifero(s)","Arma(s) de fuego y Otros","Masculino","49 - 62 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1",NA,NA,"Arma(s) de fuego","Masculino","21 - 34 años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"$36.167/$51.234"
+"1","Canoa(s)",NA,"Equip.de pesca","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"3",NA,"Peces","Equip.de pesca y Otros","Masculino","35 - 48 años",NA,NA,"No",NA,"1",98,"1",150,"$23.153/$36.166"
+"1","Motocicleta(s)","Peces","Equip.de pesca y Otros","Masculino","21 - 34 años",NA,NA,"No",NA,"1",86,"1",149,"$51.235/$73.333"
+"2",NA,NA,"Arma(s) de fuego","Masculino","35 - 48 años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"<=$23.152"
+"1",NA,NA,"Arma(s) de fuego","Masculino","21 - 34 años",NA,NA,"No",NA,"1",99,"1",153,"$51.235/$73.333"
+"3",NA,NA,"Equip.de pesca y Otros","Masculino","63 + años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1",NA,"Mamifero(s)","Arma(s) de fuego","Masculino","35 - 48 años",NA,"Agropecuario","Si","Monotributistas Efectores Sociales",NA,NA,NA,NA,"$36.167/$51.234"
+"2",NA,NA,"Arma(s) de fuego y Otros","Masculino","49 - 62 años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"<=$23.152"
+"2","Motocicleta(s) y Otro(s)",NA,"Arma(s) de fuego","Masculino","21 - 34 años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"$36.167/$51.234"
+"4","Canoa(s)","Peces","Equip.de pesca y Otros","Masculino","49 - 62 años",NA,"Construcción","No",NA,NA,NA,NA,NA,"<=$23.152"
+"2","Lancha(s)",NA,"Equip.de pesca","Masculino","21 - 34 años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"$36.167/$51.234"
+"5",NA,NA,"Arma(s) de fuego","Masculino","21 - 34 años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"$36.167/$51.234"
+"5",NA,NA,"Arma(s) de fuego","Masculino","21 - 34 años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"$36.167/$51.234"
+"1",NA,NA,"Equip.de pesca","Masculino","21 - 34 años",NA,NA,"Si","Relacion de Dependencia",NA,NA,NA,NA,"$23.153/$36.166"
+"1","Motocicleta(s)","Mamifero(s)",NA,"Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2","Lancha(s)",NA,"Equip.de pesca","Masculino","35 - 48 años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"$51.235/$73.333"
+"2","Canoa(s)",NA,"Equip.de pesca","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"$23.153/$36.166"
+"1","Camioneta(s)","Mamifero(s)","Arma(s) de fuego","Masculino","21 - 34 años",NA,"Agropecuario","Si","Pequeños Contribuyentes Monotributistas Ley 25 86","1",42,"1",59,">=$229.817"
+"3","Motocicleta(s)",NA,"Arma(s) de fuego","Masculino","21 - 34 años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"$73.334$143.107"
+"1",NA,NA,"Arma(s) de fuego","Masculino","35 - 48 años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"<=$23.152"
+"2",NA,"Peces","Equip.de pesca y Otros","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"$36.167/$51.234"
+"4",NA,NA,"Arma(s) blancas y Otros","Masculino","21 - 34 años",NA,NA,"Si","Relacion de Dependencia","1",30,"1",80,"$36.167/$51.234"
+"4",NA,"Peces","Equip.de pesca y Otros","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"5",NA,"Peces","Equip.de pesca y Otros","Masculino","35 - 48 años",NA,NA,"Si","Relacion de Dependencia","2",70,"1",123,"$36.167/$51.234"
+"4",NA,"Peces","Arma(s) blancas y Otros","Masculino","35 - 48 años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"<=$23.152"
+"2","Canoa(s)","Peces","Equip.de pesca y Otros","Masculino","35 - 48 años",NA,"Comercio","No",NA,NA,NA,NA,NA,"<=$23.152"
+"2",NA,"Mamifero(s)","Arma(s) de fuego y Otros","Masculino","21 - 34 años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"$36.167/$51.234"
+"1",NA,"Madera(s)",NA,"Masculino","49 - 62 años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"<=$23.152"
+"2",NA,NA,"Arma(s) de fuego y Otros","Masculino","49 - 62 años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"$36.167/$51.234"
+"4",NA,"Peces","Arma(s) blancas y Otros","Femenino","21 - 34 años",NA,NA,"No",NA,"1",2,"1",29,"<=$23.152"
+"2","Motocicleta(s)",NA,"Arma(s) de fuego","Masculino","35 - 48 años",NA,"Agropecuario","Si","Monotributistas Efectores Sociales",NA,NA,NA,NA,"$36.167/$51.234"
+"4",NA,"Mamifero(s), Ave(s), y Otro(s)","Equip.de pesca","Masculino","35 - 48 años",NA,NA,"Si","Relacion de Dependencia",NA,NA,NA,NA,"$23.153/$36.166"
+"1",NA,"Madera(s)","Arma(s) blancas y Otros","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1","Automoviles","Madera(s)",NA,"Masculino","35 - 48 años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"<=$23.152"
+"1","Canoa(s)",NA,"Equip.de pesca y Otros","Masculino","35 - 48 años",NA,"Servicios varios","No",NA,NA,NA,NA,NA,"<=$23.152"
+"1","Motocicleta(s)",NA,"Arma(s) de fuego y Otros","Masculino","35 - 48 años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"<=$23.152"
+"2",NA,NA,"Arma(s) de fuego y Otros","Masculino","49 - 62 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1",NA,"Madera(s)",NA,"Masculino","63 + años",NA,"Servicios varios","Si","Jubilados y Pensionados de Pami","1",56,"1",103,"$23.153/$36.166"
+"1",NA,"Peces","Arma(s) de fuego","Masculino","35 - 48 años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"$36.167/$51.234"
+"2",NA,"Peces","Equip.de pesca","Masculino","21 - 34 años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"$23.153/$36.166"
+"2",NA,NA,"Equip.de pesca y Otros","Masculino","21 - 34 años",NA,"Forestal","Si","Relacion de Dependencia",NA,NA,NA,NA,"<=$23.152"
+"1","Camion(es)/Maquin(as)","Madera(s)",NA,"Masculino","49 - 62 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"3",NA,"Mamifero(s)",NA,"Masculino","21 - 34 años",NA,NA,"Si","Relacion de Dependencia","1",30,"1",138,"$36.167/$51.234"
+"3","Canoa(s)","Peces","Equip.de pesca y Otros","Masculino","49 - 62 años",NA,NA,"Si","Relacion de Dependencia",NA,NA,NA,NA,"$36.167/$51.234"
+"3",NA,NA,"Arma(s) de fuego","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1",NA,NA,"Equip.de pesca","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"3",NA,NA,"Equip.de pesca y Otros","Masculino","21 - 34 años",NA,NA,"Si","Relacion de Dependencia",NA,NA,NA,NA,"$23.153/$36.166"
+"4","Lancha(s)",NA,"Arma(s) de fuego y Otros","Masculino","49 - 62 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"3",NA,"Mamifero(s)","Arma(s) de fuego","Masculino","49 - 62 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"4","Automoviles","Mamifero(s)","Arma(s) de fuego","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"$23.153/$36.166"
+"4","Lancha(s)",NA,"Arma(s) de fuego y Otros","Masculino","35 - 48 años",NA,"Comercio","No",NA,"1",104,"1",155,"$51.235/$73.333"
+"4",NA,"Peces","Equip.de pesca","Femenino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1",NA,"Madera(s)",NA,"Femenino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1",NA,NA,"Arma(s) de fuego y Otros","Masculino","49 - 62 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2",NA,"Peces","Arma(s) de fuego y Otros","Masculino","35 - 48 años",NA,NA,"Si","Relacion de Dependencia","1",27,"1",116,"<=$23.152"
+"1","Canoa(s)","Peces","Equip.de pesca y Otros","Masculino","35 - 48 años",NA,"Forestal","No",NA,NA,NA,NA,NA,"<=$23.152"
+"1","Motocicleta(s)",NA,"Arma(s) de fuego","Masculino","21 - 34 años",NA,NA,"Si","Relacion de Dependencia",NA,NA,NA,NA,"$23.153/$36.166"
+"1",NA,NA,"Arma(s) blancas y Otros","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"3",NA,NA,"Arma(s) de fuego y Otros",NA,"49 - 62 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2",NA,"Peces","Equip.de pesca y Otros","Masculino","35 - 48 años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"<=$23.152"
+"1",NA,"Peces","Equip.de pesca","Masculino","49 - 62 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"3",NA,"Peces","Arma(s) blancas y Otros","Masculino","21 - 34 años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"<=$23.152"
+"1",NA,"Peces","Equip.de pesca","Masculino","21 - 34 años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"$36.167/$51.234"
+"2","Motocicleta(s)",NA,"Arma(s) de fuego","Masculino","21 - 34 años",NA,NA,"No",NA,"1",57,"1",78,"<=$23.152"
+"4","Automoviles","Mamifero(s)","Arma(s) de fuego","Masculino","49 - 62 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1","Motocicleta(s)","Mamifero(s)","Arma(s) de fuego y Otros","Masculino","35 - 48 años",NA,"Reparación/Mant.","No",NA,NA,NA,NA,NA,"$73.334$143.107"
+"2",NA,NA,"Arma(s) de fuego","Masculino","49 - 62 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1",NA,NA,"Arma(s) de fuego y Otros","Masculino","49 - 62 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2","Motocicleta(s)",NA,"Arma(s) de fuego","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2",NA,"Peces","Equip.de pesca y Otros","Masculino","21 - 34 años",NA,NA,"Si","Relacion de Dependencia","2",71,"1",107,"$36.167/$51.234"
+"2",NA,NA,"Arma(s) de fuego y Otros","Masculino","21 - 34 años",NA,NA,"No",NA,"1",81,"1",145,"$23.153/$36.166"
+"2",NA,NA,"Arma(s) de fuego y Otros","Masculino","49 - 62 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"4",NA,"Peces","Equip.de pesca y Otros","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2",NA,"Peces","Equip.de pesca","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1",NA,NA,"Arma(s) blancas y Otros","Masculino","49 - 62 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1",NA,NA,"Equip.de pesca y Otros","Masculino","35 - 48 años",NA,"Servicios varios","No",NA,NA,NA,NA,NA,"<=$23.152"
+"1","Canoa(s)",NA,"Equip.de pesca","Masculino","35 - 48 años",NA,NA,"No",NA,"1",49,"1",121,"$23.153/$36.166"
+"2","Canoa(s)",NA,"Equip.de pesca","Masculino","49 - 62 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"3","Motocicleta(s) y Otro(s)","Peces","Equip.de pesca y Otros","Masculino","49 - 62 años",NA,"Comercio","No",NA,NA,NA,NA,NA,"<=$23.152"
+"2",NA,"Mamifero(s)","Arma(s) de fuego y Otros","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"$36.167/$51.234"
+"3",NA,NA,"Arma(s) de fuego y Otros","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"$36.167/$51.234"
+"1",NA,NA,"Arma(s) de fuego y Otros","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"4",NA,"Peces","Arma(s) blancas y Otros","Masculino","21 - 34 años",NA,NA,"Si","Relacion de Dependencia","1",22,"1",61,"<=$23.152"
+"1",NA,NA,"Arma(s) de fuego y Otros","Masculino","35 - 48 años",NA,NA,"Si","Monotributistas Efectores Sociales",NA,NA,NA,NA,"$73.334$143.107"
+"4","Lancha(s)",NA,"Arma(s) de fuego y Otros","Masculino","35 - 48 años",NA,NA,"Si","Monotributistas Efectores Sociales",NA,NA,NA,NA,"$73.334$143.107"
+"4","Lancha(s)",NA,"Arma(s) de fuego y Otros","Masculino","35 - 48 años",NA,NA,"Si","Monotributistas Efectores Sociales",NA,NA,NA,NA,"$73.334$143.107"
+"1",NA,"Mamifero(s)","Arma(s) de fuego y Otros","Masculino","21 - 34 años",NA,NA,"Si","Monotributistas Efectores Sociales",NA,NA,NA,NA,"$73.334$143.107"
+"3",NA,NA,"Equip.de pesca y Otros","Masculino","49 - 62 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1",NA,"Madera(s)",NA,"Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1",NA,NA,"Arma(s) de fuego y Otros","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2",NA,NA,"Equip.de pesca","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1","Motocicleta(s)","Mamifero(s), Ave(s), y Otro(s)","Arma(s) de fuego y Otros","Masculino","49 - 62 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"3",NA,"Peces","Equip.de pesca","Masculino","21 - 34 años",NA,NA,"Si","Monotributistas Efectores Sociales",NA,NA,NA,NA,"$23.153/$36.166"
+"1",NA,"Ornamentales(s) y Otro(s)",NA,"Femenino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1",NA,"Ornamentales(s) y Otro(s)",NA,"Femenino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1",NA,"Ornamentales(s) y Otro(s)",NA,"Femenino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1",NA,"Ornamentales(s) y Otro(s)",NA,"Femenino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1",NA,NA,"Arma(s) de fuego","Masculino","49 - 62 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1","Motocicleta(s)","Mamifero(s)","Arma(s) de fuego","Masculino","21 - 34 años",NA,NA,"Si","Relacion de Dependencia",NA,NA,NA,NA,"$23.153/$36.166"
+"1","Canoa(s)",NA,NA,"Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1","Motocicleta(s)","Mamifero(s)",NA,"Masculino","21 - 34 años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"$36.167/$51.234"
+"1",NA,"Peces","Equip.de pesca y Otros","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1",NA,NA,"Equip.de pesca","Masculino","35 - 48 años",NA,NA,"Si","Relacion de Dependencia","3",101,"1",148,"$36.167/$51.234"
+"4","Automoviles","Mamifero(s)","Arma(s) de fuego","Masculino","49 - 62 años",NA,NA,"Si","Relacion de Dependencia",NA,NA,NA,NA,"<=$23.152"
+"3",NA,"Mamifero(s)",NA,"Masculino","21 - 34 años",NA,NA,"Si","Relacion de Dependencia","1",29,"1",79,"$36.167/$51.234"
+"3",NA,NA,"Equip.de pesca y Otros","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"3","Canoa(s)",NA,"Arma(s) de fuego y Otros","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1",NA,"Peces","Equip.de pesca","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1",NA,"Peces","Equip.de pesca y Otros","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"4",NA,"Peces","Equip.de pesca y Otros","Masculino","49 - 62 años",NA,NA,"Si","Relacion de Dependencia",NA,NA,NA,NA,"<=$23.152"
+"2","Camioneta(s)","Mamifero(s)","Arma(s) de fuego","Masculino","21 - 34 años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"$36.167/$51.234"
+"3",NA,NA,"Equip.de pesca","Masculino","21 - 34 años",NA,"Servicios varios","No",NA,NA,NA,NA,NA,"$36.167/$51.234"
+"3",NA,"Peces","Equip.de pesca","Femenino","35 - 48 años",NA,NA,"Si","Relacion de Dependencia","3",56,"3",114,"$51.235/$73.333"
+"1",NA,NA,"Arma(s) blancas y Otros","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1",NA,NA,"Equip.de pesca","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"3",NA,NA,"Arma(s) de fuego y Otros","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"$36.167/$51.234"
+"2",NA,NA,"Arma(s) de fuego y Otros","Masculino","21 - 34 años",NA,NA,"Si","Monotributistas Efectores Sociales","1",35,"1",49,"<=$23.152"
+"1","Canoa(s)",NA,"Equip.de pesca","Masculino","35 - 48 años",NA,NA,"Si","Relacion de Dependencia","3",89,"1",135,"$23.153/$36.166"
+"3",NA,NA,"Arma(s) de fuego y Otros","Masculino","21 - 34 años",NA,NA,"Si","Monotributistas Efectores Sociales","1",35,"1",49,"<=$23.152"
+"1","Motocicleta(s)",NA,"Equip.de pesca y Otros","Masculino","21 - 34 años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"<=$23.152"
+"1",NA,NA,NA,"Masculino","49 - 62 años",NA,NA,"Si","Monotributistas Efectores Sociales",NA,NA,NA,NA,"<=$23.152"
+"2",NA,NA,"Arma(s) de fuego","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"$36.167/$51.234"
+"1",NA,NA,"Arma(s) de fuego","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2","Motocicleta(s)",NA,"Arma(s) de fuego y Otros","Masculino","35 - 48 años",NA,NA,"Si","Relacion de Dependencia","1",67,"1",104,"$23.153/$36.166"
+"1",NA,"Ornamentales(s) y Otro(s)",NA,"Femenino","35 - 48 años",NA,NA,"No",NA,"1",62,"1",84,"<=$23.152"
+"1",NA,NA,"Arma(s) de fuego","Femenino","35 - 48 años",NA,NA,"No",NA,"1",62,"1",84,"<=$23.152"
+"2",NA,"Mamifero(s)","Arma(s) de fuego","Masculino","21 - 34 años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"<=$23.152"
+"2","Camioneta(s)","Madera(s)",NA,"Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2",NA,NA,"Arma(s) de fuego y Otros","Masculino","35 - 48 años",NA,NA,"Si","Relacion de Dependencia",NA,NA,NA,NA,"$36.167/$51.234"
+"4",NA,"Peces","Equip.de pesca y Otros","Masculino","21 - 34 años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"<=$23.152"
+"2","Canoa(s)",NA,"Arma(s) de fuego y Otros","Masculino","35 - 48 años",NA,NA,"Si","Monotributistas Efectores Sociales",NA,NA,NA,NA,"$36.167/$51.234"
+"5",NA,NA,"Equip.de pesca y Otros","Masculino","21 - 34 años",NA,NA,"No",NA,"1",95,"1",142,"$73.334$143.107"
+"4",NA,NA,"Equip.de pesca","Masculino","49 - 62 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1","Motocicleta(s)",NA,NA,"Masculino","35 - 48 años",NA,NA,"Si","Relacion de Dependencia",NA,NA,NA,NA,"$23.153/$36.166"
+"2",NA,NA,"Arma(s) de fuego y Otros","Masculino","21 - 34 años",NA,"Reparación/Mant.","No",NA,NA,NA,NA,NA,"<=$23.152"
+"2",NA,"Peces","Equip.de pesca y Otros","Masculino","35 - 48 años",NA,NA,"Si","Relacion de Dependencia",NA,NA,NA,NA,"$23.153/$36.166"
+"1",NA,NA,"Equip.de pesca y Otros","Femenino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"3","Lancha(s)",NA,"Equip.de pesca","Masculino","35 - 48 años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"$73.334$143.107"
+"1","Motocicleta(s)",NA,"Arma(s) de fuego y Otros","Masculino","35 - 48 años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"<=$23.152"
+"1",NA,NA,"Equip.de pesca","Masculino","49 - 62 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2","Motocicleta(s)",NA,"Arma(s) de fuego","Masculino","49 - 62 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1",NA,NA,"Equip.de pesca","Masculino","35 - 48 años",NA,"Comercio","No",NA,NA,NA,NA,NA,"$23.153/$36.166"
+"4",NA,"Peces","Equip.de pesca","Masculino","21 - 34 años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"$36.167/$51.234"
+"4",NA,NA,"Arma(s) de fuego y Otros","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"$36.167/$51.234"
+"4",NA,NA,"Equip.de pesca y Otros","Masculino","49 - 62 años",NA,"Comercio","No",NA,NA,NA,NA,NA,"<=$23.152"
+"2",NA,"Mamifero(s)","Arma(s) blancas y Otros","Masculino","21 - 34 años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"<=$23.152"
+"2","Motocicleta(s)",NA,"Arma(s) de fuego","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1","Motocicleta(s)",NA,"Arma(s) de fuego","Masculino","35 - 48 años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"<=$23.152"
+"1","Motocicleta(s)",NA,"Arma(s) de fuego y Otros","Masculino","35 - 48 años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"$36.167/$51.234"
+"2",NA,NA,"Arma(s) de fuego y Otros","Masculino","21 - 34 años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"$36.167/$51.234"
+"2",NA,NA,"Arma(s) de fuego","Masculino","35 - 48 años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"<=$23.152"
+"3","Motocicleta(s) y Otro(s)","Peces","Equip.de pesca y Otros","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1","Lancha(s)","Peces","Equip.de pesca y Otros","Masculino","35 - 48 años",NA,"Servicios varios","Si","Relacion de Dependencia",NA,NA,NA,NA,"$23.153/$36.166"
+"1",NA,NA,"Arma(s) de fuego","Masculino","35 - 48 años",NA,NA,"Si","Relacion de Dependencia",NA,NA,NA,NA,"<=$23.152"
+"1",NA,NA,"Arma(s) de fuego","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1","Caballo(s)/Bicicleta(s)",NA,"Arma(s) de fuego y Otros","Masculino","21 - 34 años",NA,NA,"Si","Relacion de Dependencia","1",30,"1",56,"<=$23.152"
+"2",NA,"Mamifero(s)","Arma(s) de fuego","Masculino","49 - 62 años",NA,NA,"Si","Relacion de Dependencia",NA,NA,NA,NA,"$36.167/$51.234"
+"3","Canoa(s)",NA,"Arma(s) de fuego y Otros","Masculino","49 - 62 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1",NA,NA,"Equip.de pesca","Masculino","49 - 62 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2",NA,NA,"Arma(s) de fuego y Otros","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"$36.167/$51.234"
+"3",NA,NA,"Arma(s) de fuego y Otros","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2",NA,"Peces","Arma(s) de fuego y Otros","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"3","Canoa(s)","Peces","Equip.de pesca","Masculino","35 - 48 años",NA,NA,"Si","Relacion de Dependencia","1",92,"1",126,"<=$23.152"
+"1","Motocicleta(s)",NA,"Arma(s) de fuego","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1",NA,NA,NA,"Masculino","49 - 62 años",NA,"Agropecuario","Si","Relacion de Dependencia",NA,NA,NA,NA,"<=$23.152"
+"3","Motocicleta(s)",NA,"Arma(s) de fuego y Otros","Masculino","21 - 34 años",NA,"Agropecuario","Si","Pequeños Contribuyentes Monotributistas Ley 25 86",NA,NA,NA,NA,"$23.153/$36.166"
+"1","Motocicleta(s)","Peces","Equip.de pesca y Otros","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1",NA,"Madera(s)",NA,"Masculino","21 - 34 años",NA,"Comercio","No",NA,NA,NA,NA,NA,"<=$23.152"
+"4",NA,"Mamifero(s)","Equip.de pesca y Otros","Femenino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1",NA,NA,"Arma(s) de fuego","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2",NA,NA,"Arma(s) de fuego y Otros","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"3","Camion(es)/Maquin(as)",NA,"Arma(s) blancas y Otros","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1","Motocicleta(s)",NA,"Arma(s) de fuego","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1","Automoviles","Mamifero(s)","Arma(s) de fuego","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"4",NA,NA,"Arma(s) blancas y Otros","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2",NA,NA,"Arma(s) de fuego","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2",NA,"Mamifero(s)","Equip.de pesca y Otros","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2","Motocicleta(s)",NA,"Arma(s) de fuego","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2",NA,NA,"Arma(s) de fuego","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2",NA,NA,"Arma(s) de fuego y Otros","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2",NA,NA,"Arma(s) de fuego y Otros","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"5",NA,NA,"Arma(s) de fuego","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1",NA,"Peces","Equip.de pesca y Otros","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2","Canoa(s)",NA,"Equip.de pesca y Otros","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"3",NA,"Peces","Equip.de pesca y Otros","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"4",NA,"Mamifero(s), Ave(s), y Otro(s)","Equip.de pesca","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"4",NA,NA,"Arma(s) de fuego y Otros","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"3",NA,NA,"Arma(s) de fuego y Otros","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"3","Camioneta(s)",NA,"Arma(s) de fuego y Otros","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1","Motocicleta(s)","Mamifero(s)","Arma(s) de fuego","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2",NA,"Peces","Equip.de pesca","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"3","Camioneta(s)",NA,"Arma(s) de fuego y Otros","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2",NA,NA,"Equip.de pesca y Otros","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1",NA,NA,"Arma(s) blancas y Otros","Masculino","21 - 34 años",NA,"Forestal","No",NA,NA,NA,NA,NA,"<=$23.152"
+"1",NA,NA,"Arma(s) de fuego y Otros","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2",NA,NA,"Arma(s) blancas y Otros","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2",NA,"Mamifero(s)","Equip.de pesca","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1","Motocicleta(s)","Mamifero(s)",NA,"Masculino","21 - 34 años",NA,"Agropecuario","Si","Relacion de Dependencia",NA,NA,NA,NA,"$23.153/$36.166"
+"3","Canoa(s)","Peces","Equip.de pesca y Otros","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2","Camioneta(s)","Madera(s)",NA,"Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2","Canoa(s)","Peces","Equip.de pesca","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"$36.167/$51.234"
+"3",NA,NA,"Equip.de pesca y Otros","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2","Motocicleta(s)",NA,"Arma(s) de fuego y Otros","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2",NA,NA,"Arma(s) de fuego","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"4",NA,"Peces","Equip.de pesca","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1","Caballo(s)/Bicicleta(s)",NA,"Arma(s) de fuego","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"4",NA,"Peces","Equip.de pesca y Otros","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2",NA,"Peces","Equip.de pesca","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"4",NA,"Peces","Arma(s) blancas y Otros","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2","Motocicleta(s)","Mamifero(s)","Arma(s) de fuego y Otros","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"3",NA,NA,"Arma(s) de fuego","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"3","Camion(es)/Maquin(as)","Madera(s)","Arma(s) de fuego","Masculino","35 - 48 años",NA,"Forestal","No",NA,"1",21,"1",44,"<=$23.152"
+"1",NA,NA,"Arma(s) de fuego","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"3",NA,NA,"Arma(s) de fuego y Otros","Masculino","21 - 34 años",NA,"Agropecuario","Si","Monotributistas Efectores Sociales",NA,NA,NA,NA,"$23.153/$36.166"
+"1",NA,NA,"Arma(s) de fuego","Masculino","35 - 48 años",NA,"Transporte","No",NA,NA,NA,NA,NA,"<=$23.152"
+"1",NA,NA,"Equip.de pesca y Otros","Masculino","35 - 48 años",NA,"Transporte","No",NA,NA,NA,NA,NA,"<=$23.152"
+"2",NA,"Peces","Equip.de pesca","Masculino","35 - 48 años",NA,NA,"Si","Relacion de Dependencia",NA,NA,NA,NA,"$73.334$143.107"
+"3",NA,NA,"Equip.de pesca","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2",NA,NA,"Equip.de pesca","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1",NA,NA,"Arma(s) de fuego y Otros","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2","Motocicleta(s)","Mamifero(s), Ave(s), y Otro(s)","Arma(s) de fuego","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2","Motocicleta(s)","Peces","Arma(s) de fuego y Otros","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"5",NA,"Peces","Equip.de pesca y Otros","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2","Canoa(s)",NA,"Equip.de pesca","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2",NA,NA,"Arma(s) de fuego y Otros","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"3",NA,"Peces","Equip.de pesca y Otros","Masculino","35 - 48 años",NA,NA,"Si","Relacion de Dependencia",NA,NA,NA,NA,"$36.167/$51.234"
+"2",NA,NA,"Equip.de pesca","Masculino","35 - 48 años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"<=$23.152"
+"1","Motocicleta(s)",NA,"Arma(s) de fuego y Otros","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1","Camioneta(s)","Madera(s)",NA,"Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2",NA,"Ornamentales(s) y Otro(s)",NA,"Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1",NA,NA,"Arma(s) de fuego y Otros","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1","Motocicleta(s)",NA,"Arma(s) de fuego","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1",NA,"Mamifero(s)","Arma(s) de fuego y Otros","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"3","Canoa(s)","Peces","Equip.de pesca","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2",NA,NA,"Equip.de pesca","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"4",NA,"Mamifero(s)","Equip.de pesca y Otros","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2",NA,NA,"Equip.de pesca y Otros","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2",NA,"Peces","Equip.de pesca","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"3",NA,"Mamifero(s)","Arma(s) de fuego","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"5",NA,"Peces","Equip.de pesca y Otros","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"$23.153/$36.166"
+"4",NA,NA,"Arma(s) de fuego y Otros","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2","Motocicleta(s)",NA,"Equip.de pesca y Otros","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2","Lancha(s)",NA,NA,"Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2","Motocicleta(s)",NA,NA,"Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1","Caballo(s)/Bicicleta(s)","Ornamentales(s) y Otro(s)","Arma(s) blancas y Otros","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2","Automoviles",NA,"Arma(s) de fuego y Otros","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"3",NA,NA,"Arma(s) de fuego y Otros","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2","Canoa(s)","Mamifero(s), Ave(s), y Otro(s)","Equip.de pesca y Otros","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"3",NA,NA,"Equip.de pesca","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1","Motocicleta(s)",NA,"Arma(s) blancas y Otros","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1",NA,NA,"Arma(s) de fuego","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2","Canoa(s)",NA,"Equip.de pesca","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2",NA,NA,"Equip.de pesca","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2","Motocicleta(s)","Mamifero(s)","Arma(s) de fuego y Otros","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2",NA,NA,"Arma(s) de fuego y Otros","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"4",NA,NA,"Arma(s) de fuego y Otros","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1",NA,NA,"Arma(s) de fuego y Otros","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1",NA,NA,"Arma(s) de fuego","Masculino","21 - 34 años",NA,"Agropecuario","Si","Monotributistas Efectores Sociales",NA,NA,NA,NA,"$73.334$143.107"
+"2","Motocicleta(s)",NA,"Arma(s) de fuego y Otros","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1",NA,NA,"Equip.de pesca","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1","Canoa(s)","Peces","Equip.de pesca y Otros","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1","Motocicleta(s)",NA,"Arma(s) de fuego y Otros","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"4",NA,"Peces","Equip.de pesca y Otros","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2",NA,"Peces","Equip.de pesca y Otros","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2","Canoa(s)","Peces","Equip.de pesca","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1","Canoa(s)",NA,"Equip.de pesca y Otros","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2",NA,"Peces","Equip.de pesca y Otros","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"4",NA,"Peces","Equip.de pesca y Otros","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"3",NA,"Peces","Equip.de pesca y Otros","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1","Motocicleta(s)","Mamifero(s)","Arma(s) de fuego","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2","Motocicleta(s)",NA,"Arma(s) de fuego","Masculino","21 - 34 años",NA,NA,"Si","Relacion de Dependencia",NA,NA,NA,NA,"<=$23.152"
+"2","Canoa(s)","Peces","Equip.de pesca","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"3",NA,"Mamifero(s)","Arma(s) de fuego y Otros","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2","Motocicleta(s)","Mamifero(s)","Arma(s) de fuego y Otros","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1",NA,NA,"Equip.de pesca","Masculino","49 - 62 años",NA,"Servicios varios","No",NA,NA,NA,NA,NA,"$23.153/$36.166"
+"1",NA,NA,"Equip.de pesca","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2",NA,NA,"Equip.de pesca","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1",NA,"Peces","Equip.de pesca","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2",NA,"Mamifero(s)","Arma(s) de fuego y Otros","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2","Lancha(s)",NA,NA,"Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1","Motocicleta(s)","Peces","Equip.de pesca y Otros","Masculino","35 - 48 años",NA,NA,"Si","Relacion de Dependencia",NA,NA,NA,NA,"<=$23.152"
+"1",NA,"Peces","Equip.de pesca","Masculino","21 - 34 años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"<=$23.152"
+"2",NA,NA,"Arma(s) de fuego y Otros","Masculino","35 - 48 años",NA,"Agropecuario","Si","Monotributistas Efectores Sociales",NA,NA,NA,NA,"<=$23.152"
+"1",NA,"Mamifero(s)","Arma(s) de fuego","Masculino","21 - 34 años",NA,"Agropecuario","Si","Monotributistas Efectores Sociales",NA,NA,NA,NA,"<=$23.152"
+"2","Lancha(s)","Peces",NA,"Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"3",NA,"Peces","Arma(s) blancas y Otros","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1","Canoa(s)",NA,"Equip.de pesca","Masculino","21 - 34 años",NA,NA,"Si","Relacion de Dependencia",NA,NA,NA,NA,"<=$23.152"
+"1",NA,"Mamifero(s)","Arma(s) de fuego y Otros","Masculino","21 - 34 años",NA,NA,"Si","Relacion de Dependencia",NA,NA,NA,NA,"$23.153/$36.166"
+"1",NA,"Mamifero(s)",NA,"Masculino","35 - 48 años",NA,"Servicios varios","No",NA,NA,NA,NA,NA,"$36.167/$51.234"
+"5",NA,"Peces","Equip.de pesca y Otros","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1",NA,"Mamifero(s), Ave(s), y Otro(s)",NA,"Masculino","49 - 62 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2",NA,"Peces","Equip.de pesca y Otros","Masculino","<= 20 años",NA,NA,"No",NA,"1",3,"1",4,"<=$23.152"
+"2","Motocicleta(s)",NA,"Arma(s) de fuego","Masculino","49 - 62 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2",NA,NA,NA,"Masculino","63 + años",NA,NA,"No",NA,"1",47,"1",109,"<=$23.152"
+"1",NA,NA,"Arma(s) de fuego","Masculino","21 - 34 años",NA,NA,"Si","Relacion de Dependencia",NA,NA,NA,NA,"<=$23.152"
+"3",NA,NA,"Arma(s) de fuego y Otros","Masculino","49 - 62 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"5",NA,"Peces","Equip.de pesca y Otros","Masculino","35 - 48 años",NA,NA,"Si","Relacion de Dependencia",NA,NA,NA,NA,"<=$23.152"
+"2",NA,NA,"Arma(s) de fuego y Otros","Masculino","21 - 34 años",NA,"Forestal","No",NA,NA,NA,NA,NA,"$36.167/$51.234"
+"2",NA,"Mamifero(s)","Equip.de pesca","Masculino","21 - 34 años",NA,NA,"Si","Monotributistas Efectores Sociales",NA,NA,NA,NA,"<=$23.152"
+"2","Motocicleta(s)",NA,"Arma(s) de fuego","Masculino","35 - 48 años",NA,NA,"No",NA,"1",33,"1",58,"$23.153/$36.166"
+"2","Motocicleta(s)",NA,"Arma(s) de fuego y Otros","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"$23.153/$36.166"
+"2",NA,NA,"Arma(s) de fuego y Otros","Masculino","35 - 48 años",NA,NA,"Si","Relacion de Dependencia",NA,NA,NA,NA,"<=$23.152"
+"2",NA,NA,"Arma(s) de fuego y Otros","Masculino","35 - 48 años",NA,"Servicios varios","Si","Relacion de Dependencia",NA,NA,NA,NA,"<=$23.152"
+"4",NA,NA,"Arma(s) blancas y Otros","Masculino","49 - 62 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"3","Camion(es)/Maquin(as)","Madera(s)","Arma(s) de fuego","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1","Motocicleta(s)",NA,"Arma(s) de fuego y Otros","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"$23.153/$36.166"
+"2","Motocicleta(s)",NA,"Arma(s) de fuego","Masculino","35 - 48 años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"<=$23.152"
+"1",NA,NA,"Arma(s) de fuego","Masculino","35 - 48 años",NA,NA,"Si","Monotributistas Efectores Sociales",NA,NA,NA,NA,"<=$23.152"
+"2",NA,NA,"Equip.de pesca","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"3",NA,"Peces","Equip.de pesca","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1",NA,NA,"Arma(s) de fuego","Masculino","21 - 34 años",NA,NA,"No",NA,"1",90,"1",133,"<=$23.152"
+"3",NA,NA,"Equip.de pesca y Otros","Masculino","35 - 48 años",NA,NA,"Si","Relacion de Dependencia","3",82,"2",122,"$73.334$143.107"
+"3",NA,NA,"Arma(s) de fuego y Otros","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1",NA,NA,"Arma(s) de fuego","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1",NA,NA,"Arma(s) de fuego","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1","Motocicleta(s)",NA,"Arma(s) de fuego y Otros","Masculino","21 - 34 años",NA,NA,"Si","Monotributistas Efectores Sociales",NA,NA,NA,NA,"<=$23.152"
+"1",NA,NA,"Equip.de pesca","Masculino","35 - 48 años",NA,"Servicios varios","No",NA,NA,NA,NA,NA,"<=$23.152"
+"3",NA,"Mamifero(s)",NA,"Masculino","21 - 34 años",NA,NA,"No",NA,"1",8,"1",25,"<=$23.152"
+"2",NA,"Mamifero(s)","Arma(s) blancas y Otros","Masculino","21 - 34 años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"$36.167/$51.234"
+"3",NA,"Peces","Arma(s) blancas y Otros","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1","Caballo(s)/Bicicleta(s)","Mamifero(s)","Arma(s) de fuego y Otros","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1",NA,"Mamifero(s)",NA,"Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1","Caballo(s)/Bicicleta(s)",NA,NA,"Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2",NA,"Mamifero(s)","Arma(s) blancas y Otros","Masculino","49 - 62 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1","Automoviles","Mamifero(s)",NA,"Femenino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1","Motocicleta(s)",NA,"Arma(s) de fuego","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"3",NA,NA,"Arma(s) de fuego y Otros","Masculino","49 - 62 años",NA,NA,"Si","Relacion de Dependencia",NA,NA,NA,NA,"$23.153/$36.166"
+"1",NA,NA,"Equip.de pesca y Otros","Masculino","35 - 48 años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"<=$23.152"
+"1","Motocicleta(s)","Mamifero(s)","Arma(s) de fuego","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"3",NA,NA,"Arma(s) de fuego y Otros","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1","Motocicleta(s)",NA,"Arma(s) de fuego","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2",NA,"Mamifero(s)",NA,"Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"4","Canoa(s)","Peces","Equip.de pesca y Otros","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"4",NA,"Mamifero(s)","Equip.de pesca y Otros","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1","Motocicleta(s)",NA,"Arma(s) blancas y Otros","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2",NA,NA,"Equip.de pesca","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2","Canoa(s)",NA,"Equip.de pesca","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1",NA,NA,"Arma(s) de fuego y Otros","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"3",NA,"Peces","Equip.de pesca","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"4",NA,NA,"Equip.de pesca","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"4","Automoviles","Mamifero(s)","Arma(s) de fuego","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2","Motocicleta(s)","Mamifero(s), Ave(s), y Otro(s)","Arma(s) de fuego y Otros","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2",NA,"Peces","Equip.de pesca","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"3","Motocicleta(s) y Otro(s)","Peces","Equip.de pesca y Otros","Masculino","35 - 48 años",NA,NA,"Si","Beneficiarios de Seguro de Desempleo Ley 24 013",NA,NA,NA,NA,"<=$23.152"
+"4",NA,"Peces","Equip.de pesca y Otros","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2",NA,"Mamifero(s)","Arma(s) de fuego y Otros","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1",NA,"Peces",NA,"Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1",NA,"Mamifero(s), Ave(s), y Otro(s)","Arma(s) de fuego y Otros","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1",NA,NA,"Arma(s) de fuego y Otros","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2","Motocicleta(s)","Mamifero(s), Ave(s), y Otro(s)","Arma(s) de fuego","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2",NA,NA,"Arma(s) de fuego y Otros","Masculino","<= 20 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"3",NA,"Mamifero(s)","Arma(s) de fuego","Masculino","<= 20 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2",NA,NA,"Equip.de pesca","Masculino","<= 20 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1",NA,NA,"Arma(s) de fuego","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1",NA,NA,"Equip.de pesca y Otros","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2",NA,"Ornamentales(s) y Otro(s)",NA,"Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"3",NA,NA,"Arma(s) de fuego y Otros","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2",NA,NA,"Arma(s) de fuego y Otros","Masculino","21 - 34 años",NA,NA,"Si","Relacion de Dependencia",NA,NA,NA,NA,"<=$23.152"
+"2","Motocicleta(s)","Mamifero(s)","Arma(s) de fuego y Otros","Masculino","<= 20 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"3",NA,NA,"Equip.de pesca y Otros","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2","Canoa(s)","Mamifero(s), Ave(s), y Otro(s)","Equip.de pesca y Otros","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"3",NA,NA,"Arma(s) de fuego y Otros","Masculino","35 - 48 años",NA,NA,"Si","Relacion de Dependencia",NA,NA,NA,NA,"<=$23.152"
+"1","Canoa(s)",NA,"Arma(s) blancas y Otros","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1",NA,"Peces","Equip.de pesca","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1","Caballo(s)/Bicicleta(s)","Mamifero(s)","Arma(s) de fuego y Otros","Masculino","49 - 62 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1",NA,"Peces","Equip.de pesca","Masculino","<= 20 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1",NA,"Madera(s)",NA,"Masculino","<= 20 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2","Motocicleta(s)",NA,"Arma(s) de fuego","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1",NA,NA,"Arma(s) de fuego","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1",NA,"Peces","Equip.de pesca","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2","Canoa(s)",NA,"Equip.de pesca y Otros","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2","Motocicleta(s)",NA,"Arma(s) de fuego y Otros","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2",NA,"Peces","Equip.de pesca","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2","Motocicleta(s)",NA,NA,"Masculino","21 - 34 años",NA,"Construcción","No",NA,NA,NA,NA,NA,"<=$23.152"
+"3",NA,NA,"Equip.de pesca","Masculino","35 - 48 años",NA,NA,"No",NA,"4",100,"5",154,"$51.235/$73.333"
+"1",NA,NA,"Equip.de pesca","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"$51.235/$73.333"
+"2","Lancha(s)","Peces",NA,"Masculino","<= 20 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"5",NA,"Peces","Equip.de pesca y Otros","Masculino","35 - 48 años",NA,NA,"Si","Relacion de Dependencia","1",4,"1",19,"$36.167/$51.234"
+"1","Motocicleta(s)",NA,"Arma(s) de fuego","Masculino","35 - 48 años",NA,NA,"Si","Monotributistas Efectores Sociales",NA,NA,NA,NA,"<=$23.152"
+"2","Motocicleta(s)","Peces","Arma(s) de fuego y Otros","Masculino","<= 20 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2",NA,"Peces","Equip.de pesca","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2",NA,NA,"Arma(s) de fuego y Otros","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"3","Canoa(s)",NA,"Equip.de pesca","Masculino","21 - 34 años",NA,NA,"Si","Relacion de Dependencia",NA,NA,NA,NA,"<=$23.152"
+"2","Motocicleta(s)",NA,"Arma(s) de fuego y Otros","Masculino","21 - 34 años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"<=$23.152"
+"1",NA,NA,"Arma(s) de fuego","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2",NA,"Peces","Equip.de pesca","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"3",NA,NA,"Equip.de pesca y Otros","Masculino","<= 20 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2","Motocicleta(s)",NA,"Arma(s) de fuego","Masculino","<= 20 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"3",NA,"Peces","Equip.de pesca","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2",NA,NA,"Equip.de pesca","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2",NA,"Peces","Equip.de pesca y Otros","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2","Motocicleta(s)",NA,"Arma(s) de fuego y Otros","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1","Motocicleta(s)",NA,"Arma(s) de fuego y Otros","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2",NA,NA,"Arma(s) de fuego","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"$36.167/$51.234"
+"1","Motocicleta(s)",NA,"Arma(s) de fuego","Masculino","21 - 34 años",NA,NA,"Si","Relacion de Dependencia",NA,NA,NA,NA,"<=$23.152"
+"2","Camioneta(s)","Madera(s)",NA,"Masculino","21 - 34 años",NA,"Transporte","No",NA,NA,NA,NA,NA,"$36.167/$51.234"
+"2",NA,NA,"Arma(s) de fuego y Otros","Masculino","35 - 48 años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"$36.167/$51.234"
+"4",NA,NA,"Equip.de pesca","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2",NA,NA,"Arma(s) blancas y Otros","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"4",NA,"Peces","Equip.de pesca y Otros","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1",NA,"Mamifero(s)","Arma(s) de fuego","Masculino",NA,NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2",NA,"Mamifero(s)","Equip.de pesca y Otros","Masculino","35 - 48 años",NA,NA,"Si","Relacion de Dependencia",NA,NA,NA,NA,"$36.167/$51.234"
+"4",NA,NA,"Equip.de pesca","Masculino","35 - 48 años",NA,"Servicios varios","Si","Relacion de Dependencia",NA,NA,NA,NA,"<=$23.152"
+"1",NA,NA,"Equip.de pesca","Masculino","21 - 34 años",NA,NA,"Si","Relacion de Dependencia",NA,NA,NA,NA,"<=$23.152"
+"2",NA,NA,"Equip.de pesca","Masculino","<= 20 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"4",NA,"Mamifero(s)","Equip.de pesca y Otros","Masculino","<= 20 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2",NA,"Peces","Equip.de pesca","Masculino","21 - 34 años",NA,NA,"Si","Relacion de Dependencia",NA,NA,NA,NA,"<=$23.152"
+"2",NA,NA,"Equip.de pesca y Otros","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1",NA,NA,"Arma(s) de fuego","Masculino","35 - 48 años",NA,"Construcción","Si","Relacion de Dependencia",NA,NA,NA,NA,"$51.235/$73.333"
+"2",NA,NA,"Equip.de pesca","Masculino","21 - 34 años",NA,"Comercio","Si","Relacion de Dependencia",NA,NA,NA,1,"$23.153/$36.166"
+"2",NA,NA,"Arma(s) de fuego","Masculino","21 - 34 años",NA,"Construcción","Si","Relacion de Dependencia",NA,NA,NA,NA,"$36.167/$51.234"
+"2",NA,NA,"Arma(s) de fuego y Otros","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2","Motocicleta(s)",NA,"Arma(s) de fuego y Otros","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"4",NA,NA,"Arma(s) blancas y Otros","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2",NA,NA,"Equip.de pesca","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1","Camioneta(s)","Madera(s)","Arma(s) blancas y Otros","Masculino","35 - 48 años",NA,"Servicios varios","No",NA,"1",13,"1",13,"$36.167/$51.234"
+"2","Camioneta(s)","Madera(s)",NA,"Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1","Camion(es)/Maquin(as)","Madera(s)",NA,"Masculino","49 - 62 años",NA,"Agropecuario","No",NA,"2",30,"5",55,"<=$23.152"
+"2",NA,NA,"Arma(s) blancas y Otros","Masculino","21 - 34 años",NA,NA,"Si","Relacion de Dependencia",NA,NA,NA,NA,"$23.153/$36.166"
+"3",NA,NA,"Arma(s) de fuego y Otros","Masculino","35 - 48 años",NA,NA,"No",NA,"1",17,"2",17,"<=$23.152"
+"1","Motocicleta(s)",NA,"Arma(s) de fuego y Otros","Masculino","35 - 48 años",NA,"Agropecuario","Si","Relacion de Dependencia",NA,NA,NA,NA,"<=$23.152"
+"1",NA,"Ornamentales(s) y Otro(s)",NA,"Femenino","35 - 48 años",NA,NA,"Si","Relacion de Dependencia",NA,NA,NA,NA,"<=$23.152"
+"1",NA,"Ornamentales(s) y Otro(s)",NA,"Femenino","35 - 48 años",NA,NA,"Si","Relacion de Dependencia",NA,NA,NA,NA,"<=$23.152"
+"2",NA,NA,"Equip.de pesca","Masculino","35 - 48 años",NA,NA,"Si","Relacion de Dependencia","1",10,"5",11,"$36.167/$51.234"
+"1",NA,NA,"Equip.de pesca","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,9,"<=$23.152"
+"1","Motocicleta(s)",NA,"Arma(s) de fuego y Otros","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1",NA,"Mamifero(s), Ave(s), y Otro(s)",NA,"Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,6,"$36.167/$51.234"
+"1",NA,NA,"Arma(s) blancas y Otros","Masculino","21 - 34 años",NA,NA,"No",NA,"2",78,"5",95,"<=$23.152"
+"1","Motocicleta(s)","Peces",NA,"Masculino","35 - 48 años",NA,"Construcción","Si","Relacion de Dependencia","1",30,"5",28,"$73.334$143.107"
+"3","Camion(es)/Maquin(as)",NA,"Arma(s) blancas y Otros","Masculino","21 - 34 años",NA,NA,"Si","Relacion de Dependencia","2",13,"5",3,"<=$23.152"
+"2","Motocicleta(s)",NA,"Arma(s) de fuego","Masculino","21 - 34 años",NA,NA,"No",NA,"2",27,"2",68,"$23.153/$36.166"
+"2",NA,NA,"Arma(s) de fuego","Masculino","21 - 34 años",NA,"Reparación/Mant.","No",NA,"1",57,"5",60,"<=$23.152"
+"3",NA,NA,"Arma(s) de fuego y Otros","Masculino","21 - 34 años",NA,"Agropecuario","Si","Relacion de Dependencia","1",25,"5",24,"$23.153/$36.166"
+"2","Automoviles",NA,"Arma(s) de fuego y Otros","Masculino","21 - 34 años",NA,"Servicios varios","No",NA,"2",30,"5",26,"<=$23.152"
+"1",NA,"Madera(s)",NA,"Masculino","49 - 62 años",NA,NA,"Si","Relacion de Dependencia","3",109,"5",161,"$73.334$143.107"
+"1",NA,NA,"Equip.de pesca","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2","Motocicleta(s)","Mamifero(s)","Arma(s) de fuego","Masculino","35 - 48 años",NA,NA,"No",NA,"3",34,"5",31,"$23.153/$36.166"
+"1",NA,NA,"Arma(s) de fuego y Otros","Masculino","49 - 62 años",NA,NA,"Si","Relacion de Dependencia",NA,NA,NA,NA,"<=$23.152"
+"1",NA,NA,"Equip.de pesca","Masculino","35 - 48 años",NA,NA,"No",NA,"1",11,"5",12,"<=$23.152"
+"5",NA,NA,"Equip.de pesca y Otros","Masculino","35 - 48 años",NA,NA,"Si","Relacion de Dependencia",NA,NA,NA,NA,"$51.235/$73.333"
+"5",NA,NA,"Equip.de pesca y Otros","Masculino","21 - 34 años",NA,NA,"Si","Relacion de Dependencia",NA,NA,NA,NA,"$51.235/$73.333"
+"3","Lancha(s)",NA,"Equip.de pesca","Masculino","21 - 34 años",NA,NA,"Si","Relacion de Dependencia",NA,NA,NA,NA,"$23.153/$36.166"
+"1",NA,NA,"Arma(s) de fuego","Masculino","35 - 48 años",NA,NA,"No",NA,"3",88,"5",132,"<=$23.152"
+"2",NA,NA,"Arma(s) de fuego","Masculino","21 - 34 años",NA,NA,"No",NA,"1",4,"5",5,"<=$23.152"
+"1",NA,NA,"Equip.de pesca","Masculino","21 - 34 años",NA,NA,"Si","Relacion de Dependencia","1",14,"5",15,"<=$23.152"
+"3","Canoa(s)",NA,"Equip.de pesca y Otros","Masculino","21 - 34 años",NA,NA,"No",NA,"1",4,"5",7,"$23.153/$36.166"
+"3","Canoa(s)",NA,"Equip.de pesca y Otros","Masculino","21 - 34 años",NA,NA,"Si","Relacion de Dependencia","1",25,"5",24,"$23.153/$36.166"
+"3","Canoa(s)",NA,"Equip.de pesca y Otros","Masculino","21 - 34 años",NA,NA,"No",NA,"1",60,"5",62,"<=$23.152"
+"1","Canoa(s)","Peces","Equip.de pesca","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1",NA,NA,"Arma(s) de fuego","Masculino","35 - 48 años",NA,"Agropecuario","No",NA,"1",16,"5",16,"$23.153/$36.166"
+"1",NA,"Mamifero(s), Ave(s), y Otro(s)",NA,"Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,6,"$36.167/$51.234"
+"2","Canoa(s)",NA,"Equip.de pesca y Otros","Masculino","35 - 48 años",NA,NA,"No",NA,"1",22,"4",22,"<=$23.152"
+"1",NA,NA,"Equip.de pesca y Otros","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"4",NA,"Peces","Equip.de pesca y Otros","Masculino","21 - 34 años",NA,NA,"No",NA,"1",56,"4",NA,"$23.153/$36.166"
+"2","Canoa(s)",NA,"Equip.de pesca y Otros","Masculino","21 - 34 años",NA,NA,"No",NA,"2",48,"5",52,"$51.235/$73.333"
+"2",NA,"Peces","Equip.de pesca y Otros","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"1","Canoa(s)",NA,"Equip.de pesca","Masculino","21 - 34 años",NA,NA,"Si","Relacion de Dependencia","1",14,"5",15,"<=$23.152"
+"5",NA,"Peces","Equip.de pesca y Otros","Masculino","21 - 34 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2","Canoa(s)",NA,"Equip.de pesca","Masculino","35 - 48 años",NA,NA,"No",NA,"2",37,"5",75,"<=$23.152"
+"4",NA,"Mamifero(s), Ave(s), y Otro(s)","Equip.de pesca","Masculino","63 + años",NA,NA,"Si","Relacion de Dependencia","1",3,"5",6,"$23.153/$36.166"
+"1","Motocicleta(s)",NA,"Arma(s) de fuego y Otros","Masculino","35 - 48 años",NA,NA,"No",NA,NA,NA,NA,NA,"<=$23.152"
+"2",NA,NA,"Arma(s) de fuego","Masculino","49 - 62 años",NA,NA,"No",NA,"1",3,"5",6,"<=$23.152"
+"1","Motocicleta(s)",NA,"Arma(s) de fuego y Otros","Masculino","21 - 34 años",NA,NA,"No",NA,"1",10,"5",11,"<=$23.152"
+"4",NA,NA,"Equip.de pesca","Masculino","21 - 34 años",NA,NA,"No",NA,"1",4,"5",NA,"<=$23.152"
+"4",NA,NA,"Equip.de pesca","Masculino","49 - 62 años",NA,"Agropecuario","No",NA,NA,NA,NA,NA,"<=$23.152"
+"4",NA,NA,"Equip.de pesca","Masculino","49 - 62 años",NA,"Servicios varios","No",NA,"1",8,"5",9,"<=$23.152"
+"2","Canoa(s)","Peces","Equip.de pesca","Masculino","35 - 48 años",NA,NA,"Si","Relacion de Dependencia","3",36,"5",32,"<=$23.152"
+"4",NA,"Mamifero(s)","Arma(s) blancas y Otros","Masculino","<= 20 años",NA,NA,"No",NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Arma(s) de fuego","Masculino","35 - 48 años","Si","Forestal","No",NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Arma(s) de fuego y Otros","Masculino","49 - 62 años","Si",NA,"No",NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Arma(s) de fuego","Masculino","49 - 62 años","Si",NA,"No",NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Arma(s) de fuego y Otros","Masculino","49 - 62 años","Si","Servicios varios","No",NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Equip.de pesca","Masculino","63 + años","Si",NA,"No",NA,NA,NA,NA,NA,NA
+"1","Canoa(s)",NA,"Equip.de pesca","Masculino","49 - 62 años","Si","Agropecuario","No",NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Arma(s) blancas y Otros","Masculino","<= 20 años",NA,NA,"No",NA,NA,NA,NA,NA,NA
+"2",NA,"Mamifero(s)","Arma(s) de fuego y Otros","Masculino",NA,"Si","Construcción","No",NA,NA,NA,NA,NA,NA
+"1",NA,NA,NA,"Masculino","63 + años","Si",NA,"No",NA,NA,NA,NA,NA,NA
+"2",NA,NA,"Arma(s) de fuego","Masculino","49 - 62 años","Si","Servicios varios","No",NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Arma(s) de fuego y Otros","Masculino","49 - 62 años","Si",NA,"No",NA,NA,NA,NA,NA,NA
+"1","Automoviles","Mamifero(s)",NA,"Masculino","<= 20 años",NA,NA,"No",NA,NA,NA,NA,NA,NA
+"3",NA,NA,"Arma(s) de fuego y Otros","Masculino","21 - 34 años","Si","Agropecuario","No",NA,NA,NA,NA,NA,NA
+"3",NA,NA,"Arma(s) de fuego y Otros","Masculino","<= 20 años",NA,NA,"No",NA,NA,NA,NA,NA,NA
+"2","Motocicleta(s)","Mamifero(s)","Arma(s) de fuego","Masculino",NA,"Si",NA,"No",NA,NA,NA,NA,NA,NA
+"1",NA,"Madera(s)",NA,"Masculino",NA,NA,NA,"No",NA,NA,NA,NA,NA,NA
+"3","Motocicleta(s)",NA,"Arma(s) de fuego y Otros","Masculino","<= 20 años",NA,NA,"No",NA,NA,NA,NA,NA,NA
+"2","Lancha(s)","Peces",NA,"Masculino","63 + años","Si",NA,"No",NA,NA,NA,NA,NA,NA
+"2","Automoviles","Mamifero(s)","Arma(s) de fuego","Masculino","21 - 34 años","Si",NA,"No",NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Arma(s) de fuego","Masculino","<= 20 años",NA,NA,"No",NA,NA,NA,NA,NA,NA
+"2",NA,NA,"Arma(s) de fuego","Masculino",NA,NA,NA,"No",NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Equip.de pesca","Masculino","<= 20 años",NA,NA,"No",NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Arma(s) de fuego","Masculino","<= 20 años",NA,NA,"No",NA,NA,NA,NA,NA,NA
+"1","Lancha(s)","Mamifero(s)","Equip.de pesca y Otros","Masculino","<= 20 años",NA,NA,"No",NA,NA,NA,NA,NA,NA
+"2","Canoa(s)",NA,"Equip.de pesca","Masculino","<= 20 años",NA,NA,"No",NA,NA,NA,NA,NA,NA
+"1",NA,"Mamifero(s)","Arma(s) de fuego","Masculino","<= 20 años",NA,NA,"No",NA,NA,NA,NA,NA,NA
+"2",NA,"Peces",NA,"Masculino","63 + años","Si",NA,"No",NA,NA,NA,NA,NA,NA
+"3",NA,NA,"Equip.de pesca y Otros","Masculino","35 - 48 años","Si",NA,"No",NA,NA,NA,NA,NA,NA
+"3",NA,NA,"Equip.de pesca y Otros","Masculino","<= 20 años",NA,NA,"No",NA,NA,NA,NA,NA,NA
+"1","Motocicleta(s)",NA,"Arma(s) de fuego y Otros","Masculino","<= 20 años",NA,NA,"No",NA,NA,NA,NA,NA,NA
+"1",NA,"Mamifero(s), Ave(s), y Otro(s)","Equip.de pesca","Masculino",NA,NA,NA,"No",NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Arma(s) de fuego y Otros","Masculino","<= 20 años",NA,NA,"No",NA,NA,NA,NA,NA,NA
+"2",NA,NA,NA,"Masculino","<= 20 años",NA,NA,"No",NA,NA,NA,NA,NA,NA
+"2","Lancha(s)",NA,"Arma(s) de fuego y Otros","Masculino","<= 20 años",NA,NA,"No",NA,NA,NA,NA,NA,NA
+"3",NA,NA,"Arma(s) de fuego y Otros","Masculino","<= 20 años",NA,NA,"No",NA,NA,NA,NA,NA,NA
+"3",NA,"Peces","Equip.de pesca","Masculino","63 + años","Si","Agropecuario","No",NA,NA,NA,NA,NA,NA
+"1","Motocicleta(s)",NA,"Arma(s) de fuego y Otros","Masculino","<= 20 años","Si",NA,"No",NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,"Mamifero(s), Ave(s), y Otro(s)",NA,"Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Arma(s) de fuego","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Arma(s) de fuego","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Arma(s) de fuego","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Arma(s) de fuego y Otros","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Arma(s) de fuego","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Arma(s) de fuego","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Arma(s) de fuego","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,"Mamifero(s)",NA,"Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Arma(s) de fuego","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,"Madera(s)",NA,"Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Arma(s) de fuego","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Arma(s) de fuego y Otros","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,NA,"Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Arma(s) de fuego y Otros","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1","Canoa(s)",NA,NA,"Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1","Canoa(s)",NA,"Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,"Ornamentales(s) y Otro(s)","Arma(s) blancas y Otros","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,"Mamifero(s)",NA,"Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,"Ornamentales(s) y Otro(s)",NA,"Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Equip.de pesca y Otros","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1","Motocicleta(s)",NA,"Equip.de pesca y Otros","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,"Peces","Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,"Peces","Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,"Ornamentales(s) y Otro(s)",NA,"Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1","Canoa(s)",NA,"Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Arma(s) de fuego y Otros","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1","Motocicleta(s)",NA,NA,"Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,"Madera(s)",NA,"Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,"Ornamentales(s) y Otro(s)",NA,"Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1","Motocicleta(s)",NA,NA,"Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Arma(s) de fuego","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Arma(s) de fuego y Otros","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,NA,"Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Arma(s) de fuego","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,"Ornamentales(s) y Otro(s)",NA,"Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,"Ornamentales(s) y Otro(s)",NA,"Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,"Madera(s)",NA,"Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1","Canoa(s)",NA,"Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1","Motocicleta(s)",NA,"Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1","Canoa(s)","Mamifero(s)",NA,"Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1","Canoa(s)",NA,"Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1","Camion(es)/Maquin(as)","Madera(s)",NA,"Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,"Madera(s)",NA,"Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1","Canoa(s)","Peces","Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,"Madera(s)",NA,"Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,"Mamifero(s)",NA,"Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1","Motocicleta(s)",NA,NA,"Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1","Caballo(s)/Bicicleta(s)",NA,"Arma(s) blancas y Otros","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1","Canoa(s)",NA,"Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Arma(s) de fuego","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"2",NA,"Mamifero(s)","Arma(s) de fuego y Otros","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,"Mamifero(s)",NA,"Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Arma(s) de fuego","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1","Motocicleta(s)",NA,"Arma(s) de fuego y Otros","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Equip.de pesca y Otros","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1","Canoa(s)",NA,"Equip.de pesca y Otros","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,"Madera(s)","Arma(s) blancas y Otros","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,"Mamifero(s)","Arma(s) de fuego","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1","Canoa(s)","Peces","Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1","Canoa(s)",NA,"Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Arma(s) de fuego","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1","Motocicleta(s)","Peces","Arma(s) de fuego y Otros","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1","Motocicleta(s)",NA,"Arma(s) de fuego","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1","Motocicleta(s)",NA,"Arma(s) de fuego","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1","Caballo(s)/Bicicleta(s)","Mamifero(s), Ave(s), y Otro(s)","Arma(s) de fuego y Otros","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Arma(s) de fuego","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1","Automoviles",NA,"Arma(s) de fuego y Otros","Sin datos",NA,NA,NA,"No",NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Arma(s) de fuego y Otros","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1","Camion(es)/Maquin(as)","Madera(s)",NA,"Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1","Camion(es)/Maquin(as)","Ornamentales(s) y Otro(s)",NA,"Sin datos",NA,NA,NA,"No",NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Arma(s) blancas y Otros","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1","Canoa(s)","Peces","Equip.de pesca y Otros","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Arma(s) de fuego","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Arma(s) de fuego y Otros","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Arma(s) de fuego y Otros","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Arma(s) de fuego y Otros","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,"Ornamentales(s) y Otro(s)",NA,"Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,NA,"Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,"Mamifero(s)",NA,"Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,"Mamifero(s)","Arma(s) blancas y Otros","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1","Canoa(s)",NA,"Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1","Motocicleta(s)",NA,"Arma(s) de fuego","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,"Madera(s)",NA,"Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,"Madera(s)",NA,"Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Arma(s) de fuego","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,"Madera(s)","Arma(s) blancas y Otros","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1","Canoa(s)","Mamifero(s), Ave(s), y Otro(s)","Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,"Madera(s)",NA,"Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Arma(s) de fuego","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1","Motocicleta(s)",NA,NA,"Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1","Motocicleta(s)",NA,"Arma(s) de fuego y Otros","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1","Motocicleta(s)","Mamifero(s)","Arma(s) blancas y Otros","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Arma(s) de fuego","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1","Camioneta(s)","Mamifero(s)","Arma(s) de fuego y Otros","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Arma(s) de fuego","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1","Lancha(s)","Peces","Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Arma(s) de fuego","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1","Motocicleta(s)",NA,"Arma(s) de fuego","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1","Automoviles","Mamifero(s), Ave(s), y Otro(s)","Arma(s) blancas y Otros","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1","Lancha(s)",NA,"Equip.de pesca y Otros","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1","Lancha(s)","Peces","Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1","Motocicleta(s)",NA,NA,"Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1","Camion(es)/Maquin(as)","Madera(s)",NA,"Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Arma(s) de fuego y Otros","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,"Mamifero(s)",NA,"Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1","Canoa(s)",NA,"Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,"Mamifero(s)",NA,"Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,"Mamifero(s)",NA,"Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1","Canoa(s)",NA,"Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1","Lancha(s)","Peces",NA,"Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1","Lancha(s)",NA,"Equip.de pesca y Otros","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1","Lancha(s)",NA,"Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,"Peces","Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1","Canoa(s)","Peces","Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1","Canoa(s)",NA,"Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,"Mamifero(s)","Equip.de pesca y Otros","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1","Camioneta(s)","Mamifero(s), Ave(s), y Otro(s)","Arma(s) blancas y Otros","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,"Peces","Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,"Peces","Equip.de pesca y Otros","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"3",NA,NA,"Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"3",NA,NA,"Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,"Madera(s)",NA,"Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,"Peces","Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,"Peces","Equip.de pesca y Otros","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,"Peces","Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1","Motocicleta(s)",NA,NA,"Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1","Canoa(s)",NA,"Equip.de pesca y Otros","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Arma(s) de fuego y Otros","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1","Caballo(s)/Bicicleta(s)",NA,"Arma(s) de fuego y Otros","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Arma(s) de fuego","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,NA,"Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,"Mamifero(s)","Arma(s) de fuego","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Arma(s) de fuego","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Arma(s) de fuego","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1","Canoa(s)",NA,"Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Arma(s) de fuego","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1","Canoa(s)",NA,"Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,"Mamifero(s)","Arma(s) blancas y Otros","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1","Lancha(s)","Peces","Equip.de pesca y Otros","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Arma(s) de fuego","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Arma(s) de fuego","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Arma(s) de fuego","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Arma(s) de fuego","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1","Motocicleta(s)",NA,"Arma(s) de fuego","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1","Caballo(s)/Bicicleta(s)",NA,"Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Equip.de pesca","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"2",NA,NA,NA,"Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,NA,"Arma(s) de fuego","Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1","Canoa(s)",NA,NA,"Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1",NA,"Mamifero(s)",NA,"Sin datos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
