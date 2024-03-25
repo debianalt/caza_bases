@@ -1,0 +1,14 @@
+cff-version: 1.1.0
+message: "If you use this source code, please cite it as below."
+authors:
+- family-names: "Gomez"
+  given-names: "Raimundo Elias"
+  orcid: "https://orcid.org/0000-0002-4468-9618"
+- family-names: "Miño"
+  given-names: "Maria Gabriela"
+  orcid: "https://orcid.org/0000-0002-5057-5158"
+title: "Workflow: Multiple Correspondence Analysis and Hierarchical Ascendant Classification Analysis. Bases para una Aproximación Sociológica a la Caza Ilegal en la Provincia de Misiones (Argentina)"
+version: v1.0.0
+doi: https://doi.org/10.5281/zenodo.10867780
+date-released: 2023-03-23
+url: "https://github.com/debianalt/caza_bases"
