@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análisis de Caza Ilegal - Estudio de Patrones y Perfiles</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Análisis de Caza Ilegal</h1>
+            <p class="subtitle">Estudio de Patrones, Perfiles y Estrategias de Caza No Autorizada</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Sección de Introducción -->
+        <section class="info-section">
+            <h2>Introducción al Estudio</h2>
+            <div class="info-card">
+                <p>
+                    Este estudio analiza los patrones de caza ilegal mediante técnicas de análisis multivariado,
+                    identificando perfiles de infractores y estrategias de caza. Los datos incluyen información
+                    sobre decomisos, secuestros, características socioeconómicas y demográficas de los infractores.
+                </p>
+                <p>
+                    A través del Análisis de Correspondencias Múltiples (MCA) y técnicas de clustering jerárquico,
+                    se identificaron patrones diferenciados de caza ilegal que permiten comprender mejor este
+                    fenómeno complejo y sus implicaciones para la conservación del patrimonio natural.
+                </p>
+                <h3>Referencias</h3>
+                <p style="text-align: left; font-size: 0.9rem; line-height: 1.6;">
+                    Miño Martos, María Gabriela, and Elías Gómez. 2024. "La Caza Ilegal En El Nordeste Argentino:
+                    Una Tipología de Prácticas y Sus Implicaciones Para La Conservación Del Patrimonio Natural."
+                    <em>Zenodo</em>. <a href="https://doi.org/10.5281/ZENODO.11502463" target="_blank" style="color: #3498db;">
+                    https://doi.org/10.5281/ZENODO.11502463</a>
+                </p>
+                <p style="text-align: left; font-size: 0.9rem; line-height: 1.6;">
+                    Gomez, Raimundo Elias, and Maria Gabriela Miño. 2023. "Bases Para Una Aproximación Sociológica
+                    a La Caza Ilegal En La Provincia de Misiones (Argentina)." <em>Historia Ambiental Latinoamericana
+                    y Caribeña (HALAC) Revista de La Solcha</em> 13 (3): 258–79.
+                    <a href="https://doi.org/10.32991/2237-2717.2023v13i3.p258-279" target="_blank" style="color: #3498db;">
+                    https://doi.org/10.32991/2237-2717.2023v13i3.p258-279</a>
+                </p>
+            </div>
+        </section>
+
+        <!-- Estadísticas Generales -->
+        <section class="info-section">
+            <h2>Estadísticas Generales</h2>
+            <div id="stats-container" class="stats-grid">
+                <!-- Se carga dinámicamente con JavaScript -->
+            </div>
+        </section>
+
+        <!-- Mapas Factoriales (MCA) -->
+        <section class="chart-section">
+            <h2>Análisis de Correspondencias Múltiples (MCA)</h2>
+            <div class="info-card">
+                <p>
+                    El Análisis de Correspondencias Múltiples (MCA) permite visualizar las relaciones entre
+                    múltiples variables categóricas. Se presentan tres visualizaciones complementarias que
+                    permiten entender la estructura multidimensional de la caza ilegal en Misiones.
+                </p>
+            </div>
+
+            <h3 style="color: #3498db; margin-top: 2rem; margin-bottom: 1rem;">Mapa de Individuos</h3>
+            <div class="info-card">
+                <p>
+                    Cada punto representa un caso de caza ilegal. La proximidad entre puntos indica
+                    similitud en las características de los casos. Los clusters se identifican por colores.
+                </p>
+            </div>
+            <div id="mca-individuos" class="plot-container"></div>
+
+            <h3 style="color: #3498db; margin-top: 2rem; margin-bottom: 1rem;">Mapa de Categorías</h3>
+            <div class="info-card">
+                <p>
+                    Muestra las categorías de las variables y cómo se asocian entre sí. Las variables
+                    cercanas tienden a presentarse juntas en los casos de caza ilegal. Permite identificar
+                    los tres tipos principales de caza: Estratégica, Táctica y Combinada.
+                </p>
+            </div>
+            <div id="mca-categorias" class="plot-container-large"></div>
+
+            <h3 style="color: #3498db; margin-top: 2rem; margin-bottom: 1rem;">Mapa 3D de Individuos</h3>
+            <div class="info-card">
+                <p>
+                    Visualización tridimensional que captura mayor variabilidad de los datos. El dendrograma
+                    muestra la estructura jerárquica de los clusters identificados.
+                </p>
+            </div>
+            <div id="mca-3d" class="plot-container-large"></div>
+
+            <div id="loading-mca" class="loading-spinner"></div>
+        </section>
+
+        <!-- Distribución por Tipos de Caza -->
+        <section class="info-section">
+            <h2>Tipología de Caza Ilegal</h2>
+            <div class="info-card">
+                <p>
+                    El análisis identificó <strong>cinco clusters</strong> que se agrupan en <strong>tres tipos
+                    principales de caza ilegal</strong> en Misiones. Esta tipología refleja la multidimensionalidad
+                    de la caza furtiva considerando variables económicas, organizativas, de movilidad y de recursos.
+                </p>
+            </div>
+
+            <h3 style="color: #3498db; margin: 2rem 0 1rem 0;">I. Caza Táctica (35% del total)</h3>
+            <div class="info-card" style="border-left: 5px solid #3498db;">
+                <p><strong>Clusters asociados: Cluster 1</strong></p>
+                <p>
+                    La caza como táctica es afín a excursiones de un solo infractor o grupos de no más de dos personas,
+                    generalmente jóvenes de zonas rurales, sin obra social ni condición ocupacional registrada, y con
+                    bajos ingresos económicos. Los equipamientos utilizados incluyen principalmente combinaciones de
+                    armas de fuego y armas blancas, junto a otros elementos relacionados (linternas, bolsas, etc.).
+                </p>
+                <p>
+                    <strong>Movilidad:</strong> Motocicletas, caballos, bicicletas, y en menor medida automóviles,
+                    camiones y maquinarías.<br>
+                    <strong>Perfil:</strong> Jóvenes (≤20 años y 21-34 años), NSE más bajo (≤$23.152), sin obra social.<br>
+                    <strong>Objetivo:</strong> Mamíferos, maderas, con armas de fuego básicas.
+                </p>
+            </div>
+
+            <h3 style="color: #2ecc71; margin: 2rem 0 1rem 0;">II. Caza Estratégica (20% del total)</h3>
+            <div class="info-card" style="border-left: 5px solid #2ecc71;">
+                <p><strong>Clusters asociados: Cluster 2 (Tipo I) y Cluster 3 (Tipo II)</strong></p>
+                <p>
+                    La caza estratégica reúne dos fracciones diferenciables:
+                </p>
+                <p>
+                    <strong>Tipo I (Cluster 2):</strong> Predominan infractores individuales con ocupaciones no agropecuarias,
+                    concretamente ocupados en la rama de la foresto industria y la construcción. Son regulares la ausencia
+                    de datos sobre equipamientos secuestrados, y destaca el decomiso de mamíferos y aves, además de medios
+                    de movilidad como camionetas y lanchas.
+                </p>
+                <p>
+                    <strong>Tipo II (Cluster 3):</strong> Destacan infractores con ocupaciones en la rama agropecuaria,
+                    género masculino, con ingresos mensuales medios ($36-51 mil y $73-143 mil), con obra social,
+                    monotributistas y pequeños contribuyentes, con edades entre 35-48 años y 49-62 años, en excursiones
+                    de caza con 2 o 3 miembros.
+                </p>
+                <p>
+                    <strong>Características comunes:</strong> Mejor equipamiento (vehículos potentes, rifles modernos),
+                    mayor capacidad de planificación y recursos logísticos. Involucra personas con mayor nivel adquisitivo.
+                </p>
+            </div>
+
+            <h3 style="color: #e74c3c; margin: 2rem 0 1rem 0;">III. Caza Combinada (45% del total)</h3>
+            <div class="info-card" style="border-left: 5px solid #e74c3c;">
+                <p><strong>Clusters asociados: Cluster 4 (Tipo I) y Cluster 5 (Tipo II)</strong></p>
+                <p>
+                    La caza combinada implica usualmente una mixtura de infracciones ambientales. Mayormente implica
+                    pesca ilegal, aunque puede incluir captura de aves, extracción de flora nativa, y eventualmente
+                    captura de mamíferos. En general implica algún medio de movilidad por agua (balsa, canoa, lancha),
+                    grupos de alrededor de 4 o 5 infractores, con edades de más de 63 años (algunos ya fallecidos).
+                </p>
+                <p>
+                    <strong>Tipo I (Cluster 4):</strong> Ingresos menores ($23-36 mil), mayor peso de adultos mayores
+                    (63+ años), jubilados y pensionados, con tenencia de obra social, ocupados en relación de dependencia
+                    y en el comercio. Grupos de 5 miembros, con calificación BCRA 1, y 1-2 cuentas bancarias.
+                </p>
+                <p>
+                    <strong>Tipo II (Cluster 5):</strong> Mayor diversidad de equipamientos para pesca, ingresos más
+                    elevados ($51-73 mil), grupos de 4 miembros, sin obra social, servicios varios, uso intensivo de
+                    canoas y equipo de pesca. Es el cluster más numeroso (35.24%).
+                </p>
+                <p>
+                    <strong>Características comunes:</strong> Embarcaciones (canoas, lanchas), equipo de pesca especializado,
+                    orientación principal a pesca ilegal y fauna menor.
+                </p>
+            </div>
+
+            <h3 style="color: #3498db; margin: 2rem 0 1rem 0;">Estadísticas por Cluster</h3>
+            <div class="cluster-grid">
+                <div class="cluster-card cluster-1">
+                    <h3>Cluster 1 - Caza Táctica</h3>
+                    <div id="cluster-1-stats" class="cluster-stats"></div>
+                </div>
+                <div class="cluster-card cluster-2">
+                    <h3>Cluster 2 - Estratégica I</h3>
+                    <div id="cluster-2-stats" class="cluster-stats"></div>
+                </div>
+                <div class="cluster-card cluster-3">
+                    <h3>Cluster 3 - Estratégica II</h3>
+                    <div id="cluster-3-stats" class="cluster-stats"></div>
+                </div>
+                <div class="cluster-card cluster-4">
+                    <h3>Cluster 4 - Combinada I</h3>
+                    <div id="cluster-4-stats" class="cluster-stats"></div>
+                </div>
+                <div class="cluster-card cluster-5">
+                    <h3>Cluster 5 - Combinada II</h3>
+                    <div id="cluster-5-stats" class="cluster-stats"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Distribución de Decomisos -->
+        <section class="chart-section">
+            <h2>Distribución de Decomisos</h2>
+            <div class="info-card">
+                <h3>Tipos de Fauna y Flora Decomisados</h3>
+                <p>
+                    Análisis de los tipos de especies y materiales decomisados durante los operativos
+                    contra la caza ilegal. Se incluyen mamíferos, aves, peces, maderas y otras especies.
+                </p>
+            </div>
+            <div id="decomiso-plot" class="plot-container"></div>
+            <div id="loading-decomiso" class="loading-spinner"></div>
+        </section>
+
+        <!-- Tipos de Movilidad -->
+        <section class="chart-section">
+            <h2>Análisis de Movilidad</h2>
+            <div class="info-card">
+                <h3>Medios de Transporte Utilizados</h3>
+                <p>
+                    Los infractores utilizan diversos medios de transporte para realizar la caza ilegal,
+                    desde vehículos motorizados hasta embarcaciones y medios de transporte animal.
+                </p>
+            </div>
+            <div id="movilidad-plot" class="plot-container"></div>
+            <div id="loading-movilidad" class="loading-spinner"></div>
+        </section>
+
+        <!-- Secuestros -->
+        <section class="chart-section">
+            <h2>Armas y Equipos Secuestrados</h2>
+            <div class="info-card">
+                <h3>Elementos Decomisados en Operativos</h3>
+                <p>
+                    Durante los operativos se secuestran diversos tipos de armas y equipos utilizados
+                    para la caza ilegal, incluyendo armas de fuego, equipos de pesca y armas blancas.
+                </p>
+            </div>
+            <div id="secuestro-plot" class="plot-container"></div>
+            <div id="loading-secuestro" class="loading-spinner"></div>
+        </section>
+
+        <!-- Perfil Demográfico -->
+        <section class="chart-section">
+            <h2>Perfil Demográfico</h2>
+            <div class="info-card">
+                <h3>Características de los Infractores</h3>
+                <p>
+                    Análisis del perfil demográfico de los infractores, incluyendo distribución por
+                    género, rangos etarios y características socioeconómicas.
+                </p>
+            </div>
+            <div class="demographics-grid">
+                <div id="genero-plot" class="plot-container-small"></div>
+                <div id="edad-plot" class="plot-container-small"></div>
+            </div>
+            <div id="loading-demographics" class="loading-spinner"></div>
+        </section>
+
+        <!-- Perfil Socioeconómico -->
+        <section class="chart-section">
+            <h2>Perfil Socioeconómico</h2>
+            <div class="info-card">
+                <h3>Nivel Socioeconómico y Ocupación</h3>
+                <p>
+                    Análisis de las características socioeconómicas de los infractores, incluyendo
+                    ocupación, nivel socioeconómico y acceso a servicios financieros.
+                </p>
+            </div>
+            <div id="nse-plot" class="plot-container"></div>
+            <div id="loading-nse" class="loading-spinner"></div>
+        </section>
+
+        <!-- Número de Miembros -->
+        <section class="chart-section">
+            <h2>Composición de Grupos</h2>
+            <div class="info-card">
+                <h3>Número de Miembros en Operaciones de Caza</h3>
+                <p>
+                    Análisis de la cantidad de personas involucradas en cada operación de caza ilegal,
+                    lo que permite identificar si se trata de operaciones individuales o grupales.
+                </p>
+            </div>
+            <div id="miembros-plot" class="plot-container"></div>
+            <div id="loading-miembros" class="loading-spinner"></div>
+        </section>
+
+        <!-- Conclusiones -->
+        <section class="info-section">
+            <h2>Conclusiones</h2>
+            <div class="info-card">
+                <h3>Principales Hallazgos</h3>
+                <p>
+                    El análisis multivariado reveló la existencia de tres patrones diferenciados de caza ilegal:
+                </p>
+                <ul>
+                    <li><strong>Caza Estratégica:</strong> Caracterizada por el uso de vehículos pesados y orientada
+                    principalmente a la extracción de maderas y recursos de alto valor. Requiere mayor planificación
+                    y recursos logísticos.</li>
+                    <li><strong>Caza Táctica:</strong> Focalizada en la pesca ilegal y caza de fauna menor.
+                    Generalmente involucra grupos pequeños con equipo especializado para pesca.</li>
+                    <li><strong>Caza Combinada:</strong> Presenta características mixtas, con variedad en los
+                    tipos de decomisos y métodos utilizados.</li>
+                </ul>
+                <p>
+                    Estos patrones permiten diseñar estrategias de prevención y control más efectivas,
+                    adaptadas a cada tipo de infracción y perfil de infractor.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Análisis de Caza Ilegal - Estudio Multivariado de Patrones y Perfiles</p>
+            <p>Datos procesados mediante Análisis de Correspondencias Múltiples (MCA) y Clustering Jerárquico</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
