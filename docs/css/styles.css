@@ -1,0 +1,408 @@
+/* ============================================
+   RESET Y CONFIGURACIÓN BASE
+   ============================================ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2980b9;
+    --background-dark: #0a0e14;
+    --card-background: #151b23;
+    --text-light: #ecf0f1;
+    --border-color: #2a3442;
+    --accent-light: #D8D8D8;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background: #000000;
+    color: var(--text-light);
+    line-height: 1.6;
+}
+
+/* ============================================
+   HEADER
+   ============================================ */
+header {
+    background: linear-gradient(135deg, #000000 0%, #0a0e14 50%, #151b23 100%);
+    position: relative;
+    padding: 3rem 0;
+    text-align: center;
+    border-bottom: 2px solid var(--primary-color);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.8);
+}
+
+header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, rgba(0, 212, 255, 0.05) 0%, rgba(0, 168, 204, 0.05) 100%);
+    pointer-events: none;
+}
+
+header .container {
+    position: relative;
+    z-index: 1;
+}
+
+header h1 {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    margin-bottom: 0.5rem;
+}
+
+header .subtitle {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 300;
+    opacity: 0.95;
+}
+
+/* ============================================
+   CONTENEDORES Y LAYOUT
+   ============================================ */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+main {
+    padding: 2rem 0;
+}
+
+/* ============================================
+   SECCIONES Y TARJETAS
+   ============================================ */
+.chart-section,
+.info-section {
+    background: var(--card-background);
+    border-radius: 12px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.5);
+    border: 1px solid var(--border-color);
+    transition: box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.chart-section:hover,
+.info-section:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.7);
+    border-color: var(--primary-color);
+}
+
+section h2 {
+    color: var(--primary-color);
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 3px solid var(--secondary-color);
+    font-weight: 700;
+    position: relative;
+}
+
+section h2::after {
+    content: '';
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 80px;
+    height: 3px;
+    background: var(--primary-color);
+}
+
+.info-card {
+    background: linear-gradient(135deg, #0a0e14 0%, #151b23 50%, #1a2332 100%);
+    color: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    border: 1px solid var(--primary-color);
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+
+.info-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, rgba(0, 212, 255, 0.03) 0%, rgba(0, 168, 204, 0.03) 100%);
+    border-radius: 12px;
+    pointer-events: none;
+}
+
+.info-card > * {
+    position: relative;
+    z-index: 1;
+}
+
+.info-card h3 {
+    color: var(--accent-light);
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.info-card p {
+    text-align: justify;
+    margin-bottom: 1rem;
+    line-height: 1.8;
+}
+
+.info-card ul {
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+}
+
+.info-card li {
+    margin-bottom: 0.5rem;
+}
+
+/* ============================================
+   ESTADÍSTICAS
+   ============================================ */
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.stat-item {
+    background: rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.stat-item:hover {
+    transform: translateY(-3px);
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.stat-value {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.stat-label {
+    font-size: 0.9rem;
+    opacity: 0.95;
+    color: var(--text-light);
+}
+
+/* ============================================
+   TARJETAS DE CLUSTERS
+   ============================================ */
+.cluster-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.cluster-card {
+    background: var(--card-background);
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.5);
+    border: 1px solid var(--border-color);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cluster-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.7);
+}
+
+.cluster-card.cluster-1 {
+    border-left: 5px solid #3498db;
+}
+
+.cluster-card.cluster-2 {
+    border-left: 5px solid #2ecc71;
+}
+
+.cluster-card.cluster-3 {
+    border-left: 5px solid #e74c3c;
+}
+
+.cluster-card h3 {
+    color: var(--primary-color);
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.cluster-description {
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
+    opacity: 0.9;
+}
+
+.cluster-stats {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--border-color);
+}
+
+.cluster-stat {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.cluster-stat-label {
+    opacity: 0.85;
+}
+
+.cluster-stat-value {
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+/* ============================================
+   CONTENEDORES DE GRÁFICOS
+   ============================================ */
+.plot-container {
+    width: 100%;
+    height: 600px;
+    margin-top: 1.5rem;
+    background: var(--background-dark);
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+}
+
+.plot-container-small {
+    width: 100%;
+    height: 400px;
+    background: var(--background-dark);
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+}
+
+.demographics-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+/* ============================================
+   LOADING SPINNER
+   ============================================ */
+.loading-spinner {
+    display: none;
+    border: 3px solid rgba(52, 152, 219, 0.3);
+    border-top: 3px solid var(--primary-color);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+    margin: 2rem auto;
+}
+
+.loading-spinner.active {
+    display: block;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* ============================================
+   PERSONALIZACIÓN DE PLOTLY
+   ============================================ */
+.modebar {
+    background: rgba(21, 27, 35, 0.9) !important;
+    border-radius: 8px !important;
+    padding: 5px !important;
+}
+
+.modebar-btn {
+    color: #e0e0e0 !important;
+}
+
+.modebar-btn:hover {
+    background: var(--secondary-color) !important;
+    color: var(--accent-light) !important;
+}
+
+/* ============================================
+   FOOTER
+   ============================================ */
+footer {
+    background: linear-gradient(135deg, #000000 0%, #0a0e14 50%, #151b23 100%);
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+    margin-top: 3rem;
+    box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.8);
+    border-top: 2px solid var(--primary-color);
+}
+
+footer p {
+    opacity: 0.9;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    margin: 0.5rem 0;
+}
+
+/* ============================================
+   RESPONSIVE - MOBILE
+   ============================================ */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header .subtitle {
+        font-size: 1rem;
+    }
+
+    section h2 {
+        font-size: 1.5rem;
+    }
+
+    .chart-section,
+    .info-section {
+        padding: 1.5rem;
+    }
+
+    .plot-container {
+        height: 400px;
+    }
+
+    .plot-container-small {
+        height: 300px;
+    }
+
+    .cluster-grid,
+    .demographics-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .stats-grid {
+        grid-template-columns: 1fr;
+    }
+}
