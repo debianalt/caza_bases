@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análisis de Caza Ilegal - Estudio de Patrones y Perfiles</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Análisis de Caza Ilegal</h1>
+            <p class="subtitle">Estudio de Patrones, Perfiles y Estrategias de Caza No Autorizada</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Sección de Introducción -->
+        <section class="info-section">
+            <h2>Introducción al Estudio</h2>
+            <div class="info-card">
+                <p>
+                    Este estudio analiza los patrones de caza ilegal mediante técnicas de análisis multivariado,
+                    identificando perfiles de infractores y estrategias de caza. Los datos incluyen información
+                    sobre decomisos, secuestros, características socioeconómicas y demográficas de los infractores.
+                </p>
+                <p>
+                    A través del Análisis de Correspondencias Múltiples (MCA) y técnicas de clustering jerárquico,
+                    se identificaron tres patrones principales de caza ilegal: <strong>Caza Estratégica</strong>,
+                    <strong>Caza Táctica</strong> y <strong>Caza Combinada</strong>.
+                </p>
+            </div>
+        </section>
+
+        <!-- Estadísticas Generales -->
+        <section class="info-section">
+            <h2>Estadísticas Generales</h2>
+            <div id="stats-container" class="stats-grid">
+                <!-- Se carga dinámicamente con JavaScript -->
+            </div>
+        </section>
+
+        <!-- Mapa Factorial (MCA) -->
+        <section class="chart-section">
+            <h2>Mapa Factorial - Análisis de Correspondencias Múltiples</h2>
+            <div class="info-card">
+                <p>
+                    El Análisis de Correspondencias Múltiples (MCA) permite visualizar las relaciones entre
+                    múltiples variables categóricas en un espacio bidimensional. Cada punto representa un
+                    caso de caza ilegal, y su posición indica la similitud con otros casos en términos de
+                    las variables analizadas.
+                </p>
+            </div>
+            <div id="mca-plot" class="plot-container"></div>
+            <div id="loading-mca" class="loading-spinner"></div>
+        </section>
+
+        <!-- Distribución por Clusters -->
+        <section class="info-section">
+            <h2>Patrones de Caza Identificados</h2>
+            <div class="cluster-grid">
+                <div class="cluster-card cluster-1">
+                    <h3>Cluster 1</h3>
+                    <p class="cluster-description">
+                        Características principales del primer grupo de casos analizados.
+                        Se determina dinámicamente según los datos.
+                    </p>
+                    <div id="cluster-1-stats" class="cluster-stats"></div>
+                </div>
+                <div class="cluster-card cluster-2">
+                    <h3>Cluster 2</h3>
+                    <p class="cluster-description">
+                        Características principales del segundo grupo de casos analizados.
+                        Se determina dinámicamente según los datos.
+                    </p>
+                    <div id="cluster-2-stats" class="cluster-stats"></div>
+                </div>
+                <div class="cluster-card cluster-3">
+                    <h3>Cluster 3</h3>
+                    <p class="cluster-description">
+                        Características principales del tercer grupo de casos analizados.
+                        Se determina dinámicamente según los datos.
+                    </p>
+                    <div id="cluster-3-stats" class="cluster-stats"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Distribución de Decomisos -->
+        <section class="chart-section">
+            <h2>Distribución de Decomisos</h2>
+            <div class="info-card">
+                <h3>Tipos de Fauna y Flora Decomisados</h3>
+                <p>
+                    Análisis de los tipos de especies y materiales decomisados durante los operativos
+                    contra la caza ilegal. Se incluyen mamíferos, aves, peces, maderas y otras especies.
+                </p>
+            </div>
+            <div id="decomiso-plot" class="plot-container"></div>
+            <div id="loading-decomiso" class="loading-spinner"></div>
+        </section>
+
+        <!-- Tipos de Movilidad -->
+        <section class="chart-section">
+            <h2>Análisis de Movilidad</h2>
+            <div class="info-card">
+                <h3>Medios de Transporte Utilizados</h3>
+                <p>
+                    Los infractores utilizan diversos medios de transporte para realizar la caza ilegal,
+                    desde vehículos motorizados hasta embarcaciones y medios de transporte animal.
+                </p>
+            </div>
+            <div id="movilidad-plot" class="plot-container"></div>
+            <div id="loading-movilidad" class="loading-spinner"></div>
+        </section>
+
+        <!-- Secuestros -->
+        <section class="chart-section">
+            <h2>Armas y Equipos Secuestrados</h2>
+            <div class="info-card">
+                <h3>Elementos Decomisados en Operativos</h3>
+                <p>
+                    Durante los operativos se secuestran diversos tipos de armas y equipos utilizados
+                    para la caza ilegal, incluyendo armas de fuego, equipos de pesca y armas blancas.
+                </p>
+            </div>
+            <div id="secuestro-plot" class="plot-container"></div>
+            <div id="loading-secuestro" class="loading-spinner"></div>
+        </section>
+
+        <!-- Perfil Demográfico -->
+        <section class="chart-section">
+            <h2>Perfil Demográfico</h2>
+            <div class="info-card">
+                <h3>Características de los Infractores</h3>
+                <p>
+                    Análisis del perfil demográfico de los infractores, incluyendo distribución por
+                    género, rangos etarios y características socioeconómicas.
+                </p>
+            </div>
+            <div class="demographics-grid">
+                <div id="genero-plot" class="plot-container-small"></div>
+                <div id="edad-plot" class="plot-container-small"></div>
+            </div>
+            <div id="loading-demographics" class="loading-spinner"></div>
+        </section>
+
+        <!-- Perfil Socioeconómico -->
+        <section class="chart-section">
+            <h2>Perfil Socioeconómico</h2>
+            <div class="info-card">
+                <h3>Nivel Socioeconómico y Ocupación</h3>
+                <p>
+                    Análisis de las características socioeconómicas de los infractores, incluyendo
+                    ocupación, nivel socioeconómico y acceso a servicios financieros.
+                </p>
+            </div>
+            <div id="nse-plot" class="plot-container"></div>
+            <div id="loading-nse" class="loading-spinner"></div>
+        </section>
+
+        <!-- Número de Miembros -->
+        <section class="chart-section">
+            <h2>Composición de Grupos</h2>
+            <div class="info-card">
+                <h3>Número de Miembros en Operaciones de Caza</h3>
+                <p>
+                    Análisis de la cantidad de personas involucradas en cada operación de caza ilegal,
+                    lo que permite identificar si se trata de operaciones individuales o grupales.
+                </p>
+            </div>
+            <div id="miembros-plot" class="plot-container"></div>
+            <div id="loading-miembros" class="loading-spinner"></div>
+        </section>
+
+        <!-- Conclusiones -->
+        <section class="info-section">
+            <h2>Conclusiones</h2>
+            <div class="info-card">
+                <h3>Principales Hallazgos</h3>
+                <p>
+                    El análisis multivariado reveló la existencia de tres patrones diferenciados de caza ilegal:
+                </p>
+                <ul>
+                    <li><strong>Caza Estratégica:</strong> Caracterizada por el uso de vehículos pesados y orientada
+                    principalmente a la extracción de maderas y recursos de alto valor. Requiere mayor planificación
+                    y recursos logísticos.</li>
+                    <li><strong>Caza Táctica:</strong> Focalizada en la pesca ilegal y caza de fauna menor.
+                    Generalmente involucra grupos pequeños con equipo especializado para pesca.</li>
+                    <li><strong>Caza Combinada:</strong> Presenta características mixtas, con variedad en los
+                    tipos de decomisos y métodos utilizados.</li>
+                </ul>
+                <p>
+                    Estos patrones permiten diseñar estrategias de prevención y control más efectivas,
+                    adaptadas a cada tipo de infracción y perfil de infractor.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Análisis de Caza Ilegal - Estudio Multivariado de Patrones y Perfiles</p>
+            <p>Datos procesados mediante Análisis de Correspondencias Múltiples (MCA) y Clustering Jerárquico</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
