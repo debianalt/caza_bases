@@ -67,30 +67,85 @@
                 </p>
             </div>
 
-            <h3 style="color: #3498db; margin-top: 2rem; margin-bottom: 1rem;">Mapa de Individuos</h3>
+            <h3 style="color: #3498db; margin-top: 2rem; margin-bottom: 1rem;">Mapa Factorial de Individuos</h3>
             <div class="info-card">
                 <p>
-                    Cada punto representa un caso de caza ilegal. La proximidad entre puntos indica
-                    similitud en las características de los casos. Los clusters se identifican por colores.
+                    Visualización de las <strong>1034 actas/casos</strong> en el espacio factorial del MCA.
+                    Cada punto representa un caso individual de caza ilegal, posicionado según sus características.
+                    Los colores indican el tipo de caza: <span style="color: #3498db; font-weight: bold;">Táctica</span> (azul),
+                    <span style="color: #2ecc71; font-weight: bold;">Estratégica</span> (verde), y
+                    <span style="color: #e74c3c; font-weight: bold;">Combinada</span> (rojo).
+                    Pase el cursor sobre cada punto para ver los detalles del acta.
                 </p>
+                <div style="margin-top: 1rem;">
+                    <label style="color: #ecf0f1; margin-right: 1rem;">
+                        Eje X:
+                        <select id="individuos-axis-x" style="margin-left: 0.5rem; padding: 0.3rem; background: #0a0e14; color: #ecf0f1; border: 1px solid #3498db;">
+                            <option value="dim1" selected>Dimensión 1 (8.14%)</option>
+                            <option value="dim2">Dimensión 2 (4.70%)</option>
+                            <option value="dim3">Dimensión 3 (3.85%)</option>
+                            <option value="dim4">Dimensión 4 (2.65%)</option>
+                            <option value="dim5">Dimensión 5 (1.58%)</option>
+                        </select>
+                    </label>
+                    <label style="color: #ecf0f1;">
+                        Eje Y:
+                        <select id="individuos-axis-y" style="margin-left: 0.5rem; padding: 0.3rem; background: #0a0e14; color: #ecf0f1; border: 1px solid #3498db;">
+                            <option value="dim1">Dimensión 1 (8.14%)</option>
+                            <option value="dim2" selected>Dimensión 2 (4.70%)</option>
+                            <option value="dim3">Dimensión 3 (3.85%)</option>
+                            <option value="dim4">Dimensión 4 (2.65%)</option>
+                            <option value="dim5">Dimensión 5 (1.58%)</option>
+                        </select>
+                    </label>
+                </div>
             </div>
-            <div id="mca-individuos" class="plot-container"></div>
+            <div id="mca-individuos" class="plot-container-large"></div>
 
             <h3 style="color: #3498db; margin-top: 2rem; margin-bottom: 1rem;">Mapa de Categorías</h3>
             <div class="info-card">
                 <p>
                     Muestra las categorías de las variables y cómo se asocian entre sí. Las variables
-                    cercanas tienden a presentarse juntas en los casos de caza ilegal. Permite identificar
-                    los tres tipos principales de caza: Estratégica, Táctica y Combinada.
+                    cercanas tienden a presentarse juntas en los casos de caza ilegal. Incluye tanto
+                    <strong>Variables Activas</strong> (círculos) como <strong>Variables Suplementarias</strong>
+                    (diamantes) como nivel socioeconómico, tenencia de obra social y ocupación principal.
+                    Los colores representan: <span style="color: #3498db; font-weight: bold;">Caza Táctica</span>,
+                    <span style="color: #2ecc71; font-weight: bold;">Caza Estratégica</span>, y
+                    <span style="color: #e74c3c; font-weight: bold;">Caza Combinada</span>.
                 </p>
+                <div style="margin-top: 1rem;">
+                    <label style="color: #ecf0f1; margin-right: 1rem;">
+                        Eje X:
+                        <select id="categorias-axis-x" style="margin-left: 0.5rem; padding: 0.3rem; background: #0a0e14; color: #ecf0f1; border: 1px solid #3498db;">
+                            <option value="dim1" selected>Dimensión 1 (8.14%)</option>
+                            <option value="dim2">Dimensión 2 (4.70%)</option>
+                            <option value="dim3">Dimensión 3 (3.85%)</option>
+                            <option value="dim4">Dimensión 4 (2.65%)</option>
+                            <option value="dim5">Dimensión 5 (1.58%)</option>
+                        </select>
+                    </label>
+                    <label style="color: #ecf0f1;">
+                        Eje Y:
+                        <select id="categorias-axis-y" style="margin-left: 0.5rem; padding: 0.3rem; background: #0a0e14; color: #ecf0f1; border: 1px solid #3498db;">
+                            <option value="dim1">Dimensión 1 (8.14%)</option>
+                            <option value="dim2" selected>Dimensión 2 (4.70%)</option>
+                            <option value="dim3">Dimensión 3 (3.85%)</option>
+                            <option value="dim4">Dimensión 4 (2.65%)</option>
+                            <option value="dim5">Dimensión 5 (1.58%)</option>
+                        </select>
+                    </label>
+                </div>
             </div>
             <div id="mca-categorias" class="plot-container-large"></div>
 
             <h3 style="color: #3498db; margin-top: 2rem; margin-bottom: 1rem;">Mapa 3D de Individuos</h3>
             <div class="info-card">
                 <p>
-                    Visualización tridimensional que captura mayor variabilidad de los datos. El dendrograma
-                    muestra la estructura jerárquica de los clusters identificados.
+                    Visualización tridimensional que captura mayor variabilidad de los datos. Permite
+                    explorar la distribución de los casos en un espacio de tres dimensiones.
+                    Los colores representan los tipos de caza: <span style="color: #3498db; font-weight: bold;">Táctica</span>,
+                    <span style="color: #2ecc71; font-weight: bold;">Estratégica</span>, y
+                    <span style="color: #e74c3c; font-weight: bold;">Combinada</span>.
                 </p>
             </div>
             <div id="mca-3d" class="plot-container-large"></div>
@@ -175,29 +230,19 @@
                 </p>
             </div>
 
-            <h3 style="color: #3498db; margin: 2rem 0 1rem 0;">Estadísticas por Cluster</h3>
-            <div class="cluster-grid">
-                <div class="cluster-card cluster-1">
-                    <h3>Cluster 1 - Caza Táctica</h3>
-                    <div id="cluster-1-stats" class="cluster-stats"></div>
-                </div>
-                <div class="cluster-card cluster-2">
-                    <h3>Cluster 2 - Estratégica I</h3>
-                    <div id="cluster-2-stats" class="cluster-stats"></div>
-                </div>
-                <div class="cluster-card cluster-3">
-                    <h3>Cluster 3 - Estratégica II</h3>
-                    <div id="cluster-3-stats" class="cluster-stats"></div>
-                </div>
-                <div class="cluster-card cluster-4">
-                    <h3>Cluster 4 - Combinada I</h3>
-                    <div id="cluster-4-stats" class="cluster-stats"></div>
-                </div>
-                <div class="cluster-card cluster-5">
-                    <h3>Cluster 5 - Combinada II</h3>
-                    <div id="cluster-5-stats" class="cluster-stats"></div>
-                </div>
+            <h3 style="color: #3498db; margin: 2rem 0 1rem 0;">Distribución Geográfica en Misiones</h3>
+            <div class="info-card">
+                <p>
+                    Mapa de la provincia de Misiones mostrando la distribución espacial de los casos de caza ilegal
+                    según los tres tipos identificados: <span style="color: #3498db; font-weight: bold;">Caza Táctica</span>,
+                    <span style="color: #2ecc71; font-weight: bold;">Caza Estratégica</span>, y
+                    <span style="color: #e74c3c; font-weight: bold;">Caza Combinada</span>.
+                    La ubicación en el mapa señala el Departamento del domicilio declarado por los cazadores,
+                    y el tamaño de los puntos representa la cantidad de cazadores con domicilio registrado en ese Departamento.
+                </p>
             </div>
+            <div id="misiones-map" class="plot-container-large"></div>
+            <div id="loading-map" class="loading-spinner"></div>
         </section>
 
         <!-- Distribución de Decomisos -->

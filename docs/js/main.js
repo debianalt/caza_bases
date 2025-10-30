@@ -62,136 +62,375 @@ function getTopN(counts, n = 10) {
 // ANÁLISIS DE CORRESPONDENCIAS MÚLTIPLES (MCA)
 // ============================================
 
+// Coordenadas de categorías activas (basadas en MCA real)
+const categoryCoordinates = {
+    // MIEMBROS
+    'miembros_1': { dim1: -0.28, dim2: -0.38, dim3: -0.58, dim4: -0.30, dim5: -0.20 },
+    'miembros_2': { dim1: -0.23, dim2: 0.19, dim3: 0.50, dim4: -0.07, dim5: 0.15 },
+    'miembros_3': { dim1: 0.49, dim2: 0.26, dim3: 0.23, dim4: 0.00, dim5: 0.56 },
+    'miembros_4': { dim1: 0.80, dim2: -0.48, dim3: 0.08, dim4: 0.75, dim5: -0.03 },
+    'miembros_5+': { dim1: 1.38, dim2: 1.31, dim3: 0.93, dim4: 0.95, dim5: -2.70 },
+
+    // MOVILIDAD
+    'Automoviles': { dim1: -1.39, dim2: -0.32, dim3: -0.77, dim4: 2.04, dim5: -0.30 },
+    'Motocicleta(s)': { dim1: -0.92, dim2: 0.27, dim3: 0.45, dim4: -0.45, dim5: -0.02 },
+    'Caballo(s)/Bicicleta': { dim1: -1.34, dim2: -1.50, dim3: -1.16, dim4: -1.54, dim5: -1.02 },
+    'Lancha(s)': { dim1: 0.53, dim2: 0.51, dim3: -0.70, dim4: 0.67, dim5: 0.90 },
+    'Canoa(s)': { dim1: 1.10, dim2: -0.46, dim3: -0.19, dim4: -0.27, dim5: 0.19 },
+    'Camioneta(s)': { dim1: -0.95, dim2: 0.07, dim3: -1.19, dim4: 1.05, dim5: 0.28 },
+
+    // DECOMISO
+    'Mamifero(s)': { dim1: -1.17, dim2: -0.03, dim3: -0.33, dim4: 1.21, dim5: -0.20 },
+    'Peces': { dim1: 0.98, dim2: -0.15, dim3: 0.14, dim4: 0.29, dim5: -0.26 },
+    'Mamifero(s)_Ave(s)': { dim1: -0.39, dim2: -0.47, dim3: -1.13, dim4: -0.48, dim5: -0.11 },
+
+    // EQUIPAMIENTOS
+    'Arma(s)_de_fuego': { dim1: -0.88, dim2: 0.12, dim3: 0.12, dim4: -0.22, dim5: -0.54 },
+    'Equip.de_pesca': { dim1: 0.51, dim2: -0.55, dim3: -0.56, dim4: -0.71, dim5: 0.02 },
+    'Arma(s)_de_fuego_y_O': { dim1: -0.57, dim2: 0.32, dim3: 0.34, dim4: -0.23, dim5: 0.69 },
+    'Arma(s)_blancas_y_Ot': { dim1: -0.41, dim2: -1.05, dim3: -0.29, dim4: 0.12, dim5: -0.62 },
+    'Equip.de_pesca_y_Otr': { dim1: 1.09, dim2: 0.04, dim3: 0.41, dim4: 0.51, dim5: -0.27 },
+    'SECUESTRO_missing': { dim1: -0.79, dim2: 0.12, dim3: -1.61, dim4: 1.91, dim5: -0.12 },
+
+    // EDADES
+    '<=_20_años': { dim1: -0.70, dim2: -0.98, dim3: 0.66, dim4: 0.81, dim5: 1.06 },
+    '21-34_años': { dim1: -0.17, dim2: -0.24, dim3: 0.44, dim4: 0.01, dim5: -0.31 },
+    '35-48_años': { dim1: 0.17, dim2: 0.32, dim3: 0.15, dim4: 0.02, dim5: -0.10 },
+    '49-62_años': { dim1: 0.08, dim2: -0.01, dim3: -0.31, dim4: 0.10, dim5: 0.77 },
+    '63+_años': { dim1: 0.11, dim2: 0.08, dim3: -0.99, dim4: -1.06, dim5: -0.57 },
+
+    // PRINCIPAL ACTIVIDAD OCUPACIONAL (Suplementaria)
+    'Agropecuario': { dim1: -0.15, dim2: 0.83, dim3: 0.07, dim4: -0.39, dim5: 0.14 },
+    'Construcción': { dim1: 0.32, dim2: 0.28, dim3: -1.10, dim4: 1.00, dim5: 0.69 },
+    'Servicios_varios': { dim1: 0.17, dim2: -0.03, dim3: -0.90, dim4: 0.10, dim5: 0.92 },
+    'Comercio': { dim1: 1.20, dim2: 0.13, dim3: -1.02, dim4: 0.49, dim5: 0.72 },
+    'Forestal': { dim1: -0.11, dim2: -0.20, dim3: 0.57, dim4: 1.36, dim5: -1.78 },
+
+    // TENENCIA DE OBRA SOCIAL (Suplementaria)
+    'TIENE_OS_Si': { dim1: 0.23, dim2: 1.08, dim3: -0.33, dim4: -0.10, dim5: -0.43 },
+    'TIENE_OS_No': { dim1: -0.06, dim2: -0.29, dim3: 0.20, dim4: 0.01, dim5: 0.14 },
+
+    // NIVEL SOCIOECONÓMICO (Suplementaria)
+    'NSE_<=$23.152': { dim1: -0.05, dim2: -0.51, dim3: 0.41, dim4: 0.02, dim5: 0.02 },
+    'NSE_$23.153-$36.166': { dim1: 0.15, dim2: 0.46, dim3: -0.64, dim4: -0.45, dim5: -0.96 },
+    'NSE_$36.167-$51.234': { dim1: -0.27, dim2: 1.09, dim3: 0.22, dim4: -0.05, dim5: -0.04 },
+    'NSE_$51.235-$73.333': { dim1: 0.83, dim2: 0.33, dim3: -0.94, dim4: 0.15, dim5: 0.62 },
+    'NSE_$73.334-$143.107': { dim1: 0.21, dim2: 1.50, dim3: -0.59, dim4: 0.05, dim5: 0.68 }
+};
+
+// Función para clasificar tipo de caza basado en características del individuo
+function classifyCazaTipo(row) {
+    const miembros = parseInt(row.miembros) || 0;
+    const movilidad = row.MOVILIDAD || '';
+    const decomiso = row.DECOMISO || '';
+    const secuestro = row.SECUESTRO || '';
+
+    // Caza Estratégica: vehículos pesados, maderas, 2-3 miembros, ocupaciones específicas
+    if (movilidad.includes('Camion') || movilidad.includes('Maquin') ||
+        movilidad.includes('Camioneta') || decomiso.includes('Madera')) {
+        return 'Estratégica';
+    }
+
+    // Caza Combinada: pesca + embarcaciones, 4-5 miembros
+    if (miembros >= 4 || movilidad.includes('Canoa') || movilidad.includes('Lancha') ||
+        movilidad.includes('Balsa')) {
+        return 'Combinada';
+    }
+
+    // Caza Táctica: 1-2 miembros, peces, armas básicas, motocicletas
+    if (miembros <= 2 || decomiso.includes('Peces') ||
+        movilidad.includes('Motocicleta') || movilidad.includes('Caballo') ||
+        movilidad.includes('Bicicleta') || secuestro.includes('Arma(s) de fuego')) {
+        return 'Táctica';
+    }
+
+    // Por defecto, clasificar según número de miembros
+    if (miembros >= 4) return 'Combinada';
+    if (miembros === 3) return 'Estratégica';
+    return 'Táctica';
+}
+
+// Función para calcular coordenadas de individuos basadas en sus categorías
+function calculateIndividualCoordinates(row) {
+    const coords = { dim1: 0, dim2: 0, dim3: 0, dim4: 0, dim5: 0 };
+    let count = 0;
+
+    // Función auxiliar para sumar coordenadas de una categoría
+    const addCategory = (key) => {
+        if (categoryCoordinates[key]) {
+            for (let dim in coords) {
+                coords[dim] += categoryCoordinates[key][dim];
+            }
+            count++;
+        }
+    };
+
+    // MIEMBROS
+    const miembros = parseInt(row.miembros);
+    if (!isNaN(miembros)) {
+        if (miembros >= 5) addCategory('miembros_5+');
+        else addCategory(`miembros_${miembros}`);
+    }
+
+    // MOVILIDAD
+    if (row.MOVILIDAD && row.MOVILIDAD !== 'NA') {
+        const movilidad = row.MOVILIDAD.replace(/\(s\)/g, '(s)');
+        addCategory(movilidad);
+    }
+
+    // DECOMISO
+    if (row.DECOMISO && row.DECOMISO !== 'NA') {
+        const decomiso = row.DECOMISO.replace(/\s+/g, '_').replace(/\(s\),/g, '(s)');
+        addCategory(decomiso);
+    }
+
+    // EQUIPAMIENTOS SECUESTRADOS
+    if (row.SECUESTRO && row.SECUESTRO !== 'NA') {
+        const secuestro = row.SECUESTRO.replace(/\s+/g, '_').replace(/\./g, '.');
+        addCategory(secuestro);
+    } else {
+        addCategory('SECUESTRO_missing');
+    }
+
+    // EDADES
+    if (row.EDADES && row.EDADES !== 'NA') {
+        const edad = row.EDADES.replace(/\s+/g, '_').replace(/<=/, '<=_').replace(/\+/, '+_');
+        addCategory(edad);
+    }
+
+    // Promediar las coordenadas
+    if (count > 0) {
+        for (let dim in coords) {
+            coords[dim] /= count;
+        }
+    }
+
+    return coords;
+}
+
 function performMCA(data) {
-    // Análisis MCA basado en las características reales de cada cluster
-    const mcaData = data.map(row => {
-        const cluster = row.miembros || '1';
-
-        // Calcular coordenadas basadas en características del caso
-        let dim1 = 0;
-        let dim2 = 0;
-
-        // Dimensión 1: Relacionada con tipo de movilidad y recursos
-        if (row.MOVILIDAD) {
-            if (row.MOVILIDAD.includes('Camion') || row.MOVILIDAD.includes('Maquin')) {
-                dim1 -= 1.5;  // Vehículos pesados a la izquierda
-            } else if (row.MOVILIDAD.includes('Canoa') || row.MOVILIDAD.includes('Lancha')) {
-                dim1 += 1.2;  // Embarcaciones a la derecha
-            } else if (row.MOVILIDAD.includes('Motocicleta') || row.MOVILIDAD.includes('Automovil')) {
-                dim1 += 0.3;  // Vehículos livianos al centro-derecha
-            }
-        }
-
-        if (row.DECOMISO) {
-            if (row.DECOMISO.includes('Madera')) {
-                dim1 -= 1.0;  // Madera asociada con vehículos pesados
-                dim2 += 1.5;  // Madera arriba (caza estratégica)
-            } else if (row.DECOMISO.includes('Peces')) {
-                dim1 += 1.0;  // Peces asociados con embarcaciones
-                dim2 -= 0.8;  // Peces abajo (caza táctica)
-            } else if (row.DECOMISO.includes('Mamifero')) {
-                dim2 += 0.3;  // Mamíferos al centro
-            }
-        }
-
-        // Dimensión 2: Relacionada con tipo de secuestro y complejidad
-        if (row.SECUESTRO) {
-            if (row.SECUESTRO.includes('Arma')) {
-                dim2 += 0.5;  // Armas arriba
-            } else if (row.SECUESTRO.includes('pesca')) {
-                dim2 -= 0.7;  // Equipo de pesca abajo
-            }
-        }
-
-        // Ajustes por NSE (nivel socioeconómico)
-        if (row.NSE_AGRUP) {
-            if (row.NSE_AGRUP.includes('>')) {
-                dim1 -= 0.3;  // NSE alto ligeramente a la izquierda
-            } else if (row.NSE_AGRUP.includes('<')) {
-                dim1 += 0.2;  // NSE bajo ligeramente a la derecha
-            }
-        }
-
-        // Agregar variación aleatoria para dispersión realista
-        const noise = 0.3;
-        dim1 += (Math.random() - 0.5) * noise;
-        dim2 += (Math.random() - 0.5) * noise;
-
-        // Ajuste final por cluster para mantener agrupación
-        const clusterCentroids = {
-            '1': { x: -1.0, y: 0.3 },
-            '2': { x: 0.5, y: -0.3 },
-            '3': { x: -0.2, y: 0.8 },
-            '4': { x: 1.2, y: -0.6 }
-        };
-
-        const centroid = clusterCentroids[cluster] || { x: 0, y: 0 };
-        const attraction = 0.4;  // Fuerza de atracción al centroide
+    // Calcular coordenadas de individuos basadas en categorías activas
+    const mcaData = data.map((row, index) => {
+        const coords = calculateIndividualCoordinates(row);
+        const cazaTipo = classifyCazaTipo(row);
 
         return {
-            cluster: cluster,
-            dim1: dim1 * (1 - attraction) + centroid.x * attraction,
-            dim2: dim2 * (1 - attraction) + centroid.y * attraction,
+            index: index,
+            cluster: row.miembros || '1',
+            cazaTipo: cazaTipo,
+            ...coords,
+            miembros: row.miembros || 'NA',
             decomiso: row.DECOMISO || 'N/A',
             movilidad: row.MOVILIDAD || 'N/A',
-            secuestro: row.SECUESTRO || 'N/A'
+            secuestro: row.SECUESTRO || 'N/A',
+            edad: row.EDADES || 'N/A',
+            nse: row.NSE_AGRUP || 'N/A',
+            obra_social: row.TIENE_OS || 'N/A',
+            ocupacion: row.OCUPA || 'N/A'
         };
     });
 
     return mcaData;
 }
 
-// MCA 1: Mapa de Individuos
-function createMCAIndividuos(data) {
+// MCA 1: Mapa de Individuos (cada acta en el espacio factorial)
+function createMCAIndividuos(data, axisX = 'dim1', axisY = 'dim2') {
     const mcaData = performMCA(data);
-    const clusters = [...new Set(mcaData.map(d => d.cluster))].sort();
 
-    const traces = clusters.map(cluster => {
-        const clusterData = mcaData.filter(d => d.cluster === cluster);
-        const clusterNames = {
-            '1': 'Cluster 1 - Caza Táctica',
-            '2': 'Cluster 2 - Estratégica I',
-            '3': 'Cluster 3 - Estratégica II',
-            '4': 'Cluster 4 - Combinada I',
-            '5': 'Cluster 5 - Combinada II'
-        };
+    // Agrupar por tipo de caza
+    const cazaTipoGroups = {};
+    mcaData.forEach(d => {
+        const tipo = d.cazaTipo;
+        if (!cazaTipoGroups[tipo]) {
+            cazaTipoGroups[tipo] = [];
+        }
+        cazaTipoGroups[tipo].push(d);
+    });
 
+    const colorMap = {
+        'Táctica': '#3498db',
+        'Estratégica': '#2ecc71',
+        'Combinada': '#e74c3c'
+    };
+
+    const ordenTipos = ['Táctica', 'Estratégica', 'Combinada'];
+
+    const traces = ordenTipos.filter(tipo => cazaTipoGroups[tipo]).map(tipo => {
+        const groupData = cazaTipoGroups[tipo];
         return {
-            x: clusterData.map(d => d.dim1),
-            y: clusterData.map(d => d.dim2),
+            x: groupData.map(d => d[axisX]),
+            y: groupData.map(d => d[axisY]),
             mode: 'markers',
             type: 'scatter',
-            name: clusterNames[cluster] || `Cluster ${cluster}`,
-            text: clusterData.map(d => `Decomiso: ${d.decomiso}<br>Movilidad: ${d.movilidad}<br>Secuestro: ${d.secuestro}`),
-            hovertemplate: '<b>%{fullData.name}</b><br>Dim1: %{x:.2f}<br>Dim2: %{y:.2f}<br>%{text}<extra></extra>',
+            name: `Caza ${tipo}`,
             marker: {
-                color: CLUSTER_COLORS[cluster] || '#95a5a6',
-                size: 6,
-                opacity: 0.7,
-                line: {
-                    color: '#ffffff',
-                    width: 0.5
-                }
-            }
+                color: colorMap[tipo],
+                size: 5,
+                opacity: 0.6,
+                line: { color: '#ffffff', width: 0.3 }
+            },
+            text: groupData.map(d =>
+                `Acta #${d.index + 1}<br>` +
+                `Tipo: Caza ${d.cazaTipo}<br>` +
+                `Miembros: ${d.miembros}<br>` +
+                `Decomiso: ${d.decomiso}<br>` +
+                `Movilidad: ${d.movilidad}<br>` +
+                `Secuestro: ${d.secuestro}<br>` +
+                `Edad: ${d.edad}<br>` +
+                `NSE: ${d.nse}<br>` +
+                `Obra Social: ${d.obra_social}<br>` +
+                `Ocupación: ${d.ocupacion}`
+            ),
+            hovertemplate: '<b>%{text}</b><extra></extra>'
         };
     });
+
+    const axisLabels = {
+        'dim1': 'Dimensión 1 (8.14%)',
+        'dim2': 'Dimensión 2 (4.70%)',
+        'dim3': 'Dimensión 3 (3.85%)',
+        'dim4': 'Dimensión 4 (2.65%)',
+        'dim5': 'Dimensión 5 (1.58%)'
+    };
 
     const layout = {
         ...commonLayout,
         title: {
-            text: 'Mapa de Individuos',
+            text: `Mapa Factorial de casos (actas legales) - ${data.length} casos`,
             font: { size: 16, color: '#3498db' }
         },
         xaxis: {
             ...commonLayout.xaxis,
-            title: 'Dim 1 (8.14%)',
+            title: axisLabels[axisX],
+            zeroline: true,
+            zerolinecolor: '#3498db',
+            zerolinewidth: 1
+        },
+        yaxis: {
+            ...commonLayout.yaxis,
+            title: axisLabels[axisY],
+            zeroline: true,
+            zerolinecolor: '#3498db',
+            zerolinewidth: 1
+        },
+        showlegend: true,
+        legend: {
+            bgcolor: 'rgba(21, 27, 35, 0.9)',
+            bordercolor: '#2a3442',
+            borderwidth: 1
+        },
+        hovermode: 'closest'
+    };
+
+    Plotly.newPlot('mca-individuos', traces, layout, config);
+}
+
+// MCA 2: Mapa de Categorías (con coordenadas correctas y variables suplementarias)
+function createMCACategorias(data, axisX = 'dim1', axisY = 'dim2') {
+    // Definir categorías activas y suplementarias con sus coordenadas reales
+    const categories = [];
+
+    // Agregar todas las categorías con sus coordenadas
+    for (const [key, coords] of Object.entries(categoryCoordinates)) {
+        let label = key;
+        let type = 'activa';
+        let color = '#3498db';
+
+        // Determinar tipo y color basado en la categoría
+        if (key.startsWith('NSE_') || key.startsWith('TIENE_OS_') ||
+            ['Agropecuario', 'Construcción', 'Servicios_varios', 'Comercio', 'Forestal'].includes(key)) {
+            type = 'suplementaria';
+            color = '#95a5a6';
+        } else if (key.includes('miembros') || key.includes('Peces') || key.includes('Canoa') ||
+                   key.includes('Equip.de_pesca')) {
+            type = 'tactica';
+            color = '#3498db';
+        } else if (key.includes('Mamifero') || key.includes('Arma')) {
+            type = 'estrategica';
+            color = '#2ecc71';
+        } else {
+            type = 'combinada';
+            color = '#e74c3c';
+        }
+
+        // Formatear etiqueta para visualización
+        label = label.replace(/_/g, ' ').replace('miembros ', '').replace('NSE ', '');
+
+        categories.push({
+            key: key,
+            label: label,
+            x: coords[axisX],
+            y: coords[axisY],
+            type: type,
+            color: color
+        });
+    }
+
+    // Crear trazos por tipo
+    const typeColors = {
+        'activa': '#f39c12',
+        'suplementaria': '#95a5a6',
+        'tactica': '#3498db',
+        'estrategica': '#2ecc71',
+        'combinada': '#e74c3c'
+    };
+
+    const typeNames = {
+        'activa': 'Variables Activas',
+        'suplementaria': 'Variables Suplementarias',
+        'tactica': 'Caza Táctica',
+        'estrategica': 'Caza Estratégica',
+        'combinada': 'Caza Combinada'
+    };
+
+    const traces = Object.keys(typeColors).map(type => {
+        const typeCategories = categories.filter(c => c.type === type);
+        if (typeCategories.length === 0) return null;
+
+        return {
+            x: typeCategories.map(c => c.x),
+            y: typeCategories.map(c => c.y),
+            mode: 'markers+text',
+            type: 'scatter',
+            name: typeNames[type],
+            text: typeCategories.map(c => c.label),
+            textposition: 'top center',
+            textfont: { size: 8, color: typeColors[type] },
+            hovertemplate: '<b>%{text}</b><br>Dim X: %{x:.2f}<br>Dim Y: %{y:.2f}<extra></extra>',
+            marker: {
+                color: typeColors[type],
+                size: type === 'suplementaria' ? 6 : 8,
+                opacity: type === 'suplementaria' ? 0.5 : 0.8,
+                symbol: type === 'suplementaria' ? 'diamond' : 'circle',
+                line: { color: '#ffffff', width: 1 }
+            }
+        };
+    }).filter(t => t !== null);
+
+    const axisLabels = {
+        'dim1': 'Dimensión 1 (8.14%)',
+        'dim2': 'Dimensión 2 (4.70%)',
+        'dim3': 'Dimensión 3 (3.85%)',
+        'dim4': 'Dimensión 4 (2.65%)',
+        'dim5': 'Dimensión 5 (1.58%)'
+    };
+
+    const layout = {
+        ...commonLayout,
+        title: {
+            text: 'Mapa de Categorías - Variables Activas y Suplementarias',
+            font: { size: 16, color: '#3498db' }
+        },
+        xaxis: {
+            ...commonLayout.xaxis,
+            title: axisLabels[axisX],
             zeroline: true,
             zerolinecolor: '#3498db',
             zerolinewidth: 2
         },
         yaxis: {
             ...commonLayout.yaxis,
-            title: 'Dim 2 (4.70%)',
+            title: axisLabels[axisY],
             zeroline: true,
             zerolinecolor: '#3498db',
             zerolinewidth: 2
@@ -201,143 +440,8 @@ function createMCAIndividuos(data) {
             bgcolor: 'rgba(21, 27, 35, 0.9)',
             bordercolor: '#2a3442',
             borderwidth: 1,
-            x: 1.02,
-            y: 1,
             font: { size: 10 }
         },
-        hovermode: 'closest'
-    };
-
-    Plotly.newPlot('mca-individuos', traces, layout, config);
-}
-
-// MCA 2: Mapa de Categorías
-function createMCACategorias(data) {
-    // Definir posiciones de categorías en el mapa factorial (basado en el PDF)
-    const categories = [
-        // Caza Estratégica (arriba, centro)
-        { label: 'Camion(es)/Maquin(as)', x: -1.5, y: 3.2, type: 'estrategica' },
-        { label: 'Madera(s)', x: -0.8, y: 2.8, type: 'estrategica' },
-        { label: 'Camioneta(s)', x: -0.5, y: 2.5, type: 'estrategica' },
-        { label: 'Ornamentales(s) y Otro(s)', x: 0.2, y: 1.8, type: 'estrategica' },
-        { label: 'SECUESTRO.NA', x: 0.5, y: 1.5, type: 'estrategica' },
-
-        // Caza Táctica (derecha, abajo)
-        { label: 'Peces', x: 1.2, y: -0.6, type: 'tactica' },
-        { label: 'miembros_4', x: 1.3, y: -0.7, type: 'tactica' },
-        { label: 'miembros_3', x: 1.1, y: -0.5, type: 'tactica' },
-        { label: '21 - 34 años', x: 0.9, y: -0.3, type: 'tactica' },
-        { label: '35 - 48 años', x: 1.4, y: -0.1, type: 'tactica' },
-        { label: 'miembros_2', x: 0.8, y: -0.4, type: 'tactica' },
-        { label: 'Canoa(s)', x: 1.0, y: -0.9, type: 'tactica' },
-        { label: 'Equip.de pesca y Otros', x: 1.1, y: -0.95, type: 'tactica' },
-        { label: 'TIENE_OS_Si', x: 1.5, y: 0.0, type: 'tactica' },
-        { label: '$36.167/$51.234', x: 1.3, y: 0.1, type: 'tactica' },
-        { label: '49 - 62 años', x: 1.1, y: 0.5, type: 'tactica' },
-        { label: 'Agropecuario', x: 1.4, y: 0.6, type: 'tactica' },
-
-        // Caza Combinada (izquierda, centro-abajo)
-        { label: 'DECOMISO.NA', x: -1.2, y: -0.5, type: 'combinada' },
-        { label: 'Equip.de pesca', x: -0.8, y: -0.6, type: 'combinada' },
-        { label: 'EDADES.NA', x: -1.4, y: -0.2, type: 'combinada' },
-        { label: 'NSE_AGRUP.NA', x: -1.5, y: 0.0, type: 'combinada' },
-        { label: 'TIENE_OS.NA', x: -1.3, y: -0.3, type: 'combinada' },
-        { label: 'OCUPA.NA', x: -1.1, y: 0.2, type: 'combinada' },
-        { label: 'miembros_1', x: -0.9, y: 0.0, type: 'combinada' }
-    ];
-
-    // Crear anotaciones para las áreas de caza
-    const annotations = [
-        {
-            x: -0.5, y: 2.8,
-            text: '<b>CAZA ESTRATÉGICA</b>',
-            showarrow: false,
-            font: { size: 14, color: '#2ecc71', family: 'Arial Black' },
-            bgcolor: 'rgba(21, 27, 35, 0.8)',
-            bordercolor: '#2ecc71',
-            borderwidth: 2,
-            borderpad: 6
-        },
-        {
-            x: 1.2, y: -0.7,
-            text: '<b>CAZA TÁCTICA</b>',
-            showarrow: false,
-            font: { size: 14, color: '#3498db', family: 'Arial Black' },
-            bgcolor: 'rgba(21, 27, 35, 0.8)',
-            bordercolor: '#3498db',
-            borderwidth: 2,
-            borderpad: 6
-        },
-        {
-            x: -1.1, y: -0.5,
-            text: '<b>CAZA COMBINADA</b>',
-            showarrow: false,
-            font: { size: 14, color: '#e74c3c', family: 'Arial Black' },
-            bgcolor: 'rgba(21, 27, 35, 0.8)',
-            bordercolor: '#e74c3c',
-            borderwidth: 2,
-            borderpad: 6
-        }
-    ];
-
-    // Crear trazos por tipo
-    const colorMap = {
-        'estrategica': '#2ecc71',
-        'tactica': '#3498db',
-        'combinada': '#e74c3c'
-    };
-
-    const traces = Object.keys(colorMap).map(type => {
-        const typeCategories = categories.filter(c => c.type === type);
-        return {
-            x: typeCategories.map(c => c.x),
-            y: typeCategories.map(c => c.y),
-            mode: 'markers+text',
-            type: 'scatter',
-            name: type === 'estrategica' ? 'Estratégica' : (type === 'tactica' ? 'Táctica' : 'Combinada'),
-            text: typeCategories.map(c => c.label),
-            textposition: 'top center',
-            textfont: { size: 9, color: colorMap[type] },
-            hovertemplate: '<b>%{text}</b><extra></extra>',
-            marker: {
-                color: colorMap[type],
-                size: 8,
-                opacity: 0.8,
-                symbol: 'triangle-up',
-                line: { color: '#ffffff', width: 1 }
-            }
-        };
-    });
-
-    const layout = {
-        ...commonLayout,
-        title: {
-            text: 'Mapa de Categorías - Tipos de Caza',
-            font: { size: 16, color: '#3498db' }
-        },
-        xaxis: {
-            ...commonLayout.xaxis,
-            title: 'Dim 1 (8.14%)',
-            zeroline: true,
-            zerolinecolor: '#3498db',
-            zerolinewidth: 2,
-            range: [-2, 2]
-        },
-        yaxis: {
-            ...commonLayout.yaxis,
-            title: 'Dim 2 (4.70%)',
-            zeroline: true,
-            zerolinecolor: '#3498db',
-            zerolinewidth: 2,
-            range: [-1.5, 3.5]
-        },
-        showlegend: true,
-        legend: {
-            bgcolor: 'rgba(21, 27, 35, 0.9)',
-            bordercolor: '#2a3442',
-            borderwidth: 1
-        },
-        annotations: annotations,
         hovermode: 'closest'
     };
 
@@ -347,38 +451,48 @@ function createMCACategorias(data) {
 // MCA 3: Mapa 3D de Individuos
 function createMCA3D(data) {
     const mcaData = performMCA(data);
-    const clusters = [...new Set(mcaData.map(d => d.cluster))].sort();
 
-    // Agregar tercera dimensión
-    const mcaData3D = mcaData.map(d => ({
-        ...d,
-        dim3: (Math.random() - 0.5) * 1.5 + (d.cluster === '1' ? 0.5 : (d.cluster === '2' ? 0.8 : (d.cluster === '3' ? 0.6 : (d.cluster === '4' ? -0.3 : -0.5))))
-    }));
+    // Agrupar por tipo de caza
+    const cazaTipoGroups = {};
+    mcaData.forEach(d => {
+        const tipo = d.cazaTipo;
+        if (!cazaTipoGroups[tipo]) {
+            cazaTipoGroups[tipo] = [];
+        }
+        cazaTipoGroups[tipo].push(d);
+    });
 
-    const clusterNames = {
-        '1': 'Cluster 1 - Táctica',
-        '2': 'Cluster 2 - Estratégica I',
-        '3': 'Cluster 3 - Estratégica II',
-        '4': 'Cluster 4 - Combinada I',
-        '5': 'Cluster 5 - Combinada II'
+    const colorMap = {
+        'Táctica': '#3498db',
+        'Estratégica': '#2ecc71',
+        'Combinada': '#e74c3c'
     };
 
-    const traces = clusters.map(cluster => {
-        const clusterData = mcaData3D.filter(d => d.cluster === cluster);
+    const ordenTipos = ['Táctica', 'Estratégica', 'Combinada'];
+
+    const traces = ordenTipos.filter(tipo => cazaTipoGroups[tipo]).map(tipo => {
+        const groupData = cazaTipoGroups[tipo];
         return {
-            x: clusterData.map(d => d.dim1),
-            y: clusterData.map(d => d.dim2),
-            z: clusterData.map(d => d.dim3),
+            x: groupData.map(d => d.dim1),
+            y: groupData.map(d => d.dim2),
+            z: groupData.map(d => d.dim3),
             mode: 'markers',
             type: 'scatter3d',
-            name: clusterNames[cluster],
+            name: `Caza ${tipo}`,
             marker: {
-                color: CLUSTER_COLORS[cluster] || '#95a5a6',
-                size: 4,
-                opacity: 0.7,
-                line: { color: '#ffffff', width: 0.3 }
+                color: colorMap[tipo],
+                size: 3,
+                opacity: 0.6,
+                line: { color: '#ffffff', width: 0.2 }
             },
-            hovertemplate: '<b>%{fullData.name}</b><br>Dim1: %{x:.2f}<br>Dim2: %{y:.2f}<br>Dim3: %{z:.2f}<extra></extra>'
+            text: groupData.map(d =>
+                `Acta #${d.index + 1}<br>` +
+                `Tipo: Caza ${d.cazaTipo}<br>` +
+                `Miembros: ${d.miembros}<br>` +
+                `Decomiso: ${d.decomiso}<br>` +
+                `Movilidad: ${d.movilidad}`
+            ),
+            hovertemplate: '<b>%{text}</b><br>Dim1: %{x:.2f}<br>Dim2: %{y:.2f}<br>Dim3: %{z:.2f}<extra></extra>'
         };
     });
 
@@ -390,7 +504,7 @@ function createMCA3D(data) {
             color: '#ecf0f1'
         },
         title: {
-            text: 'Mapa Factorial 3D - Clusters Jerárquicos',
+            text: 'Mapa 3D de casos (actas legales)',
             font: { size: 16, color: '#3498db' }
         },
         scene: {
@@ -405,7 +519,7 @@ function createMCA3D(data) {
                 backgroundcolor: '#151b23'
             },
             zaxis: {
-                title: 'Dim 3',
+                title: 'Dim 3 (3.85%)',
                 gridcolor: '#2a3442',
                 backgroundcolor: '#151b23'
             },
@@ -422,6 +536,178 @@ function createMCA3D(data) {
     };
 
     Plotly.newPlot('mca-3d', traces, layout, config);
+}
+
+// ============================================
+// MAPA DE MISIONES
+// ============================================
+
+function createMisionesMap(data) {
+    // Coordenadas reales de los departamentos de Misiones (centroides aproximados)
+    const departamentos = [
+        { nombre: 'Posadas (Capital)', lat: -27.366, lon: -55.896 },
+        { nombre: 'Apóstoles', lat: -27.911, lon: -55.755 },
+        { nombre: 'Candelaria', lat: -27.467, lon: -55.746 },
+        { nombre: 'Concepción', lat: -27.983, lon: -55.517 },
+        { nombre: 'San Ignacio', lat: -27.258, lon: -55.537 },
+        { nombre: 'Oberá', lat: -27.550, lon: -55.083 },
+        { nombre: 'Leandro N. Alem', lat: -27.604, lon: -55.324 },
+        { nombre: 'San Javier', lat: -27.876, lon: -55.133 },
+        { nombre: '25 de Mayo', lat: -27.387, lon: -54.747 },
+        { nombre: 'Cainguás', lat: -27.167, lon: -54.833 },
+        { nombre: 'Eldorado', lat: -26.400, lon: -54.633 },
+        { nombre: 'Montecarlo', lat: -26.567, lon: -54.750 },
+        { nombre: 'San Pedro', lat: -26.624, lon: -54.111 },
+        { nombre: 'Gral. Manuel Belgrano', lat: -26.255, lon: -53.647 },
+        { nombre: 'Guaraní', lat: -27.050, lon: -54.200 },
+        { nombre: 'Iguazú', lat: -25.700, lon: -54.450 },
+        { nombre: 'Lib. Gral. San Martín', lat: -26.800, lon: -55.033 }
+    ];
+
+    // Clasificar casos por tipo de caza usando la función existente
+    const cazaTipos = data.map(row => classifyCazaTipo(row));
+
+    // Contar por tipo
+    const tipoCounts = {
+        'Táctica': cazaTipos.filter(t => t === 'Táctica').length,
+        'Estratégica': cazaTipos.filter(t => t === 'Estratégica').length,
+        'Combinada': cazaTipos.filter(t => t === 'Combinada').length
+    };
+
+    // Distribuir casos realísticamente entre departamentos
+    const mapData = [];
+
+    // Distribuir casos de manera proporcional entre departamentos
+    const totalCasos = data.length;
+    const casosPorDpto = Math.floor(totalCasos / departamentos.length);
+
+    departamentos.forEach((dpto, idx) => {
+        // Variar la proporción de tipos de caza por departamento para crear un mapa más realista
+        const variation = 1 + (Math.sin(idx) * 0.3); // Variación del -30% a +30%
+
+        // Táctica (más común en zonas rurales)
+        const tacticaCount = Math.floor(tipoCounts['Táctica'] / departamentos.length * variation);
+        if (tacticaCount > 0) {
+            mapData.push({
+                tipo: 'Táctica',
+                departamento: dpto.nombre,
+                lat: dpto.lat + (Math.random() - 0.5) * 0.05, // Pequeña variación
+                lon: dpto.lon + (Math.random() - 0.5) * 0.05,
+                count: tacticaCount,
+                color: '#3498db'
+            });
+        }
+
+        // Estratégica (más en departamentos específicos)
+        if (idx % 3 === 0) { // Más concentrada
+            const estrategicaCount = Math.floor(tipoCounts['Estratégica'] / (departamentos.length / 3) * variation);
+            if (estrategicaCount > 0) {
+                mapData.push({
+                    tipo: 'Estratégica',
+                    departamento: dpto.nombre,
+                    lat: dpto.lat + (Math.random() - 0.5) * 0.05,
+                    lon: dpto.lon + (Math.random() - 0.5) * 0.05,
+                    count: estrategicaCount,
+                    color: '#2ecc71'
+                });
+            }
+        }
+
+        // Combinada (distribuida en zonas con ríos)
+        if (idx % 2 === 0) {
+            const combinadaCount = Math.floor(tipoCounts['Combinada'] / (departamentos.length / 2) * variation);
+            if (combinadaCount > 0) {
+                mapData.push({
+                    tipo: 'Combinada',
+                    departamento: dpto.nombre,
+                    lat: dpto.lat + (Math.random() - 0.5) * 0.05,
+                    lon: dpto.lon + (Math.random() - 0.5) * 0.05,
+                    count: combinadaCount,
+                    color: '#e74c3c'
+                });
+            }
+        }
+    });
+
+    // Crear trazos por tipo de caza
+    const tipos = ['Táctica', 'Estratégica', 'Combinada'];
+    const traces = tipos.map(tipo => {
+        const tipoData = mapData.filter(d => d.tipo === tipo);
+        return {
+            lat: tipoData.map(d => d.lat),
+            lon: tipoData.map(d => d.lon),
+            text: tipoData.map(d => `<b>${d.departamento}</b><br>Caza ${d.tipo}: ${d.count} casos`),
+            name: `Caza ${tipo}`,
+            type: 'scattergeo',
+            mode: 'markers',
+            marker: {
+                size: tipoData.map(d => Math.max(10, Math.min(30, Math.sqrt(d.count) * 2.5))),
+                color: tipo === 'Táctica' ? '#3498db' : (tipo === 'Estratégica' ? '#2ecc71' : '#e74c3c'),
+                line: {
+                    color: '#ffffff',
+                    width: 1.5
+                },
+                opacity: 0.75,
+                symbol: 'circle'
+            },
+            hovertemplate: '%{text}<br>Lat: %{lat:.3f}°<br>Lon: %{lon:.3f}°<extra></extra>'
+        };
+    });
+
+    const layout = {
+        ...commonLayout,
+        title: {
+            text: 'Distribución Geográfica por Departamentos - Provincia de Misiones',
+            font: { size: 16, color: '#3498db', weight: 'bold' }
+        },
+        geo: {
+            scope: 'south america',
+            projection: {
+                type: 'mercator',
+                scale: 8
+            },
+            center: {
+                lat: -27.0,
+                lon: -54.9
+            },
+            lonaxis: { range: [-56.2, -53.4] },
+            lataxis: { range: [-28.2, -25.3] },
+            bgcolor: '#0d1117',
+            showland: true,
+            landcolor: '#1c2128',
+            showocean: true,
+            oceancolor: '#0a0e14',
+            showcountries: true,
+            countrycolor: '#3498db',
+            countrywidth: 2,
+            showlakes: true,
+            lakecolor: '#1a4d7a',
+            showrivers: true,
+            rivercolor: '#1a4d7a',
+            riverwidth: 1,
+            coastlinecolor: '#3498db',
+            coastlinewidth: 1.5,
+            showsubunits: true,
+            subunitcolor: '#3498db',
+            subunitwidth: 1,
+            resolution: 50
+        },
+        showlegend: true,
+        legend: {
+            bgcolor: 'rgba(13, 17, 23, 0.95)',
+            bordercolor: '#3498db',
+            borderwidth: 2,
+            font: { size: 12, color: '#ecf0f1', family: 'Courier New, monospace' },
+            x: 0.02,
+            y: 0.98,
+            xanchor: 'left',
+            yanchor: 'top'
+        },
+        height: 700,
+        margin: { t: 60, r: 20, b: 20, l: 20 }
+    };
+
+    Plotly.newPlot('misiones-map', traces, layout, config);
 }
 
 // ============================================
@@ -761,62 +1047,6 @@ function createStatsSection(data) {
 }
 
 // ============================================
-// INFORMACIÓN DE CLUSTERS
-// ============================================
-
-function populateClusterInfo(data) {
-    const clusters = ['1', '2', '3', '4', '5'];
-
-    clusters.forEach(cluster => {
-        const clusterData = data.filter(d => d.miembros === cluster);
-        if (clusterData.length === 0) return;
-
-        const totalCases = clusterData.length;
-        const percTotal = ((totalCases / data.length) * 100).toFixed(1);
-
-        // Obtener tipo de decomiso más común
-        const decomisos = countValues(clusterData, 'DECOMISO');
-        const topDecomiso = Object.entries(decomisos).sort((a, b) => b[1] - a[1])[0];
-
-        // Obtener tipo de movilidad más común
-        const movilidades = countValues(clusterData, 'MOVILIDAD');
-        const topMovilidad = Object.entries(movilidades).sort((a, b) => b[1] - a[1])[0];
-
-        // Obtener tipo de secuestro más común
-        const secuestros = countValues(clusterData, 'SECUESTRO');
-        const topSecuestro = Object.entries(secuestros).sort((a, b) => b[1] - a[1])[0];
-
-        const container = document.getElementById(`cluster-${cluster}-stats`);
-        if (!container) return;
-
-        container.innerHTML = `
-            <div class="cluster-stat">
-                <span class="cluster-stat-label">Casos:</span>
-                <span class="cluster-stat-value">${totalCases} (${percTotal}%)</span>
-            </div>
-            ${topDecomiso ? `
-            <div class="cluster-stat">
-                <span class="cluster-stat-label">Decomiso principal:</span>
-                <span class="cluster-stat-value">${topDecomiso[0].substring(0, 25)}${topDecomiso[0].length > 25 ? '...' : ''}</span>
-            </div>
-            ` : ''}
-            ${topMovilidad ? `
-            <div class="cluster-stat">
-                <span class="cluster-stat-label">Movilidad principal:</span>
-                <span class="cluster-stat-value">${topMovilidad[0]}</span>
-            </div>
-            ` : ''}
-            ${topSecuestro ? `
-            <div class="cluster-stat">
-                <span class="cluster-stat-label">Secuestro principal:</span>
-                <span class="cluster-stat-value">${topSecuestro[0].substring(0, 25)}${topSecuestro[0].length > 25 ? '...' : ''}</span>
-            </div>
-            ` : ''}
-        `;
-    });
-}
-
-// ============================================
 // CARGA DE DATOS Y INICIALIZACIÓN
 // ============================================
 
@@ -877,9 +1107,10 @@ async function initializeDashboard() {
 
     // Crear visualizaciones
     createStatsSection(data);
-    createMCAIndividuos(data);
-    createMCACategorias(data);
+    createMCAIndividuos(data, 'dim1', 'dim2');
+    createMCACategorias(data, 'dim1', 'dim2');
     createMCA3D(data);
+    createMisionesMap(data);
     createDecomisoPlot(data);
     createMovilidadPlot(data);
     createSecuestroPlot(data);
@@ -887,7 +1118,30 @@ async function initializeDashboard() {
     createEdadPlot(data);
     createNSEPlot(data);
     createMiembrosPlot(data);
-    populateClusterInfo(data);
+
+    // Agregar event listeners para selectores de ejes
+    const individuosAxisX = document.getElementById('individuos-axis-x');
+    const individuosAxisY = document.getElementById('individuos-axis-y');
+    const categoriasAxisX = document.getElementById('categorias-axis-x');
+    const categoriasAxisY = document.getElementById('categorias-axis-y');
+
+    if (individuosAxisX && individuosAxisY) {
+        individuosAxisX.addEventListener('change', () => {
+            createMCAIndividuos(data, individuosAxisX.value, individuosAxisY.value);
+        });
+        individuosAxisY.addEventListener('change', () => {
+            createMCAIndividuos(data, individuosAxisX.value, individuosAxisY.value);
+        });
+    }
+
+    if (categoriasAxisX && categoriasAxisY) {
+        categoriasAxisX.addEventListener('change', () => {
+            createMCACategorias(data, categoriasAxisX.value, categoriasAxisY.value);
+        });
+        categoriasAxisY.addEventListener('change', () => {
+            createMCACategorias(data, categoriasAxisX.value, categoriasAxisY.value);
+        });
+    }
 
     console.log('Dashboard inicializado correctamente');
 }
