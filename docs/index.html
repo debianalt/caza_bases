@@ -62,19 +62,10 @@
             <div class="info-card">
                 <p>
                     El Análisis de Correspondencias Múltiples (MCA) permite visualizar las relaciones entre
-                    múltiples variables categóricas. Se presentan tres visualizaciones complementarias que
+                    múltiples variables categóricas. Se presentan dos visualizaciones complementarias que
                     permiten entender la estructura multidimensional de la caza ilegal en Misiones.
                 </p>
             </div>
-
-            <h3 style="color: #3498db; margin-top: 2rem; margin-bottom: 1rem;">Mapa de Individuos</h3>
-            <div class="info-card">
-                <p>
-                    Cada punto representa un caso de caza ilegal. La proximidad entre puntos indica
-                    similitud en las características de los casos. Los clusters se identifican por colores.
-                </p>
-            </div>
-            <div id="mca-individuos" class="plot-container"></div>
 
             <h3 style="color: #3498db; margin-top: 2rem; margin-bottom: 1rem;">Mapa de Categorías</h3>
             <div class="info-card">
@@ -175,29 +166,18 @@
                 </p>
             </div>
 
-            <h3 style="color: #3498db; margin: 2rem 0 1rem 0;">Estadísticas por Cluster</h3>
-            <div class="cluster-grid">
-                <div class="cluster-card cluster-1">
-                    <h3>Cluster 1 - Caza Táctica</h3>
-                    <div id="cluster-1-stats" class="cluster-stats"></div>
-                </div>
-                <div class="cluster-card cluster-2">
-                    <h3>Cluster 2 - Estratégica I</h3>
-                    <div id="cluster-2-stats" class="cluster-stats"></div>
-                </div>
-                <div class="cluster-card cluster-3">
-                    <h3>Cluster 3 - Estratégica II</h3>
-                    <div id="cluster-3-stats" class="cluster-stats"></div>
-                </div>
-                <div class="cluster-card cluster-4">
-                    <h3>Cluster 4 - Combinada I</h3>
-                    <div id="cluster-4-stats" class="cluster-stats"></div>
-                </div>
-                <div class="cluster-card cluster-5">
-                    <h3>Cluster 5 - Combinada II</h3>
-                    <div id="cluster-5-stats" class="cluster-stats"></div>
-                </div>
+            <h3 style="color: #3498db; margin: 2rem 0 1rem 0;">Distribución Geográfica en Misiones</h3>
+            <div class="info-card">
+                <p>
+                    Mapa de la provincia de Misiones mostrando la distribución espacial de los casos de caza ilegal
+                    según los tres tipos identificados: <span style="color: #3498db; font-weight: bold;">Caza Táctica</span>,
+                    <span style="color: #2ecc71; font-weight: bold;">Caza Estratégica</span>, y
+                    <span style="color: #e74c3c; font-weight: bold;">Caza Combinada</span>.
+                    El tamaño de los puntos indica la cantidad de casos registrados en cada ubicación.
+                </p>
             </div>
+            <div id="misiones-map" class="plot-container-large"></div>
+            <div id="loading-map" class="loading-spinner"></div>
         </section>
 
         <!-- Distribución de Decomisos -->
