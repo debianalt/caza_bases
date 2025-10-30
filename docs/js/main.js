@@ -296,7 +296,7 @@ function createMCAIndividuos(data, axisX = 'dim1', axisY = 'dim2') {
     const layout = {
         ...commonLayout,
         title: {
-            text: `Mapa Factorial de Individuos - ${data.length} Actas`,
+            text: `Mapa Factorial de casos (actas legales) - ${data.length} casos`,
             font: { size: 16, color: '#3498db' }
         },
         xaxis: {
@@ -504,7 +504,7 @@ function createMCA3D(data) {
             color: '#ecf0f1'
         },
         title: {
-            text: 'Mapa Factorial 3D de Individuos',
+            text: 'Mapa 3D de casos (actas legales)',
             font: { size: 16, color: '#3498db' }
         },
         scene: {
@@ -550,15 +550,15 @@ function createMisionesMap(data) {
         { nombre: 'Candelaria', lat: -27.467, lon: -55.746 },
         { nombre: 'Concepción', lat: -27.983, lon: -55.517 },
         { nombre: 'San Ignacio', lat: -27.258, lon: -55.537 },
-        { nombre: 'Oberá', lat: -27.487, lon: -55.120 },
-        { nombre: 'Leandro N. Alem', lat: -27.600, lon: -55.333 },
+        { nombre: 'Oberá', lat: -27.550, lon: -55.083 },
+        { nombre: 'Leandro N. Alem', lat: -27.604, lon: -55.324 },
         { nombre: 'San Javier', lat: -27.876, lon: -55.133 },
         { nombre: '25 de Mayo', lat: -27.387, lon: -54.747 },
-        { nombre: 'Cainguás', lat: -27.063, lon: -54.933 },
+        { nombre: 'Cainguás', lat: -27.167, lon: -54.833 },
         { nombre: 'Eldorado', lat: -26.400, lon: -54.633 },
         { nombre: 'Montecarlo', lat: -26.567, lon: -54.750 },
-        { nombre: 'San Pedro', lat: -26.617, lon: -54.100 },
-        { nombre: 'Gral. Manuel Belgrano', lat: -26.250, lon: -53.650 },
+        { nombre: 'San Pedro', lat: -26.624, lon: -54.111 },
+        { nombre: 'Gral. Manuel Belgrano', lat: -26.255, lon: -53.647 },
         { nombre: 'Guaraní', lat: -27.050, lon: -54.200 },
         { nombre: 'Iguazú', lat: -25.700, lon: -54.450 },
         { nombre: 'Lib. Gral. San Martín', lat: -26.800, lon: -55.033 }
