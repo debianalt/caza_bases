@@ -1,0 +1,1436 @@
+{\rtf1\ansi\ansicpg1252\deff0\deftab720{\info{\company Cisia}}{\fonttbl{\f0\fswiss MS Sans Serif;}{\f1 Courier New;}{\f2 Courier New;}{\f3 Courier New;}{\f4 Courier New;}{\f5 Courier New;}}{\colortbl\red0\green0\blue0;}\deflang1036\pard\plain\f0  \par \plain\f2\fs12 BUILDING UP PARTITIONS
+\par \plain\f3\fs12 CUT "a" OF THE TREE INTO   3 CLUSTERS
+\par \plain\f3\fs12 CLUSTERS FORMATION (ON ACTIVE CASES)
+\par \plain\f3\fs12 SUMMARY DESCRIPTION
+\par \plain\f1\fs12 +---------+----------+------------+------------+
+\par \plain\f1\fs12 | CLUSTER |  COUNT   |   WEIGHT   |   CONTENT  |
+\par \plain\f1\fs12 +---------+----------+------------+------------+
+\par \plain\f1\fs12 |   aa1a  |    339   |   339.00   |   1 TO  13 |
+\par \plain\f1\fs12 |   aa2a  |    403   |   403.00   |  14 TO  32 |
+\par \plain\f1\fs12 |   aa3a  |    186   |   186.00   |  33 TO  50 |
+\par \plain\f1\fs12 +---------+----------+------------+------------+
+\par \plain\f3\fs12 LOADINGS AND TEST-VALUES BEFORE CONSOLIDATION
+\par \plain\f3\fs12 AXES  1 A  5
+\par \plain\f1\fs12 +---------------------------------------------+-------------------------------+------------------------------------+----------+
+\par \plain\f1\fs12 |                  CLUSTERS                   |          TEST-VALUES          |              LOADINGS              |          |
+\par \plain\f1\fs12 |---------------------------------------------|-------------------------------|------------------------------------|----------|
+\par \plain\f1\fs12 | IDEN - LABEL                COUNT  ABS.WT.  |   1     2     3     4     5   |    1      2      3      4      5   |  DISTO.  |
+\par \plain\f1\fs12 +---------------------------------------------+-------------------------------+------------------------------------+----------+
+\par \plain\f1\fs12 |   CUT "a" OF THE TREE INTO   3 CLUSTERS                                                                                     |
+\par \plain\f1\fs12 |                                                                                                                             |
+\par \plain\f1\fs12 | aa1a - CLUSTER  1 /  3       339    339.00  | -22.7 -19.4  15.5  -1.1   1.2 |  -0.53  -0.41   0.31  -0.02   0.02 |     0.64 |
+\par \plain\f1\fs12 | aa2a - CLUSTER  2 /  3       403    403.00  |  26.0 -12.1 -14.2 -20.5  -9.8 |   0.53  -0.22  -0.25  -0.34  -0.16 |     0.59 |
+\par \plain\f1\fs12 | aa3a - CLUSTER  3 /  3       186    186.00  |  -8.5  24.8 -11.4  14.3   5.4 |  -0.30   0.79  -0.35   0.42   0.15 |     1.45 |
+\par \plain\f1\fs12 +---------------------------------------------+-------------------------------+------------------------------------+----------+
+\par \plain\f3\fs12 CLUSTERING CONSOLIDATION
+\par \plain\f1\fs12 AROUND CENTERS OF THE   3 CLUSTERS ACHIEVED BY 10 ITERATIONS WITH MOVING CENTERS
+\par \plain\f1\fs12 BETWEEN-CLUSTERS INERTIA INCREASE
+\par \plain\f1\fs12 +-----------+---------------+---------------+---------------+
+\par \plain\f1\fs12 | ITERATION | TOTAL INERTIA | INTER-CLUSTERS|     RATIO     |
+\par \plain\f1\fs12 |           |               |     INERTIA   |               |
+\par \plain\f1\fs12 +-----------+---------------+---------------+---------------+
+\par \plain\f1\fs12 |     0     |       5.67787 |       0.78351 |      0.13799  |
+\par \plain\f1\fs12 |     1     |       5.67787 |       0.92330 |      0.16261  |
+\par \plain\f1\fs12 |     2     |       5.67787 |       0.94628 |      0.16666  |
+\par \plain\f1\fs12 |     3     |       5.67787 |       0.95690 |      0.16853  |
+\par \plain\f1\fs12 |     4     |       5.67787 |       0.96238 |      0.16950  |
+\par \plain\f1\fs12 |     5     |       5.67787 |       0.96453 |      0.16988  |
+\par \plain\f1\fs12 |     6     |       5.67787 |       0.96566 |      0.17007  |
+\par \plain\f1\fs12 |     7     |       5.67787 |       0.97040 |      0.17091  |
+\par \plain\f1\fs12 |     8     |       5.67787 |       0.97259 |      0.17129  |
+\par \plain\f1\fs12 |     9     |       5.67787 |       0.97363 |      0.17148  |
+\par \plain\f1\fs12 |    10     |       5.67787 |       0.97363 |      0.17148  |
+\par \plain\f1\fs12 +-----------+---------------+---------------+---------------+
+\par \plain\f3\fs12 INERTIA DECOMPOSITION
+\par \plain\f1\fs12 COMPUTED ON  10 AXES.
+\par \plain\f1\fs12 +------------------+-----------------+-------------+-------------------+-----------------+
+\par \plain\f1\fs12 |                  |    INERTIAS     |    COUNTS   |      WEIGHTS      |    DISTANCES    |
+\par \plain\f1\fs12 | INERTIAS         | BEFORE   AFTER  |BEFORE AFTER |  BEFORE    AFTER  | BEFORE   AFTER  |
+\par \plain\f1\fs12 +------------------+-----------------+-------------+-------------------+-----------------+
+\par \plain\f1\fs12 |                  |                 |             |                   |                 |
+\par \plain\f1\fs12 | BETWEEN CLUSTERS | 0.7835   0.9736 |             |                   |                 |
+\par \plain\f1\fs12 |                  |                 |             |                   |                 |
+\par \plain\f1\fs12 | WITHIN CLUSTER   |                 |             |                   |                 |
+\par \plain\f1\fs12 |                  |                 |             |                   |                 |
+\par \plain\f1\fs12 | CLUSTER   1 /  3 | 1.4584   1.7003 |  339    357 |   339.00   357.00 | 0.6430   0.7616 |
+\par \plain\f1\fs12 | CLUSTER   2 /  3 | 1.9043   1.5107 |  403    382 |   403.00   382.00 | 0.5928   0.8773 |
+\par \plain\f1\fs12 | CLUSTER   3 /  3 | 1.5318   1.4932 |  186    189 |   186.00   189.00 | 1.4527   1.5689 |
+\par \plain\f1\fs12 |                  |                 |             |                   |                 |
+\par \plain\f1\fs12 | TOTAL INERTIA    | 5.6779   5.6779 |             |                   |                 |
+\par \plain\f1\fs12 +------------------+-----------------+-------------+-------------------+-----------------+
+\par \plain\f1\fs12 RATIO INTER INERTIA / TOTAL INERTIA) : BEFORE .. 0.1380
+\par \plain\f1\fs12                                         AFTER .. 0.1715
+\par \plain\f3\fs12 LOADINGS AND TEST-VALUES AFTER CONSOLIDATION
+\par \plain\f3\fs12 AXES  1 A  5
+\par \plain\f1\fs12 +---------------------------------------------+-------------------------------+------------------------------------+----------+
+\par \plain\f1\fs12 |                  CLUSTERS                   |          TEST-VALUES          |              LOADINGS              |          |
+\par \plain\f1\fs12 |---------------------------------------------|-------------------------------|------------------------------------|----------|
+\par \plain\f1\fs12 | IDEN - LABEL                COUNT  ABS.WT.  |   1     2     3     4     5   |    1      2      3      4      5   |  DISTO.  |
+\par \plain\f1\fs12 +---------------------------------------------+-------------------------------+------------------------------------+----------+
+\par \plain\f1\fs12 |   CUT "a" OF THE TREE INTO   3 CLUSTERS                                                                                     |
+\par \plain\f1\fs12 |                                                                                                                             |
+\par \plain\f1\fs12 | aa1a - CLUSTER  1 /  3       357    357.00  | -31.8 -14.5   8.8  -4.8  -2.8 |  -0.72  -0.29   0.17  -0.09  -0.05 |     0.76 |
+\par \plain\f1\fs12 | aa2a - CLUSTER  2 /  3       382    382.00  |  32.6 -24.6 -11.3 -12.4  -0.1 |   0.70  -0.47  -0.21  -0.22   0.00 |     0.88 |
+\par \plain\f1\fs12 | aa3a - CLUSTER  3 /  3       189    189.00  |  -5.0  34.1  -7.1   8.7  -1.6 |  -0.18   1.08  -0.21   0.25  -0.04 |     1.57 |
+\par \plain\f1\fs12 +---------------------------------------------+-------------------------------+------------------------------------+----------+
+
+\par \plain\f3\fs12 CLUSTERS REPRESENTATIVES
+\par \plain\f3\fs12 CLUSTER   1/  3
+\par \plain\f1\fs12 COUNT:  357
+\par \plain\f1\fs12 ----------------------------------------------------------------------------
+\par \plain\f1\fs12 |RK | DISTANCE  | IDENT.             ||RK | DISTANCE  | IDENT.             |
+\par \plain\f1\fs12 +---+-----------+--------------------++---+-----------+--------------------+
+\par \plain\f1\fs12 |  1|    0.65759|Case n° 109         ||  2|    0.65759|Case n° 797         |
+\par \plain\f1\fs12 |  3|    0.65759|Case n° 931         ||  4|    0.66636|Case n° 52          |
+\par \plain\f1\fs12 |  5|    0.66636|Case n° 53          ||  6|    0.66636|Case n° 92          |
+\par \plain\f1\fs12 |  7|    0.66636|Case n° 930         ||  8|    0.66636|Case n° 896         |
+\par \plain\f1\fs12 |  9|    0.66636|Case n° 890         || 10|    0.66636|Case n° 97          |
+\par \plain\f1\fs12 +---+-----------+--------------------++---+-----------+--------------------+
+\par \plain\f3\fs12 CLUSTER   2/  3
+\par \plain\f1\fs12 COUNT:  382
+\par \plain\f1\fs12 ----------------------------------------------------------------------------
+\par \plain\f1\fs12 |RK | DISTANCE  | IDENT.             ||RK | DISTANCE  | IDENT.             |
+\par \plain\f1\fs12 +---+-----------+--------------------++---+-----------+--------------------+
+\par \plain\f1\fs12 |  1|    0.63651|Case n° 573         ||  2|    0.63651|Case n° 1018        |
+\par \plain\f1\fs12 |  3|    0.75604|Case n° 610         ||  4|    0.75604|Case n° 706         |
+\par \plain\f1\fs12 |  5|    0.84502|Case n° 681         ||  6|    0.84502|Case n° 682         |
+\par \plain\f1\fs12 |  7|    0.85450|Case n° 700         ||  8|    0.85450|Case n° 701         |
+\par \plain\f1\fs12 |  9|    0.85898|Case n° 483         || 10|    0.85898|Case n° 487         |
+\par \plain\f1\fs12 +---+-----------+--------------------++---+-----------+--------------------+
+\par \plain\f3\fs12 CLUSTER   3/  3
+\par \plain\f1\fs12 COUNT:  189
+\par \plain\f1\fs12 ----------------------------------------------------------------------------
+\par \plain\f1\fs12 |RK | DISTANCE  | IDENT.             ||RK | DISTANCE  | IDENT.             |
+\par \plain\f1\fs12 +---+-----------+--------------------++---+-----------+--------------------+
+\par \plain\f1\fs12 |  1|    1.35334|Case n° 397         ||  2|    1.54200|Case n° 817         |
+\par \plain\f1\fs12 |  3|    1.72108|Case n° 256         ||  4|    1.78849|Case n° 401         |
+\par \plain\f1\fs12 |  5|    1.86544|Case n° 395         ||  6|    1.91869|Case n° 779         |
+\par \plain\f1\fs12 |  7|    1.94555|Case n° 422         ||  8|    1.96685|Case n° 423         |
+\par \plain\f1\fs12 |  9|    2.05388|Case n° 416         || 10|    2.10897|Case n° 819         |
+\par \plain\f1\fs12 +---+-----------+--------------------++---+-----------+--------------------+
+
+\par \plain\f3\fs12 CUT "b" OF THE TREE INTO   4 CLUSTERS
+\par \plain\f3\fs12 CLUSTERS FORMATION (ON ACTIVE CASES)
+\par \plain\f3\fs12 SUMMARY DESCRIPTION
+\par \plain\f1\fs12 +---------+----------+------------+------------+
+\par \plain\f1\fs12 | CLUSTER |  COUNT   |   WEIGHT   |   CONTENT  |
+\par \plain\f1\fs12 +---------+----------+------------+------------+
+\par \plain\f1\fs12 |   bb1b  |    339   |   339.00   |   1 TO  13 |
+\par \plain\f1\fs12 |   bb2b  |    403   |   403.00   |  14 TO  32 |
+\par \plain\f1\fs12 |   bb3b  |     53   |    53.00   |  33 TO  40 |
+\par \plain\f1\fs12 |   bb4b  |    133   |   133.00   |  41 TO  50 |
+\par \plain\f1\fs12 +---------+----------+------------+------------+
+\par \plain\f3\fs12 LOADINGS AND TEST-VALUES BEFORE CONSOLIDATION
+\par \plain\f3\fs12 AXES  1 A  5
+\par \plain\f1\fs12 +---------------------------------------------+-------------------------------+------------------------------------+----------+
+\par \plain\f1\fs12 |                  CLUSTERS                   |          TEST-VALUES          |              LOADINGS              |          |
+\par \plain\f1\fs12 |---------------------------------------------|-------------------------------|------------------------------------|----------|
+\par \plain\f1\fs12 | IDEN - LABEL                COUNT  ABS.WT.  |   1     2     3     4     5   |    1      2      3      4      5   |  DISTO.  |
+\par \plain\f1\fs12 +---------------------------------------------+-------------------------------+------------------------------------+----------+
+\par \plain\f1\fs12 |   CUT "b" OF THE TREE INTO   4 CLUSTERS                                                                                     |
+\par \plain\f1\fs12 |                                                                                                                             |
+\par \plain\f1\fs12 | bb1b - CLUSTER  1 /  4       339    339.00  | -22.7 -19.4  15.5  -1.1   1.2 |  -0.53  -0.41   0.31  -0.02   0.02 |     0.64 |
+\par \plain\f1\fs12 | bb2b - CLUSTER  2 /  4       403    403.00  |  26.0 -12.1 -14.2 -20.5  -9.8 |   0.53  -0.22  -0.25  -0.34  -0.16 |     0.59 |
+\par \plain\f1\fs12 | bb3b - CLUSTER  3 /  4        53     53.00  | -13.3  -1.0 -15.6  23.7  -5.2 |  -0.97  -0.06  -0.97   1.42  -0.29 |     5.81 |
+\par \plain\f1\fs12 | bb4b - CLUSTER  4 /  4       133    133.00  |  -0.8  29.0  -2.7   0.7   9.6 |  -0.04   1.13  -0.10   0.02   0.33 |     2.00 |
+\par \plain\f1\fs12 +---------------------------------------------+-------------------------------+------------------------------------+----------+
+\par \plain\f3\fs12 CLUSTERING CONSOLIDATION
+\par \plain\f1\fs12 AROUND CENTERS OF THE   4 CLUSTERS ACHIEVED BY 10 ITERATIONS WITH MOVING CENTERS
+\par \plain\f1\fs12 BETWEEN-CLUSTERS INERTIA INCREASE
+\par \plain\f1\fs12 +-----------+---------------+---------------+---------------+
+\par \plain\f1\fs12 | ITERATION | TOTAL INERTIA | INTER-CLUSTERS|     RATIO     |
+\par \plain\f1\fs12 |           |               |     INERTIA   |               |
+\par \plain\f1\fs12 +-----------+---------------+---------------+---------------+
+\par \plain\f1\fs12 |     0     |       5.67787 |       1.11109 |      0.19569  |
+\par \plain\f1\fs12 |     1     |       5.67787 |       1.26924 |      0.22354  |
+\par \plain\f1\fs12 |     2     |       5.67787 |       1.31926 |      0.23235  |
+\par \plain\f1\fs12 |     3     |       5.67787 |       1.33691 |      0.23546  |
+\par \plain\f1\fs12 |     4     |       5.67787 |       1.34589 |      0.23704  |
+\par \plain\f1\fs12 |     5     |       5.67787 |       1.35550 |      0.23873  |
+\par \plain\f1\fs12 |     6     |       5.67787 |       1.35670 |      0.23895  |
+\par \plain\f1\fs12 |     7     |       5.67787 |       1.35700 |      0.23900  |
+\par \plain\f1\fs12 +-----------+---------------+---------------+---------------+
+\par \plain\f1\fs12 STOP AFTER ITERATION  7. RELATIVE INCREASE OF BETWEEN-CLUSTER INERTIA
+\par \plain\f1\fs12 WITH RESPECT TO THE PREVIOUS ITERATION IS ONLY 0.022 %.
+\par \plain\f3\fs12 INERTIA DECOMPOSITION
+\par \plain\f1\fs12 COMPUTED ON  10 AXES.
+\par \plain\f1\fs12 +------------------+-----------------+-------------+-------------------+-----------------+
+\par \plain\f1\fs12 |                  |    INERTIAS     |    COUNTS   |      WEIGHTS      |    DISTANCES    |
+\par \plain\f1\fs12 | INERTIAS         | BEFORE   AFTER  |BEFORE AFTER |  BEFORE    AFTER  | BEFORE   AFTER  |
+\par \plain\f1\fs12 +------------------+-----------------+-------------+-------------------+-----------------+
+\par \plain\f1\fs12 |                  |                 |             |                   |                 |
+\par \plain\f1\fs12 | BETWEEN CLUSTERS | 1.1111   1.3570 |             |                   |                 |
+\par \plain\f1\fs12 |                  |                 |             |                   |                 |
+\par \plain\f1\fs12 | WITHIN CLUSTER   |                 |             |                   |                 |
+\par \plain\f1\fs12 |                  |                 |             |                   |                 |
+\par \plain\f1\fs12 | CLUSTER   1 /  4 | 1.4584   1.4914 |  339    346 |   339.00   346.00 | 0.6430   0.7600 |
+\par \plain\f1\fs12 | CLUSTER   2 /  4 | 1.9043   1.4489 |  403    376 |   403.00   376.00 | 0.5928   0.8972 |
+\par \plain\f1\fs12 | CLUSTER   3 /  4 | 0.3800   0.4996 |   53     59 |    53.00    59.00 | 5.8092   6.1412 |
+\par \plain\f1\fs12 | CLUSTER   4 /  4 | 0.8241   0.8810 |  133    147 |   133.00   147.00 | 2.0023   2.0180 |
+\par \plain\f1\fs12 |                  |                 |             |                   |                 |
+\par \plain\f1\fs12 | TOTAL INERTIA    | 5.6779   5.6779 |             |                   |                 |
+\par \plain\f1\fs12 +------------------+-----------------+-------------+-------------------+-----------------+
+\par \plain\f1\fs12 RATIO INTER INERTIA / TOTAL INERTIA) : BEFORE .. 0.1957
+\par \plain\f1\fs12                                         AFTER .. 0.2390
+\par \plain\f3\fs12 LOADINGS AND TEST-VALUES AFTER CONSOLIDATION
+\par \plain\f3\fs12 AXES  1 A  5
+\par \plain\f1\fs12 +---------------------------------------------+-------------------------------+------------------------------------+----------+
+\par \plain\f1\fs12 |                  CLUSTERS                   |          TEST-VALUES          |              LOADINGS              |          |
+\par \plain\f1\fs12 |---------------------------------------------|-------------------------------|------------------------------------|----------|
+\par \plain\f1\fs12 | IDEN - LABEL                COUNT  ABS.WT.  |   1     2     3     4     5   |    1      2      3      4      5   |  DISTO.  |
+\par \plain\f1\fs12 +---------------------------------------------+-------------------------------+------------------------------------+----------+
+\par \plain\f1\fs12 |   CUT "b" OF THE TREE INTO   4 CLUSTERS                                                                                     |
+\par \plain\f1\fs12 |                                                                                                                             |
+\par \plain\f1\fs12 | bb1b - CLUSTER  1 /  4       346    346.00  | -29.9 -14.2  10.8  -7.8  -3.6 |  -0.69  -0.29   0.21  -0.15  -0.07 |     0.76 |
+\par \plain\f1\fs12 | bb2b - CLUSTER  2 /  4       376    376.00  |  32.5 -24.0 -11.2 -13.4  -0.1 |   0.70  -0.46  -0.21  -0.24   0.00 |     0.90 |
+\par \plain\f1\fs12 | bb3b - CLUSTER  3 /  4        59     59.00  | -13.3   1.0 -22.6  27.7  -0.9 |  -0.91   0.06  -1.33   1.57  -0.05 |     6.14 |
+\par \plain\f1\fs12 | bb4b - CLUSTER  4 /  4       147    147.00  |   0.8  35.6   4.6  -3.6  -0.1 |   0.03   1.31   0.16  -0.12   0.00 |     2.02 |
+\par \plain\f1\fs12 +---------------------------------------------+-------------------------------+------------------------------------+----------+
+
+\par \plain\f3\fs12 CLUSTERS REPRESENTATIVES
+\par \plain\f3\fs12 CLUSTER   1/  4
+\par \plain\f1\fs12 COUNT:  346
+\par \plain\f1\fs12 ----------------------------------------------------------------------------
+\par \plain\f1\fs12 |RK | DISTANCE  | IDENT.             ||RK | DISTANCE  | IDENT.             |
+\par \plain\f1\fs12 +---+-----------+--------------------++---+-----------+--------------------+
+\par \plain\f1\fs12 |  1|    0.62470|Case n° 109         ||  2|    0.62470|Case n° 797         |
+\par \plain\f1\fs12 |  3|    0.62470|Case n° 931         ||  4|    0.66284|Case n° 52          |
+\par \plain\f1\fs12 |  5|    0.66284|Case n° 53          ||  6|    0.66284|Case n° 92          |
+\par \plain\f1\fs12 |  7|    0.66284|Case n° 930         ||  8|    0.66284|Case n° 896         |
+\par \plain\f1\fs12 |  9|    0.66284|Case n° 890         || 10|    0.66284|Case n° 97          |
+\par \plain\f1\fs12 +---+-----------+--------------------++---+-----------+--------------------+
+\par \plain\f3\fs12 CLUSTER   2/  4
+\par \plain\f1\fs12 COUNT:  376
+\par \plain\f1\fs12 ----------------------------------------------------------------------------
+\par \plain\f1\fs12 |RK | DISTANCE  | IDENT.             ||RK | DISTANCE  | IDENT.             |
+\par \plain\f1\fs12 +---+-----------+--------------------++---+-----------+--------------------+
+\par \plain\f1\fs12 |  1|    0.64631|Case n° 573         ||  2|    0.64631|Case n° 1018        |
+\par \plain\f1\fs12 |  3|    0.74694|Case n° 610         ||  4|    0.74694|Case n° 706         |
+\par \plain\f1\fs12 |  5|    0.84663|Case n° 681         ||  6|    0.84663|Case n° 682         |
+\par \plain\f1\fs12 |  7|    0.85144|Case n° 178         ||  8|    0.85144|Case n° 445         |
+\par \plain\f1\fs12 |  9|    0.85144|Case n° 446         || 10|    0.85144|Case n° 486         |
+\par \plain\f1\fs12 +---+-----------+--------------------++---+-----------+--------------------+
+\par \plain\f3\fs12 CLUSTER   3/  4
+\par \plain\f1\fs12 COUNT:   59
+\par \plain\f1\fs12 ----------------------------------------------------------------------------
+\par \plain\f1\fs12 |RK | DISTANCE  | IDENT.             ||RK | DISTANCE  | IDENT.             |
+\par \plain\f1\fs12 +---+-----------+--------------------++---+-----------+--------------------+
+\par \plain\f1\fs12 |  1|    0.77375|Case n° 33          ||  2|    0.77375|Case n° 35          |
+\par \plain\f1\fs12 |  3|    0.77375|Case n° 38          ||  4|    0.77375|Case n° 131         |
+\par \plain\f1\fs12 |  5|    0.77375|Case n° 39          ||  6|    0.77375|Case n° 859         |
+\par \plain\f1\fs12 |  7|    0.77375|Case n° 543         ||  8|    0.77375|Case n° 530         |
+\par \plain\f1\fs12 |  9|    0.77375|Case n° 238         || 10|    1.47964|Case n° 862         |
+\par \plain\f1\fs12 +---+-----------+--------------------++---+-----------+--------------------+
+\par \plain\f3\fs12 CLUSTER   4/  4
+\par \plain\f1\fs12 COUNT:  147
+\par \plain\f1\fs12 ----------------------------------------------------------------------------
+\par \plain\f1\fs12 |RK | DISTANCE  | IDENT.             ||RK | DISTANCE  | IDENT.             |
+\par \plain\f1\fs12 +---+-----------+--------------------++---+-----------+--------------------+
+\par \plain\f1\fs12 |  1|    0.77011|Case n° 256         ||  2|    0.82397|Case n° 397         |
+\par \plain\f1\fs12 |  3|    1.03778|Case n° 817         ||  4|    1.13536|Case n° 423         |
+\par \plain\f1\fs12 |  5|    1.13572|Case n° 779         ||  6|    1.30347|Case n° 416         |
+\par \plain\f1\fs12 |  7|    1.34688|Case n° 401         ||  8|    1.42073|Case n° 237         |
+\par \plain\f1\fs12 |  9|    1.45646|Case n° 395         || 10|    1.73781|Case n° 156         |
+\par \plain\f1\fs12 +---+-----------+--------------------++---+-----------+--------------------+
+
+\par \plain\f3\fs12 CUT "c" OF THE TREE INTO   5 CLUSTERS
+\par \plain\f3\fs12 CLUSTERS FORMATION (ON ACTIVE CASES)
+\par \plain\f3\fs12 SUMMARY DESCRIPTION
+\par \plain\f1\fs12 +---------+----------+------------+------------+
+\par \plain\f1\fs12 | CLUSTER |  COUNT   |   WEIGHT   |   CONTENT  |
+\par \plain\f1\fs12 +---------+----------+------------+------------+
+\par \plain\f1\fs12 |   cc1c  |    339   |   339.00   |   1 TO  13 |
+\par \plain\f1\fs12 |   cc2c  |    112   |   112.00   |  14 TO  21 |
+\par \plain\f1\fs12 |   cc3c  |    291   |   291.00   |  22 TO  32 |
+\par \plain\f1\fs12 |   cc4c  |     53   |    53.00   |  33 TO  40 |
+\par \plain\f1\fs12 |   cc5c  |    133   |   133.00   |  41 TO  50 |
+\par \plain\f1\fs12 +---------+----------+------------+------------+
+\par \plain\f3\fs12 LOADINGS AND TEST-VALUES BEFORE CONSOLIDATION
+\par \plain\f3\fs12 AXES  1 A  5
+\par \plain\f1\fs12 +---------------------------------------------+-------------------------------+------------------------------------+----------+
+\par \plain\f1\fs12 |                  CLUSTERS                   |          TEST-VALUES          |              LOADINGS              |          |
+\par \plain\f1\fs12 |---------------------------------------------|-------------------------------|------------------------------------|----------|
+\par \plain\f1\fs12 | IDEN - LABEL                COUNT  ABS.WT.  |   1     2     3     4     5   |    1      2      3      4      5   |  DISTO.  |
+\par \plain\f1\fs12 +---------------------------------------------+-------------------------------+------------------------------------+----------+
+\par \plain\f1\fs12 |   CUT "c" OF THE TREE INTO   5 CLUSTERS                                                                                     |
+\par \plain\f1\fs12 |                                                                                                                             |
+\par \plain\f1\fs12 | cc1c - CLUSTER  1 /  5       339    339.00  | -22.7 -19.4  15.5  -1.1   1.2 |  -0.53  -0.41   0.31  -0.02   0.02 |     0.64 |
+\par \plain\f1\fs12 | cc2c - CLUSTER  2 /  5       112    112.00  |   8.1  10.1  -5.8 -12.1 -23.6 |   0.39   0.44  -0.24  -0.48  -0.89 |     2.33 |
+\par \plain\f1\fs12 | cc3c - CLUSTER  3 /  5       291    291.00  |  22.1 -20.1 -11.1 -13.4   6.1 |   0.58  -0.47  -0.25  -0.29   0.13 |     0.94 |
+\par \plain\f1\fs12 | cc4c - CLUSTER  4 /  5        53     53.00  | -13.3  -1.0 -15.6  23.7  -5.2 |  -0.97  -0.06  -0.97   1.42  -0.29 |     5.81 |
+\par \plain\f1\fs12 | cc5c - CLUSTER  5 /  5       133    133.00  |  -0.8  29.0  -2.7   0.7   9.6 |  -0.04   1.13  -0.10   0.02   0.33 |     2.00 |
+\par \plain\f1\fs12 +---------------------------------------------+-------------------------------+------------------------------------+----------+
+\par \plain\f3\fs12 CLUSTERING CONSOLIDATION
+\par \plain\f1\fs12 AROUND CENTERS OF THE   5 CLUSTERS ACHIEVED BY 10 ITERATIONS WITH MOVING CENTERS
+\par \plain\f1\fs12 BETWEEN-CLUSTERS INERTIA INCREASE
+\par \plain\f1\fs12 +-----------+---------------+---------------+---------------+
+\par \plain\f1\fs12 | ITERATION | TOTAL INERTIA | INTER-CLUSTERS|     RATIO     |
+\par \plain\f1\fs12 |           |               |     INERTIA   |               |
+\par \plain\f1\fs12 +-----------+---------------+---------------+---------------+
+\par \plain\f1\fs12 |     0     |       5.67787 |       1.42766 |      0.25144  |
+\par \plain\f1\fs12 |     1     |       5.67787 |       1.56140 |      0.27500  |
+\par \plain\f1\fs12 |     2     |       5.67787 |       1.60165 |      0.28209  |
+\par \plain\f1\fs12 |     3     |       5.67787 |       1.61287 |      0.28406  |
+\par \plain\f1\fs12 |     4     |       5.67787 |       1.61654 |      0.28471  |
+\par \plain\f1\fs12 |     5     |       5.67787 |       1.61780 |      0.28493  |
+\par \plain\f1\fs12 |     6     |       5.67787 |       1.61823 |      0.28501  |
+\par \plain\f1\fs12 +-----------+---------------+---------------+---------------+
+\par \plain\f1\fs12 STOP AFTER ITERATION  6. RELATIVE INCREASE OF BETWEEN-CLUSTER INERTIA
+\par \plain\f1\fs12 WITH RESPECT TO THE PREVIOUS ITERATION IS ONLY 0.027 %.
+\par \plain\f3\fs12 INERTIA DECOMPOSITION
+\par \plain\f1\fs12 COMPUTED ON  10 AXES.
+\par \plain\f1\fs12 +------------------+-----------------+-------------+-------------------+-----------------+
+\par \plain\f1\fs12 |                  |    INERTIAS     |    COUNTS   |      WEIGHTS      |    DISTANCES    |
+\par \plain\f1\fs12 | INERTIAS         | BEFORE   AFTER  |BEFORE AFTER |  BEFORE    AFTER  | BEFORE   AFTER  |
+\par \plain\f1\fs12 +------------------+-----------------+-------------+-------------------+-----------------+
+\par \plain\f1\fs12 |                  |                 |             |                   |                 |
+\par \plain\f1\fs12 | BETWEEN CLUSTERS | 1.4277   1.6182 |             |                   |                 |
+\par \plain\f1\fs12 |                  |                 |             |                   |                 |
+\par \plain\f1\fs12 | WITHIN CLUSTER   |                 |             |                   |                 |
+\par \plain\f1\fs12 |                  |                 |             |                   |                 |
+\par \plain\f1\fs12 | CLUSTER   1 /  5 | 1.4584   1.2856 |  339    323 |   339.00   323.00 | 0.6430   0.7901 |
+\par \plain\f1\fs12 | CLUSTER   2 /  5 | 0.6812   0.6271 |  112     95 |   112.00    95.00 | 2.3265   2.8889 |
+\par \plain\f1\fs12 | CLUSTER   3 /  5 | 0.9065   1.0501 |  291    327 |   291.00   327.00 | 0.9351   1.0152 |
+\par \plain\f1\fs12 | CLUSTER   4 /  5 | 0.3800   0.4846 |   53     58 |    53.00    58.00 | 5.8092   6.2309 |
+\par \plain\f1\fs12 | CLUSTER   5 /  5 | 0.8241   0.6123 |  133    125 |   133.00   125.00 | 2.0023   2.2297 |
+\par \plain\f1\fs12 |                  |                 |             |                   |                 |
+\par \plain\f1\fs12 | TOTAL INERTIA    | 5.6779   5.6779 |             |                   |                 |
+\par \plain\f1\fs12 +------------------+-----------------+-------------+-------------------+-----------------+
+\par \plain\f1\fs12 RATIO INTER INERTIA / TOTAL INERTIA) : BEFORE .. 0.2514
+\par \plain\f1\fs12                                         AFTER .. 0.2850
+
+\par \plain\f3\fs12 LOADINGS AND TEST-VALUES AFTER CONSOLIDATION
+\par \plain\f3\fs12 AXES  1 A  5
+\par \plain\f1\fs12 +---------------------------------------------+-------------------------------+------------------------------------+----------+
+\par \plain\f1\fs12 |                  CLUSTERS                   |          TEST-VALUES          |              LOADINGS              |          |
+\par \plain\f1\fs12 |---------------------------------------------|-------------------------------|------------------------------------|----------|
+\par \plain\f1\fs12 | IDEN - LABEL                COUNT  ABS.WT.  |   1     2     3     4     5   |    1      2      3      4      5   |  DISTO.  |
+\par \plain\f1\fs12 +---------------------------------------------+-------------------------------+------------------------------------+----------+
+\par \plain\f1\fs12 |   CUT "c" OF THE TREE INTO   5 CLUSTERS                                                                                     |
+\par \plain\f1\fs12 |                                                                                                                             |
+\par \plain\f1\fs12 | cc1c - CLUSTER  1 /  5       323    323.00  | -27.4 -17.5  15.1  -2.3  -0.3 |  -0.67  -0.38   0.32  -0.05  -0.01 |     0.79 |
+\par \plain\f1\fs12 | cc2c - CLUSTER  2 /  5        95     95.00  |   8.9  11.5  -6.9  -9.1 -23.2 |   0.47   0.54  -0.31  -0.40  -0.96 |     2.89 |
+\par \plain\f1\fs12 | cc3c - CLUSTER  3 /  5       327    327.00  |  27.5 -24.2 -10.2 -12.3   5.4 |   0.67  -0.52  -0.21  -0.25   0.10 |     1.02 |
+\par \plain\f1\fs12 | cc4c - CLUSTER  4 /  5        58     58.00  | -13.0   0.7 -22.6  27.5  -0.4 |  -0.90   0.04  -1.33   1.57  -0.02 |     6.23 |
+\par \plain\f1\fs12 | cc5c - CLUSTER  5 /  5       125    125.00  |  -3.3  31.7   3.3  -5.3   7.7 |  -0.15   1.28   0.13  -0.20   0.27 |     2.23 |
+\par \plain\f1\fs12 +---------------------------------------------+-------------------------------+------------------------------------+----------+
+\par \plain\f3\fs12 CLUSTERS REPRESENTATIVES
+\par \plain\f3\fs12 CLUSTER   1/  5
+\par \plain\f1\fs12 COUNT:  323
+\par \plain\f1\fs12 ----------------------------------------------------------------------------
+\par \plain\f1\fs12 |RK | DISTANCE  | IDENT.             ||RK | DISTANCE  | IDENT.             |
+\par \plain\f1\fs12 +---+-----------+--------------------++---+-----------+--------------------+
+\par \plain\f1\fs12 |  1|    0.50714|Case n° 109         ||  2|    0.50714|Case n° 797         |
+\par \plain\f1\fs12 |  3|    0.50714|Case n° 931         ||  4|    0.66961|Case n° 132         |
+\par \plain\f1\fs12 |  5|    0.66961|Case n° 213         ||  6|    0.66961|Case n° 621         |
+\par \plain\f1\fs12 |  7|    0.66961|Case n° 798         ||  8|    0.66961|Case n° 369         |
+\par \plain\f1\fs12 |  9|    0.70791|Case n° 52          || 10|    0.70791|Case n° 930         |
+\par \plain\f1\fs12 +---+-----------+--------------------++---+-----------+--------------------+
+\par \plain\f3\fs12 CLUSTER   2/  5
+\par \plain\f1\fs12 COUNT:   95
+\par \plain\f1\fs12 ----------------------------------------------------------------------------
+\par \plain\f1\fs12 |RK | DISTANCE  | IDENT.             ||RK | DISTANCE  | IDENT.             |
+\par \plain\f1\fs12 +---+-----------+--------------------++---+-----------+--------------------+
+\par \plain\f1\fs12 |  1|    0.80542|Case n° 296         ||  2|    1.45306|Case n° 836         |
+\par \plain\f1\fs12 |  3|    1.55768|Case n° 718         ||  4|    1.78659|Case n° 994         |
+\par \plain\f1\fs12 |  5|    1.85987|Case n° 376         ||  6|    1.94851|Case n° 390         |
+\par \plain\f1\fs12 |  7|    1.97375|Case n° 73          ||  8|    2.05132|Case n° 295         |
+\par \plain\f1\fs12 |  9|    2.07947|Case n° 606         || 10|    2.15067|Case n° 494         |
+\par \plain\f1\fs12 +---+-----------+--------------------++---+-----------+--------------------+
+\par \plain\f3\fs12 CLUSTER   3/  5
+\par \plain\f1\fs12 COUNT:  327
+\par \plain\f1\fs12 ----------------------------------------------------------------------------
+\par \plain\f1\fs12 |RK | DISTANCE  | IDENT.             ||RK | DISTANCE  | IDENT.             |
+\par \plain\f1\fs12 +---+-----------+--------------------++---+-----------+--------------------+
+\par \plain\f1\fs12 |  1|    0.69344|Case n° 458         ||  2|    0.74252|Case n° 610         |
+\par \plain\f1\fs12 |  3|    0.74252|Case n° 706         ||  4|    0.75850|Case n° 681         |
+\par \plain\f1\fs12 |  5|    0.75850|Case n° 682         ||  6|    0.75856|Case n° 573         |
+\par \plain\f1\fs12 |  7|    0.75856|Case n° 1018        ||  8|    0.77919|Case n° 178         |
+\par \plain\f1\fs12 |  9|    0.77919|Case n° 445         || 10|    0.77919|Case n° 482         |
+\par \plain\f1\fs12 +---+-----------+--------------------++---+-----------+--------------------+
+\par \plain\f3\fs12 CLUSTER   4/  5
+\par \plain\f1\fs12 COUNT:   58
+\par \plain\f1\fs12 ----------------------------------------------------------------------------
+\par \plain\f1\fs12 |RK | DISTANCE  | IDENT.             ||RK | DISTANCE  | IDENT.             |
+\par \plain\f1\fs12 +---+-----------+--------------------++---+-----------+--------------------+
+\par \plain\f1\fs12 |  1|    0.76374|Case n° 33          ||  2|    0.76374|Case n° 35          |
+\par \plain\f1\fs12 |  3|    0.76374|Case n° 38          ||  4|    0.76374|Case n° 131         |
+\par \plain\f1\fs12 |  5|    0.76374|Case n° 39          ||  6|    0.76374|Case n° 859         |
+\par \plain\f1\fs12 |  7|    0.76374|Case n° 543         ||  8|    0.76374|Case n° 530         |
+\par \plain\f1\fs12 |  9|    0.76374|Case n° 238         || 10|    1.41179|Case n° 862         |
+\par \plain\f1\fs12 +---+-----------+--------------------++---+-----------+--------------------+
+\par \plain\f3\fs12 CLUSTER   5/  5
+\par \plain\f1\fs12 COUNT:  125
+\par \plain\f1\fs12 ----------------------------------------------------------------------------
+\par \plain\f1\fs12 |RK | DISTANCE  | IDENT.             ||RK | DISTANCE  | IDENT.             |
+\par \plain\f1\fs12 +---+-----------+--------------------++---+-----------+--------------------+
+\par \plain\f1\fs12 |  1|    0.57291|Case n° 256         ||  2|    0.89730|Case n° 397         |
+\par \plain\f1\fs12 |  3|    0.91277|Case n° 779         ||  4|    0.96208|Case n° 237         |
+\par \plain\f1\fs12 |  5|    1.02702|Case n° 395         ||  6|    1.04002|Case n° 423         |
+\par \plain\f1\fs12 |  7|    1.34009|Case n° 817         ||  8|    1.34615|Case n° 211         |
+\par \plain\f1\fs12 |  9|    1.66594|Case n° 910         || 10|    1.75427|Case n° 880         |
+\par \plain\f1\fs12 +---+-----------+--------------------++---+-----------+--------------------+
+
+\par \plain\f2\fs12 DESCRIPTION AND CHARACTERISATION OF PARTITIONS
+\par \plain\f3\fs12 DESCRIPTION OF: CUT "a" OF THE TREE INTO   3 CLUSTER
+\par \plain\f1\fs12 CLUSTERS CHARACTERISATION BY CATEGORIES
+\par \plain\f1\fs12 CLUSTERS CHARACTERISATION BY CONTINUOUS VARIABLES
+
+\par \plain\f3\fs12 CHARACTERISATION BY CATEGORIES OF CLUSTERS OR CATEGORIES
+\par \plain\f3\fs12 OF CUT "a" OF THE TREE INTO   3 CLUSTERS
+\par \plain\f3\fs12 CLUSTER  1 /  3
+\par \plain\f1\fs12 ----------------------------------------------------------------------------------------------------------------------------------
+\par \plain\f1\fs12 T.VALUE PROB. ---- PERCENTAGES  ----  CHARACTERISTIC                                                                   IDEN WEIGHT
+\par \plain\f1\fs12               GRP/CAT CAT/GRP GLOBAL  CATEGORIES           OF VARIABLES
+\par \plain\f1\fs12 ----------------------------------------------------------------------------------------------------------------------------------
+\par \plain\f1\fs12                                38.47  CLUSTER  1 /  3                                                                  aa1a    357
+\par \plain\f1\fs12  13.09  0.000   80.87   41.46  19.72  Arma(s) de fuego     EQUIPAMIENTOS SECUESTRADOS (no inc. medios de movilidad y esSE01    183
+\par \plain\f1\fs12   9.77  0.000   80.70   25.77  12.28  Motocicleta(s)       MOVILIDAD                                                   MO03    114
+\par \plain\f1\fs12   9.14  0.000   65.88   38.94  22.74  Arma(s) de fuego y O EQUIPAMIENTOS SECUESTRADOS (no inc. medios de movilidad y esSE03    211
+\par \plain\f1\fs12   7.96  0.000   52.49   61.90  45.37  <=$23.152            NIVEL SOCIOECONÃ“MICO AGRUPADO                              NS01    421
+\par \plain\f1\fs12   6.90  0.000   43.21   93.56  83.30  missing category     CONDICION OCUPACIONAL                                        27_    773
+\par \plain\f1\fs12   6.02  0.000   45.88   74.79  62.72  No                   TENENCIA DE OBRA SOCIAL                                     TI02    582
+\par \plain\f1\fs12   5.76  0.000   76.36   11.76   5.93  Arma(s) blancas y Ot EQUIPAMIENTOS SECUESTRADOS (no inc. medios de movilidad y esSE04     55
+\par \plain\f1\fs12   5.22  0.000   43.25   84.31  75.00  missing category     PRINCIPAL ACTIVIDAD OCUPACIONAL                              25_    696
+\par \plain\f1\fs12   4.98  0.000   94.74    5.04   2.05  Automoviles          MOVILIDAD                                                   MO02     19
+\par \plain\f1\fs12   4.77  0.000   82.76    6.72   3.13  <= 20 aÃ±os          EDADES (agrupado)                                           ED01     29
+\par \plain\f1\fs12   4.71  0.000   43.88   75.35  66.06  missing category     DECOMISO DE ESPECIES PROTEGIDAS                              11_    613
+\par \plain\f1\fs12   4.49  0.000  100.00    3.64   1.40  Caballo(s)/Bicicleta MOVILIDAD                                                   MO04     13
+\par \plain\f1\fs12   4.21  0.000   58.25   16.81  11.10  Mamifero(s)          DECOMISO DE ESPECIES PROTEGIDAS                             DE03    103
+\par \plain\f1\fs12   3.16  0.001   43.63   56.58  49.89  Category n° 1        MIEMBROS                                                    MI01    463
+\par \plain\f1\fs12   3.05  0.001   40.79   86.83  81.90  missing category     ULTIMA CALIFICACION BCRA                                     31_    760
+\par \plain\f1\fs12   3.05  0.001   40.79   86.83  81.90  missing category     CANTIDAD DE CUENTAS BANCARIAS OPERATIVAS                     29_    760
+\par \plain\f1\fs12   1.75  0.040   75.00    1.68   0.86  Madera(s)            DECOMISO DE ESPECIES PROTEGIDAS                             DE01      8
+\par \plain\f1\fs12   1.59  0.055   43.04   28.57  25.54  21 - 34 aÃ±os        EDADES (agrupado)                                           ED02    237
+\par \plain\f1\fs12   1.48  0.070   58.82    2.80   1.83  Si                   FALLECIDOS                                                  V302     17
+\par \plain\f1\fs12   1.40  0.081   71.43    1.40   0.75  Camion(es)/Maquin(as MOVILIDAD                                                   MO01      7
+\par \plain\f1\fs12   1.38  0.084   42.39   28.85  26.19  Category n° 2        MIEMBROS                                                    MI02    243
+\par \plain\f1\fs12   0.81  0.208   40.97   26.05  24.46  missing category     NIVEL SOCIOECONÃ“MICO AGRUPADO                               34_    227
+\par \plain\f1\fs12   0.69  0.245   39.14   78.71  77.37  Masculino            GENERO DE LOS INFRACTORES                                   GE02    718
+\par \plain\f1\fs12   0.30  0.380   42.42    3.92   3.56  Mamifero(s), Ave(s), DECOMISO DE ESPECIES PROTEGIDAS                             DE05     33
+\par \plain\f1\fs12   0.20  0.421   40.00    1.12   1.08  Forestal             PRINCIPAL ACTIVIDAD OCUPACIONAL                             OC05     10
+\par \plain\f1\fs12   0.12  0.453   42.86    0.84   0.75  ReparaciÃ³n/Mant.    PRINCIPAL ACTIVIDAD OCUPACIONAL                             OC06      7
+\par \plain\f1\fs12   0.00  0.498   38.78   15.97  15.84  49 - 62 aÃ±os        EDADES (agrupado)                                           ED04    147
+\par \plain\f1\fs12   0.00  0.499   39.02    8.96   8.84  $23.153/$36.166      NIVEL SOCIOECONÃ“MICO AGRUPADO                              NS02     82
+\par \plain\f1\fs12   0.00  0.500   41.18    1.96   1.83  Femenino             GENERO DE LOS INFRACTORES                                   GE01     17
+\par \plain\f1\fs12  -0.06  0.476   37.04    2.80   2.91  Category n° 5        ULTIMA CALIFICACION BCRA                                    CA05     27
+\par \plain\f1\fs12  -0.16  0.438   38.46    5.60   5.60  63 + aÃ±os           EDADES (agrupado)                                           ED05     52
+\par \plain\f1\fs12  -0.19  0.424   33.33    0.56   0.65  Transporte           PRINCIPAL ACTIVIDAD OCUPACIONAL                             OC07      6
+\par \plain\f1\fs12  -0.30  0.384   33.33    2.24   2.59  Category n° 2        CANTIDAD DE CUENTAS BANCARIAS OPERATIVAS                    CA02     24
+\par \plain\f1\fs12  -0.30  0.380   38.46    1.40   1.40  Camioneta(s)         MOVILIDAD                                                   MO08     13
+\par \plain\f1\fs12  -0.33  0.370   37.50    0.84   0.86  Jubilados y Pensiona CONDICION OCUPACIONAL                                       CO04      8
+\par \plain\f1\fs12  -0.35  0.363   20.00    0.28   0.54  $143.108/$229.816    NIVEL SOCIOECONÃ“MICO AGRUPADO                              NS06      5
+\par \plain\f1\fs12  -0.35  0.363   20.00    0.28   0.54  Motocicleta(s) y Otr MOVILIDAD                                                   MO05      5
+\par \plain\f1\fs12  -0.43  0.332   27.27    0.84   1.19  ConstrucciÃ³n        PRINCIPAL ACTIVIDAD OCUPACIONAL                             OC02     11
+\par \plain\f1\fs12  -0.54  0.295   36.55   20.17  21.23  missing category     EDADES (agrupado)                                            20_    197
+\par \plain\f1\fs12  -0.64  0.260   22.22    0.56   0.97  Category n° 3        CANTIDAD DE CUENTAS BANCARIAS OPERATIVAS                    CA03      9
+\par \plain\f1\fs12  -0.74  0.230   31.71    3.64   4.42  Servicios varios     PRINCIPAL ACTIVIDAD OCUPACIONAL                             OC03     41
+\par \plain\f1\fs12  -0.89  0.186   35.42   19.05  20.69  Sin datos            GENERO DE LOS INFRACTORES                                   GE03    192
+\par \plain\f1\fs12  -1.00  0.159   35.08   18.77  20.58  missing category     TENENCIA DE OBRA SOCIAL                                      26_    191
+\par \plain\f1\fs12  -1.48  0.070   38.09   97.20  98.17  Category n° 1        FALLECIDOS                                                  V301    911
+\par \plain\f1\fs12  -2.03  0.021   15.00    0.84   2.16  Category n° 5        MIEMBROS                                                    MI05     20
+\par \plain\f1\fs12  -2.47  0.007    6.67    0.28   1.62  Comercio             PRINCIPAL ACTIVIDAD OCUPACIONAL                             OC04     15
+\par \plain\f1\fs12  -2.67  0.004   27.82   10.36  14.33  Category n° 1        CANTIDAD DE CUENTAS BANCARIAS OPERATIVAS                    CA01    133
+\par \plain\f1\fs12  -2.72  0.003   35.36   61.90  67.35  missing category     MOVILIDAD                                                    10_    625
+\par \plain\f1\fs12  -2.94  0.002   26.72    9.80  14.12  Category n° 1        ULTIMA CALIFICACION BCRA                                    CA01    131
+\par \plain\f1\fs12  -2.98  0.001   30.83   22.97  28.66  35 - 48 aÃ±os        EDADES (agrupado)                                           ED03    266
+\par \plain\f1\fs12  -3.08  0.001    0.00    0.00   1.51  PequeÃ±os Contribuye CONDICION OCUPACIONAL                                       CO06     14
+\par \plain\f1\fs12  -3.13  0.001   20.59    3.92   7.33  Category n° 4        MIEMBROS                                                    MI04     68
+\par \plain\f1\fs12  -3.14  0.001   26.12    9.80  14.44  Category n° 3        MIEMBROS                                                    MI03    134
+\par \plain\f1\fs12  -3.40  0.000   11.43    1.12   3.77  Monotributistas Efec CONDICION OCUPACIONAL                                       CO05     35
+\par \plain\f1\fs12  -3.80  0.000    6.67    0.56   3.23  Lancha(s)            MOVILIDAD                                                   MO06     30
+\par \plain\f1\fs12  -3.81  0.000   12.77    1.68   5.06  missing category     EQUIPAMIENTOS SECUESTRADOS (no inc. medios de movilidad y es 12_     47
+\par \plain\f1\fs12  -4.36  0.000   10.20    1.40   5.28  $51.235/$73.333      NIVEL SOCIOECONÃ“MICO AGRUPADO                              NS04     49
+\par \plain\f1\fs12  -4.39  0.000    8.89    1.12   4.85  $73.334$143.107      NIVEL SOCIOECONÃ“MICO AGRUPADO                              NS05     45
+\par \plain\f1\fs12  -4.68  0.000   21.13    8.40  15.30  Agropecuario         PRINCIPAL ACTIVIDAD OCUPACIONAL                             OC01    142
+\par \plain\f1\fs12  -5.01  0.000   15.63    4.20  10.34  Relacion de Dependen CONDICION OCUPACIONAL                                       CO07     96
+\par \plain\f1\fs12  -6.90  0.000   14.84    6.44  16.70  Si                   TENENCIA DE OBRA SOCIAL                                     TI01    155
+\par \plain\f1\fs12  -8.91  0.000   10.12    4.76  18.10  Equip.de pesca y Otr EQUIPAMIENTOS SECUESTRADOS (no inc. medios de movilidad y esSE05    168
+\par \plain\f1\fs12  -9.29  0.000    1.03    0.28  10.45  $36.167/$51.234      NIVEL SOCIOECONÃ“MICO AGRUPADO                              NS03     97
+\par \plain\f1\fs12 -10.02  0.000    0.00    0.00  10.99  Canoa(s)             MOVILIDAD                                                   MO07    102
+\par \plain\f1\fs12 -11.78  0.000    2.98    1.40  18.10  Peces                DECOMISO DE ESPECIES PROTEGIDAS                             DE04    168
+\par \plain\f1\fs12 -16.27  0.000    1.89    1.40  28.45  Equip.de pesca       EQUIPAMIENTOS SECUESTRADOS (no inc. medios de movilidad y esSE02    264
+\par \plain\f1\fs12 -99.99  0.000    0.00    0.00   0.00  Category n° 6        ULTIMA CALIFICACION BCRA                                    CA06      0
+\par \plain\f1\fs12 -99.99  0.000    0.00    0.00   0.00  Category n° 7        ULTIMA CALIFICACION BCRA                                    CA07      0
+\par \plain\f1\fs12 -99.99  0.000    0.00    0.00   0.00  Category n° 1        CONDICION OCUPACIONAL                                       CO01      0
+\par \plain\f1\fs12 -99.99  0.000    0.00    0.00   0.00  Category n° 5        CANTIDAD DE CUENTAS BANCARIAS OPERATIVAS                    CA05      0
+\par \plain\f1\fs12 -99.99  0.000    0.00    0.00   0.00  Category n° 10       ULTIMA CALIFICACION BCRA                                    CA10      0
+\par \plain\f1\fs12 -99.99  0.000    0.00    0.00   0.00  Category n° 9        ULTIMA CALIFICACION BCRA                                    CA09      0
+
+\par \plain\f1\fs12 -99.99  0.000    0.00    0.00   0.00  Category n° 8        ULTIMA CALIFICACION BCRA                                    CA08      0
+\par \plain\f1\fs12 ----------------------------------------------------------------------------------------------------------------------------------
+
+\par \plain\f3\fs12 CLUSTER  2 /  3
+\par \plain\f1\fs12 ----------------------------------------------------------------------------------------------------------------------------------
+\par \plain\f1\fs12 T.VALUE PROB. ---- PERCENTAGES  ----  CHARACTERISTIC                                                                   IDEN WEIGHT
+\par \plain\f1\fs12               GRP/CAT CAT/GRP GLOBAL  CATEGORIES           OF VARIABLES
+\par \plain\f1\fs12 ----------------------------------------------------------------------------------------------------------------------------------
+\par \plain\f1\fs12                                41.16  CLUSTER  2 /  3                                                                  aa2a    382
+\par \plain\f1\fs12  20.63  0.000   92.05   63.61  28.45  Equip.de pesca       EQUIPAMIENTOS SECUESTRADOS (no inc. medios de movilidad y esSE02    264
+\par \plain\f1\fs12  11.40  0.000   92.16   24.61  10.99  Canoa(s)             MOVILIDAD                                                   MO07    102
+\par \plain\f1\fs12  11.04  0.000   79.17   34.82  18.10  Peces                DECOMISO DE ESPECIES PROTEGIDAS                             DE04    168
+\par \plain\f1\fs12   8.52  0.000   70.83   31.15  18.10  Equip.de pesca y Otr EQUIPAMIENTOS SECUESTRADOS (no inc. medios de movilidad y esSE05    168
+\par \plain\f1\fs12   5.79  0.000   45.28   91.62  83.30  missing category     CONDICION OCUPACIONAL                                        27_    773
+\par \plain\f1\fs12   5.22  0.000   58.12   29.06  20.58  missing category     TENENCIA DE OBRA SOCIAL                                      26_    191
+\par \plain\f1\fs12   5.15  0.000   57.81   29.06  20.69  Sin datos            GENERO DE LOS INFRACTORES                                   GE03    192
+\par \plain\f1\fs12   4.93  0.000   56.85   29.32  21.23  missing category     EDADES (agrupado)                                            20_    197
+\par \plain\f1\fs12   4.71  0.000   69.12   12.30   7.33  Category n° 4        MIEMBROS                                                    MI04     68
+\par \plain\f1\fs12   3.87  0.000   52.42   31.15  24.46  missing category     NIVEL SOCIOECONÃ“MICO AGRUPADO                               34_    227
+\par \plain\f1\fs12   3.35  0.000   65.31    8.38   5.28  $51.235/$73.333      NIVEL SOCIOECONÃ“MICO AGRUPADO                              NS04     49
+\par \plain\f1\fs12   2.64  0.004   43.68   79.58  75.00  missing category     PRINCIPAL ACTIVIDAD OCUPACIONAL                              25_    696
+\par \plain\f1\fs12   2.28  0.011   73.33    2.88   1.62  Comercio             PRINCIPAL ACTIVIDAD OCUPACIONAL                             OC04     15
+\par \plain\f1\fs12   1.49  0.068   53.66    5.76   4.42  Servicios varios     PRINCIPAL ACTIVIDAD OCUPACIONAL                             OC03     41
+\par \plain\f1\fs12   1.46  0.073   42.88   70.16  67.35  missing category     MOVILIDAD                                                    10_    625
+\par \plain\f1\fs12   1.28  0.100   46.62   16.23  14.33  Category n° 1        CANTIDAD DE CUENTAS BANCARIAS OPERATIVAS                    CA01    133
+\par \plain\f1\fs12   1.10  0.136   43.23   47.64  45.37  <=$23.152            NIVEL SOCIOECONÃ“MICO AGRUPADO                              NS01    421
+\par \plain\f1\fs12   1.06  0.146   42.98   52.09  49.89  Category n° 1        MIEMBROS                                                    MI01    463
+\par \plain\f1\fs12   0.95  0.172   51.85    3.66   2.91  Category n° 5        ULTIMA CALIFICACION BCRA                                    CA05     27
+\par \plain\f1\fs12   0.75  0.226   52.94    2.36   1.83  Femenino             GENERO DE LOS INFRACTORES                                   GE01     17
+\par \plain\f1\fs12   0.74  0.231   41.38   98.69  98.17  Category n° 1        FALLECIDOS                                                  V301    911
+\par \plain\f1\fs12   0.61  0.270   46.15    6.28   5.60  63 + aÃ±os           EDADES (agrupado)                                           ED05     52
+\par \plain\f1\fs12   0.45  0.327   43.28   15.18  14.44  Category n° 3        MIEMBROS                                                    MI03    134
+\par \plain\f1\fs12   0.44  0.329   46.67    3.66   3.23  Lancha(s)            MOVILIDAD                                                   MO06     30
+\par \plain\f1\fs12   0.42  0.337   60.00    0.79   0.54  $143.108/$229.816    NIVEL SOCIOECONÃ“MICO AGRUPADO                              NS06      5
+\par \plain\f1\fs12   0.42  0.337   60.00    0.79   0.54  Motocicleta(s) y Otr MOVILIDAD                                                   MO05      5
+\par \plain\f1\fs12   0.17  0.433   50.00    1.05   0.86  Jubilados y Pensiona CONDICION OCUPACIONAL                                       CO04      8
+\par \plain\f1\fs12   0.12  0.453   44.44    1.05   0.97  Category n° 3        CANTIDAD DE CUENTAS BANCARIAS OPERATIVAS                    CA03      9
+\par \plain\f1\fs12   0.08  0.469   41.22   14.14  14.12  Category n° 1        ULTIMA CALIFICACION BCRA                                    CA01    131
+\par \plain\f1\fs12   0.05  0.480   50.00    0.79   0.65  Transporte           PRINCIPAL ACTIVIDAD OCUPACIONAL                             OC07      6
+\par \plain\f1\fs12   0.00  0.499   36.36    1.05   1.19  ConstrucciÃ³n        PRINCIPAL ACTIVIDAD OCUPACIONAL                             OC02     11
+\par \plain\f1\fs12  -0.01  0.496   41.07   62.57  62.72  No                   TENENCIA DE OBRA SOCIAL                                     TI02    582
+\par \plain\f1\fs12  -0.05  0.478   40.24    8.64   8.84  $23.153/$36.166      NIVEL SOCIOECONÃ“MICO AGRUPADO                              NS02     82
+\par \plain\f1\fs12  -0.27  0.394   28.57    0.52   0.75  ReparaciÃ³n/Mant.    PRINCIPAL ACTIVIDAD OCUPACIONAL                             OC06      7
+\par \plain\f1\fs12  -0.73  0.232   38.10   14.66  15.84  49 - 62 aÃ±os        EDADES (agrupado)                                           ED04    147
+\par \plain\f1\fs12  -0.74  0.231   29.41    1.31   1.83  Si                   FALLECIDOS                                                  V302     17
+\par \plain\f1\fs12  -0.75  0.228   33.33    2.88   3.56  Mamifero(s), Ave(s), DECOMISO DE ESPECIES PROTEGIDAS                             DE05     33
+\par \plain\f1\fs12  -0.75  0.225   40.53   80.63  81.90  missing category     ULTIMA CALIFICACION BCRA                                     31_    760
+\par \plain\f1\fs12  -0.75  0.225   40.53   80.63  81.90  missing category     CANTIDAD DE CUENTAS BANCARIAS OPERATIVAS                     29_    760
+\par \plain\f1\fs12  -1.00  0.159   29.17    1.83   2.59  Category n° 2        CANTIDAD DE CUENTAS BANCARIAS OPERATIVAS                    CA02     24
+\par \plain\f1\fs12  -1.03  0.151   38.35   26.70  28.66  35 - 48 aÃ±os        EDADES (agrupado)                                           ED03    266
+\par \plain\f1\fs12  -1.27  0.103   25.00    1.31   2.16  Category n° 5        MIEMBROS                                                    MI05     20
+\par \plain\f1\fs12  -1.76  0.039   10.00    0.26   1.08  Forestal             PRINCIPAL ACTIVIDAD OCUPACIONAL                             OC05     10
+\par \plain\f1\fs12  -1.98  0.024    0.00    0.00   0.75  Camion(es)/Maquin(as MOVILIDAD                                                   MO01      7
+\par \plain\f1\fs12  -2.09  0.018   38.66   62.04  66.06  missing category     DECOMISO DE ESPECIES PROTEGIDAS                              11_    613
+\par \plain\f1\fs12  -2.16  0.015   35.02   21.73  25.54  21 - 34 aÃ±os        EDADES (agrupado)                                           ED02    237
+\par \plain\f1\fs12  -2.20  0.014    0.00    0.00   0.86  Madera(s)            DECOMISO DE ESPECIES PROTEGIDAS                             DE01      8
+\par \plain\f1\fs12  -2.57  0.005   17.24    1.31   3.13  <= 20 aÃ±os          EDADES (agrupado)                                           ED01     29
+\par \plain\f1\fs12  -2.91  0.002   27.08    6.81  10.34  Relacion de Dependen CONDICION OCUPACIONAL                                       CO07     96
+\par \plain\f1\fs12  -3.10  0.001    0.00    0.00   1.40  Camioneta(s)         MOVILIDAD                                                   MO08     13
+\par \plain\f1\fs12  -3.10  0.001    0.00    0.00   1.40  Caballo(s)/Bicicleta MOVILIDAD                                                   MO04     13
+\par \plain\f1\fs12  -3.26  0.001    0.00    0.00   1.51  PequeÃ±os Contribuye CONDICION OCUPACIONAL                                       CO06     14
+\par \plain\f1\fs12  -3.90  0.000   16.36    2.36   5.93  Arma(s) blancas y Ot EQUIPAMIENTOS SECUESTRADOS (no inc. medios de movilidad y esSE04     55
+\par \plain\f1\fs12  -3.96  0.000    0.00    0.00   2.05  Automoviles          MOVILIDAD                                                   MO02     19
+\par \plain\f1\fs12  -4.07  0.000   30.04   19.11  26.19  Category n° 2        MIEMBROS                                                    MI02    243
+\par \plain\f1\fs12  -4.36  0.000   24.65    9.16  15.30  Agropecuario         PRINCIPAL ACTIVIDAD OCUPACIONAL                             OC01    142
+\par \plain\f1\fs12  -4.74  0.000    8.89    1.05   4.85  $73.334$143.107      NIVEL SOCIOECONÃ“MICO AGRUPADO                              NS05     45
+\par \plain\f1\fs12  -4.93  0.000    8.51    1.05   5.06  missing category     EQUIPAMIENTOS SECUESTRADOS (no inc. medios de movilidad y es 12_     47
+\par \plain\f1\fs12  -5.13  0.000    2.86    0.26   3.77  Monotributistas Efec CONDICION OCUPACIONAL                                       CO05     35
+\par \plain\f1\fs12  -5.24  0.000   36.49   68.59  77.37  Masculino            GENERO DE LOS INFRACTORES                                   GE02    718
+\par \plain\f1\fs12  -5.79  0.000   20.65    8.38  16.70  Si                   TENENCIA DE OBRA SOCIAL                                     TI01    155
+\par \plain\f1\fs12  -7.49  0.000    8.25    2.09  10.45  $36.167/$51.234      NIVEL SOCIOECONÃ“MICO AGRUPADO                              NS03     97
+\par \plain\f1\fs12 -10.07  0.000    2.63    0.79  12.28  Motocicleta(s)       MOVILIDAD                                                   MO03    114
+\par \plain\f1\fs12 -10.13  0.000    0.97    0.26  11.10  Mamifero(s)          DECOMISO DE ESPECIES PROTEGIDAS                             DE03    103
+\par \plain\f1\fs12 -14.38  0.000    2.84    1.57  22.74  Arma(s) de fuego y O EQUIPAMIENTOS SECUESTRADOS (no inc. medios de movilidad y esSE03    211
+\par \plain\f1\fs12 -14.40  0.000    0.55    0.26  19.72  Arma(s) de fuego     EQUIPAMIENTOS SECUESTRADOS (no inc. medios de movilidad y esSE01    183
+\par \plain\f1\fs12 -99.99  0.000    0.00    0.00   0.00  Category n° 6        ULTIMA CALIFICACION BCRA                                    CA06      0
+\par \plain\f1\fs12 -99.99  0.000    0.00    0.00   0.00  Category n° 7        ULTIMA CALIFICACION BCRA                                    CA07      0
+\par \plain\f1\fs12 -99.99  0.000    0.00    0.00   0.00  Category n° 1        CONDICION OCUPACIONAL                                       CO01      0
+\par \plain\f1\fs12 -99.99  0.000    0.00    0.00   0.00  Category n° 5        CANTIDAD DE CUENTAS BANCARIAS OPERATIVAS                    CA05      0
+\par \plain\f1\fs12 -99.99  0.000    0.00    0.00   0.00  Category n° 10       ULTIMA CALIFICACION BCRA                                    CA10      0
+\par \plain\f1\fs12 -99.99  0.000    0.00    0.00   0.00  Category n° 9        ULTIMA CALIFICACION BCRA                                    CA09      0
+\par \plain\f1\fs12 -99.99  0.000    0.00    0.00   0.00  Category n° 8        ULTIMA CALIFICACION BCRA                                    CA08      0
+\par \plain\f1\fs12 ----------------------------------------------------------------------------------------------------------------------------------
+
+\par \plain\f3\fs12 CLUSTER  3 /  3
+\par \plain\f1\fs12 ----------------------------------------------------------------------------------------------------------------------------------
+\par \plain\f1\fs12 T.VALUE PROB. ---- PERCENTAGES  ----  CHARACTERISTIC                                                                   IDEN WEIGHT
+\par \plain\f1\fs12               GRP/CAT CAT/GRP GLOBAL  CATEGORIES           OF VARIABLES
+\par \plain\f1\fs12 ----------------------------------------------------------------------------------------------------------------------------------
+\par \plain\f1\fs12                                20.37  CLUSTER  3 /  3                                                                  aa3a    189
+\par \plain\f1\fs12  16.09  0.000   90.72   46.56  10.45  $36.167/$51.234      NIVEL SOCIOECONÃ“MICO AGRUPADO                              NS03     97
+\par \plain\f1\fs12  13.48  0.000   64.52   52.91  16.70  Si                   TENENCIA DE OBRA SOCIAL                                     TI01    155
+\par \plain\f1\fs12   9.83  0.000   54.23   40.74  15.30  Agropecuario         PRINCIPAL ACTIVIDAD OCUPACIONAL                             OC01    142
+\par \plain\f1\fs12   9.06  0.000   82.22   19.58   4.85  $73.334$143.107      NIVEL SOCIOECONÃ“MICO AGRUPADO                              NS05     45
+\par \plain\f1\fs12   8.75  0.000   78.72   19.58   5.06  missing category     EQUIPAMIENTOS SECUESTRADOS (no inc. medios de movilidad y es 12_     47
+\par \plain\f1\fs12   8.41  0.000   57.29   29.10  10.34  Relacion de Dependen CONDICION OCUPACIONAL                                       CO07     96
+\par \plain\f1\fs12   8.35  0.000   85.71   15.87   3.77  Monotributistas Efec CONDICION OCUPACIONAL                                       CO05     35
+\par \plain\f1\fs12   6.31  0.000  100.00    7.41   1.51  PequeÃ±os Contribuye CONDICION OCUPACIONAL                                       CO06     14
+\par \plain\f1\fs12   6.01  0.000   24.37   92.59  77.37  Masculino            GENERO DE LOS INFRACTORES                                   GE02    718
+\par \plain\f1\fs12   4.96  0.000   40.78   22.22  11.10  Mamifero(s)          DECOMISO DE ESPECIES PROTEGIDAS                             DE03    103
+\par \plain\f1\fs12   4.80  0.000   30.83   43.39  28.66  35 - 48 aÃ±os        EDADES (agrupado)                                           ED03    266
+\par \plain\f1\fs12   4.24  0.000   31.28   34.92  22.74  Arma(s) de fuego y O EQUIPAMIENTOS SECUESTRADOS (no inc. medios de movilidad y esSE03    211
+\par \plain\f1\fs12   3.72  0.000   60.00    6.35   2.16  Category n° 5        MIEMBROS                                                    MI05     20
+\par \plain\f1\fs12   3.33  0.000   32.06   22.22  14.12  Category n° 1        ULTIMA CALIFICACION BCRA                                    CA01    131
+\par \plain\f1\fs12   3.13  0.001   46.67    7.41   3.23  Lancha(s)            MOVILIDAD                                                   MO06     30
+\par \plain\f1\fs12   3.09  0.001   27.57   35.45  26.19  Category n° 2        MIEMBROS                                                    MI02    243
+\par \plain\f1\fs12   3.01  0.001   61.54    4.23   1.40  Camioneta(s)         MOVILIDAD                                                   MO08     13
+\par \plain\f1\fs12   2.96  0.002   30.60   21.69  14.44  Category n° 3        MIEMBROS                                                    MI03    134
+\par \plain\f1\fs12   1.82  0.034   50.00    2.65   1.08  Forestal             PRINCIPAL ACTIVIDAD OCUPACIONAL                             OC05     10
+\par \plain\f1\fs12   1.77  0.038   37.50    4.76   2.59  Category n° 2        CANTIDAD DE CUENTAS BANCARIAS OPERATIVAS                    CA02     24
+\par \plain\f1\fs12   1.47  0.070   25.56   17.99  14.33  Category n° 1        CANTIDAD DE CUENTAS BANCARIAS OPERATIVAS                    CA01    133
+\par \plain\f1\fs12   1.43  0.076   21.76   71.96  67.35  missing category     MOVILIDAD                                                    10_    625
+\par \plain\f1\fs12   0.96  0.168   36.36    2.12   1.19  ConstrucciÃ³n        PRINCIPAL ACTIVIDAD OCUPACIONAL                             OC02     11
+\par \plain\f1\fs12   0.80  0.212   23.13   17.99  15.84  49 - 62 aÃ±os        EDADES (agrupado)                                           ED04    147
+\par \plain\f1\fs12   0.61  0.271   33.33    1.59   0.97  Category n° 3        CANTIDAD DE CUENTAS BANCARIAS OPERATIVAS                    CA03      9
+\par \plain\f1\fs12   0.61  0.271   21.94   27.51  25.54  21 - 34 aÃ±os        EDADES (agrupado)                                           ED02    237
+\par \plain\f1\fs12   0.58  0.282   24.49    6.35   5.28  $51.235/$73.333      NIVEL SOCIOECONÃ“MICO AGRUPADO                              NS04     49
+\par \plain\f1\fs12   0.54  0.294   20.53   98.94  98.17  Category n° 1        FALLECIDOS                                                  V301    911
+\par \plain\f1\fs12   0.38  0.353   24.24    4.23   3.56  Mamifero(s), Ave(s), DECOMISO DE ESPECIES PROTEGIDAS                             DE05     33
+\par \plain\f1\fs12   0.17  0.434   28.57    1.06   0.75  Camion(es)/Maquin(as MOVILIDAD                                                   MO01      7
+\par \plain\f1\fs12   0.17  0.434   28.57    1.06   0.75  ReparaciÃ³n/Mant.    PRINCIPAL ACTIVIDAD OCUPACIONAL                             OC06      7
+\par \plain\f1\fs12   0.03  0.486   20.73    8.99   8.84  $23.153/$36.166      NIVEL SOCIOECONÃ“MICO AGRUPADO                              NS02     82
+\par \plain\f1\fs12   0.02  0.492   25.00    1.06   0.86  Madera(s)            DECOMISO DE ESPECIES PROTEGIDAS                             DE01      8
+\par \plain\f1\fs12  -0.02  0.492   12.50    0.53   0.86  Jubilados y Pensiona CONDICION OCUPACIONAL                                       CO04      8
+\par \plain\f1\fs12  -0.34  0.365   20.00    1.59   1.62  Comercio             PRINCIPAL ACTIVIDAD OCUPACIONAL                             OC04     15
+\par \plain\f1\fs12  -0.35  0.363   19.05   16.93  18.10  Equip.de pesca y Otr EQUIPAMIENTOS SECUESTRADOS (no inc. medios de movilidad y esSE05    168
+\par \plain\f1\fs12  -0.38  0.354   16.67    0.53   0.65  Transporte           PRINCIPAL ACTIVIDAD OCUPACIONAL                             OC07      6
+\par \plain\f1\fs12  -0.54  0.294   11.76    1.06   1.83  Si                   FALLECIDOS                                                  V302     17
+\par \plain\f1\fs12  -0.56  0.288   18.58   17.99  19.72  Arma(s) de fuego     EQUIPAMIENTOS SECUESTRADOS (no inc. medios de movilidad y esSE01    183
+\par \plain\f1\fs12  -0.61  0.270   20.00    0.53   0.54  Motocicleta(s) y Otr MOVILIDAD                                                   MO05      5
+\par \plain\f1\fs12  -0.61  0.270   20.00    0.53   0.54  $143.108/$229.816    NIVEL SOCIOECONÃ“MICO AGRUPADO                              NS06      5
+\par \plain\f1\fs12  -0.72  0.237   14.63    3.17   4.42  Servicios varios     PRINCIPAL ACTIVIDAD OCUPACIONAL                             OC03     41
+\par \plain\f1\fs12  -0.73  0.234   15.38    4.23   5.60  63 + aÃ±os           EDADES (agrupado)                                           ED05     52
+\par \plain\f1\fs12  -0.78  0.217   17.86   15.87  18.10  Peces                DECOMISO DE ESPECIES PROTEGIDAS                             DE04    168
+\par \plain\f1\fs12  -0.92  0.179   16.67   10.05  12.28  Motocicleta(s)       MOVILIDAD                                                   MO03    114
+\par \plain\f1\fs12  -0.97  0.167   11.11    1.59   2.91  Category n° 5        ULTIMA CALIFICACION BCRA                                    CA05     27
+\par \plain\f1\fs12  -1.23  0.109    5.88    0.53   1.83  Femenino             GENERO DE LOS INFRACTORES                                   GE01     17
+\par \plain\f1\fs12  -1.44  0.075    5.26    0.53   2.05  Automoviles          MOVILIDAD                                                   MO02     19
+\par \plain\f1\fs12  -1.64  0.051    0.00    0.00   1.40  Caballo(s)/Bicicleta MOVILIDAD                                                   MO04     13
+\par \plain\f1\fs12  -2.09  0.018   10.29    3.70   7.33  Category n° 4        MIEMBROS                                                    MI04     68
+\par \plain\f1\fs12  -2.51  0.006    7.27    2.12   5.93  Arma(s) blancas y Ot EQUIPAMIENTOS SECUESTRADOS (no inc. medios de movilidad y esSE04     55
+\par \plain\f1\fs12  -2.54  0.006   18.68   75.13  81.90  missing category     CANTIDAD DE CUENTAS BANCARIAS OPERATIVAS                     29_    760
+\par \plain\f1\fs12  -2.54  0.006   18.68   75.13  81.90  missing category     ULTIMA CALIFICACION BCRA                                     31_    760
+\par \plain\f1\fs12  -2.95  0.002   17.46   56.61  66.06  missing category     DECOMISO DE ESPECIES PROTEGIDAS                              11_    613
+\par \plain\f1\fs12  -3.03  0.001    0.00    0.00   3.13  <= 20 aÃ±os          EDADES (agrupado)                                           ED01     29
+\par \plain\f1\fs12  -3.47  0.000    7.84    4.23  10.99  Canoa(s)             MOVILIDAD                                                   MO07    102
+\par \plain\f1\fs12  -5.22  0.000   13.39   32.80  49.89  Category n° 1        MIEMBROS                                                    MI01    463
+\par \plain\f1\fs12  -5.59  0.000    6.81    6.88  20.58  missing category     TENENCIA DE OBRA SOCIAL                                      26_    191
+\par \plain\f1\fs12  -5.63  0.000    6.77    6.88  20.69  Sin datos            GENERO DE LOS INFRACTORES                                   GE03    192
+\par \plain\f1\fs12  -5.80  0.000    6.60    6.88  21.23  missing category     EDADES (agrupado)                                            20_    197
+\par \plain\f1\fs12  -6.35  0.000    6.61    7.94  24.46  missing category     NIVEL SOCIOECONÃ“MICO AGRUPADO                               34_    227
+\par \plain\f1\fs12  -6.98  0.000   13.06   40.21  62.72  No                   TENENCIA DE OBRA SOCIAL                                     TI02    582
+\par \plain\f1\fs12  -7.33  0.000    6.06    8.47  28.45  Equip.de pesca       EQUIPAMIENTOS SECUESTRADOS (no inc. medios de movilidad y esSE02    264
+\par \plain\f1\fs12  -8.99  0.000   13.07   48.15  75.00  missing category     PRINCIPAL ACTIVIDAD OCUPACIONAL                              25_    696
+\par \plain\f1\fs12 -11.78  0.000    4.28    9.52  45.37  <=$23.152            NIVEL SOCIOECONÃ“MICO AGRUPADO                              NS01    421
+\par \plain\f1\fs12 -13.48  0.000   11.51   47.09  83.30  missing category     CONDICION OCUPACIONAL                                        27_    773
+\par \plain\f1\fs12 -99.99  0.000    0.00    0.00   0.00  Category n° 6        ULTIMA CALIFICACION BCRA                                    CA06      0
+\par \plain\f1\fs12 -99.99  0.000    0.00    0.00   0.00  Category n° 7        ULTIMA CALIFICACION BCRA                                    CA07      0
+\par \plain\f1\fs12 -99.99  0.000    0.00    0.00   0.00  Category n° 1        CONDICION OCUPACIONAL                                       CO01      0
+\par \plain\f1\fs12 -99.99  0.000    0.00    0.00   0.00  Category n° 5        CANTIDAD DE CUENTAS BANCARIAS OPERATIVAS                    CA05      0
+\par \plain\f1\fs12 -99.99  0.000    0.00    0.00   0.00  Category n° 10       ULTIMA CALIFICACION BCRA                                    CA10      0
+\par \plain\f1\fs12 -99.99  0.000    0.00    0.00   0.00  Category n° 9        ULTIMA CALIFICACION BCRA                                    CA09      0
+\par \plain\f1\fs12 -99.99  0.000    0.00    0.00   0.00  Category n° 8        ULTIMA CALIFICACION BCRA                                    CA08      0
+\par \plain\f1\fs12 ----------------------------------------------------------------------------------------------------------------------------------
+
+\par \plain\f3\fs12 CHARACTERISATION BY CONTINUOUS VARIABLES OF CLUSTERS OR CATEGORIES
+\par \plain\f3\fs12 OF CUT "a" OF THE TREE INTO   3 CLUSTERS
+\par \plain\f3\fs12 CLUSTER  1 /  3
+\par \plain\f1\fs12 +--------+-------+-------------------+-------------------+-----------------------------------------------------------------------+
+\par \plain\f1\fs12 | T.VALUE| PROB. |       MEANS       |   STD. DEVIATION  |                    CHARACTERISTIC VARIABLES                           |
+\par \plain\f1\fs12 |        |       |   GROUP   OVERALL |   GROUP  OVERALL  | NUM.LABEL                                                        IDEN |
+\par \plain\f1\fs12 +--------+-------+-------------------+-------------------+-----------------------------------------------------------------------+
+\par \plain\f3\fs12 CLUSTER  2 /  3
+\par \plain\f1\fs12 +--------+-------+-------------------+-------------------+-----------------------------------------------------------------------+
+\par \plain\f1\fs12 | T.VALUE| PROB. |       MEANS       |   STD. DEVIATION  |                    CHARACTERISTIC VARIABLES                           |
+\par \plain\f1\fs12 |        |       |   GROUP   OVERALL |   GROUP  OVERALL  | NUM.LABEL                                                        IDEN |
+\par \plain\f1\fs12 +--------+-------+-------------------+-------------------+-----------------------------------------------------------------------+
+\par \plain\f3\fs12 CLUSTER  3 /  3
+\par \plain\f1\fs12 +--------+-------+-------------------+-------------------+-----------------------------------------------------------------------+
+\par \plain\f1\fs12 | T.VALUE| PROB. |       MEANS       |   STD. DEVIATION  |                    CHARACTERISTIC VARIABLES                           |
+\par \plain\f1\fs12 |        |       |   GROUP   OVERALL |   GROUP  OVERALL  | NUM.LABEL                                                        IDEN |
+\par \plain\f1\fs12 +--------+-------+-------------------+-------------------+-----------------------------------------------------------------------+
+
+\par \plain\f3\fs12 DESCRIPTION OF: CUT "b" OF THE TREE INTO   4 CLUSTER
+\par \plain\f1\fs12 CLUSTERS CHARACTERISATION BY CATEGORIES
+\par \plain\f1\fs12 CLUSTERS CHARACTERISATION BY CONTINUOUS VARIABLES
+
+\par \plain\f3\fs12 CHARACTERISATION BY CATEGORIES OF CLUSTERS OR CATEGORIES
+\par \plain\f3\fs12 OF CUT "b" OF THE TREE INTO   4 CLUSTERS
+\par \plain\f3\fs12 CLUSTER  1 /  4
+\par \plain\f1\fs12 ----------------------------------------------------------------------------------------------------------------------------------
+\par \plain\f1\fs12 T.VALUE PROB. ---- PERCENTAGES  ----  CHARACTERISTIC                                                                   IDEN WEIGHT
+\par \plain\f1\fs12               GRP/CAT CAT/GRP GLOBAL  CATEGORIES           OF VARIABLES
+\par \plain\f1\fs12 ----------------------------------------------------------------------------------------------------------------------------------
+\par \plain\f1\fs12                                37.28  CLUSTER  1 /  4                                                                  bb1b    346
+\par \plain\f1\fs12  12.95  0.000   79.23   41.91  19.72  Arma(s) de fuego     EQUIPAMIENTOS SECUESTRADOS (no inc. medios de movilidad y esSE01    183
+\par \plain\f1\fs12   9.63  0.000   78.95   26.01  12.28  Motocicleta(s)       MOVILIDAD                                                   MO03    114
+\par \plain\f1\fs12   8.93  0.000   63.98   39.02  22.74  Arma(s) de fuego y O EQUIPAMIENTOS SECUESTRADOS (no inc. medios de movilidad y esSE03    211
+\par \plain\f1\fs12   7.73  0.000   50.83   61.85  45.37  <=$23.152            NIVEL SOCIOECONÃ“MICO AGRUPADO                              NS01    421
+\par \plain\f1\fs12   6.59  0.000   41.79   93.35  83.30  missing category     CONDICION OCUPACIONAL                                        27_    773
+\par \plain\f1\fs12   6.54  0.000   80.00   12.72   5.93  Arma(s) blancas y Ot EQUIPAMIENTOS SECUESTRADOS (no inc. medios de movilidad y esSE04     55
+\par \plain\f1\fs12   5.62  0.000   44.16   74.28  62.72  No                   TENENCIA DE OBRA SOCIAL                                     TI02    582
+\par \plain\f1\fs12   5.14  0.000   41.95   84.39  75.00  missing category     PRINCIPAL ACTIVIDAD OCUPACIONAL                              25_    696
+\par \plain\f1\fs12   4.93  0.000   42.90   76.01  66.06  missing category     DECOMISO DE ESPECIES PROTEGIDAS                              11_    613
+\par \plain\f1\fs12   4.58  0.000  100.00    3.76   1.40  Caballo(s)/Bicicleta MOVILIDAD                                                   MO04     13
+\par \plain\f1\fs12   4.10  0.000   75.86    6.36   3.13  <= 20 aÃ±os          EDADES (agrupado)                                           ED01     29
+\par \plain\f1\fs12   3.43  0.000   53.40   15.90  11.10  Mamifero(s)          DECOMISO DE ESPECIES PROTEGIDAS                             DE03    103
+\par \plain\f1\fs12   3.26  0.001   39.74   87.28  81.90  missing category     ULTIMA CALIFICACION BCRA                                     31_    760
+\par \plain\f1\fs12   3.26  0.001   39.74   87.28  81.90  missing category     CANTIDAD DE CUENTAS BANCARIAS OPERATIVAS                     29_    760
+\par \plain\f1\fs12   3.11  0.001   42.33   56.65  49.89  Category n° 1        MIEMBROS                                                    MI01    463
+\par \plain\f1\fs12   2.55  0.005   68.42    3.76   2.05  Automoviles          MOVILIDAD                                                   MO02     19
+\par \plain\f1\fs12   2.04  0.021   43.04   29.48  25.54  21 - 34 aÃ±os        EDADES (agrupado)                                           ED02    237
+\par \plain\f1\fs12   1.82  0.034   75.00    1.73   0.86  Madera(s)            DECOMISO DE ESPECIES PROTEGIDAS                             DE01      8
+\par \plain\f1\fs12   1.58  0.057   58.82    2.89   1.83  Si                   FALLECIDOS                                                  V302     17
+\par \plain\f1\fs12   1.46  0.072   71.43    1.45   0.75  Camion(es)/Maquin(as MOVILIDAD                                                   MO01      7
+\par \plain\f1\fs12   1.06  0.143   40.33   28.32  26.19  Category n° 2        MIEMBROS                                                    MI02    243
+\par \plain\f1\fs12   0.78  0.219   38.02   78.90  77.37  Masculino            GENERO DE LOS INFRACTORES                                   GE02    718
+\par \plain\f1\fs12   0.77  0.221   39.65   26.01  24.46  missing category     NIVEL SOCIOECONÃ“MICO AGRUPADO                               34_    227
+\par \plain\f1\fs12   0.32  0.374   37.50    0.87   0.86  Jubilados y Pensiona CONDICION OCUPACIONAL                                       CO04      8
+\par \plain\f1\fs12   0.23  0.409   39.02    9.25   8.84  $23.153/$36.166      NIVEL SOCIOECONÃ“MICO AGRUPADO                              NS02     82
+\par \plain\f1\fs12   0.12  0.452   40.00    1.16   1.08  Forestal             PRINCIPAL ACTIVIDAD OCUPACIONAL                             OC05     10
+\par \plain\f1\fs12   0.05  0.480   42.86    0.87   0.75  ReparaciÃ³n/Mant.    PRINCIPAL ACTIVIDAD OCUPACIONAL                             OC06      7
+\par \plain\f1\fs12  -0.04  0.482   36.54    5.49   5.60  63 + aÃ±os           EDADES (agrupado)                                           ED05     52
+\par \plain\f1\fs12  -0.17  0.431   33.33    2.31   2.59  Category n° 2        CANTIDAD DE CUENTAS BANCARIAS OPERATIVAS                    CA02     24
+\par \plain\f1\fs12  -0.19  0.425   37.04    2.89   2.91  Category n° 5        ULTIMA CALIFICACION BCRA                                    CA05     27
+\par \plain\f1\fs12  -0.25  0.399   33.33    0.58   0.65  Transporte           PRINCIPAL ACTIVIDAD OCUPACIONAL                             OC07      6
+\par \plain\f1\fs12  -0.28  0.390   33.33    3.18   3.56  Mamifero(s), Ave(s), DECOMISO DE ESPECIES PROTEGIDAS                             DE05     33
+\par \plain\f1\fs12  -0.29  0.385   20.00    0.29   0.54  Motocicleta(s) y Otr MOVILIDAD                                                   MO05      5
+\par \plain\f1\fs12  -0.29  0.385   20.00    0.29   0.54  $143.108/$229.816    NIVEL SOCIOECONÃ“MICO AGRUPADO                              NS06      5
+\par \plain\f1\fs12  -0.32  0.374   36.04   20.52  21.23  missing category     EDADES (agrupado)                                            20_    197
+\par \plain\f1\fs12  -0.40  0.343   29.41    1.45   1.83  Femenino             GENERO DE LOS INFRACTORES                                   GE01     17
+\par \plain\f1\fs12  -0.42  0.336   35.37   15.03  15.84  49 - 62 aÃ±os        EDADES (agrupado)                                           ED04    147
+\par \plain\f1\fs12  -0.57  0.285   22.22    0.58   0.97  Category n° 3        CANTIDAD DE CUENTAS BANCARIAS OPERATIVAS                    CA03      9
+\par \plain\f1\fs12  -0.68  0.247   34.90   19.36  20.69  Sin datos            GENERO DE LOS INFRACTORES                                   GE03    192
+\par \plain\f1\fs12  -0.79  0.215   34.55   19.08  20.58  missing category     TENENCIA DE OBRA SOCIAL                                      26_    191
+\par \plain\f1\fs12  -0.92  0.179   29.27    3.47   4.42  Servicios varios     PRINCIPAL ACTIVIDAD OCUPACIONAL                             OC03     41
+\par \plain\f1\fs12  -1.00  0.158   18.18    0.58   1.19  ConstrucciÃ³n        PRINCIPAL ACTIVIDAD OCUPACIONAL                             OC02     11
+\par \plain\f1\fs12  -1.38  0.084   35.68   64.45  67.35  missing category     MOVILIDAD                                                    10_    625
+\par \plain\f1\fs12  -1.58  0.057   36.88   97.11  98.17  Category n° 1        FALLECIDOS                                                  V301    911
+\par \plain\f1\fs12  -2.38  0.009    6.67    0.29   1.62  Comercio             PRINCIPAL ACTIVIDAD OCUPACIONAL                             OC04     15
+\par \plain\f1\fs12  -2.48  0.007   10.00    0.58   2.16  Category n° 5        MIEMBROS                                                    MI05     20
+\par \plain\f1\fs12  -2.64  0.004   26.87   10.40  14.44  Category n° 3        MIEMBROS                                                    MI03    134
+\par \plain\f1\fs12  -2.83  0.002   30.08   23.12  28.66  35 - 48 aÃ±os        EDADES (agrupado)                                           ED03    266
+\par \plain\f1\fs12  -2.84  0.002   14.29    1.45   3.77  Monotributistas Efec CONDICION OCUPACIONAL                                       CO05     35
+\par \plain\f1\fs12  -2.85  0.002    0.00    0.00   1.40  Camioneta(s)         MOVILIDAD                                                   MO08     13
+\par \plain\f1\fs12  -2.93  0.002   20.59    4.05   7.33  Category n° 4        MIEMBROS                                                    MI04     68
+\par \plain\f1\fs12  -2.98  0.001   25.56    9.83  14.33  Category n° 1        CANTIDAD DE CUENTAS BANCARIAS OPERATIVAS                    CA01    133
+\par \plain\f1\fs12  -2.99  0.001    0.00    0.00   1.51  PequeÃ±os Contribuye CONDICION OCUPACIONAL                                       CO06     14
+\par \plain\f1\fs12  -3.26  0.001   24.43    9.25  14.12  Category n° 1        ULTIMA CALIFICACION BCRA                                    CA01    131
+\par \plain\f1\fs12  -4.22  0.000    3.33    0.29   3.23  Lancha(s)            MOVILIDAD                                                   MO06     30
+\par \plain\f1\fs12  -4.24  0.000    8.89    1.16   4.85  $73.334$143.107      NIVEL SOCIOECONÃ“MICO AGRUPADO                              NS05     45
+\par \plain\f1\fs12  -4.37  0.000   21.13    8.67  15.30  Agropecuario         PRINCIPAL ACTIVIDAD OCUPACIONAL                             OC01    142
+\par \plain\f1\fs12  -5.00  0.000    6.12    0.87   5.28  $51.235/$73.333      NIVEL SOCIOECONÃ“MICO AGRUPADO                              NS04     49
+\par \plain\f1\fs12  -5.03  0.000   14.58    4.05  10.34  Relacion de Dependen CONDICION OCUPACIONAL                                       CO07     96
+\par \plain\f1\fs12  -6.30  0.000    0.00    0.00   5.06  missing category     EQUIPAMIENTOS SECUESTRADOS (no inc. medios de movilidad y es 12_     47
+\par \plain\f1\fs12  -6.59  0.000   14.84    6.65  16.70  Si                   TENENCIA DE OBRA SOCIAL                                     TI01    155
+\par \plain\f1\fs12  -8.68  0.000    2.06    0.58  10.45  $36.167/$51.234      NIVEL SOCIOECONÃ“MICO AGRUPADO                              NS03     97
+\par \plain\f1\fs12  -8.81  0.000    9.52    4.62  18.10  Equip.de pesca y Otr EQUIPAMIENTOS SECUESTRADOS (no inc. medios de movilidad y esSE05    168
+\par \plain\f1\fs12  -9.81  0.000    0.00    0.00  10.99  Canoa(s)             MOVILIDAD                                                   MO07    102
+\par \plain\f1\fs12 -10.69  0.000    4.76    2.31  18.10  Peces                DECOMISO DE ESPECIES PROTEGIDAS                             DE04    168
+\par \plain\f1\fs12 -15.64  0.000    2.27    1.73  28.45  Equip.de pesca       EQUIPAMIENTOS SECUESTRADOS (no inc. medios de movilidad y esSE02    264
+\par \plain\f1\fs12 -99.99  0.000    0.00    0.00   0.00  Category n° 6        ULTIMA CALIFICACION BCRA                                    CA06      0
+\par \plain\f1\fs12 -99.99  0.000    0.00    0.00   0.00  Category n° 7        ULTIMA CALIFICACION BCRA                                    CA07      0
+\par \plain\f1\fs12 -99.99  0.000    0.00    0.00   0.00  Category n° 1        CONDICION OCUPACIONAL                                       CO01      0
+\par \plain\f1\fs12 -99.99  0.000    0.00    0.00   0.00  Category n° 5        CANTIDAD DE CUENTAS BANCARIAS OPERATIVAS                    CA05      0
+\par \plain\f1\fs12 -99.99  0.000    0.00    0.00   0.00  Category n° 10       ULTIMA CALIFICACION BCRA                                    CA10      0
+\par \plain\f1\fs12 -99.99  0.000    0.00    0.00   0.00  Category n° 9        ULTIMA CALIFICACION BCRA                                    CA09      0
+
+\par \plain\f1\fs12 -99.99  0.000    0.00    0.00   0.00  Category n° 8        ULTIMA CALIFICACION BCRA                                    CA08      0
+\par \plain\f1\fs12 ----------------------------------------------------------------------------------------------------------------------------------
+
+\par \plain\f3\fs12 CLUSTER  2 /  4
+\par \plain\f1\fs12 ----------------------------------------------------------------------------------------------------------------------------------
+\par \plain\f1\fs12 T.VALUE PROB. ---- PERCENTAGES  ----  CHARACTERISTIC                                                                   IDEN WEIGHT
+\par \plain\f1\fs12               GRP/CAT CAT/GRP GLOBAL  CATEGORIES           OF VARIABLES
+\par \plain\f1\fs12 ----------------------------------------------------------------------------------------------------------------------------------
+\par \plain\f1\fs12                                40.52  CLUSTER  2 /  4                                                                  bb2b    376
+\par \plain\f1\fs12  20.91  0.000   92.05   64.63  28.45  Equip.de pesca       EQUIPAMIENTOS SECUESTRADOS (no inc. medios de movilidad y esSE02    264
+\par \plain\f1\fs12  11.54  0.000   92.16   25.00  10.99  Canoa(s)             MOVILIDAD                                                   MO07    102
+\par \plain\f1\fs12   9.97  0.000   75.00   33.51  18.10  Peces                DECOMISO DE ESPECIES PROTEGIDAS                             DE04    168
+\par \plain\f1\fs12   8.72  0.000   70.83   31.65  18.10  Equip.de pesca y Otr EQUIPAMIENTOS SECUESTRADOS (no inc. medios de movilidad y esSE05    168
+\par \plain\f1\fs12   5.62  0.000   44.50   91.49  83.30  missing category     CONDICION OCUPACIONAL                                        27_    773
+\par \plain\f1\fs12   5.43  0.000   58.12   29.52  20.58  missing category     TENENCIA DE OBRA SOCIAL                                      26_    191
+\par \plain\f1\fs12   5.36  0.000   57.81   29.52  20.69  Sin datos            GENERO DE LOS INFRACTORES                                   GE03    192
+\par \plain\f1\fs12   5.14  0.000   56.85   29.79  21.23  missing category     EDADES (agrupado)                                            20_    197
+\par \plain\f1\fs12   4.82  0.000   69.12   12.50   7.33  Category n° 4        MIEMBROS                                                    MI04     68
+\par \plain\f1\fs12   3.95  0.000   51.98   31.38  24.46  missing category     NIVEL SOCIOECONÃ“MICO AGRUPADO                               34_    227
+\par \plain\f1\fs12   3.15  0.001   63.27    8.24   5.28  $51.235/$73.333      NIVEL SOCIOECONÃ“MICO AGRUPADO                              NS04     49
+\par \plain\f1\fs12   2.57  0.005   42.96   79.52  75.00  missing category     PRINCIPAL ACTIVIDAD OCUPACIONAL                              25_    696
+\par \plain\f1\fs12   2.33  0.010   73.33    2.93   1.62  Comercio             PRINCIPAL ACTIVIDAD OCUPACIONAL                             OC04     15
+\par \plain\f1\fs12   1.46  0.072   42.98   52.93  49.89  Category n° 1        MIEMBROS                                                    MI01    463
+\par \plain\f1\fs12   1.26  0.104   51.22    5.59   4.42  Servicios varios     PRINCIPAL ACTIVIDAD OCUPACIONAL                             OC03     41
+\par \plain\f1\fs12   1.26  0.104   45.86   16.22  14.33  Category n° 1        CANTIDAD DE CUENTAS BANCARIAS OPERATIVAS                    CA01    133
+\par \plain\f1\fs12   1.20  0.115   40.83   98.94  98.17  Category n° 1        FALLECIDOS                                                  V301    911
+\par \plain\f1\fs12   1.18  0.119   41.92   69.68  67.35  missing category     MOVILIDAD                                                    10_    625
+\par \plain\f1\fs12   1.02  0.154   51.85    3.72   2.91  Category n° 5        ULTIMA CALIFICACION BCRA                                    CA05     27
+\par \plain\f1\fs12   0.93  0.176   42.28   47.34  45.37  <=$23.152            NIVEL SOCIOECONÃ“MICO AGRUPADO                              NS01    421
+\par \plain\f1\fs12   0.81  0.210   52.94    2.39   1.83  Femenino             GENERO DE LOS INFRACTORES                                   GE01     17
+\par \plain\f1\fs12   0.52  0.303   46.67    3.72   3.23  Lancha(s)            MOVILIDAD                                                   MO06     30
+\par \plain\f1\fs12   0.45  0.326   60.00    0.80   0.54  Motocicleta(s) y Otr MOVILIDAD                                                   MO05      5
+\par \plain\f1\fs12   0.45  0.326   60.00    0.80   0.54  $143.108/$229.816    NIVEL SOCIOECONÃ“MICO AGRUPADO                              NS06      5
+\par \plain\f1\fs12   0.42  0.336   44.23    6.12   5.60  63 + aÃ±os           EDADES (agrupado)                                           ED05     52
+\par \plain\f1\fs12   0.21  0.418   50.00    1.06   0.86  Jubilados y Pensiona CONDICION OCUPACIONAL                                       CO04      8
+\par \plain\f1\fs12   0.08  0.466   50.00    0.80   0.65  Transporte           PRINCIPAL ACTIVIDAD OCUPACIONAL                             OC07      6
+\par \plain\f1\fs12   0.08  0.469   44.44    1.06   0.97  Category n° 3        CANTIDAD DE CUENTAS BANCARIAS OPERATIVAS                    CA03      9
+\par \plain\f1\fs12   0.04  0.483   41.04   14.63  14.44  Category n° 3        MIEMBROS                                                    MI03    134
+\par \plain\f1\fs12  -0.05  0.482   36.36    1.06   1.19  ConstrucciÃ³n        PRINCIPAL ACTIVIDAD OCUPACIONAL                             OC02     11
+\par \plain\f1\fs12  -0.07  0.472   40.24    8.78   8.84  $23.153/$36.166      NIVEL SOCIOECONÃ“MICO AGRUPADO                              NS02     82
+\par \plain\f1\fs12  -0.09  0.466   40.46   14.10  14.12  Category n° 1        ULTIMA CALIFICACION BCRA                                    CA01    131
+\par \plain\f1\fs12  -0.23  0.408   28.57    0.53   0.75  ReparaciÃ³n/Mant.    PRINCIPAL ACTIVIDAD OCUPACIONAL                             OC06      7
+\par \plain\f1\fs12  -0.32  0.374   40.03   61.97  62.72  No                   TENENCIA DE OBRA SOCIAL                                     TI02    582
+\par \plain\f1\fs12  -0.56  0.289   38.10   14.89  15.84  49 - 62 aÃ±os        EDADES (agrupado)                                           ED04    147
+\par \plain\f1\fs12  -0.63  0.264   38.72   27.39  28.66  35 - 48 aÃ±os        EDADES (agrupado)                                           ED03    266
+\par \plain\f1\fs12  -0.67  0.252   33.33    2.93   3.56  Mamifero(s), Ave(s), DECOMISO DE ESPECIES PROTEGIDAS                             DE05     33
+\par \plain\f1\fs12  -0.77  0.220   39.87   80.59  81.90  missing category     CANTIDAD DE CUENTAS BANCARIAS OPERATIVAS                     29_    760
+\par \plain\f1\fs12  -0.77  0.220   39.87   80.59  81.90  missing category     ULTIMA CALIFICACION BCRA                                     31_    760
+\par \plain\f1\fs12  -0.93  0.175   29.17    1.86   2.59  Category n° 2        CANTIDAD DE CUENTAS BANCARIAS OPERATIVAS                    CA02     24
+\par \plain\f1\fs12  -1.20  0.115   23.53    1.06   1.83  Si                   FALLECIDOS                                                  V302     17
+\par \plain\f1\fs12  -1.21  0.114   25.00    1.33   2.16  Category n° 5        MIEMBROS                                                    MI05     20
+\par \plain\f1\fs12  -1.39  0.082   38.83   63.30  66.06  missing category     DECOMISO DE ESPECIES PROTEGIDAS                              11_    613
+\par \plain\f1\fs12  -1.72  0.043   10.00    0.27   1.08  Forestal             PRINCIPAL ACTIVIDAD OCUPACIONAL                             OC05     10
+\par \plain\f1\fs12  -1.94  0.026    0.00    0.00   0.75  Camion(es)/Maquin(as MOVILIDAD                                                   MO01      7
+\par \plain\f1\fs12  -2.16  0.015    0.00    0.00   0.86  Madera(s)            DECOMISO DE ESPECIES PROTEGIDAS                             DE01      8
+\par \plain\f1\fs12  -2.71  0.003   32.91   20.74  25.54  21 - 34 aÃ±os        EDADES (agrupado)                                           ED02    237
+\par \plain\f1\fs12  -2.77  0.003   27.08    6.91  10.34  Relacion de Dependen CONDICION OCUPACIONAL                                       CO07     96
+\par \plain\f1\fs12  -2.94  0.002   13.79    1.06   3.13  <= 20 aÃ±os          EDADES (agrupado)                                           ED01     29
+\par \plain\f1\fs12  -3.06  0.001    0.00    0.00   1.40  Camioneta(s)         MOVILIDAD                                                   MO08     13
+\par \plain\f1\fs12  -3.06  0.001    0.00    0.00   1.40  Caballo(s)/Bicicleta MOVILIDAD                                                   MO04     13
+\par \plain\f1\fs12  -3.22  0.001    0.00    0.00   1.51  PequeÃ±os Contribuye CONDICION OCUPACIONAL                                       CO06     14
+\par \plain\f1\fs12  -3.91  0.000    0.00    0.00   2.05  Automoviles          MOVILIDAD                                                   MO02     19
+\par \plain\f1\fs12  -4.19  0.000   24.65    9.31  15.30  Agropecuario         PRINCIPAL ACTIVIDAD OCUPACIONAL                             OC01    142
+\par \plain\f1\fs12  -4.31  0.000   28.81   18.62  26.19  Category n° 2        MIEMBROS                                                    MI02    243
+\par \plain\f1\fs12  -4.65  0.000    8.89    1.06   4.85  $73.334$143.107      NIVEL SOCIOECONÃ“MICO AGRUPADO                              NS05     45
+\par \plain\f1\fs12  -4.82  0.000   10.91    1.60   5.93  Arma(s) blancas y Ot EQUIPAMIENTOS SECUESTRADOS (no inc. medios de movilidad y esSE04     55
+\par \plain\f1\fs12  -5.06  0.000    2.86    0.27   3.77  Monotributistas Efec CONDICION OCUPACIONAL                                       CO05     35
+\par \plain\f1\fs12  -5.46  0.000   35.65   68.09  77.37  Masculino            GENERO DE LOS INFRACTORES                                   GE02    718
+\par \plain\f1\fs12  -5.62  0.000   20.65    8.51  16.70  Si                   TENENCIA DE OBRA SOCIAL                                     TI01    155
+\par \plain\f1\fs12  -6.69  0.000    0.00    0.00   5.06  missing category     EQUIPAMIENTOS SECUESTRADOS (no inc. medios de movilidad y es 12_     47
+\par \plain\f1\fs12  -7.36  0.000    8.25    2.13  10.45  $36.167/$51.234      NIVEL SOCIOECONÃ“MICO AGRUPADO                              NS03     97
+\par \plain\f1\fs12  -9.94  0.000    2.63    0.80  12.28  Motocicleta(s)       MOVILIDAD                                                   MO03    114
+\par \plain\f1\fs12 -10.01  0.000    0.97    0.27  11.10  Mamifero(s)          DECOMISO DE ESPECIES PROTEGIDAS                             DE03    103
+\par \plain\f1\fs12 -13.91  0.000    1.09    0.53  19.72  Arma(s) de fuego     EQUIPAMIENTOS SECUESTRADOS (no inc. medios de movilidad y esSE01    183
+\par \plain\f1\fs12 -14.19  0.000    2.84    1.60  22.74  Arma(s) de fuego y O EQUIPAMIENTOS SECUESTRADOS (no inc. medios de movilidad y esSE03    211
+\par \plain\f1\fs12 -99.99  0.000    0.00    0.00   0.00  Category n° 6        ULTIMA CALIFICACION BCRA                                    CA06      0
+\par \plain\f1\fs12 -99.99  0.000    0.00    0.00   0.00  Category n° 7        ULTIMA CALIFICACION BCRA                                    CA07      0
+\par \plain\f1\fs12 -99.99  0.000    0.00    0.00   0.00  Category n° 1        CONDICION OCUPACIONAL                                       CO01      0
+\par \plain\f1\fs12 -99.99  0.000    0.00    0.00   0.00  Category n° 5        CANTIDAD DE CUENTAS BANCARIAS OPERATIVAS                    CA05      0
+\par \plain\f1\fs12 -99.99  0.000    0.00    0.00   0.00  Category n° 10       ULTIMA CALIFICACION BCRA                                    CA10      0
+\par \plain\f1\fs12 -99.99  0.000    0.00    0.00   0.00  Category n° 9        ULTIMA CALIFICACION BCRA                                    CA09      0
+\par \plain\f1\fs12 -99.99  0.000    0.00    0.00   0.00  Category n° 8        ULTIMA CALIFICACION BCRA                                    CA08      0
+\par \plain\f1\fs12 ----------------------------------------------------------------------------------------------------------------------------------
+
+\par \plain\f3\fs12 CLUSTER  3 /  4
+\par \plain\f1\fs12 ----------------------------------------------------------------------------------------------------------------------------------
+\par \plain\f1\fs12 T.VALUE PROB. ---- PERCENTAGES  ----  CHARACTERISTIC                                                                   IDEN WEIGHT
+\par \plain\f1\fs12               GRP/CAT CAT/GRP GLOBAL  CATEGORIES           OF VARIABLES
+\par \plain\f1\fs12 ----------------------------------------------------------------------------------------------------------------------------------
+\par \plain\f1\fs12                                 6.36  CLUSTER  3 /  4                                                                  bb3b     59
+\par \plain\f1\fs12  99.99  0.000   97.87   77.97   5.06  missing category     EQUIPAMIENTOS SECUESTRADOS (no inc. medios de movilidad y es 12_     47
+\par \plain\f1\fs12   9.36  0.000   33.98   59.32  11.10  Mamifero(s)          DECOMISO DE ESPECIES PROTEGIDAS                             DE03    103
+\par \plain\f1\fs12   8.26  0.000  100.00   22.03   1.40  Camioneta(s)         MOVILIDAD                                                   MO08     13
+\par \plain\f1\fs12   3.18  0.001   31.58   10.17   2.05  Automoviles          MOVILIDAD                                                   MO02     19
+\par \plain\f1\fs12   2.90  0.002   23.33   11.86   3.23  Lancha(s)            MOVILIDAD                                                   MO06     30
+\par \plain\f1\fs12   2.71  0.003   21.21   11.86   3.56  Mamifero(s), Ave(s), DECOMISO DE ESPECIES PROTEGIDAS                             DE05     33
+\par \plain\f1\fs12   2.58  0.005   12.21   27.12  14.12  Category n° 1        ULTIMA CALIFICACION BCRA                                    CA01    131
+\par \plain\f1\fs12   2.45  0.007    8.42   66.10  49.89  Category n° 1        MIEMBROS                                                    MI01    463
+\par \plain\f1\fs12   1.85  0.032   10.53   23.73  14.33  Category n° 1        CANTIDAD DE CUENTAS BANCARIAS OPERATIVAS                    CA01    133
+\par \plain\f1\fs12   1.22  0.112   12.20    8.47   4.42  Servicios varios     PRINCIPAL ACTIVIDAD OCUPACIONAL                             OC03     41
+\par \plain\f1\fs12   1.13  0.129   20.00    3.39   1.08  Forestal             PRINCIPAL ACTIVIDAD OCUPACIONAL                             OC05     10
+\par \plain\f1\fs12   1.03  0.151   18.18    3.39   1.19  ConstrucciÃ³n        PRINCIPAL ACTIVIDAD OCUPACIONAL                             OC02     11
+\par \plain\f1\fs12   1.03  0.152    9.28   15.25  10.45  $36.167/$51.234      NIVEL SOCIOECONÃ“MICO AGRUPADO                              NS03     97
+\par \plain\f1\fs12   0.96  0.168    7.93   30.51  24.46  missing category     NIVEL SOCIOECONÃ“MICO AGRUPADO                               34_    227
+\par \plain\f1\fs12   0.86  0.194   10.20    8.47   5.28  $51.235/$73.333      NIVEL SOCIOECONÃ“MICO AGRUPADO                              NS04     49
+\par \plain\f1\fs12   0.74  0.230    9.62    8.47   5.60  63 + aÃ±os           EDADES (agrupado)                                           ED05     52
+\par \plain\f1\fs12   0.69  0.246   13.33    3.39   1.62  Comercio             PRINCIPAL ACTIVIDAD OCUPACIONAL                             OC04     15
+\par \plain\f1\fs12   0.65  0.256    7.74   22.03  18.10  Peces                DECOMISO DE ESPECIES PROTEGIDAS                             DE04    168
+\par \plain\f1\fs12   0.65  0.258    8.33   13.56  10.34  Relacion de Dependen CONDICION OCUPACIONAL                                       CO07     96
+\par \plain\f1\fs12   0.59  0.279   10.34    5.08   3.13  <= 20 aÃ±os          EDADES (agrupado)                                           ED01     29
+\par \plain\f1\fs12   0.54  0.295   11.76    3.39   1.83  Femenino             GENERO DE LOS INFRACTORES                                   GE01     17
+\par \plain\f1\fs12   0.54  0.295   11.76    3.39   1.83  Si                   FALLECIDOS                                                  V302     17
+\par \plain\f1\fs12   0.47  0.318    7.33   23.73  20.58  missing category     TENENCIA DE OBRA SOCIAL                                      26_    191
+\par \plain\f1\fs12   0.47  0.319    8.89    6.78   4.85  $73.334$143.107      NIVEL SOCIOECONÃ“MICO AGRUPADO                              NS05     45
+\par \plain\f1\fs12   0.45  0.326    7.29   23.73  20.69  Sin datos            GENERO DE LOS INFRACTORES                                   GE03    192
+\par \plain\f1\fs12   0.35  0.365    7.11   23.73  21.23  missing category     EDADES (agrupado)                                            20_    197
+\par \plain\f1\fs12   0.33  0.370   14.29    1.69   0.75  Camion(es)/Maquin(as MOVILIDAD                                                   MO01      7
+\par \plain\f1\fs12   0.26  0.396    7.14    1.69   1.51  PequeÃ±os Contribuye CONDICION OCUPACIONAL                                       CO06     14
+\par \plain\f1\fs12   0.23  0.410   12.50    1.69   0.86  Madera(s)            DECOMISO DE ESPECIES PROTEGIDAS                             DE01      8
+\par \plain\f1\fs12   0.13  0.448   11.11    1.69   0.97  Category n° 3        CANTIDAD DE CUENTAS BANCARIAS OPERATIVAS                    CA03      9
+\par \plain\f1\fs12   0.10  0.459    8.33    3.39   2.59  Category n° 2        CANTIDAD DE CUENTAS BANCARIAS OPERATIVAS                    CA02     24
+\par \plain\f1\fs12   0.09  0.463    6.47   84.75  83.30  missing category     CONDICION OCUPACIONAL                                        27_    773
+\par \plain\f1\fs12  -0.06  0.478    3.70    1.69   2.91  Category n° 5        ULTIMA CALIFICACION BCRA                                    CA05     27
+\par \plain\f1\fs12  -0.09  0.463    5.81   15.25  16.70  Si                   TENENCIA DE OBRA SOCIAL                                     TI01    155
+\par \plain\f1\fs12  -0.15  0.440    6.19   61.02  62.72  No                   TENENCIA DE OBRA SOCIAL                                     TI02    582
+\par \plain\f1\fs12  -0.15  0.438    6.33   25.42  25.54  21 - 34 aÃ±os        EDADES (agrupado)                                           ED02    237
+\par \plain\f1\fs12  -0.19  0.424    6.10    8.47   8.84  $23.153/$36.166      NIVEL SOCIOECONÃ“MICO AGRUPADO                              NS02     82
+\par \plain\f1\fs12  -0.19  0.423    0.00    0.00   1.40  Caballo(s)/Bicicleta MOVILIDAD                                                   MO04     13
+\par \plain\f1\fs12  -0.23  0.410    0.00    0.00   0.86  Jubilados y Pensiona CONDICION OCUPACIONAL                                       CO04      8
+\par \plain\f1\fs12  -0.27  0.393    5.76   23.73  26.19  Category n° 2        MIEMBROS                                                    MI02    243
+\par \plain\f1\fs12  -0.28  0.391    5.44   13.56  15.84  49 - 62 aÃ±os        EDADES (agrupado)                                           ED04    147
+\par \plain\f1\fs12  -0.33  0.370    0.00    0.00   0.75  ReparaciÃ³n/Mant.    PRINCIPAL ACTIVIDAD OCUPACIONAL                             OC06      7
+\par \plain\f1\fs12  -0.45  0.326    0.00    0.00   0.65  Transporte           PRINCIPAL ACTIVIDAD OCUPACIONAL                             OC07      6
+\par \plain\f1\fs12  -0.51  0.304    3.64    3.39   5.93  Arma(s) blancas y Ot EQUIPAMIENTOS SECUESTRADOS (no inc. medios de movilidad y esSE04     55
+\par \plain\f1\fs12  -0.54  0.295    6.26   96.61  98.17  Category n° 1        FALLECIDOS                                                  V301    911
+\par \plain\f1\fs12  -0.56  0.288    6.03   71.19  75.00  missing category     PRINCIPAL ACTIVIDAD OCUPACIONAL                              25_    696
+\par \plain\f1\fs12  -0.58  0.280    0.00    0.00   0.54  Motocicleta(s) y Otr MOVILIDAD                                                   MO05      5
+\par \plain\f1\fs12  -0.58  0.280    0.00    0.00   0.54  $143.108/$229.816    NIVEL SOCIOECONÃ“MICO AGRUPADO                              NS06      5
+\par \plain\f1\fs12  -0.63  0.265    0.00    0.00   2.16  Category n° 5        MIEMBROS                                                    MI05     20
+\par \plain\f1\fs12  -0.69  0.244    4.39    8.47  12.28  Motocicleta(s)       MOVILIDAD                                                   MO03    114
+\par \plain\f1\fs12  -0.70  0.241    5.99   72.88  77.37  Masculino            GENERO DE LOS INFRACTORES                                   GE02    718
+\par \plain\f1\fs12  -0.71  0.239    5.26   23.73  28.66  35 - 48 aÃ±os        EDADES (agrupado)                                           ED03    266
+\par \plain\f1\fs12  -0.76  0.225    4.48   10.17  14.44  Category n° 3        MIEMBROS                                                    MI03    134
+\par \plain\f1\fs12  -0.94  0.173    4.23   10.17  15.30  Agropecuario         PRINCIPAL ACTIVIDAD OCUPACIONAL                             OC01    142
+\par \plain\f1\fs12  -1.30  0.096    0.00    0.00   3.77  Monotributistas Efec CONDICION OCUPACIONAL                                       CO05     35
+\par \plain\f1\fs12  -1.95  0.025    5.53   71.19  81.90  missing category     CANTIDAD DE CUENTAS BANCARIAS OPERATIVAS                     29_    760
+\par \plain\f1\fs12  -1.95  0.025    5.53   71.19  81.90  missing category     ULTIMA CALIFICACION BCRA                                     31_    760
+\par \plain\f1\fs12  -2.21  0.013    2.73    8.47  19.72  Arma(s) de fuego     EQUIPAMIENTOS SECUESTRADOS (no inc. medios de movilidad y esSE01    183
+\par \plain\f1\fs12  -2.36  0.009    0.00    0.00   7.33  Category n° 4        MIEMBROS                                                    MI04     68
+\par \plain\f1\fs12  -2.45  0.007    0.98    1.69  10.99  Canoa(s)             MOVILIDAD                                                   MO07    102
+\par \plain\f1\fs12  -2.54  0.006    4.04   28.81  45.37  <=$23.152            NIVEL SOCIOECONÃ“MICO AGRUPADO                              NS01    421
+\par \plain\f1\fs12  -2.75  0.003    2.37    8.47  22.74  Arma(s) de fuego y O EQUIPAMIENTOS SECUESTRADOS (no inc. medios de movilidad y esSE03    211
+\par \plain\f1\fs12  -3.68  0.000    4.16   44.07  67.35  missing category     MOVILIDAD                                                    10_    625
+\par \plain\f1\fs12  -3.80  0.000    0.60    1.69  18.10  Equip.de pesca y Otr EQUIPAMIENTOS SECUESTRADOS (no inc. medios de movilidad y esSE05    168
+\par \plain\f1\fs12  -5.98  0.000    0.00    0.00  28.45  Equip.de pesca       EQUIPAMIENTOS SECUESTRADOS (no inc. medios de movilidad y esSE02    264
+\par \plain\f1\fs12 -10.14  0.000    0.49    5.08  66.06  missing category     DECOMISO DE ESPECIES PROTEGIDAS                              11_    613
+\par \plain\f1\fs12 -99.99  0.000    0.00    0.00   0.00  Category n° 6        ULTIMA CALIFICACION BCRA                                    CA06      0
+\par \plain\f1\fs12 -99.99  0.000    0.00    0.00   0.00  Category n° 5        CANTIDAD DE CUENTAS BANCARIAS OPERATIVAS                    CA05      0
+\par \plain\f1\fs12 -99.99  0.000    0.00    0.00   0.00  Category n° 1        CONDICION OCUPACIONAL                                       CO01      0
+\par \plain\f1\fs12 -99.99  0.000    0.00    0.00   0.00  Category n° 7        ULTIMA CALIFICACION BCRA                                    CA07      0
+\par \plain\f1\fs12 -99.99  0.000    0.00    0.00   0.00  Category n° 10       ULTIMA CALIFICACION BCRA                                    CA10      0
+\par \plain\f1\fs12 -99.99  0.000    0.00    0.00   0.00  Category n° 9        ULTIMA CALIFICACION BCRA                                    CA09      0
+\par \plain\f1\fs12 -99.99  0.000    0.00    0.00   0.00  Category n° 8        ULTIMA CALIFICACION BCRA                                    CA08      0
+\par \plain\f1\fs12 ----------------------------------------------------------------------------------------------------------------------------------
+
+\par \plain\f3\fs12 CLUSTER  4 /  4
+\par \plain\f1\fs12 ----------------------------------------------------------------------------------------------------------------------------------
+\par \plain\f1\fs12 T.VALUE PROB. ---- PERCENTAGES  ----  CHARACTERISTIC                                                                   IDEN WEIGHT
+\par \plain\f1\fs12               GRP/CAT CAT/GRP GLOBAL  CATEGORIES           OF VARIABLES
+\par \plain\f1\fs12 ----------------------------------------------------------------------------------------------------------------------------------
+\par \plain\f1\fs12                                15.84  CLUSTER  4 /  4                                                                  bb4b    147
+\par \plain\f1\fs12  15.36  0.000   80.41   53.06  10.45  $36.167/$51.234      NIVEL SOCIOECONÃ“MICO AGRUPADO                              NS03     97
+\par \plain\f1\fs12  14.01  0.000   58.71   61.90  16.70  Si                   TENENCIA DE OBRA SOCIAL                                     TI01    155
+\par \plain\f1\fs12  10.62  0.000   50.00   48.30  15.30  Agropecuario         PRINCIPAL ACTIVIDAD OCUPACIONAL                             OC01    142
+\par \plain\f1\fs12   8.87  0.000   82.86   19.73   3.77  Monotributistas Efec CONDICION OCUPACIONAL                                       CO05     35
+\par \plain\f1\fs12   8.77  0.000   73.33   22.45   4.85  $73.334$143.107      NIVEL SOCIOECONÃ“MICO AGRUPADO                              NS05     45
+\par \plain\f1\fs12   8.31  0.000   20.33   99.32  77.37  Masculino            GENERO DE LOS INFRACTORES                                   GE02    718
+\par \plain\f1\fs12   8.31  0.000   50.00   32.65  10.34  Relacion de Dependen CONDICION OCUPACIONAL                                       CO07     96
+\par \plain\f1\fs12   6.29  0.000   30.81   44.22  22.74  Arma(s) de fuego y O EQUIPAMIENTOS SECUESTRADOS (no inc. medios de movilidad y esSE03    211
+\par \plain\f1\fs12   6.19  0.000   92.86    8.84   1.51  PequeÃ±os Contribuye CONDICION OCUPACIONAL                                       CO06     14
+\par \plain\f1\fs12   5.06  0.000   25.94   46.94  28.66  35 - 48 aÃ±os        EDADES (agrupado)                                           ED03    266
+\par \plain\f1\fs12   4.83  0.000   65.00    8.84   2.16  Category n° 5        MIEMBROS                                                    MI05     20
+\par \plain\f1\fs12   4.34  0.000   25.10   41.50  26.19  Category n° 2        MIEMBROS                                                    MI02    243
+\par \plain\f1\fs12   3.69  0.000   27.61   25.17  14.44  Category n° 3        MIEMBROS                                                    MI03    134
+\par \plain\f1\fs12   2.84  0.002   18.24   77.55  67.35  missing category     MOVILIDAD                                                    10_    625
+\par \plain\f1\fs12   2.20  0.014   17.78   74.15  66.06  missing category     DECOMISO DE ESPECIES PROTEGIDAS                              11_    613
+\par \plain\f1\fs12   2.19  0.014   22.90   20.41  14.12  Category n° 1        ULTIMA CALIFICACION BCRA                                    CA01    131
+\par \plain\f1\fs12   1.74  0.041   21.09   21.09  15.84  49 - 62 aÃ±os        EDADES (agrupado)                                           ED04    147
+\par \plain\f1\fs12   1.47  0.070   29.17    4.76   2.59  Category n° 2        CANTIDAD DE CUENTAS BANCARIAS OPERATIVAS                    CA02     24
+\par \plain\f1\fs12   1.36  0.087   26.67    5.44   3.23  Lancha(s)            MOVILIDAD                                                   MO06     30
+\par \plain\f1\fs12   1.14  0.128   19.05   21.77  18.10  Equip.de pesca y Otr EQUIPAMIENTOS SECUESTRADOS (no inc. medios de movilidad y esSE05    168
+\par \plain\f1\fs12   0.84  0.201   30.00    2.04   1.08  Forestal             PRINCIPAL ACTIVIDAD OCUPACIONAL                             OC05     10
+\par \plain\f1\fs12   0.82  0.206   17.72   28.57  25.54  21 - 34 aÃ±os        EDADES (agrupado)                                           ED02    237
+\par \plain\f1\fs12   0.77  0.221   16.03   99.32  98.17  Category n° 1        FALLECIDOS                                                  V301    911
+\par \plain\f1\fs12   0.72  0.236   20.41    6.80   5.28  $51.235/$73.333      NIVEL SOCIOECONÃ“MICO AGRUPADO                              NS04     49
+\par \plain\f1\fs12   0.69  0.246   27.27    2.04   1.19  ConstrucciÃ³n        PRINCIPAL ACTIVIDAD OCUPACIONAL                             OC02     11
+\par \plain\f1\fs12   0.64  0.262   18.05   16.33  14.33  Category n° 1        CANTIDAD DE CUENTAS BANCARIAS OPERATIVAS                    CA01    133
+\par \plain\f1\fs12   0.50  0.307   28.57    1.36   0.75  ReparaciÃ³n/Mant.    PRINCIPAL ACTIVIDAD OCUPACIONAL                             OC06      7
+\par \plain\f1\fs12   0.37  0.354   16.67    0.68   0.65  Transporte           PRINCIPAL ACTIVIDAD OCUPACIONAL                             OC07      6
+\par \plain\f1\fs12   0.36  0.361   16.94   21.09  19.72  Arma(s) de fuego     EQUIPAMIENTOS SECUESTRADOS (no inc. medios de movilidad y esSE01    183
+\par \plain\f1\fs12   0.20  0.421   20.00    0.68   0.54  Motocicleta(s) y Otr MOVILIDAD                                                   MO05      5
+\par \plain\f1\fs12   0.20  0.421   20.00    0.68   0.54  $143.108/$229.816    NIVEL SOCIOECONÃ“MICO AGRUPADO                              NS06      5
+\par \plain\f1\fs12   0.18  0.430   22.22    1.36   0.97  Category n° 3        CANTIDAD DE CUENTAS BANCARIAS OPERATIVAS                    CA03      9
+\par \plain\f1\fs12  -0.13  0.450   14.63    8.16   8.84  $23.153/$36.166      NIVEL SOCIOECONÃ“MICO AGRUPADO                              NS02     82
+\par \plain\f1\fs12  -0.30  0.380   12.12    2.72   3.56  Mamifero(s), Ave(s), DECOMISO DE ESPECIES PROTEGIDAS                             DE05     33
+\par \plain\f1\fs12  -0.33  0.370   12.50    0.68   0.86  Madera(s)            DECOMISO DE ESPECIES PROTEGIDAS                             DE01      8
+\par \plain\f1\fs12  -0.33  0.370   12.50    0.68   0.86  Jubilados y Pensiona CONDICION OCUPACIONAL                                       CO04      8
+\par \plain\f1\fs12  -0.41  0.342   14.04   10.88  12.28  Motocicleta(s)       MOVILIDAD                                                   MO03    114
+\par \plain\f1\fs12  -0.50  0.307   14.29    0.68   0.75  Camion(es)/Maquin(as MOVILIDAD                                                   MO01      7
+\par \plain\f1\fs12  -0.57  0.285    6.67    0.68   1.62  Comercio             PRINCIPAL ACTIVIDAD OCUPACIONAL                             OC04     15
+\par \plain\f1\fs12  -0.77  0.221    5.88    0.68   1.83  Si                   FALLECIDOS                                                  V302     17
+\par \plain\f1\fs12  -0.77  0.221    5.88    0.68   1.83  Femenino             GENERO DE LOS INFRACTORES                                   GE01     17
+\par \plain\f1\fs12  -0.95  0.172    7.41    1.36   2.91  Category n° 5        ULTIMA CALIFICACION BCRA                                    CA05     27
+\par \plain\f1\fs12  -1.08  0.140    9.62    3.40   5.60  63 + aÃ±os           EDADES (agrupado)                                           ED05     52
+\par \plain\f1\fs12  -1.10  0.136   11.65    8.16  11.10  Mamifero(s)          DECOMISO DE ESPECIES PROTEGIDAS                             DE03    103
+\par \plain\f1\fs12  -1.14  0.127   10.29    4.76   7.33  Category n° 4        MIEMBROS                                                    MI04     68
+\par \plain\f1\fs12  -1.20  0.115   12.50   14.29  18.10  Peces                DECOMISO DE ESPECIES PROTEGIDAS                             DE04    168
+\par \plain\f1\fs12  -1.26  0.105    0.00    0.00   1.40  Caballo(s)/Bicicleta MOVILIDAD                                                   MO04     13
+\par \plain\f1\fs12  -1.26  0.105    0.00    0.00   1.40  Camioneta(s)         MOVILIDAD                                                   MO08     13
+\par \plain\f1\fs12  -1.36  0.088    7.32    2.04   4.42  Servicios varios     PRINCIPAL ACTIVIDAD OCUPACIONAL                             OC03     41
+\par \plain\f1\fs12  -1.59  0.056   14.87   76.87  81.90  missing category     CANTIDAD DE CUENTAS BANCARIAS OPERATIVAS                     29_    760
+\par \plain\f1\fs12  -1.59  0.056   14.87   76.87  81.90  missing category     ULTIMA CALIFICACION BCRA                                     31_    760
+\par \plain\f1\fs12  -1.79  0.036    0.00    0.00   2.05  Automoviles          MOVILIDAD                                                   MO02     19
+\par \plain\f1\fs12  -2.15  0.016    5.45    2.04   5.93  Arma(s) blancas y Ot EQUIPAMIENTOS SECUESTRADOS (no inc. medios de movilidad y esSE04     55
+\par \plain\f1\fs12  -2.50  0.006    0.00    0.00   3.13  <= 20 aÃ±os          EDADES (agrupado)                                           ED01     29
+\par \plain\f1\fs12  -2.68  0.004    6.86    4.76  10.99  Canoa(s)             MOVILIDAD                                                   MO07    102
+\par \plain\f1\fs12  -2.81  0.003    2.13    0.68   5.06  missing category     EQUIPAMIENTOS SECUESTRADOS (no inc. medios de movilidad y es 12_     47
+\par \plain\f1\fs12  -5.66  0.000    5.68   10.20  28.45  Equip.de pesca       EQUIPAMIENTOS SECUESTRADOS (no inc. medios de movilidad y esSE02    264
+\par \plain\f1\fs12  -6.52  0.000    9.62   38.10  62.72  No                   TENENCIA DE OBRA SOCIAL                                     TI02    582
+\par \plain\f1\fs12  -8.11  0.000    6.26   19.73  49.89  Category n° 1        MIEMBROS                                                    MI01    463
+\par \plain\f1\fs12  -8.29  0.000    0.00    0.00  20.58  missing category     TENENCIA DE OBRA SOCIAL                                      26_    191
+\par \plain\f1\fs12  -8.31  0.000    0.00    0.00  20.69  Sin datos            GENERO DE LOS INFRACTORES                                   GE03    192
+\par \plain\f1\fs12  -8.44  0.000    0.00    0.00  21.23  missing category     EDADES (agrupado)                                            20_    197
+\par \plain\f1\fs12  -8.76  0.000    0.44    0.68  24.46  missing category     NIVEL SOCIOECONÃ“MICO AGRUPADO                               34_    227
+\par \plain\f1\fs12  -9.11  0.000    9.05   42.86  75.00  missing category     PRINCIPAL ACTIVIDAD OCUPACIONAL                              25_    696
+\par \plain\f1\fs12 -10.57  0.000    2.85    8.16  45.37  <=$23.152            NIVEL SOCIOECONÃ“MICO AGRUPADO                              NS01    421
+\par \plain\f1\fs12 -14.01  0.000    7.24   38.10  83.30  missing category     CONDICION OCUPACIONAL                                        27_    773
+\par \plain\f1\fs12 -99.99  0.000    0.00    0.00   0.00  Category n° 6        ULTIMA CALIFICACION BCRA                                    CA06      0
+\par \plain\f1\fs12 -99.99  0.000    0.00    0.00   0.00  Category n° 7        ULTIMA CALIFICACION BCRA                                    CA07      0
+\par \plain\f1\fs12 -99.99  0.000    0.00    0.00   0.00  Category n° 1        CONDICION OCUPACIONAL                                       CO01      0
+\par \plain\f1\fs12 -99.99  0.000    0.00    0.00   0.00  Category n° 5        CANTIDAD DE CUENTAS BANCARIAS OPERATIVAS                    CA05      0
+\par \plain\f1\fs12 -99.99  0.000    0.00    0.00   0.00  Category n° 10       ULTIMA CALIFICACION BCRA                                    CA10      0
+\par \plain\f1\fs12 -99.99  0.000    0.00    0.00   0.00  Category n° 9        ULTIMA CALIFICACION BCRA                                    CA09      0
+\par \plain\f1\fs12 -99.99  0.000    0.00    0.00   0.00  Category n° 8        ULTIMA CALIFICACION BCRA                                    CA08      0
+\par \plain\f1\fs12 ----------------------------------------------------------------------------------------------------------------------------------
+
+\par \plain\f3\fs12 CHARACTERISATION BY CONTINUOUS VARIABLES OF CLUSTERS OR CATEGORIES
+\par \plain\f3\fs12 OF CUT "b" OF THE TREE INTO   4 CLUSTERS
+\par \plain\f3\fs12 CLUSTER  1 /  4
+\par \plain\f1\fs12 +--------+-------+-------------------+-------------------+-----------------------------------------------------------------------+
+\par \plain\f1\fs12 | T.VALUE| PROB. |       MEANS       |   STD. DEVIATION  |                    CHARACTERISTIC VARIABLES                           |
+\par \plain\f1\fs12 |        |       |   GROUP   OVERALL |   GROUP  OVERALL  | NUM.LABEL                                                        IDEN |
+\par \plain\f1\fs12 +--------+-------+-------------------+-------------------+-----------------------------------------------------------------------+
+\par \plain\f3\fs12 CLUSTER  2 /  4
+\par \plain\f1\fs12 +--------+-------+-------------------+-------------------+-----------------------------------------------------------------------+
+\par \plain\f1\fs12 | T.VALUE| PROB. |       MEANS       |   STD. DEVIATION  |                    CHARACTERISTIC VARIABLES                           |
+\par \plain\f1\fs12 |        |       |   GROUP   OVERALL |   GROUP  OVERALL  | NUM.LABEL                                                        IDEN |
+\par \plain\f1\fs12 +--------+-------+-------------------+-------------------+-----------------------------------------------------------------------+
+\par \plain\f3\fs12 CLUSTER  3 /  4
+\par \plain\f1\fs12 +--------+-------+-------------------+-------------------+-----------------------------------------------------------------------+
+\par \plain\f1\fs12 | T.VALUE| PROB. |       MEANS       |   STD. DEVIATION  |                    CHARACTERISTIC VARIABLES                           |
+\par \plain\f1\fs12 |        |       |   GROUP   OVERALL |   GROUP  OVERALL  | NUM.LABEL                                                        IDEN |
+\par \plain\f1\fs12 +--------+-------+-------------------+-------------------+-----------------------------------------------------------------------+
+\par \plain\f3\fs12 CLUSTER  4 /  4
+\par \plain\f1\fs12 +--------+-------+-------------------+-------------------+-----------------------------------------------------------------------+
+\par \plain\f1\fs12 | T.VALUE| PROB. |       MEANS       |   STD. DEVIATION  |                    CHARACTERISTIC VARIABLES                           |
+\par \plain\f1\fs12 |        |       |   GROUP   OVERALL |   GROUP  OVERALL  | NUM.LABEL                                                        IDEN |
+\par \plain\f1\fs12 +--------+-------+-------------------+-------------------+-----------------------------------------------------------------------+
+
+\par \plain\f3\fs12 DESCRIPTION OF: CUT "c" OF THE TREE INTO   5 CLUSTER
+\par \plain\f1\fs12 CLUSTERS CHARACTERISATION BY CATEGORIES
+\par \plain\f1\fs12 CLUSTERS CHARACTERISATION BY CONTINUOUS VARIABLES
+
+\par \plain\f3\fs12 CHARACTERISATION BY CATEGORIES OF CLUSTERS OR CATEGORIES
+\par \plain\f3\fs12 OF CUT "c" OF THE TREE INTO   5 CLUSTERS
+\par \plain\f3\fs12 CLUSTER  1 /  5
+\par \plain\f1\fs12 ----------------------------------------------------------------------------------------------------------------------------------
+\par \plain\f1\fs12 T.VALUE PROB. ---- PERCENTAGES  ----  CHARACTERISTIC                                                                   IDEN WEIGHT
+\par \plain\f1\fs12               GRP/CAT CAT/GRP GLOBAL  CATEGORIES           OF VARIABLES
+\par \plain\f1\fs12 ----------------------------------------------------------------------------------------------------------------------------------
+\par \plain\f1\fs12                                34.81  CLUSTER  1 /  5                                                                  cc1c    323
+\par \plain\f1\fs12  10.48  0.000   68.85   39.01  19.72  Arma(s) de fuego     EQUIPAMIENTOS SECUESTRADOS (no inc. medios de movilidad y esSE01    183
+\par \plain\f1\fs12  10.31  0.000   52.49   68.42  45.37  <=$23.152            NIVEL SOCIOECONÃ“MICO AGRUPADO                              NS01    421
+\par \plain\f1\fs12   8.56  0.000   60.19   39.32  22.74  Arma(s) de fuego y O EQUIPAMIENTOS SECUESTRADOS (no inc. medios de movilidad y esSE03    211
+\par \plain\f1\fs12   7.53  0.000   67.54   23.84  12.28  Motocicleta(s)       MOVILIDAD                                                   MO03    114
+\par \plain\f1\fs12   7.25  0.000   39.59   94.74  83.30  missing category     CONDICION OCUPACIONAL                                        27_    773
+\par \plain\f1\fs12   6.65  0.000   78.18   13.31   5.93  Arma(s) blancas y Ot EQUIPAMIENTOS SECUESTRADOS (no inc. medios de movilidad y esSE04     55
+\par \plain\f1\fs12   5.49  0.000   41.41   74.61  62.72  No                   TENENCIA DE OBRA SOCIAL                                     TI02    582
+\par \plain\f1\fs12   5.45  0.000   39.66   85.45  75.00  missing category     PRINCIPAL ACTIVIDAD OCUPACIONAL                              25_    696
+\par \plain\f1\fs12   5.22  0.000   38.55   90.71  81.90  missing category     CANTIDAD DE CUENTAS BANCARIAS OPERATIVAS                     29_    760
+\par \plain\f1\fs12   5.22  0.000   38.55   90.71  81.90  missing category     ULTIMA CALIFICACION BCRA                                     31_    760
+\par \plain\f1\fs12   4.80  0.000   79.31    7.12   3.13  <= 20 aÃ±os          EDADES (agrupado)                                           ED01     29
+\par \plain\f1\fs12   4.06  0.000   92.31    3.72   1.40  Caballo(s)/Bicicleta MOVILIDAD                                                   MO04     13
+\par \plain\f1\fs12   3.91  0.000   45.57   33.44  25.54  21 - 34 aÃ±os        EDADES (agrupado)                                           ED02    237
+\par \plain\f1\fs12   3.85  0.000   39.15   74.30  66.06  missing category     DECOMISO DE ESPECIES PROTEGIDAS                              11_    613
+\par \plain\f1\fs12   3.79  0.000   52.43   16.72  11.10  Mamifero(s)          DECOMISO DE ESPECIES PROTEGIDAS                             DE03    103
+\par \plain\f1\fs12   2.67  0.004   39.09   56.04  49.89  Category n° 1        MIEMBROS                                                    MI01    463
+\par \plain\f1\fs12   2.32  0.010   63.16    3.72   2.05  Automoviles          MOVILIDAD                                                   MO02     19
+\par \plain\f1\fs12   1.80  0.036   58.82    3.10   1.83  Si                   FALLECIDOS                                                  V302     17
+\par \plain\f1\fs12   1.61  0.054   71.43    1.55   0.75  Camion(es)/Maquin(as MOVILIDAD                                                   MO01      7
+\par \plain\f1\fs12   1.52  0.065   39.21   27.55  24.46  missing category     NIVEL SOCIOECONÃ“MICO AGRUPADO                               34_    227
+\par \plain\f1\fs12   1.33  0.091   60.00    1.86   1.08  Forestal             PRINCIPAL ACTIVIDAD OCUPACIONAL                             OC05     10
+\par \plain\f1\fs12   1.27  0.103   62.50    1.55   0.86  Madera(s)            DECOMISO DE ESPECIES PROTEGIDAS                             DE01      8
+\par \plain\f1\fs12   0.86  0.196   57.14    1.24   0.75  ReparaciÃ³n/Mant.    PRINCIPAL ACTIVIDAD OCUPACIONAL                             OC06      7
+\par \plain\f1\fs12   0.46  0.322   36.21   27.24  26.19  Category n° 2        MIEMBROS                                                    MI02    243
+\par \plain\f1\fs12   0.32  0.374   41.18    2.17   1.83  Femenino             GENERO DE LOS INFRACTORES                                   GE01     17
+\par \plain\f1\fs12   0.16  0.436   35.53   21.67  21.23  missing category     EDADES (agrupado)                                            20_    197
+\par \plain\f1\fs12  -0.05  0.480   34.38   20.43  20.69  Sin datos            GENERO DE LOS INFRACTORES                                   GE03    192
+\par \plain\f1\fs12  -0.06  0.475   33.33    2.79   2.91  Category n° 5        ULTIMA CALIFICACION BCRA                                    CA05     27
+\par \plain\f1\fs12  -0.07  0.471   34.68   77.09  77.37  Masculino            GENERO DE LOS INFRACTORES                                   GE02    718
+\par \plain\f1\fs12  -0.16  0.436   34.03   20.12  20.58  missing category     TENENCIA DE OBRA SOCIAL                                      26_    191
+\par \plain\f1\fs12  -0.31  0.379   33.33   15.17  15.84  49 - 62 aÃ±os        EDADES (agrupado)                                           ED04    147
+\par \plain\f1\fs12  -0.39  0.349   33.33    0.62   0.65  Transporte           PRINCIPAL ACTIVIDAD OCUPACIONAL                             OC07      6
+\par \plain\f1\fs12  -0.41  0.341   22.22    0.62   0.97  Category n° 3        CANTIDAD DE CUENTAS BANCARIAS OPERATIVAS                    CA03      9
+\par \plain\f1\fs12  -0.45  0.327   34.24   66.25  67.35  missing category     MOVILIDAD                                                    10_    625
+\par \plain\f1\fs12  -0.73  0.233   27.27    2.79   3.56  Mamifero(s), Ave(s), DECOMISO DE ESPECIES PROTEGIDAS                             DE05     33
+\par \plain\f1\fs12  -0.83  0.202   18.18    0.62   1.19  ConstrucciÃ³n        PRINCIPAL ACTIVIDAD OCUPACIONAL                             OC02     11
+\par \plain\f1\fs12  -1.19  0.117    0.00    0.00   0.54  $143.108/$229.816    NIVEL SOCIOECONÃ“MICO AGRUPADO                              NS06      5
+\par \plain\f1\fs12  -1.19  0.117    0.00    0.00   0.54  Motocicleta(s) y Otr MOVILIDAD                                                   MO05      5
+\par \plain\f1\fs12  -1.38  0.084   26.47    5.57   7.33  Category n° 4        MIEMBROS                                                    MI04     68
+\par \plain\f1\fs12  -1.63  0.051   21.95    2.79   4.42  Servicios varios     PRINCIPAL ACTIVIDAD OCUPACIONAL                             OC03     41
+\par \plain\f1\fs12  -1.73  0.042   16.67    1.24   2.59  Category n° 2        CANTIDAD DE CUENTAS BANCARIAS OPERATIVAS                    CA02     24
+\par \plain\f1\fs12  -1.80  0.036   34.36   96.90  98.17  Category n° 1        FALLECIDOS                                                  V301    911
+\par \plain\f1\fs12  -1.85  0.032    0.00    0.00   0.86  Jubilados y Pensiona CONDICION OCUPACIONAL                                       CO04      8
+\par \plain\f1\fs12  -2.14  0.016   17.14    1.86   3.77  Monotributistas Efec CONDICION OCUPACIONAL                                       CO05     35
+\par \plain\f1\fs12  -2.22  0.013   26.12   10.84  14.44  Category n° 3        MIEMBROS                                                    MI03    134
+\par \plain\f1\fs12  -2.68  0.004    0.00    0.00   1.40  Camioneta(s)         MOVILIDAD                                                   MO08     13
+\par \plain\f1\fs12  -2.82  0.002    0.00    0.00   1.51  PequeÃ±os Contribuye CONDICION OCUPACIONAL                                       CO06     14
+\par \plain\f1\fs12  -2.87  0.002    5.00    0.31   2.16  Category n° 5        MIEMBROS                                                    MI05     20
+\par \plain\f1\fs12  -2.96  0.002    0.00    0.00   1.62  Comercio             PRINCIPAL ACTIVIDAD OCUPACIONAL                             OC04     15
+\par \plain\f1\fs12  -3.10  0.001   27.07   22.29  28.66  35 - 48 aÃ±os        EDADES (agrupado)                                           ED03    266
+\par \plain\f1\fs12  -3.96  0.000    3.33    0.31   3.23  Lancha(s)            MOVILIDAD                                                   MO06     30
+\par \plain\f1\fs12  -4.47  0.000   18.05    7.43  14.33  Category n° 1        CANTIDAD DE CUENTAS BANCARIAS OPERATIVAS                    CA01    133
+\par \plain\f1\fs12  -4.79  0.000    4.44    0.62   4.85  $73.334$143.107      NIVEL SOCIOECONÃ“MICO AGRUPADO                              NS05     45
+\par \plain\f1\fs12  -5.00  0.000   16.90    7.43  15.30  Agropecuario         PRINCIPAL ACTIVIDAD OCUPACIONAL                             OC01    142
+\par \plain\f1\fs12  -5.24  0.000   15.27    6.19  14.12  Category n° 1        ULTIMA CALIFICACION BCRA                                    CA01    131
+\par \plain\f1\fs12  -5.35  0.000   11.46    3.41  10.34  Relacion de Dependen CONDICION OCUPACIONAL                                       CO07     96
+\par \plain\f1\fs12  -5.59  0.000    2.04    0.31   5.28  $51.235/$73.333      NIVEL SOCIOECONÃ“MICO AGRUPADO                              NS04     49
+\par \plain\f1\fs12  -5.61  0.000    8.54    2.17   8.84  $23.153/$36.166      NIVEL SOCIOECONÃ“MICO AGRUPADO                              NS02     82
+\par \plain\f1\fs12  -5.82  0.000    1.92    0.31   5.60  63 + aÃ±os           EDADES (agrupado)                                           ED05     52
+\par \plain\f1\fs12  -6.00  0.000    0.00    0.00   5.06  missing category     EQUIPAMIENTOS SECUESTRADOS (no inc. medios de movilidad y es 12_     47
+\par \plain\f1\fs12  -6.85  0.000   13.10    6.81  18.10  Equip.de pesca y Otr EQUIPAMIENTOS SECUESTRADOS (no inc. medios de movilidad y esSE05    168
+\par \plain\f1\fs12  -7.25  0.000   10.97    5.26  16.70  Si                   TENENCIA DE OBRA SOCIAL                                     TI01    155
+\par \plain\f1\fs12  -7.86  0.000    3.09    0.93  10.45  $36.167/$51.234      NIVEL SOCIOECONÃ“MICO AGRUPADO                              NS03     97
+\par \plain\f1\fs12  -8.51  0.000    1.96    0.62  10.99  Canoa(s)             MOVILIDAD                                                   MO07    102
+\par \plain\f1\fs12  -9.07  0.000    7.14    3.72  18.10  Peces                DECOMISO DE ESPECIES PROTEGIDAS                             DE04    168
+\par \plain\f1\fs12 -15.05  0.000    1.89    1.55  28.45  Equip.de pesca       EQUIPAMIENTOS SECUESTRADOS (no inc. medios de movilidad y esSE02    264
+\par \plain\f1\fs12 -99.99  0.000    0.00    0.00   0.00  Category n° 6        ULTIMA CALIFICACION BCRA                                    CA06      0
+\par \plain\f1\fs12 -99.99  0.000    0.00    0.00   0.00  Category n° 7        ULTIMA CALIFICACION BCRA                                    CA07      0
+\par \plain\f1\fs12 -99.99  0.000    0.00    0.00   0.00  Category n° 1        CONDICION OCUPACIONAL                                       CO01      0
+\par \plain\f1\fs12 -99.99  0.000    0.00    0.00   0.00  Category n° 5        CANTIDAD DE CUENTAS BANCARIAS OPERATIVAS                    CA05      0
+\par \plain\f1\fs12 -99.99  0.000    0.00    0.00   0.00  Category n° 10       ULTIMA CALIFICACION BCRA                                    CA10      0
+\par \plain\f1\fs12 -99.99  0.000    0.00    0.00   0.00  Category n° 9        ULTIMA CALIFICACION BCRA                                    CA09      0
+
+\par \plain\f1\fs12 -99.99  0.000    0.00    0.00   0.00  Category n° 8        ULTIMA CALIFICACION BCRA                                    CA08      0
+\par \plain\f1\fs12 ----------------------------------------------------------------------------------------------------------------------------------
+
+\par \plain\f3\fs12 CLUSTER  2 /  5
+\par \plain\f1\fs12 ----------------------------------------------------------------------------------------------------------------------------------
+\par \plain\f1\fs12 T.VALUE PROB. ---- PERCENTAGES  ----  CHARACTERISTIC                                                                   IDEN WEIGHT
+\par \plain\f1\fs12               GRP/CAT CAT/GRP GLOBAL  CATEGORIES           OF VARIABLES
+\par \plain\f1\fs12 ----------------------------------------------------------------------------------------------------------------------------------
+\par \plain\f1\fs12                                10.24  CLUSTER  2 /  5                                                                  cc2c     95
+\par \plain\f1\fs12  16.00  0.000   78.05   67.37   8.84  $23.153/$36.166      NIVEL SOCIOECONÃ“MICO AGRUPADO                              NS02     82
+\par \plain\f1\fs12  10.01  0.000   65.38   35.79   5.60  63 + aÃ±os           EDADES (agrupado)                                           ED05     52
+\par \plain\f1\fs12   7.79  0.000   85.00   17.89   2.16  Category n° 5        MIEMBROS                                                    MI05     20
+\par \plain\f1\fs12   7.12  0.000   28.39   46.32  16.70  Si                   TENENCIA DE OBRA SOCIAL                                     TI01    155
+\par \plain\f1\fs12   6.80  0.000   13.23  100.00  77.37  Masculino            GENERO DE LOS INFRACTORES                                   GE02    718
+\par \plain\f1\fs12   6.29  0.000   32.29   32.63  10.34  Relacion de Dependen CONDICION OCUPACIONAL                                       CO07     96
+\par \plain\f1\fs12   5.82  0.000   26.72   36.84  14.12  Category n° 1        ULTIMA CALIFICACION BCRA                                    CA01    131
+\par \plain\f1\fs12   5.24  0.000   24.81   34.74  14.33  Category n° 1        CANTIDAD DE CUENTAS BANCARIAS OPERATIVAS                    CA01    133
+\par \plain\f1\fs12   4.07  0.000   75.00    6.32   0.86  Jubilados y Pensiona CONDICION OCUPACIONAL                                       CO04      8
+\par \plain\f1\fs12   4.01  0.000   19.64   34.74  18.10  Equip.de pesca y Otr EQUIPAMIENTOS SECUESTRADOS (no inc. medios de movilidad y esSE05    168
+\par \plain\f1\fs12   3.43  0.000   37.50    9.47   2.59  Category n° 2        CANTIDAD DE CUENTAS BANCARIAS OPERATIVAS                    CA02     24
+\par \plain\f1\fs12   2.83  0.002   40.00    6.32   1.62  Comercio             PRINCIPAL ACTIVIDAD OCUPACIONAL                             OC04     15
+\par \plain\f1\fs12   2.01  0.022   15.67   22.11  14.44  Category n° 3        MIEMBROS                                                    MI03    134
+\par \plain\f1\fs12   1.73  0.042   14.29   25.26  18.10  Peces                DECOMISO DE ESPECIES PROTEGIDAS                             DE04    168
+\par \plain\f1\fs12   1.11  0.133   18.52    5.26   2.91  Category n° 5        ULTIMA CALIFICACION BCRA                                    CA05     27
+\par \plain\f1\fs12   1.04  0.148   11.04   72.63  67.35  missing category     MOVILIDAD                                                    10_    625
+\par \plain\f1\fs12   0.75  0.227   14.29    7.37   5.28  $51.235/$73.333      NIVEL SOCIOECONÃ“MICO AGRUPADO                              NS04     49
+\par \plain\f1\fs12   0.62  0.266   12.28   14.74  12.28  Motocicleta(s)       MOVILIDAD                                                   MO03    114
+\par \plain\f1\fs12   0.61  0.271   11.97   17.89  15.30  Agropecuario         PRINCIPAL ACTIVIDAD OCUPACIONAL                             OC01    142
+\par \plain\f1\fs12   0.31  0.377   11.11    1.05   0.97  Category n° 3        CANTIDAD DE CUENTAS BANCARIAS OPERATIVAS                    CA03      9
+\par \plain\f1\fs12   0.23  0.409   10.93   21.05  19.72  Arma(s) de fuego     EQUIPAMIENTOS SECUESTRADOS (no inc. medios de movilidad y esSE01    183
+\par \plain\f1\fs12   0.21  0.418   20.00    1.05   0.54  Motocicleta(s) y Otr MOVILIDAD                                                   MO05      5
+\par \plain\f1\fs12   0.21  0.418   20.00    1.05   0.54  $143.108/$229.816    NIVEL SOCIOECONÃ“MICO AGRUPADO                              NS06      5
+\par \plain\f1\fs12   0.20  0.420   12.50    1.05   0.86  Madera(s)            DECOMISO DE ESPECIES PROTEGIDAS                             DE01      8
+\par \plain\f1\fs12   0.18  0.428   14.29    2.11   1.51  PequeÃ±os Contribuye CONDICION OCUPACIONAL                                       CO06     14
+\par \plain\f1\fs12   0.14  0.442   12.12    4.21   3.56  Mamifero(s), Ave(s), DECOMISO DE ESPECIES PROTEGIDAS                             DE05     33
+\par \plain\f1\fs12   0.08  0.467   10.32   98.95  98.17  Category n° 1        FALLECIDOS                                                  V301    911
+\par \plain\f1\fs12   0.08  0.469   10.53   29.47  28.66  35 - 48 aÃ±os        EDADES (agrupado)                                           ED03    266
+\par \plain\f1\fs12   0.08  0.470   10.55   26.32  25.54  21 - 34 aÃ±os        EDADES (agrupado)                                           ED02    237
+\par \plain\f1\fs12   0.07  0.473   10.28   66.32  66.06  missing category     DECOMISO DE ESPECIES PROTEGIDAS                              11_    613
+\par \plain\f1\fs12   0.03  0.490   11.43    4.21   3.77  Monotributistas Efec CONDICION OCUPACIONAL                                       CO05     35
+\par \plain\f1\fs12   0.00  0.498    9.09    5.26   5.93  Arma(s) blancas y Ot EQUIPAMIENTOS SECUESTRADOS (no inc. medios de movilidad y esSE04     55
+\par \plain\f1\fs12  -0.06  0.478    0.00    0.00   0.65  Transporte           PRINCIPAL ACTIVIDAD OCUPACIONAL                             OC07      6
+\par \plain\f1\fs12  -0.08  0.469    9.88   25.26  26.19  Category n° 2        MIEMBROS                                                    MI02    243
+\par \plain\f1\fs12  -0.08  0.468    0.00    0.00   0.75  ReparaciÃ³n/Mant.    PRINCIPAL ACTIVIDAD OCUPACIONAL                             OC06      7
+\par \plain\f1\fs12  -0.08  0.468    0.00    0.00   0.75  Camion(es)/Maquin(as MOVILIDAD                                                   MO01      7
+\par \plain\f1\fs12  -0.08  0.467    5.88    1.05   1.83  Si                   FALLECIDOS                                                  V302     17
+\par \plain\f1\fs12  -0.14  0.442    8.82    6.32   7.33  Category n° 4        MIEMBROS                                                    MI04     68
+\par \plain\f1\fs12  -0.22  0.412    9.76    4.21   4.42  Servicios varios     PRINCIPAL ACTIVIDAD OCUPACIONAL                             OC03     41
+\par \plain\f1\fs12  -0.24  0.404    5.26    1.05   2.05  Automoviles          MOVILIDAD                                                   MO02     19
+\par \plain\f1\fs12  -0.28  0.391    6.67    2.11   3.23  Lancha(s)            MOVILIDAD                                                   MO06     30
+\par \plain\f1\fs12  -0.28  0.391    7.69    1.05   1.40  Caballo(s)/Bicicleta MOVILIDAD                                                   MO04     13
+\par \plain\f1\fs12  -0.52  0.303    0.00    0.00   1.19  ConstrucciÃ³n        PRINCIPAL ACTIVIDAD OCUPACIONAL                             OC02     11
+\par \plain\f1\fs12  -0.60  0.273   10.00    1.05   1.08  Forestal             PRINCIPAL ACTIVIDAD OCUPACIONAL                             OC05     10
+\par \plain\f1\fs12  -0.70  0.243    0.00    0.00   1.40  Camioneta(s)         MOVILIDAD                                                   MO08     13
+\par \plain\f1\fs12  -0.94  0.174    9.63   70.53  75.00  missing category     PRINCIPAL ACTIVIDAD OCUPACIONAL                              25_    696
+\par \plain\f1\fs12  -1.01  0.157    0.00    0.00   1.83  Femenino             GENERO DE LOS INFRACTORES                                   GE01     17
+\par \plain\f1\fs12  -1.02  0.153    6.86    7.37  10.99  Canoa(s)             MOVILIDAD                                                   MO07    102
+\par \plain\f1\fs12  -1.08  0.141    4.44    2.11   4.85  $73.334$143.107      NIVEL SOCIOECONÃ“MICO AGRUPADO                              NS05     45
+\par \plain\f1\fs12  -1.33  0.091    7.58   16.84  22.74  Arma(s) de fuego y O EQUIPAMIENTOS SECUESTRADOS (no inc. medios de movilidad y esSE03    211
+\par \plain\f1\fs12  -1.34  0.090    7.95   22.11  28.45  Equip.de pesca       EQUIPAMIENTOS SECUESTRADOS (no inc. medios de movilidad y esSE02    264
+\par \plain\f1\fs12  -1.73  0.041    0.00    0.00   3.13  <= 20 aÃ±os          EDADES (agrupado)                                           ED01     29
+\par \plain\f1\fs12  -1.80  0.036    8.76   53.68  62.72  No                   TENENCIA DE OBRA SOCIAL                                     TI02    582
+\par \plain\f1\fs12  -2.04  0.021    5.44    8.42  15.84  49 - 62 aÃ±os        EDADES (agrupado)                                           ED04    147
+\par \plain\f1\fs12  -2.52  0.006    3.09    3.16  10.45  $36.167/$51.234      NIVEL SOCIOECONÃ“MICO AGRUPADO                              NS03     97
+\par \plain\f1\fs12  -2.55  0.005    0.00    0.00   5.06  missing category     EQUIPAMIENTOS SECUESTRADOS (no inc. medios de movilidad y es 12_     47
+\par \plain\f1\fs12  -2.70  0.003    2.91    3.16  11.10  Mamifero(s)          DECOMISO DE ESPECIES PROTEGIDAS                             DE03    103
+\par \plain\f1\fs12  -4.37  0.000    5.83   28.42  49.89  Category n° 1        MIEMBROS                                                    MI01    463
+\par \plain\f1\fs12  -5.80  0.000    4.04   17.89  45.37  <=$23.152            NIVEL SOCIOECONÃ“MICO AGRUPADO                              NS01    421
+\par \plain\f1\fs12  -6.41  0.000    0.00    0.00  20.58  missing category     TENENCIA DE OBRA SOCIAL                                      26_    191
+\par \plain\f1\fs12  -6.42  0.000    6.84   54.74  81.90  missing category     CANTIDAD DE CUENTAS BANCARIAS OPERATIVAS                     29_    760
+\par \plain\f1\fs12  -6.42  0.000    6.84   54.74  81.90  missing category     ULTIMA CALIFICACION BCRA                                     31_    760
+\par \plain\f1\fs12  -6.43  0.000    0.00    0.00  20.69  Sin datos            GENERO DE LOS INFRACTORES                                   GE03    192
+\par \plain\f1\fs12  -6.53  0.000    0.00    0.00  21.23  missing category     EDADES (agrupado)                                            20_    197
+\par \plain\f1\fs12  -6.63  0.000    0.44    1.05  24.46  missing category     NIVEL SOCIOECONÃ“MICO AGRUPADO                               34_    227
+\par \plain\f1\fs12  -7.12  0.000    6.60   53.68  83.30  missing category     CONDICION OCUPACIONAL                                        27_    773
+\par \plain\f1\fs12 -99.99  0.000    0.00    0.00   0.00  Category n° 6        ULTIMA CALIFICACION BCRA                                    CA06      0
+\par \plain\f1\fs12 -99.99  0.000    0.00    0.00   0.00  Category n° 7        ULTIMA CALIFICACION BCRA                                    CA07      0
+\par \plain\f1\fs12 -99.99  0.000    0.00    0.00   0.00  Category n° 1        CONDICION OCUPACIONAL                                       CO01      0
+\par \plain\f1\fs12 -99.99  0.000    0.00    0.00   0.00  Category n° 5        CANTIDAD DE CUENTAS BANCARIAS OPERATIVAS                    CA05      0
+\par \plain\f1\fs12 -99.99  0.000    0.00    0.00   0.00  Category n° 10       ULTIMA CALIFICACION BCRA                                    CA10      0
+\par \plain\f1\fs12 -99.99  0.000    0.00    0.00   0.00  Category n° 9        ULTIMA CALIFICACION BCRA                                    CA09      0
+\par \plain\f1\fs12 -99.99  0.000    0.00    0.00   0.00  Category n° 8        ULTIMA CALIFICACION BCRA                                    CA08      0
+\par \plain\f1\fs12 ----------------------------------------------------------------------------------------------------------------------------------
+
+\par \plain\f3\fs12 CLUSTER  3 /  5
+\par \plain\f1\fs12 ----------------------------------------------------------------------------------------------------------------------------------
+\par \plain\f1\fs12 T.VALUE PROB. ---- PERCENTAGES  ----  CHARACTERISTIC                                                                   IDEN WEIGHT
+\par \plain\f1\fs12               GRP/CAT CAT/GRP GLOBAL  CATEGORIES           OF VARIABLES
+\par \plain\f1\fs12 ----------------------------------------------------------------------------------------------------------------------------------
+\par \plain\f1\fs12                                35.24  CLUSTER  3 /  5                                                                  cc3c    327
+\par \plain\f1\fs12  19.91  0.000   84.47   68.20  28.45  Equip.de pesca       EQUIPAMIENTOS SECUESTRADOS (no inc. medios de movilidad y esSE02    264
+\par \plain\f1\fs12  10.53  0.000   83.33   25.99  10.99  Canoa(s)             MOVILIDAD                                                   MO07    102
+\par \plain\f1\fs12   7.74  0.000   61.90   31.80  18.10  Peces                DECOMISO DE ESPECIES PROTEGIDAS                             DE04    168
+\par \plain\f1\fs12   7.37  0.000   58.64   34.25  20.58  missing category     TENENCIA DE OBRA SOCIAL                                      26_    191
+\par \plain\f1\fs12   7.29  0.000   58.33   34.25  20.69  Sin datos            GENERO DE LOS INFRACTORES                                   GE03    192
+\par \plain\f1\fs12   7.14  0.000   39.97   94.50  83.30  missing category     CONDICION OCUPACIONAL                                        27_    773
+\par \plain\f1\fs12   7.10  0.000   57.36   34.56  21.23  missing category     EDADES (agrupado)                                            20_    197
+\par \plain\f1\fs12   6.17  0.000   56.55   29.05  18.10  Equip.de pesca y Otr EQUIPAMIENTOS SECUESTRADOS (no inc. medios de movilidad y esSE05    168
+\par \plain\f1\fs12   5.91  0.000   51.98   36.09  24.46  missing category     NIVEL SOCIOECONÃ“MICO AGRUPADO                               34_    227
+\par \plain\f1\fs12   3.66  0.000   61.22    9.17   5.28  $51.235/$73.333      NIVEL SOCIOECONÃ“MICO AGRUPADO                              NS04     49
+\par \plain\f1\fs12   3.23  0.001   54.41   11.31   7.33  Category n° 4        MIEMBROS                                                    MI04     68
+\par \plain\f1\fs12   3.21  0.001   40.39   57.19  49.89  Category n° 1        MIEMBROS                                                    MI01    463
+\par \plain\f1\fs12   2.93  0.002   37.93   80.73  75.00  missing category     PRINCIPAL ACTIVIDAD OCUPACIONAL                              25_    696
+\par \plain\f1\fs12   1.67  0.048   48.78    6.12   4.42  Servicios varios     PRINCIPAL ACTIVIDAD OCUPACIONAL                             OC03     41
+\par \plain\f1\fs12   1.30  0.097   35.57   99.08  98.17  Category n° 1        FALLECIDOS                                                  V301    911
+\par \plain\f1\fs12   1.13  0.130   37.29   48.01  45.37  <=$23.152            NIVEL SOCIOECONÃ“MICO AGRUPADO                              NS01    421
+\par \plain\f1\fs12   0.71  0.238   60.00    0.92   0.54  Motocicleta(s) y Otr MOVILIDAD                                                   MO05      5
+\par \plain\f1\fs12   0.71  0.238   60.00    0.92   0.54  $143.108/$229.816    NIVEL SOCIOECONÃ“MICO AGRUPADO                              NS06      5
+\par \plain\f1\fs12   0.67  0.250   46.67    2.14   1.62  Comercio             PRINCIPAL ACTIVIDAD OCUPACIONAL                             OC04     15
+\par \plain\f1\fs12   0.48  0.317   35.66   82.87  81.90  missing category     CANTIDAD DE CUENTAS BANCARIAS OPERATIVAS                     29_    760
+\par \plain\f1\fs12   0.48  0.317   35.66   82.87  81.90  missing category     ULTIMA CALIFICACION BCRA                                     31_    760
+\par \plain\f1\fs12   0.42  0.338   40.74    3.36   2.91  Category n° 5        ULTIMA CALIFICACION BCRA                                    CA05     27
+\par \plain\f1\fs12   0.38  0.354   40.00    3.67   3.23  Lancha(s)            MOVILIDAD                                                   MO06     30
+\par \plain\f1\fs12   0.37  0.357   50.00    0.92   0.65  Transporte           PRINCIPAL ACTIVIDAD OCUPACIONAL                             OC07      6
+\par \plain\f1\fs12   0.33  0.371   35.68   68.20  67.35  missing category     MOVILIDAD                                                    10_    625
+\par \plain\f1\fs12   0.33  0.372   36.73   16.51  15.84  49 - 62 aÃ±os        EDADES (agrupado)                                           ED04    147
+\par \plain\f1\fs12   0.28  0.389   41.18    2.14   1.83  Femenino             GENERO DE LOS INFRACTORES                                   GE01     17
+\par \plain\f1\fs12   0.21  0.418   36.36    1.22   1.19  ConstrucciÃ³n        PRINCIPAL ACTIVIDAD OCUPACIONAL                             OC02     11
+\par \plain\f1\fs12   0.06  0.474   35.34   14.37  14.33  Category n° 1        CANTIDAD DE CUENTAS BANCARIAS OPERATIVAS                    CA01    133
+\par \plain\f1\fs12  -0.22  0.413   34.91   65.44  66.06  missing category     DECOMISO DE ESPECIES PROTEGIDAS                              11_    613
+\par \plain\f1\fs12  -0.26  0.397   33.33    0.92   0.97  Category n° 3        CANTIDAD DE CUENTAS BANCARIAS OPERATIVAS                    CA03      9
+\par \plain\f1\fs12  -0.34  0.368   34.21   27.83  28.66  35 - 48 aÃ±os        EDADES (agrupado)                                           ED03    266
+\par \plain\f1\fs12  -0.74  0.229   14.29    0.31   0.75  ReparaciÃ³n/Mant.    PRINCIPAL ACTIVIDAD OCUPACIONAL                             OC06      7
+\par \plain\f1\fs12  -0.78  0.217   27.27    2.75   3.56  Mamifero(s), Ave(s), DECOMISO DE ESPECIES PROTEGIDAS                             DE05     33
+\par \plain\f1\fs12  -0.92  0.178   31.34   12.84  14.44  Category n° 3        MIEMBROS                                                    MI03    134
+\par \plain\f1\fs12  -0.98  0.164   12.50    0.31   0.86  Jubilados y Pensiona CONDICION OCUPACIONAL                                       CO04      8
+\par \plain\f1\fs12  -1.08  0.141   33.85   60.24  62.72  No                   TENENCIA DE OBRA SOCIAL                                     TI02    582
+\par \plain\f1\fs12  -1.12  0.132   30.53   12.23  14.12  Category n° 1        ULTIMA CALIFICACION BCRA                                    CA01    131
+\par \plain\f1\fs12  -1.30  0.097   20.83    1.53   2.59  Category n° 2        CANTIDAD DE CUENTAS BANCARIAS OPERATIVAS                    CA02     24
+\par \plain\f1\fs12  -1.30  0.097   17.65    0.92   1.83  Si                   FALLECIDOS                                                  V302     17
+\par \plain\f1\fs12  -1.39  0.082   10.00    0.31   1.08  Forestal             PRINCIPAL ACTIVIDAD OCUPACIONAL                             OC05     10
+\par \plain\f1\fs12  -1.67  0.047    0.00    0.00   0.75  Camion(es)/Maquin(as MOVILIDAD                                                   MO01      7
+\par \plain\f1\fs12  -1.87  0.030    0.00    0.00   0.86  Madera(s)            DECOMISO DE ESPECIES PROTEGIDAS                             DE01      8
+\par \plain\f1\fs12  -2.71  0.003    0.00    0.00   1.40  Camioneta(s)         MOVILIDAD                                                   MO08     13
+\par \plain\f1\fs12  -2.71  0.003    0.00    0.00   1.40  Caballo(s)/Bicicleta MOVILIDAD                                                   MO04     13
+\par \plain\f1\fs12  -2.85  0.002   10.34    0.92   3.13  <= 20 aÃ±os          EDADES (agrupado)                                           ED01     29
+\par \plain\f1\fs12  -2.85  0.002    0.00    0.00   1.51  PequeÃ±os Contribuye CONDICION OCUPACIONAL                                       CO06     14
+\par \plain\f1\fs12  -3.09  0.001   15.38    2.45   5.60  63 + aÃ±os           EDADES (agrupado)                                           ED05     52
+\par \plain\f1\fs12  -3.50  0.000    0.00    0.00   2.05  Automoviles          MOVILIDAD                                                   MO02     19
+\par \plain\f1\fs12  -3.61  0.000    0.00    0.00   2.16  Category n° 5        MIEMBROS                                                    MI05     20
+\par \plain\f1\fs12  -3.84  0.000   25.10   18.65  26.19  Category n° 2        MIEMBROS                                                    MI02    243
+\par \plain\f1\fs12  -3.97  0.000    8.89    1.22   4.85  $73.334$143.107      NIVEL SOCIOECONÃ“MICO AGRUPADO                              NS05     45
+\par \plain\f1\fs12  -4.02  0.000   24.47   17.74  25.54  21 - 34 aÃ±os        EDADES (agrupado)                                           ED02    237
+\par \plain\f1\fs12  -4.11  0.000   16.67    4.89  10.34  Relacion de Dependen CONDICION OCUPACIONAL                                       CO07     96
+\par \plain\f1\fs12  -4.47  0.000   19.01    8.26  15.30  Agropecuario         PRINCIPAL ACTIVIDAD OCUPACIONAL                             OC01    142
+\par \plain\f1\fs12  -5.10  0.000    0.00    0.00   3.77  Monotributistas Efec CONDICION OCUPACIONAL                                       CO05     35
+\par \plain\f1\fs12  -5.63  0.000    3.64    0.61   5.93  Arma(s) blancas y Ot EQUIPAMIENTOS SECUESTRADOS (no inc. medios de movilidad y esSE04     55
+\par \plain\f1\fs12  -5.69  0.000    8.54    2.14   8.84  $23.153/$36.166      NIVEL SOCIOECONÃ“MICO AGRUPADO                              NS02     82
+\par \plain\f1\fs12  -6.06  0.000    0.00    0.00   5.06  missing category     EQUIPAMIENTOS SECUESTRADOS (no inc. medios de movilidad y es 12_     47
+\par \plain\f1\fs12  -6.64  0.000    7.22    2.14  10.45  $36.167/$51.234      NIVEL SOCIOECONÃ“MICO AGRUPADO                              NS03     97
+\par \plain\f1\fs12  -7.14  0.000   11.61    5.50  16.70  Si                   TENENCIA DE OBRA SOCIAL                                     TI01    155
+\par \plain\f1\fs12  -7.18  0.000   28.97   63.61  77.37  Masculino            GENERO DE LOS INFRACTORES                                   GE02    718
+\par \plain\f1\fs12  -8.55  0.000    3.51    1.22  12.28  Motocicleta(s)       MOVILIDAD                                                   MO03    114
+\par \plain\f1\fs12  -9.49  0.000    0.00    0.00  11.10  Mamifero(s)          DECOMISO DE ESPECIES PROTEGIDAS                             DE03    103
+\par \plain\f1\fs12 -12.54  0.000    1.09    0.61  19.72  Arma(s) de fuego     EQUIPAMIENTOS SECUESTRADOS (no inc. medios de movilidad y esSE01    183
+\par \plain\f1\fs12 -12.92  0.000    2.37    1.53  22.74  Arma(s) de fuego y O EQUIPAMIENTOS SECUESTRADOS (no inc. medios de movilidad y esSE03    211
+\par \plain\f1\fs12 -99.99  0.000    0.00    0.00   0.00  Category n° 6        ULTIMA CALIFICACION BCRA                                    CA06      0
+\par \plain\f1\fs12 -99.99  0.000    0.00    0.00   0.00  Category n° 7        ULTIMA CALIFICACION BCRA                                    CA07      0
+\par \plain\f1\fs12 -99.99  0.000    0.00    0.00   0.00  Category n° 1        CONDICION OCUPACIONAL                                       CO01      0
+\par \plain\f1\fs12 -99.99  0.000    0.00    0.00   0.00  Category n° 5        CANTIDAD DE CUENTAS BANCARIAS OPERATIVAS                    CA05      0
+\par \plain\f1\fs12 -99.99  0.000    0.00    0.00   0.00  Category n° 10       ULTIMA CALIFICACION BCRA                                    CA10      0
+\par \plain\f1\fs12 -99.99  0.000    0.00    0.00   0.00  Category n° 9        ULTIMA CALIFICACION BCRA                                    CA09      0
+\par \plain\f1\fs12 -99.99  0.000    0.00    0.00   0.00  Category n° 8        ULTIMA CALIFICACION BCRA                                    CA08      0
+\par \plain\f1\fs12 ----------------------------------------------------------------------------------------------------------------------------------
+
+\par \plain\f3\fs12 CLUSTER  4 /  5
+\par \plain\f1\fs12 ----------------------------------------------------------------------------------------------------------------------------------
+\par \plain\f1\fs12 T.VALUE PROB. ---- PERCENTAGES  ----  CHARACTERISTIC                                                                   IDEN WEIGHT
+\par \plain\f1\fs12               GRP/CAT CAT/GRP GLOBAL  CATEGORIES           OF VARIABLES
+\par \plain\f1\fs12 ----------------------------------------------------------------------------------------------------------------------------------
+\par \plain\f1\fs12                                 6.25  CLUSTER  4 /  5                                                                  cc4c     58
+\par \plain\f1\fs12  99.99  0.000   97.87   79.31   5.06  missing category     EQUIPAMIENTOS SECUESTRADOS (no inc. medios de movilidad y es 12_     47
+\par \plain\f1\fs12   9.15  0.000   33.01   58.62  11.10  Mamifero(s)          DECOMISO DE ESPECIES PROTEGIDAS                             DE03    103
+\par \plain\f1\fs12   8.29  0.000  100.00   22.41   1.40  Camioneta(s)         MOVILIDAD                                                   MO08     13
+\par \plain\f1\fs12   2.93  0.002   23.33   12.07   3.23  Lancha(s)            MOVILIDAD                                                   MO06     30
+\par \plain\f1\fs12   2.74  0.003   21.21   12.07   3.56  Mamifero(s), Ave(s), DECOMISO DE ESPECIES PROTEGIDAS                             DE05     33
+\par \plain\f1\fs12   2.64  0.004   12.21   27.59  14.12  Category n° 1        ULTIMA CALIFICACION BCRA                                    CA01    131
+\par \plain\f1\fs12   2.61  0.004    8.42   67.24  49.89  Category n° 1        MIEMBROS                                                    MI01    463
+\par \plain\f1\fs12   2.59  0.005   26.32    8.62   2.05  Automoviles          MOVILIDAD                                                   MO02     19
+\par \plain\f1\fs12   1.92  0.028   10.53   24.14  14.33  Category n° 1        CANTIDAD DE CUENTAS BANCARIAS OPERATIVAS                    CA01    133
+\par \plain\f1\fs12   1.25  0.106   12.20    8.62   4.42  Servicios varios     PRINCIPAL ACTIVIDAD OCUPACIONAL                             OC03     41
+\par \plain\f1\fs12   1.15  0.125   20.00    3.45   1.08  Forestal             PRINCIPAL ACTIVIDAD OCUPACIONAL                             OC05     10
+\par \plain\f1\fs12   1.08  0.141    9.28   15.52  10.45  $36.167/$51.234      NIVEL SOCIOECONÃ“MICO AGRUPADO                              NS03     97
+\par \plain\f1\fs12   1.05  0.147   18.18    3.45   1.19  ConstrucciÃ³n        PRINCIPAL ACTIVIDAD OCUPACIONAL                             OC02     11
+\par \plain\f1\fs12   1.04  0.148    7.93   31.03  24.46  missing category     NIVEL SOCIOECONÃ“MICO AGRUPADO                               34_    227
+\par \plain\f1\fs12   0.90  0.185   10.20    8.62   5.28  $51.235/$73.333      NIVEL SOCIOECONÃ“MICO AGRUPADO                              NS04     49
+\par \plain\f1\fs12   0.78  0.219    9.62    8.62   5.60  63 + aÃ±os           EDADES (agrupado)                                           ED05     52
+\par \plain\f1\fs12   0.72  0.235    7.74   22.41  18.10  Peces                DECOMISO DE ESPECIES PROTEGIDAS                             DE04    168
+\par \plain\f1\fs12   0.71  0.240   13.33    3.45   1.62  Comercio             PRINCIPAL ACTIVIDAD OCUPACIONAL                             OC04     15
+\par \plain\f1\fs12   0.61  0.270   10.34    5.17   3.13  <= 20 aÃ±os          EDADES (agrupado)                                           ED01     29
+\par \plain\f1\fs12   0.56  0.288   11.76    3.45   1.83  Femenino             GENERO DE LOS INFRACTORES                                   GE01     17
+\par \plain\f1\fs12   0.56  0.288   11.76    3.45   1.83  Si                   FALLECIDOS                                                  V302     17
+\par \plain\f1\fs12   0.54  0.293    7.33   24.14  20.58  missing category     TENENCIA DE OBRA SOCIAL                                      26_    191
+\par \plain\f1\fs12   0.52  0.300    7.29   24.14  20.69  Sin datos            GENERO DE LOS INFRACTORES                                   GE03    192
+\par \plain\f1\fs12   0.50  0.308    8.89    6.90   4.85  $73.334$143.107      NIVEL SOCIOECONÃ“MICO AGRUPADO                              NS05     45
+\par \plain\f1\fs12   0.42  0.338    7.11   24.14  21.23  missing category     EDADES (agrupado)                                            20_    197
+\par \plain\f1\fs12   0.40  0.344    6.47   86.21  83.30  missing category     CONDICION OCUPACIONAL                                        27_    773
+\par \plain\f1\fs12   0.35  0.364   14.29    1.72   0.75  Camion(es)/Maquin(as MOVILIDAD                                                   MO01      7
+\par \plain\f1\fs12   0.27  0.393    7.29   12.07  10.34  Relacion de Dependen CONDICION OCUPACIONAL                                       CO07     96
+\par \plain\f1\fs12   0.25  0.402    7.14    1.72   1.51  PequeÃ±os Contribuye CONDICION OCUPACIONAL                                       CO06     14
+\par \plain\f1\fs12   0.24  0.404   12.50    1.72   0.86  Madera(s)            DECOMISO DE ESPECIES PROTEGIDAS                             DE01      8
+\par \plain\f1\fs12   0.15  0.442   11.11    1.72   0.97  Category n° 3        CANTIDAD DE CUENTAS BANCARIAS OPERATIVAS                    CA03      9
+\par \plain\f1\fs12   0.13  0.450    8.33    3.45   2.59  Category n° 2        CANTIDAD DE CUENTAS BANCARIAS OPERATIVAS                    CA02     24
+\par \plain\f1\fs12   0.07  0.470    6.33   25.86  25.54  21 - 34 aÃ±os        EDADES (agrupado)                                           ED02    237
+\par \plain\f1\fs12  -0.02  0.490    6.19   62.07  62.72  No                   TENENCIA DE OBRA SOCIAL                                     TI02    582
+\par \plain\f1\fs12  -0.03  0.487    3.70    1.72   2.91  Category n° 5        ULTIMA CALIFICACION BCRA                                    CA05     27
+\par \plain\f1\fs12  -0.18  0.430    0.00    0.00   1.40  Caballo(s)/Bicicleta MOVILIDAD                                                   MO04     13
+\par \plain\f1\fs12  -0.22  0.413    5.44   13.79  15.84  49 - 62 aÃ±os        EDADES (agrupado)                                           ED04    147
+\par \plain\f1\fs12  -0.24  0.404    0.00    0.00   0.86  Jubilados y Pensiona CONDICION OCUPACIONAL                                       CO04      8
+\par \plain\f1\fs12  -0.24  0.404    4.88    6.90   8.84  $23.153/$36.166      NIVEL SOCIOECONÃ“MICO AGRUPADO                              NS02     82
+\par \plain\f1\fs12  -0.35  0.364    0.00    0.00   0.75  ReparaciÃ³n/Mant.    PRINCIPAL ACTIVIDAD OCUPACIONAL                             OC06      7
+\par \plain\f1\fs12  -0.40  0.344    5.16   13.79  16.70  Si                   TENENCIA DE OBRA SOCIAL                                     TI01    155
+\par \plain\f1\fs12  -0.46  0.322    0.00    0.00   0.65  Transporte           PRINCIPAL ACTIVIDAD OCUPACIONAL                             OC07      6
+\par \plain\f1\fs12  -0.48  0.315    3.64    3.45   5.93  Arma(s) blancas y Ot EQUIPAMIENTOS SECUESTRADOS (no inc. medios de movilidad y esSE04     55
+\par \plain\f1\fs12  -0.50  0.307    5.35   22.41  26.19  Category n° 2        MIEMBROS                                                    MI02    243
+\par \plain\f1\fs12  -0.56  0.288    6.15   96.55  98.17  Category n° 1        FALLECIDOS                                                  V301    911
+\par \plain\f1\fs12  -0.59  0.276    0.00    0.00   0.54  $143.108/$229.816    NIVEL SOCIOECONÃ“MICO AGRUPADO                              NS06      5
+\par \plain\f1\fs12  -0.59  0.276    0.00    0.00   0.54  Motocicleta(s) y Otr MOVILIDAD                                                   MO05      5
+\par \plain\f1\fs12  -0.61  0.271    0.00    0.00   2.16  Category n° 5        MIEMBROS                                                    MI05     20
+\par \plain\f1\fs12  -0.64  0.261    5.89   70.69  75.00  missing category     PRINCIPAL ACTIVIDAD OCUPACIONAL                              25_    696
+\par \plain\f1\fs12  -0.65  0.259    4.39    8.62  12.28  Motocicleta(s)       MOVILIDAD                                                   MO03    114
+\par \plain\f1\fs12  -0.70  0.241    4.48   10.34  14.44  Category n° 3        MIEMBROS                                                    MI03    134
+\par \plain\f1\fs12  -0.78  0.218    5.85   72.41  77.37  Masculino            GENERO DE LOS INFRACTORES                                   GE02    718
+\par \plain\f1\fs12  -0.89  0.187    4.23   10.34  15.30  Agropecuario         PRINCIPAL ACTIVIDAD OCUPACIONAL                             OC01    142
+\par \plain\f1\fs12  -0.94  0.175    4.89   22.41  28.66  35 - 48 aÃ±os        EDADES (agrupado)                                           ED03    266
+\par \plain\f1\fs12  -1.28  0.100    0.00    0.00   3.77  Monotributistas Efec CONDICION OCUPACIONAL                                       CO05     35
+\par \plain\f1\fs12  -2.03  0.021    5.39   70.69  81.90  missing category     CANTIDAD DE CUENTAS BANCARIAS OPERATIVAS                     29_    760
+\par \plain\f1\fs12  -2.03  0.021    5.39   70.69  81.90  missing category     ULTIMA CALIFICACION BCRA                                     31_    760
+\par \plain\f1\fs12  -2.32  0.010    0.00    0.00   7.33  Category n° 4        MIEMBROS                                                    MI04     68
+\par \plain\f1\fs12  -2.41  0.008    0.98    1.72  10.99  Canoa(s)             MOVILIDAD                                                   MO07    102
+\par \plain\f1\fs12  -2.43  0.007    4.04   29.31  45.37  <=$23.152            NIVEL SOCIOECONÃ“MICO AGRUPADO                              NS01    421
+\par \plain\f1\fs12  -2.57  0.005    2.19    6.90  19.72  Arma(s) de fuego     EQUIPAMIENTOS SECUESTRADOS (no inc. medios de movilidad y esSE01    183
+\par \plain\f1\fs12  -2.69  0.004    2.37    8.62  22.74  Arma(s) de fuego y O EQUIPAMIENTOS SECUESTRADOS (no inc. medios de movilidad y esSE03    211
+\par \plain\f1\fs12  -3.52  0.000    4.16   44.83  67.35  missing category     MOVILIDAD                                                    10_    625
+\par \plain\f1\fs12  -3.75  0.000    0.60    1.72  18.10  Equip.de pesca y Otr EQUIPAMIENTOS SECUESTRADOS (no inc. medios de movilidad y esSE05    168
+\par \plain\f1\fs12  -5.92  0.000    0.00    0.00  28.45  Equip.de pesca       EQUIPAMIENTOS SECUESTRADOS (no inc. medios de movilidad y esSE02    264
+\par \plain\f1\fs12 -10.03  0.000    0.49    5.17  66.06  missing category     DECOMISO DE ESPECIES PROTEGIDAS                              11_    613
+\par \plain\f1\fs12 -99.99  0.000    0.00    0.00   0.00  Category n° 6        ULTIMA CALIFICACION BCRA                                    CA06      0
+\par \plain\f1\fs12 -99.99  0.000    0.00    0.00   0.00  Category n° 5        CANTIDAD DE CUENTAS BANCARIAS OPERATIVAS                    CA05      0
+\par \plain\f1\fs12 -99.99  0.000    0.00    0.00   0.00  Category n° 1        CONDICION OCUPACIONAL                                       CO01      0
+\par \plain\f1\fs12 -99.99  0.000    0.00    0.00   0.00  Category n° 7        ULTIMA CALIFICACION BCRA                                    CA07      0
+\par \plain\f1\fs12 -99.99  0.000    0.00    0.00   0.00  Category n° 10       ULTIMA CALIFICACION BCRA                                    CA10      0
+\par \plain\f1\fs12 -99.99  0.000    0.00    0.00   0.00  Category n° 9        ULTIMA CALIFICACION BCRA                                    CA09      0
+\par \plain\f1\fs12 -99.99  0.000    0.00    0.00   0.00  Category n° 8        ULTIMA CALIFICACION BCRA                                    CA08      0
+\par \plain\f1\fs12 ----------------------------------------------------------------------------------------------------------------------------------
+
+\par \plain\f3\fs12 CLUSTER  5 /  5
+\par \plain\f1\fs12 ----------------------------------------------------------------------------------------------------------------------------------
+\par \plain\f1\fs12 T.VALUE PROB. ---- PERCENTAGES  ----  CHARACTERISTIC                                                                   IDEN WEIGHT
+\par \plain\f1\fs12               GRP/CAT CAT/GRP GLOBAL  CATEGORIES           OF VARIABLES
+\par \plain\f1\fs12 ----------------------------------------------------------------------------------------------------------------------------------
+\par \plain\f1\fs12                                13.47  CLUSTER  5 /  5                                                                  cc5c    125
+\par \plain\f1\fs12  15.74  0.000   77.32   60.00  10.45  $36.167/$51.234      NIVEL SOCIOECONÃ“MICO AGRUPADO                              NS03     97
+\par \plain\f1\fs12  11.21  0.000   47.89   54.40  15.30  Agropecuario         PRINCIPAL ACTIVIDAD OCUPACIONAL                             OC01    142
+\par \plain\f1\fs12  10.58  0.000   43.87   54.40  16.70  Si                   TENENCIA DE OBRA SOCIAL                                     TI01    155
+\par \plain\f1\fs12   9.40  0.000   73.33   26.40   4.85  $73.334$143.107      NIVEL SOCIOECONÃ“MICO AGRUPADO                              NS05     45
+\par \plain\f1\fs12   7.92  0.000   71.43   20.00   3.77  Monotributistas Efec CONDICION OCUPACIONAL                                       CO05     35
+\par \plain\f1\fs12   7.49  0.000   17.27   99.20  77.37  Masculino            GENERO DE LOS INFRACTORES                                   GE02    718
+\par \plain\f1\fs12   6.25  0.000   27.49   46.40  22.74  Arma(s) de fuego y O EQUIPAMIENTOS SECUESTRADOS (no inc. medios de movilidad y esSE03    211
+\par \plain\f1\fs12   5.34  0.000   78.57    8.80   1.51  PequeÃ±os Contribuye CONDICION OCUPACIONAL                                       CO06     14
+\par \plain\f1\fs12   5.25  0.000   23.31   49.60  28.66  35 - 48 aÃ±os        EDADES (agrupado)                                           ED03    266
+\par \plain\f1\fs12   4.98  0.000   32.29   24.80  10.34  Relacion de Dependen CONDICION OCUPACIONAL                                       CO07     96
+\par \plain\f1\fs12   4.97  0.000   23.46   45.60  26.19  Category n° 2        MIEMBROS                                                    MI02    243
+\par \plain\f1\fs12   2.97  0.001   22.39   24.00  14.44  Category n° 3        MIEMBROS                                                    MI03    134
+\par \plain\f1\fs12   2.05  0.020   15.17   74.40  66.06  missing category     DECOMISO DE ESPECIES PROTEGIDAS                              11_    613
+\par \plain\f1\fs12   1.97  0.024   19.05   22.40  15.84  49 - 62 aÃ±os        EDADES (agrupado)                                           ED04    147
+\par \plain\f1\fs12   1.77  0.038   26.67    6.40   3.23  Lancha(s)            MOVILIDAD                                                   MO06     30
+\par \plain\f1\fs12   1.72  0.042   14.88   74.40  67.35  missing category     MOVILIDAD                                                    10_    625
+\par \plain\f1\fs12   1.40  0.081   16.94   24.80  19.72  Arma(s) de fuego     EQUIPAMIENTOS SECUESTRADOS (no inc. medios de movilidad y esSE01    183
+\par \plain\f1\fs12   0.93  0.175   27.27    2.40   1.19  ConstrucciÃ³n        PRINCIPAL ACTIVIDAD OCUPACIONAL                             OC02     11
+\par \plain\f1\fs12   0.70  0.241   28.57    1.60   0.75  ReparaciÃ³n/Mant.    PRINCIPAL ACTIVIDAD OCUPACIONAL                             OC06      7
+\par \plain\f1\fs12   0.53  0.298   15.27   16.00  14.12  Category n° 1        ULTIMA CALIFICACION BCRA                                    CA01    131
+\par \plain\f1\fs12   0.50  0.309   13.61   99.20  98.17  Category n° 1        FALLECIDOS                                                  V301    911
+\par \plain\f1\fs12   0.39  0.347   22.22    1.60   0.97  Category n° 3        CANTIDAD DE CUENTAS BANCARIAS OPERATIVAS                    CA03      9
+\par \plain\f1\fs12   0.35  0.362   14.29    0.80   0.75  Camion(es)/Maquin(as MOVILIDAD                                                   MO01      7
+\par \plain\f1\fs12   0.23  0.409   16.67    3.20   2.59  Category n° 2        CANTIDAD DE CUENTAS BANCARIAS OPERATIVAS                    CA02     24
+\par \plain\f1\fs12   0.21  0.419   16.67    0.80   0.65  Transporte           PRINCIPAL ACTIVIDAD OCUPACIONAL                             OC07      6
+\par \plain\f1\fs12   0.04  0.484   20.00    0.80   0.54  $143.108/$229.816    NIVEL SOCIOECONÃ“MICO AGRUPADO                              NS06      5
+\par \plain\f1\fs12   0.04  0.484   20.00    0.80   0.54  Motocicleta(s) y Otr MOVILIDAD                                                   MO05      5
+\par \plain\f1\fs12   0.01  0.495   13.55   82.40  81.90  missing category     CANTIDAD DE CUENTAS BANCARIAS OPERATIVAS                     29_    760
+\par \plain\f1\fs12   0.01  0.495   13.55   82.40  81.90  missing category     ULTIMA CALIFICACION BCRA                                     31_    760
+\par \plain\f1\fs12   0.00  0.498   12.24    4.80   5.28  $51.235/$73.333      NIVEL SOCIOECONÃ“MICO AGRUPADO                              NS04     49
+\par \plain\f1\fs12  -0.05  0.481   10.00    1.60   2.16  Category n° 5        MIEMBROS                                                    MI05     20
+\par \plain\f1\fs12  -0.08  0.468   13.08   24.80  25.54  21 - 34 aÃ±os        EDADES (agrupado)                                           ED02    237
+\par \plain\f1\fs12  -0.09  0.465   12.12    3.20   3.56  Mamifero(s), Ave(s), DECOMISO DE ESPECIES PROTEGIDAS                             DE05     33
+\par \plain\f1\fs12  -0.22  0.411   12.28   11.20  12.28  Motocicleta(s)       MOVILIDAD                                                   MO03    114
+\par \plain\f1\fs12  -0.40  0.346   11.65    9.60  11.10  Mamifero(s)          DECOMISO DE ESPECIES PROTEGIDAS                             DE03    103
+\par \plain\f1\fs12  -0.50  0.309    5.88    0.80   1.83  Femenino             GENERO DE LOS INFRACTORES                                   GE01     17
+\par \plain\f1\fs12  -0.50  0.309    5.88    0.80   1.83  Si                   FALLECIDOS                                                  V302     17
+\par \plain\f1\fs12  -0.54  0.294   12.50    0.80   0.86  Jubilados y Pensiona CONDICION OCUPACIONAL                                       CO04      8
+\par \plain\f1\fs12  -0.54  0.294   12.50    0.80   0.86  Madera(s)            DECOMISO DE ESPECIES PROTEGIDAS                             DE01      8
+\par \plain\f1\fs12  -0.59  0.278   10.29    5.60   7.33  Category n° 4        MIEMBROS                                                    MI04     68
+\par \plain\f1\fs12  -0.65  0.258   11.28   12.00  14.33  Category n° 1        CANTIDAD DE CUENTAS BANCARIAS OPERATIVAS                    CA01    133
+\par \plain\f1\fs12  -0.67  0.250    5.26    0.80   2.05  Automoviles          MOVILIDAD                                                   MO02     19
+\par \plain\f1\fs12  -0.73  0.234    0.00    0.00   1.08  Forestal             PRINCIPAL ACTIVIDAD OCUPACIONAL                             OC05     10
+\par \plain\f1\fs12  -0.94  0.173    7.32    2.40   4.42  Servicios varios     PRINCIPAL ACTIVIDAD OCUPACIONAL                             OC03     41
+\par \plain\f1\fs12  -1.03  0.150    0.00    0.00   1.40  Camioneta(s)         MOVILIDAD                                                   MO08     13
+\par \plain\f1\fs12  -1.03  0.150    0.00    0.00   1.40  Caballo(s)/Bicicleta MOVILIDAD                                                   MO04     13
+\par \plain\f1\fs12  -1.06  0.145    7.69    3.20   5.60  63 + aÃ±os           EDADES (agrupado)                                           ED05     52
+\par \plain\f1\fs12  -1.22  0.112    0.00    0.00   1.62  Comercio             PRINCIPAL ACTIVIDAD OCUPACIONAL                             OC04     15
+\par \plain\f1\fs12  -1.27  0.101    3.70    0.80   2.91  Category n° 5        ULTIMA CALIFICACION BCRA                                    CA05     27
+\par \plain\f1\fs12  -1.30  0.097   10.12   13.60  18.10  Equip.de pesca y Otr EQUIPAMIENTOS SECUESTRADOS (no inc. medios de movilidad y esSE05    168
+\par \plain\f1\fs12  -1.69  0.046    5.45    2.40   5.93  Arma(s) blancas y Ot EQUIPAMIENTOS SECUESTRADOS (no inc. medios de movilidad y esSE04     55
+\par \plain\f1\fs12  -1.83  0.033    8.93   12.00  18.10  Peces                DECOMISO DE ESPECIES PROTEGIDAS                             DE04    168
+\par \plain\f1\fs12  -2.02  0.022    6.86    5.60  10.99  Canoa(s)             MOVILIDAD                                                   MO07    102
+\par \plain\f1\fs12  -2.20  0.014    0.00    0.00   3.13  <= 20 aÃ±os          EDADES (agrupado)                                           ED01     29
+\par \plain\f1\fs12  -2.41  0.008    2.13    0.80   5.06  missing category     EQUIPAMIENTOS SECUESTRADOS (no inc. medios de movilidad y es 12_     47
+\par \plain\f1\fs12  -4.09  0.000    9.79   45.60  62.72  No                   TENENCIA DE OBRA SOCIAL                                     TI02    582
+\par \plain\f1\fs12  -4.48  0.000    0.00    0.00   8.84  $23.153/$36.166      NIVEL SOCIOECONÃ“MICO AGRUPADO                              NS02     82
+\par \plain\f1\fs12  -4.57  0.000    5.68   12.00  28.45  Equip.de pesca       EQUIPAMIENTOS SECUESTRADOS (no inc. medios de movilidad y esSE02    264
+\par \plain\f1\fs12  -6.46  0.000    6.26   23.20  49.89  Category n° 1        MIEMBROS                                                    MI01    463
+\par \plain\f1\fs12  -7.53  0.000    0.00    0.00  20.58  missing category     TENENCIA DE OBRA SOCIAL                                      26_    191
+\par \plain\f1\fs12  -7.55  0.000    0.00    0.00  20.69  Sin datos            GENERO DE LOS INFRACTORES                                   GE03    192
+\par \plain\f1\fs12  -7.67  0.000    0.00    0.00  21.23  missing category     EDADES (agrupado)                                            20_    197
+\par \plain\f1\fs12  -7.90  0.000    0.44    0.80  24.46  missing category     NIVEL SOCIOECONÃ“MICO AGRUPADO                               34_    227
+\par \plain\f1\fs12  -9.36  0.000    6.90   38.40  75.00  missing category     PRINCIPAL ACTIVIDAD OCUPACIONAL                              25_    696
+\par \plain\f1\fs12  -9.92  0.000    2.14    7.20  45.37  <=$23.152            NIVEL SOCIOECONÃ“MICO AGRUPADO                              NS01    421
+\par \plain\f1\fs12 -10.58  0.000    7.37   45.60  83.30  missing category     CONDICION OCUPACIONAL                                        27_    773
+\par \plain\f1\fs12 -99.99  0.000    0.00    0.00   0.00  Category n° 6        ULTIMA CALIFICACION BCRA                                    CA06      0
+\par \plain\f1\fs12 -99.99  0.000    0.00    0.00   0.00  Category n° 7        ULTIMA CALIFICACION BCRA                                    CA07      0
+\par \plain\f1\fs12 -99.99  0.000    0.00    0.00   0.00  Category n° 1        CONDICION OCUPACIONAL                                       CO01      0
+\par \plain\f1\fs12 -99.99  0.000    0.00    0.00   0.00  Category n° 5        CANTIDAD DE CUENTAS BANCARIAS OPERATIVAS                    CA05      0
+\par \plain\f1\fs12 -99.99  0.000    0.00    0.00   0.00  Category n° 10       ULTIMA CALIFICACION BCRA                                    CA10      0
+\par \plain\f1\fs12 -99.99  0.000    0.00    0.00   0.00  Category n° 9        ULTIMA CALIFICACION BCRA                                    CA09      0
+\par \plain\f1\fs12 -99.99  0.000    0.00    0.00   0.00  Category n° 8        ULTIMA CALIFICACION BCRA                                    CA08      0
+\par \plain\f1\fs12 ----------------------------------------------------------------------------------------------------------------------------------
+
+\par \plain\f3\fs12 CHARACTERISATION BY CONTINUOUS VARIABLES OF CLUSTERS OR CATEGORIES
+\par \plain\f3\fs12 OF CUT "c" OF THE TREE INTO   5 CLUSTERS
+\par \plain\f3\fs12 CLUSTER  1 /  5
+\par \plain\f1\fs12 +--------+-------+-------------------+-------------------+-----------------------------------------------------------------------+
+\par \plain\f1\fs12 | T.VALUE| PROB. |       MEANS       |   STD. DEVIATION  |                    CHARACTERISTIC VARIABLES                           |
+\par \plain\f1\fs12 |        |       |   GROUP   OVERALL |   GROUP  OVERALL  | NUM.LABEL                                                        IDEN |
+\par \plain\f1\fs12 +--------+-------+-------------------+-------------------+-----------------------------------------------------------------------+
+\par \plain\f3\fs12 CLUSTER  2 /  5
+\par \plain\f1\fs12 +--------+-------+-------------------+-------------------+-----------------------------------------------------------------------+
+\par \plain\f1\fs12 | T.VALUE| PROB. |       MEANS       |   STD. DEVIATION  |                    CHARACTERISTIC VARIABLES                           |
+\par \plain\f1\fs12 |        |       |   GROUP   OVERALL |   GROUP  OVERALL  | NUM.LABEL                                                        IDEN |
+\par \plain\f1\fs12 +--------+-------+-------------------+-------------------+-----------------------------------------------------------------------+
+\par \plain\f3\fs12 CLUSTER  3 /  5
+\par \plain\f1\fs12 +--------+-------+-------------------+-------------------+-----------------------------------------------------------------------+
+\par \plain\f1\fs12 | T.VALUE| PROB. |       MEANS       |   STD. DEVIATION  |                    CHARACTERISTIC VARIABLES                           |
+\par \plain\f1\fs12 |        |       |   GROUP   OVERALL |   GROUP  OVERALL  | NUM.LABEL                                                        IDEN |
+\par \plain\f1\fs12 +--------+-------+-------------------+-------------------+-----------------------------------------------------------------------+
+\par \plain\f3\fs12 CLUSTER  4 /  5
+\par \plain\f1\fs12 +--------+-------+-------------------+-------------------+-----------------------------------------------------------------------+
+\par \plain\f1\fs12 | T.VALUE| PROB. |       MEANS       |   STD. DEVIATION  |                    CHARACTERISTIC VARIABLES                           |
+\par \plain\f1\fs12 |        |       |   GROUP   OVERALL |   GROUP  OVERALL  | NUM.LABEL                                                        IDEN |
+\par \plain\f1\fs12 +--------+-------+-------------------+-------------------+-----------------------------------------------------------------------+
+\par \plain\f3\fs12 CLUSTER  5 /  5
+\par \plain\f1\fs12 +--------+-------+-------------------+-------------------+-----------------------------------------------------------------------+
+\par \plain\f1\fs12 | T.VALUE| PROB. |       MEANS       |   STD. DEVIATION  |                    CHARACTERISTIC VARIABLES                           |
+\par \plain\f1\fs12 |        |       |   GROUP   OVERALL |   GROUP  OVERALL  | NUM.LABEL                                                        IDEN |
+\par \plain\f1\fs12 +--------+-------+-------------------+-------------------+-----------------------------------------------------------------------+
+\par }
