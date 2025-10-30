@@ -1019,21 +1019,19 @@ function createStatsSection(data) {
 
     // Calcular estadísticas
     const conDecomiso = data.filter(d => d.DECOMISO && d.DECOMISO !== 'NA').length;
-    const conMovilidad = data.filter(d => d.MOVILIDAD && d.MOVILIDAD !== 'NA').length;
     const conSecuestro = data.filter(d => d.SECUESTRO && d.SECUESTRO !== 'NA').length;
 
     const miembrosCounts = countValues(data, 'miembros');
-    const avgMiembros = Object.entries(miembrosCounts)
-        .reduce((sum, [k, v]) => sum + (parseInt(k) * v), 0) / totalCasos;
+    const totalMiembros = Object.entries(miembrosCounts)
+        .reduce((sum, [k, v]) => sum + (parseInt(k) * v), 0);
 
     const clusters = new Set(data.map(d => d.miembros).filter(m => m && m !== 'NA'));
 
     const stats = [
-        { label: 'Total de Casos', value: totalCasos },
-        { label: 'Casos con Decomiso', value: conDecomiso },
-        { label: 'Casos con Movilidad', value: conMovilidad },
-        { label: 'Casos con Secuestros', value: conSecuestro },
-        { label: 'Promedio de Miembros', value: avgMiembros.toFixed(1) },
+        { label: 'Total de Casos (actas legales)', value: totalCasos },
+        { label: 'Total de Miembros', value: totalMiembros },
+        { label: 'Casos con Decomiso de Fauna Silvestre y Otros', value: conDecomiso },
+        { label: 'Casos con Secuestro de Armas y Equipos', value: conSecuestro },
         { label: 'Clusters Identificados', value: clusters.size }
     ];
 
