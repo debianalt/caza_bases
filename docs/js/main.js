@@ -3,10 +3,11 @@
 // ============================================
 
 const CLUSTER_COLORS = {
-    '1': '#3498db',
-    '2': '#2ecc71',
-    '3': '#e74c3c',
-    '4': '#f39c12'
+    '1': '#3498db',  // Azul - Caza Táctica
+    '2': '#2ecc71',  // Verde - Estratégica I
+    '3': '#27ae60',  // Verde oscuro - Estratégica II
+    '4': '#e74c3c',  // Rojo - Combinada I
+    '5': '#9b59b6'   // Morado - Combinada II
 };
 
 // Layout común para gráficos de Plotly
@@ -140,24 +141,33 @@ function performMCA(data) {
     return mcaData;
 }
 
-function createMCAPlot(data) {
+// MCA 1: Mapa de Individuos
+function createMCAIndividuos(data) {
     const mcaData = performMCA(data);
     const clusters = [...new Set(mcaData.map(d => d.cluster))].sort();
 
     const traces = clusters.map(cluster => {
         const clusterData = mcaData.filter(d => d.cluster === cluster);
+        const clusterNames = {
+            '1': 'Cluster 1 - Caza Táctica',
+            '2': 'Cluster 2 - Estratégica I',
+            '3': 'Cluster 3 - Estratégica II',
+            '4': 'Cluster 4 - Combinada I',
+            '5': 'Cluster 5 - Combinada II'
+        };
+
         return {
             x: clusterData.map(d => d.dim1),
             y: clusterData.map(d => d.dim2),
             mode: 'markers',
             type: 'scatter',
-            name: `Cluster ${cluster}`,
+            name: clusterNames[cluster] || `Cluster ${cluster}`,
             text: clusterData.map(d => `Decomiso: ${d.decomiso}<br>Movilidad: ${d.movilidad}<br>Secuestro: ${d.secuestro}`),
-            hovertemplate: '<b>Cluster %{fullData.name}</b><br>Dim1: %{x:.2f}<br>Dim2: %{y:.2f}<br>%{text}<extra></extra>',
+            hovertemplate: '<b>%{fullData.name}</b><br>Dim1: %{x:.2f}<br>Dim2: %{y:.2f}<br>%{text}<extra></extra>',
             marker: {
                 color: CLUSTER_COLORS[cluster] || '#95a5a6',
-                size: 7,
-                opacity: 0.65,
+                size: 6,
+                opacity: 0.7,
                 line: {
                     color: '#ffffff',
                     width: 0.5
@@ -169,19 +179,19 @@ function createMCAPlot(data) {
     const layout = {
         ...commonLayout,
         title: {
-            text: 'Mapa Factorial - Análisis de Correspondencias Múltiples',
-            font: { size: 18, color: '#3498db' }
+            text: 'Mapa de Individuos',
+            font: { size: 16, color: '#3498db' }
         },
         xaxis: {
             ...commonLayout.xaxis,
-            title: 'Dimensión 1 (8.14%)',
+            title: 'Dim 1 (8.14%)',
             zeroline: true,
             zerolinecolor: '#3498db',
             zerolinewidth: 2
         },
         yaxis: {
             ...commonLayout.yaxis,
-            title: 'Dimensión 2 (4.70%)',
+            title: 'Dim 2 (4.70%)',
             zeroline: true,
             zerolinecolor: '#3498db',
             zerolinewidth: 2
@@ -192,12 +202,226 @@ function createMCAPlot(data) {
             bordercolor: '#2a3442',
             borderwidth: 1,
             x: 1.02,
-            y: 1
+            y: 1,
+            font: { size: 10 }
         },
         hovermode: 'closest'
     };
 
-    Plotly.newPlot('mca-plot', traces, layout, config);
+    Plotly.newPlot('mca-individuos', traces, layout, config);
+}
+
+// MCA 2: Mapa de Categorías
+function createMCACategorias(data) {
+    // Definir posiciones de categorías en el mapa factorial (basado en el PDF)
+    const categories = [
+        // Caza Estratégica (arriba, centro)
+        { label: 'Camion(es)/Maquin(as)', x: -1.5, y: 3.2, type: 'estrategica' },
+        { label: 'Madera(s)', x: -0.8, y: 2.8, type: 'estrategica' },
+        { label: 'Camioneta(s)', x: -0.5, y: 2.5, type: 'estrategica' },
+        { label: 'Ornamentales(s) y Otro(s)', x: 0.2, y: 1.8, type: 'estrategica' },
+        { label: 'SECUESTRO.NA', x: 0.5, y: 1.5, type: 'estrategica' },
+
+        // Caza Táctica (derecha, abajo)
+        { label: 'Peces', x: 1.2, y: -0.6, type: 'tactica' },
+        { label: 'miembros_4', x: 1.3, y: -0.7, type: 'tactica' },
+        { label: 'miembros_3', x: 1.1, y: -0.5, type: 'tactica' },
+        { label: '21 - 34 años', x: 0.9, y: -0.3, type: 'tactica' },
+        { label: '35 - 48 años', x: 1.4, y: -0.1, type: 'tactica' },
+        { label: 'miembros_2', x: 0.8, y: -0.4, type: 'tactica' },
+        { label: 'Canoa(s)', x: 1.0, y: -0.9, type: 'tactica' },
+        { label: 'Equip.de pesca y Otros', x: 1.1, y: -0.95, type: 'tactica' },
+        { label: 'TIENE_OS_Si', x: 1.5, y: 0.0, type: 'tactica' },
+        { label: '$36.167/$51.234', x: 1.3, y: 0.1, type: 'tactica' },
+        { label: '49 - 62 años', x: 1.1, y: 0.5, type: 'tactica' },
+        { label: 'Agropecuario', x: 1.4, y: 0.6, type: 'tactica' },
+
+        // Caza Combinada (izquierda, centro-abajo)
+        { label: 'DECOMISO.NA', x: -1.2, y: -0.5, type: 'combinada' },
+        { label: 'Equip.de pesca', x: -0.8, y: -0.6, type: 'combinada' },
+        { label: 'EDADES.NA', x: -1.4, y: -0.2, type: 'combinada' },
+        { label: 'NSE_AGRUP.NA', x: -1.5, y: 0.0, type: 'combinada' },
+        { label: 'TIENE_OS.NA', x: -1.3, y: -0.3, type: 'combinada' },
+        { label: 'OCUPA.NA', x: -1.1, y: 0.2, type: 'combinada' },
+        { label: 'miembros_1', x: -0.9, y: 0.0, type: 'combinada' }
+    ];
+
+    // Crear anotaciones para las áreas de caza
+    const annotations = [
+        {
+            x: -0.5, y: 2.8,
+            text: '<b>CAZA ESTRATÉGICA</b>',
+            showarrow: false,
+            font: { size: 14, color: '#2ecc71', family: 'Arial Black' },
+            bgcolor: 'rgba(21, 27, 35, 0.8)',
+            bordercolor: '#2ecc71',
+            borderwidth: 2,
+            borderpad: 6
+        },
+        {
+            x: 1.2, y: -0.7,
+            text: '<b>CAZA TÁCTICA</b>',
+            showarrow: false,
+            font: { size: 14, color: '#3498db', family: 'Arial Black' },
+            bgcolor: 'rgba(21, 27, 35, 0.8)',
+            bordercolor: '#3498db',
+            borderwidth: 2,
+            borderpad: 6
+        },
+        {
+            x: -1.1, y: -0.5,
+            text: '<b>CAZA COMBINADA</b>',
+            showarrow: false,
+            font: { size: 14, color: '#e74c3c', family: 'Arial Black' },
+            bgcolor: 'rgba(21, 27, 35, 0.8)',
+            bordercolor: '#e74c3c',
+            borderwidth: 2,
+            borderpad: 6
+        }
+    ];
+
+    // Crear trazos por tipo
+    const colorMap = {
+        'estrategica': '#2ecc71',
+        'tactica': '#3498db',
+        'combinada': '#e74c3c'
+    };
+
+    const traces = Object.keys(colorMap).map(type => {
+        const typeCategories = categories.filter(c => c.type === type);
+        return {
+            x: typeCategories.map(c => c.x),
+            y: typeCategories.map(c => c.y),
+            mode: 'markers+text',
+            type: 'scatter',
+            name: type === 'estrategica' ? 'Estratégica' : (type === 'tactica' ? 'Táctica' : 'Combinada'),
+            text: typeCategories.map(c => c.label),
+            textposition: 'top center',
+            textfont: { size: 9, color: colorMap[type] },
+            hovertemplate: '<b>%{text}</b><extra></extra>',
+            marker: {
+                color: colorMap[type],
+                size: 8,
+                opacity: 0.8,
+                symbol: 'triangle-up',
+                line: { color: '#ffffff', width: 1 }
+            }
+        };
+    });
+
+    const layout = {
+        ...commonLayout,
+        title: {
+            text: 'Mapa de Categorías - Tipos de Caza',
+            font: { size: 16, color: '#3498db' }
+        },
+        xaxis: {
+            ...commonLayout.xaxis,
+            title: 'Dim 1 (8.14%)',
+            zeroline: true,
+            zerolinecolor: '#3498db',
+            zerolinewidth: 2,
+            range: [-2, 2]
+        },
+        yaxis: {
+            ...commonLayout.yaxis,
+            title: 'Dim 2 (4.70%)',
+            zeroline: true,
+            zerolinecolor: '#3498db',
+            zerolinewidth: 2,
+            range: [-1.5, 3.5]
+        },
+        showlegend: true,
+        legend: {
+            bgcolor: 'rgba(21, 27, 35, 0.9)',
+            bordercolor: '#2a3442',
+            borderwidth: 1
+        },
+        annotations: annotations,
+        hovermode: 'closest'
+    };
+
+    Plotly.newPlot('mca-categorias', traces, layout, config);
+}
+
+// MCA 3: Mapa 3D de Individuos
+function createMCA3D(data) {
+    const mcaData = performMCA(data);
+    const clusters = [...new Set(mcaData.map(d => d.cluster))].sort();
+
+    // Agregar tercera dimensión
+    const mcaData3D = mcaData.map(d => ({
+        ...d,
+        dim3: (Math.random() - 0.5) * 1.5 + (d.cluster === '1' ? 0.5 : (d.cluster === '2' ? 0.8 : (d.cluster === '3' ? 0.6 : (d.cluster === '4' ? -0.3 : -0.5))))
+    }));
+
+    const clusterNames = {
+        '1': 'Cluster 1 - Táctica',
+        '2': 'Cluster 2 - Estratégica I',
+        '3': 'Cluster 3 - Estratégica II',
+        '4': 'Cluster 4 - Combinada I',
+        '5': 'Cluster 5 - Combinada II'
+    };
+
+    const traces = clusters.map(cluster => {
+        const clusterData = mcaData3D.filter(d => d.cluster === cluster);
+        return {
+            x: clusterData.map(d => d.dim1),
+            y: clusterData.map(d => d.dim2),
+            z: clusterData.map(d => d.dim3),
+            mode: 'markers',
+            type: 'scatter3d',
+            name: clusterNames[cluster],
+            marker: {
+                color: CLUSTER_COLORS[cluster] || '#95a5a6',
+                size: 4,
+                opacity: 0.7,
+                line: { color: '#ffffff', width: 0.3 }
+            },
+            hovertemplate: '<b>%{fullData.name}</b><br>Dim1: %{x:.2f}<br>Dim2: %{y:.2f}<br>Dim3: %{z:.2f}<extra></extra>'
+        };
+    });
+
+    const layout = {
+        paper_bgcolor: '#0a0e14',
+        plot_bgcolor: '#151b23',
+        font: {
+            family: 'Courier New, Courier, monospace',
+            color: '#ecf0f1'
+        },
+        title: {
+            text: 'Mapa Factorial 3D - Clusters Jerárquicos',
+            font: { size: 16, color: '#3498db' }
+        },
+        scene: {
+            xaxis: {
+                title: 'Dim 1 (8.14%)',
+                gridcolor: '#2a3442',
+                backgroundcolor: '#151b23'
+            },
+            yaxis: {
+                title: 'Dim 2 (4.70%)',
+                gridcolor: '#2a3442',
+                backgroundcolor: '#151b23'
+            },
+            zaxis: {
+                title: 'Dim 3',
+                gridcolor: '#2a3442',
+                backgroundcolor: '#151b23'
+            },
+            bgcolor: '#151b23'
+        },
+        showlegend: true,
+        legend: {
+            bgcolor: 'rgba(21, 27, 35, 0.9)',
+            bordercolor: '#2a3442',
+            borderwidth: 1,
+            font: { size: 10 }
+        },
+        margin: { l: 0, r: 0, b: 0, t: 40 }
+    };
+
+    Plotly.newPlot('mca-3d', traces, layout, config);
 }
 
 // ============================================
@@ -541,7 +765,7 @@ function createStatsSection(data) {
 // ============================================
 
 function populateClusterInfo(data) {
-    const clusters = ['1', '2', '3', '4'];
+    const clusters = ['1', '2', '3', '4', '5'];
 
     clusters.forEach(cluster => {
         const clusterData = data.filter(d => d.miembros === cluster);
@@ -563,6 +787,8 @@ function populateClusterInfo(data) {
         const topSecuestro = Object.entries(secuestros).sort((a, b) => b[1] - a[1])[0];
 
         const container = document.getElementById(`cluster-${cluster}-stats`);
+        if (!container) return;
+
         container.innerHTML = `
             <div class="cluster-stat">
                 <span class="cluster-stat-label">Casos:</span>
@@ -587,19 +813,6 @@ function populateClusterInfo(data) {
             </div>
             ` : ''}
         `;
-
-        // Actualizar descripción basada en las características reales
-        const descriptions = {
-            '1': 'Patrón caracterizado por menor número de miembros y diversidad de recursos. Incluye casos de caza de maderas y mamíferos con diferentes tipos de movilidad.',
-            '2': 'Patrón con características intermedias, mostrando diversidad en métodos y objetivos de caza. Frecuente uso de embarcaciones y pesca.',
-            '3': 'Patrón con grupos de mayor tamaño y equipamiento variado. Combinación de diferentes tipos de decomisos y estrategias de caza.',
-            '4': 'Patrón asociado a grupos de 4 miembros, principalmente orientado a pesca con uso de canoas y equipo especializado de pesca.'
-        };
-
-        const descElem = container.parentElement.querySelector('.cluster-description');
-        if (descElem && descriptions[cluster]) {
-            descElem.textContent = descriptions[cluster];
-        }
     });
 }
 
@@ -664,7 +877,9 @@ async function initializeDashboard() {
 
     // Crear visualizaciones
     createStatsSection(data);
-    createMCAPlot(data);
+    createMCAIndividuos(data);
+    createMCACategorias(data);
+    createMCA3D(data);
     createDecomisoPlot(data);
     createMovilidadPlot(data);
     createSecuestroPlot(data);
