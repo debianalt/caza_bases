@@ -56,56 +56,146 @@
             </div>
         </section>
 
-        <!-- Mapa Factorial (MCA) -->
+        <!-- Mapas Factoriales (MCA) -->
         <section class="chart-section">
-            <h2>Mapa Factorial - Análisis de Correspondencias Múltiples</h2>
+            <h2>Análisis de Correspondencias Múltiples (MCA)</h2>
             <div class="info-card">
                 <p>
                     El Análisis de Correspondencias Múltiples (MCA) permite visualizar las relaciones entre
-                    múltiples variables categóricas en un espacio bidimensional. Cada punto representa un
-                    caso de caza ilegal, y su posición indica la similitud con otros casos en términos de
-                    las variables analizadas.
+                    múltiples variables categóricas. Se presentan tres visualizaciones complementarias que
+                    permiten entender la estructura multidimensional de la caza ilegal en Misiones.
                 </p>
             </div>
-            <div id="mca-plot" class="plot-container"></div>
+
+            <h3 style="color: #3498db; margin-top: 2rem; margin-bottom: 1rem;">Mapa de Individuos</h3>
+            <div class="info-card">
+                <p>
+                    Cada punto representa un caso de caza ilegal. La proximidad entre puntos indica
+                    similitud en las características de los casos. Los clusters se identifican por colores.
+                </p>
+            </div>
+            <div id="mca-individuos" class="plot-container"></div>
+
+            <h3 style="color: #3498db; margin-top: 2rem; margin-bottom: 1rem;">Mapa de Categorías</h3>
+            <div class="info-card">
+                <p>
+                    Muestra las categorías de las variables y cómo se asocian entre sí. Las variables
+                    cercanas tienden a presentarse juntas en los casos de caza ilegal. Permite identificar
+                    los tres tipos principales de caza: Estratégica, Táctica y Combinada.
+                </p>
+            </div>
+            <div id="mca-categorias" class="plot-container-large"></div>
+
+            <h3 style="color: #3498db; margin-top: 2rem; margin-bottom: 1rem;">Mapa 3D de Individuos</h3>
+            <div class="info-card">
+                <p>
+                    Visualización tridimensional que captura mayor variabilidad de los datos. El dendrograma
+                    muestra la estructura jerárquica de los clusters identificados.
+                </p>
+            </div>
+            <div id="mca-3d" class="plot-container-large"></div>
+
             <div id="loading-mca" class="loading-spinner"></div>
         </section>
 
-        <!-- Distribución por Clusters -->
+        <!-- Distribución por Tipos de Caza -->
         <section class="info-section">
-            <h2>Patrones de Caza Identificados</h2>
+            <h2>Tipología de Caza Ilegal</h2>
+            <div class="info-card">
+                <p>
+                    El análisis identificó <strong>cinco clusters</strong> que se agrupan en <strong>tres tipos
+                    principales de caza ilegal</strong> en Misiones. Esta tipología refleja la multidimensionalidad
+                    de la caza furtiva considerando variables económicas, organizativas, de movilidad y de recursos.
+                </p>
+            </div>
+
+            <h3 style="color: #3498db; margin: 2rem 0 1rem 0;">I. Caza Táctica (35% del total)</h3>
+            <div class="info-card" style="border-left: 5px solid #3498db;">
+                <p><strong>Clusters asociados: Cluster 1</strong></p>
+                <p>
+                    La caza como táctica es afín a excursiones de un solo infractor o grupos de no más de dos personas,
+                    generalmente jóvenes de zonas rurales, sin obra social ni condición ocupacional registrada, y con
+                    bajos ingresos económicos. Los equipamientos utilizados incluyen principalmente combinaciones de
+                    armas de fuego y armas blancas, junto a otros elementos relacionados (linternas, bolsas, etc.).
+                </p>
+                <p>
+                    <strong>Movilidad:</strong> Motocicletas, caballos, bicicletas, y en menor medida automóviles,
+                    camiones y maquinarías.<br>
+                    <strong>Perfil:</strong> Jóvenes (≤20 años y 21-34 años), NSE más bajo (≤$23.152), sin obra social.<br>
+                    <strong>Objetivo:</strong> Mamíferos, maderas, con armas de fuego básicas.
+                </p>
+            </div>
+
+            <h3 style="color: #2ecc71; margin: 2rem 0 1rem 0;">II. Caza Estratégica (20% del total)</h3>
+            <div class="info-card" style="border-left: 5px solid #2ecc71;">
+                <p><strong>Clusters asociados: Cluster 2 (Tipo I) y Cluster 3 (Tipo II)</strong></p>
+                <p>
+                    La caza estratégica reúne dos fracciones diferenciables:
+                </p>
+                <p>
+                    <strong>Tipo I (Cluster 2):</strong> Predominan infractores individuales con ocupaciones no agropecuarias,
+                    concretamente ocupados en la rama de la foresto industria y la construcción. Son regulares la ausencia
+                    de datos sobre equipamientos secuestrados, y destaca el decomiso de mamíferos y aves, además de medios
+                    de movilidad como camionetas y lanchas.
+                </p>
+                <p>
+                    <strong>Tipo II (Cluster 3):</strong> Destacan infractores con ocupaciones en la rama agropecuaria,
+                    género masculino, con ingresos mensuales medios ($36-51 mil y $73-143 mil), con obra social,
+                    monotributistas y pequeños contribuyentes, con edades entre 35-48 años y 49-62 años, en excursiones
+                    de caza con 2 o 3 miembros.
+                </p>
+                <p>
+                    <strong>Características comunes:</strong> Mejor equipamiento (vehículos potentes, rifles modernos),
+                    mayor capacidad de planificación y recursos logísticos. Involucra personas con mayor nivel adquisitivo.
+                </p>
+            </div>
+
+            <h3 style="color: #e74c3c; margin: 2rem 0 1rem 0;">III. Caza Combinada (45% del total)</h3>
+            <div class="info-card" style="border-left: 5px solid #e74c3c;">
+                <p><strong>Clusters asociados: Cluster 4 (Tipo I) y Cluster 5 (Tipo II)</strong></p>
+                <p>
+                    La caza combinada implica usualmente una mixtura de infracciones ambientales. Mayormente implica
+                    pesca ilegal, aunque puede incluir captura de aves, extracción de flora nativa, y eventualmente
+                    captura de mamíferos. En general implica algún medio de movilidad por agua (balsa, canoa, lancha),
+                    grupos de alrededor de 4 o 5 infractores, con edades de más de 63 años (algunos ya fallecidos).
+                </p>
+                <p>
+                    <strong>Tipo I (Cluster 4):</strong> Ingresos menores ($23-36 mil), mayor peso de adultos mayores
+                    (63+ años), jubilados y pensionados, con tenencia de obra social, ocupados en relación de dependencia
+                    y en el comercio. Grupos de 5 miembros, con calificación BCRA 1, y 1-2 cuentas bancarias.
+                </p>
+                <p>
+                    <strong>Tipo II (Cluster 5):</strong> Mayor diversidad de equipamientos para pesca, ingresos más
+                    elevados ($51-73 mil), grupos de 4 miembros, sin obra social, servicios varios, uso intensivo de
+                    canoas y equipo de pesca. Es el cluster más numeroso (35.24%).
+                </p>
+                <p>
+                    <strong>Características comunes:</strong> Embarcaciones (canoas, lanchas), equipo de pesca especializado,
+                    orientación principal a pesca ilegal y fauna menor.
+                </p>
+            </div>
+
+            <h3 style="color: #3498db; margin: 2rem 0 1rem 0;">Estadísticas por Cluster</h3>
             <div class="cluster-grid">
                 <div class="cluster-card cluster-1">
-                    <h3>Cluster 1</h3>
-                    <p class="cluster-description">
-                        Características principales del primer grupo de casos analizados.
-                        Se determina dinámicamente según los datos.
-                    </p>
+                    <h3>Cluster 1 - Caza Táctica</h3>
                     <div id="cluster-1-stats" class="cluster-stats"></div>
                 </div>
                 <div class="cluster-card cluster-2">
-                    <h3>Cluster 2</h3>
-                    <p class="cluster-description">
-                        Características principales del segundo grupo de casos analizados.
-                        Se determina dinámicamente según los datos.
-                    </p>
+                    <h3>Cluster 2 - Estratégica I</h3>
                     <div id="cluster-2-stats" class="cluster-stats"></div>
                 </div>
                 <div class="cluster-card cluster-3">
-                    <h3>Cluster 3</h3>
-                    <p class="cluster-description">
-                        Características principales del tercer grupo de casos analizados.
-                        Se determina dinámicamente según los datos.
-                    </p>
+                    <h3>Cluster 3 - Estratégica II</h3>
                     <div id="cluster-3-stats" class="cluster-stats"></div>
                 </div>
                 <div class="cluster-card cluster-4">
-                    <h3>Cluster 4</h3>
-                    <p class="cluster-description">
-                        Características principales del cuarto grupo de casos analizados.
-                        Se determina dinámicamente según los datos.
-                    </p>
+                    <h3>Cluster 4 - Combinada I</h3>
                     <div id="cluster-4-stats" class="cluster-stats"></div>
+                </div>
+                <div class="cluster-card cluster-5">
+                    <h3>Cluster 5 - Combinada II</h3>
+                    <div id="cluster-5-stats" class="cluster-stats"></div>
                 </div>
             </div>
         </section>
