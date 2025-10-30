@@ -12,3 +12,33 @@ version: v1.0.0
 doi: https://doi.org/10.5281/zenodo.10867780
 date-released: 2023-03-23
 url: "https://github.com/debianalt/caza_bases"
+references:
+  - type: conference-paper
+    authors:
+      - family-names: "Miño Martos"
+        given-names: "María Gabriela"
+      - family-names: "Gómez"
+        given-names: "Raimundo Elías"
+    title: "La caza ilegal en el nordeste argentino: una tipología de prácticas y sus Implicaciones para la conservación del patrimonio natural"
+    year: 2024
+    conference:
+      name: "Actas del 1er Congreso de la Tierra. Ecología, Sociedad, Política"
+    identifiers:
+      - type: doi
+        value: "10.5281/ZENODO.11502463"
+      - type: issn
+        value: "3008-9778"
+  - type: article
+    authors:
+      - family-names: "Gomez"
+        given-names: "Raimundo Elias"
+      - family-names: "Miño"
+        given-names: "Maria Gabriela"
+    title: "Bases Para Una Aproximación Sociológica a La Caza Ilegal En La Provincia de Misiones (Argentina)"
+    journal: "Historia Ambiental Latinoamericana y Caribeña (HALAC) Revista de La Solcha"
+    year: 2023
+    volume: 13
+    issue: 3
+    start: 258
+    end: 279
+    doi: "10.32991/2237-2717.2023v13i3.p258-279"
