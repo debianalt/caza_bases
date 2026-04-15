@@ -1,5 +1,8 @@
 # Análisis de Caza Ilegal
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10867780.svg)](https://doi.org/10.5281/zenodo.10867780)
+
+
 Este repositorio contiene un análisis multivariado de casos de caza ilegal utilizando técnicas de Análisis de Correspondencias Múltiples (MCA) y clustering jerárquico.
 
 ## 📊 Dashboard Interactivo
@@ -120,3 +123,11 @@ Para preguntas o comentarios sobre este análisis, por favor abre un issue en es
 ---
 
 **Desarrollado con fines de investigación y análisis de patrones de caza ilegal**
+
+## Citation
+
+If you use this material, please cite:
+
+> Gómez, R. E. (Análisis de Caza Ilegal). *Replication Materials*. Zenodo. https://doi.org/10.5281/zenodo.10867780
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10867780.svg)](https://doi.org/10.5281/zenodo.10867780)
